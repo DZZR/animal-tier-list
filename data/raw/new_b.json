@@ -1,0 +1,150 @@
+[
+  {
+    "id": "plains_zebra",
+    "name_ru": "Равнинная зебра",
+    "name_en": "Plains zebra",
+    "latin": "Equus quagga",
+    "emoji": "🦓",
+    "fun_fact": "У каждой зебры свой неповторимый узор полосок, как отпечаток пальца у человека.",
+    "hint": "Полосатый житель африканских саванн, который пасётся в больших стадах и спит стоя.",
+    "metrics": {
+      "weight_kg": {"avg": 271, "max": 322, "estimated": false, "source": "https://en.wikipedia.org/wiki/Plains_zebra", "note": "Males 220-322 kg, females 175-250 kg (Wikipedia). San Diego Zoo factsheet gives up to 387 kg."},
+      "height_m": {"avg": 1.34, "max": 1.47, "estimated": false, "source": "https://en.wikipedia.org/wiki/Plains_zebra", "note": "Wikipedia: stands 127-140 cm. San Diego Zoo: shoulder height males 1120-1470 mm (max taken from there)."},
+      "length_m": {"avg": 2.32, "max": 2.46, "estimated": false, "source": "https://en.wikipedia.org/wiki/Plains_zebra", "note": "Head-body length 217-246 cm; tail 47-56.5 cm extra."},
+      "speed_kmh": {"avg": 65, "max": 70, "estimated": false, "source": "https://en.wikipedia.org/wiki/Plains_zebra", "note": "Running, 60-70 km/h. Wikipedia 'Zebra' article cites one measured maximum of 50 km/h."},
+      "lifespan_years": {"avg": 25, "max": 40, "estimated": false, "source": "https://en.wikipedia.org/wiki/Plains_zebra", "note": "Average 25 yrs in the wild (Wikipedia); ADW gives 40 yrs in captivity; AZA median in managed care 16.9 yrs."},
+      "gestation_days": {"avg": 375, "max": 396, "estimated": false, "source": "https://ielc.libguides.com/sdzg/factsheets/plains_zebra/reproduction", "note": "Gestation c. 375 days, range 360-396 (San Diego Zoo); Wikipedia says 'around a year'."},
+      "sleep_hours": {"avg": 7, "max": 7, "estimated": true, "source": "https://en.wikipedia.org/wiki/Zebra", "note": "'Up to seven hours a day', standing by day, lying at night (Wikipedia Zebra article, genus-level)."}
+    }
+  },
+  {
+    "id": "dromedary_camel",
+    "name_ru": "Одногорбый верблюд (дромадер)",
+    "name_en": "Dromedary camel",
+    "latin": "Camelus dromedarius",
+    "emoji": "🐪",
+    "fun_fact": "Горб верблюда хранит не воду, а жир, который помогает ему долго обходиться без еды.",
+    "hint": "Одногорбый корабль пустыни, который умеет закрывать ноздри от песка.",
+    "metrics": {
+      "weight_kg": {"avg": 545, "max": 690, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dromedary", "note": "Males 400-690 kg, females 300-540 kg."},
+      "height_m": {"avg": 2.1, "max": 2.4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dromedary", "note": "Shoulder height, males 1.8-2.4 m; females 1.7-1.9 m."},
+      "speed_kmh": {"avg": 65, "max": 65, "estimated": true, "source": "https://www.britannica.com/animal/Arabian-camel", "note": "Britannica: racing dromedaries reach ~65 km/h over short distances. Wikipedia only gives Leese's old estimate of 14-19 km/h for a 'fast run' (>1.5x spread; disputed)."},
+      "lifespan_years": {"avg": 40, "max": 50, "estimated": false, "source": "https://animaldiversity.org/accounts/Camelus_dromedarius/", "note": "ADW: lifespan about 40-50 years; wild average 40."},
+      "gestation_days": {"avg": 456, "max": 456, "estimated": true, "source": "https://en.wikipedia.org/wiki/Dromedary", "note": "Wikipedia: 15 months (converted at 30.4 d/month). ADW range 370-440 days."},
+      "teeth_count": {"avg": 34, "max": 34, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dromedary", "note": "34 permanent teeth (22 milk teeth)."},
+      "heart_bpm": {"avg": 50, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dromedary", "note": "Pulse rate 50 beats per minute."}
+    }
+  },
+  {
+    "id": "domestic_pig",
+    "name_ru": "Домашняя свинья",
+    "name_en": "Domestic pig",
+    "latin": "Sus domesticus",
+    "emoji": "🐖",
+    "fun_fact": "Свиньи очень умные: они учатся трюкам быстрее собак и любят играть с мячом.",
+    "hint": "Розовый или пятнистый житель фермы с пятачком, который обожает рыть землю и купаться в грязи.",
+    "metrics": {
+      "weight_kg": {"avg": 220, "max": 1157, "estimated": false, "source": "https://en.wikipedia.org/wiki/Pig", "note": "Adults generally 140-300 kg; record Big Bill 1,157 kg."},
+      "height_m": {"avg": 0.9, "max": 1.5, "estimated": true, "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9449989/table/efs27445-tbl-0025", "note": "EFSA estimate ~0.90 m back height for 200 kg sows/boars; max = Big Bill 1.5 m shoulder height (Wikipedia Pig)."},
+      "length_m": {"avg": 1.97, "max": 2.4, "estimated": false, "source": "https://animaldiversity.org/accounts/Sus_scrofa/", "note": "Sus scrofa total length 153-240 cm (species account incl. wild boar), not head-body."},
+      "speed_kmh": {"avg": 18, "max": 20, "estimated": true, "source": "https://funfactz.com/animals/domestic-pigs-average-top-speed-of-about", "note": "Popular figure ~11 mph (~17-18 km/h), some sources up to 20 km/h; no peer-reviewed measurement found."},
+      "lifespan_years": {"avg": 12.5, "max": 27, "estimated": false, "source": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/potbellied-pigs/overview-of-potbellied-pigs", "note": "Pet/miniature pigs typically 10-15 yrs (Merck); max ~27 yrs (Wikipedia Pig). Farm pigs are slaughtered far earlier."},
+      "gestation_days": {"avg": 116, "max": 120, "estimated": false, "source": "https://en.wikipedia.org/wiki/Pig", "note": "Gestation averages 112-120 days."},
+      "teeth_count": {"avg": 44, "max": 44, "estimated": false, "source": "https://en.wikipedia.org/wiki/Pig", "note": "Dental formula 3.1.4.3/3.1.4.3 = 44 teeth."},
+      "tooth_length_cm": {"avg": 7.5, "max": 10, "estimated": false, "source": "https://animaldiversity.org/accounts/Sus_scrofa/", "note": "Upper canine (tusk) 5-10 cm in Sus scrofa; whole tooth, mostly wild boar data."},
+      "heart_bpm": {"avg": 95, "max": 120, "estimated": false, "source": "https://www.merckvetmanual.com/special-subjects/reference-guides/resting-heart-rates", "note": "Merck resting heart rate for pig 70-120 bpm."},
+      "loudness_db": {"avg": 100, "max": 115, "estimated": true, "source": "https://www.fwi.co.uk/farm-life/pig-farmers-advised-to-wear-ear-plugs-during-feeding", "note": "UK HSE: squeals while eating can exceed 100 dB; popular pages cite 115 dB for a distressed pig. Distance not given."}
+    }
+  },
+  {
+    "id": "holstein_cow",
+    "name_ru": "Домашняя корова (голштинская)",
+    "name_en": "Domestic cow (Holstein)",
+    "latin": "Bos taurus",
+    "emoji": "🐄",
+    "fun_fact": "У коровы четыре отдела желудка, и она может жевать одну и ту же траву несколько раз.",
+    "hint": "Чёрно-белая пятнистая жительница фермы, которая целый день жуёт траву и даёт молоко.",
+    "metrics": {
+      "weight_kg": {"avg": 725, "max": 1363, "estimated": false, "source": "https://en.wikipedia.org/wiki/Holstein_Friesian", "note": "Holstein infobox 680-770 kg (page flagged for citations); max = Bos taurus upper range 1363 kg (ADW)."},
+      "height_m": {"avg": 1.55, "max": 1.65, "estimated": false, "source": "https://en.wikipedia.org/wiki/Holstein_Friesian", "note": "Height 145-165 cm (infobox, presumably at withers)."},
+      "lifespan_years": {"avg": 6, "max": 30, "estimated": true, "source": "https://core-prod.cambridgecore.org/core/services/aop-cambridge-core/content/view/EF3D233CB84CE8AE36769A1966C67C34/S1751731119003264a.pdf/review-overview-of-factors-affecting-productive-lifespan-of-dairy-cows.pdf", "note": "Dairy Holsteins culled at 4.5-6 yrs (review); natural life of cattle 25-30 yrs (Wikipedia Cattle), ADW 'may exceed 20'."},
+      "gestation_days": {"avg": 277, "max": null, "estimated": false, "source": "https://animaldiversity.org/accounts/Bos_taurus/", "note": "AnAge average 277 days; Czech Holstein study 277 +/- 4.9 d; Wikipedia says 'about nine months'."},
+      "teeth_count": {"avg": 32, "max": 32, "estimated": true, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Derived from cow dental formula 0.0.3.3/3.1.3.3 x2 = 32; no upper incisors (dental pad)."},
+      "heart_bpm": {"avg": 66, "max": 84, "estimated": false, "source": "https://www.merckvetmanual.com/special-subjects/reference-guides/resting-heart-rates", "note": "Merck: dairy cow 48-84 bpm."},
+      "sleep_hours": {"avg": 4, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "Cows ~4.0 hours/day (captivity table)."}
+    }
+  },
+  {
+    "id": "house_mouse",
+    "name_ru": "Домовая мышь",
+    "name_en": "House mouse",
+    "latin": "Mus musculus",
+    "emoji": "🐭",
+    "fun_fact": "Передние зубы мыши растут всю жизнь, поэтому ей постоянно нужно что-нибудь грызть.",
+    "hint": "Крошечный серый грызун с длинным хвостом, который живёт рядом с людьми и обожает крошки.",
+    "metrics": {
+      "weight_kg": {"avg": 0.0205, "max": 0.03, "estimated": false, "source": "https://en.wikipedia.org/wiki/House_mouse", "note": "Typically 11-30 g."},
+      "length_m": {"avg": 0.0875, "max": 0.1, "estimated": false, "source": "https://en.wikipedia.org/wiki/House_mouse", "note": "Head-body 7.5-10 cm; tail 5-10 cm extra."},
+      "speed_kmh": {"avg": 12.9, "max": 12.9, "estimated": true, "source": "https://animaldiversity.org/accounts/Mus_musculus/", "note": "ADW: 'quick runners (up to 8 miles per hour)' = 12.9 km/h; converted."},
+      "lifespan_years": {"avg": 1, "max": 4.25, "estimated": false, "source": "https://en.wikipedia.org/wiki/House_mouse", "note": "Usually <1 yr in the wild, 2-3 yrs protected; record 1,551 days (4 yr 90 d). ADW: calorie-restricted lab mice up to 5 yrs."},
+      "gestation_days": {"avg": 20, "max": 21, "estimated": false, "source": "https://en.wikipedia.org/wiki/House_mouse", "note": "About 19-21 days."},
+      "sleep_hours": {"avg": 12.5, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "House mice 12.5 h/day (captivity table)."},
+      "heart_bpm": {"avg": 600, "max": 750, "estimated": false, "source": "https://www.merckvetmanual.com/special-subjects/reference-guides/resting-heart-rates", "note": "Merck: mouse 450-750 bpm."},
+      "teeth_count": {"avg": 16, "max": 16, "estimated": true, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Derived from mouse dental formula 1.0.0.3/1.0.0.3 x2 = 16."}
+    }
+  },
+  {
+    "id": "brown_rat",
+    "name_ru": "Серая крыса (пасюк)",
+    "name_en": "Brown rat",
+    "latin": "Rattus norvegicus",
+    "emoji": "🐀",
+    "fun_fact": "Крысы отлично плавают и могут нырять, добывая еду даже под водой.",
+    "hint": "Крупный серый грызун, который живёт в городах, отлично плавает и ночью ищет еду.",
+    "metrics": {
+      "weight_kg": {"avg": 0.32, "max": 0.822, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_rat", "note": "Adults 140-500 g; heaviest live record 822 g."},
+      "length_m": {"avg": 0.215, "max": 0.28, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_rat", "note": "Head-body 15-28 cm; tail 10.5-24 cm extra."},
+      "lifespan_years": {"avg": 1, "max": 4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_rat", "note": "Most barely manage one year, wild max 3 (Wikipedia); 4 yrs in captivity (ADW)."},
+      "gestation_days": {"avg": 21, "max": 24, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_rat", "note": "21 days (Wikipedia); ADW gives 22-24."},
+      "heart_bpm": {"avg": 350, "max": 400, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_rat", "note": "Average 300-400 bpm; Merck 250-400."},
+      "sleep_hours": {"avg": 14, "max": 14, "estimated": true, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "'Rats sleep for up to 14 hours a day' (species not named)."},
+      "teeth_count": {"avg": 16, "max": 16, "estimated": true, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Derived from rat dental formula 1.0.0.3/1.0.0.3 x2 = 16."}
+    }
+  },
+  {
+    "id": "european_hedgehog",
+    "name_ru": "Обыкновенный ёж",
+    "name_en": "European hedgehog",
+    "latin": "Erinaceus europaeus",
+    "emoji": "🦔",
+    "fun_fact": "Испугавшись, ёж сворачивается в колючий шарик, и ни один хищник не знает, с какой стороны его взять.",
+    "hint": "Колючий ночной зверёк из садов и лесов, который на зиму засыпает до весны.",
+    "metrics": {
+      "weight_kg": {"avg": 0.8, "max": 2.0, "estimated": false, "source": "https://en.wikipedia.org/wiki/European_hedgehog", "note": "Adult summer weight ~800 g (often as low as 500 g); max recorded 2000 g, few wild exceed 1600 g."},
+      "length_m": {"avg": 0.2, "max": 0.265, "estimated": false, "source": "https://animaldiversity.org/accounts/Erinaceus_europaeus/", "note": "Body 135-265 mm (ADW); Wikipedia: 260 mm or more in large adults."},
+      "lifespan_years": {"avg": 3, "max": 10, "estimated": false, "source": "https://en.wikipedia.org/wiki/European_hedgehog", "note": "Average life expectancy 3 yrs, may live >10; ADW captive max 11.7."},
+      "gestation_days": {"avg": 33, "max": 35, "estimated": false, "source": "https://en.wikipedia.org/wiki/European_hedgehog", "note": "31-35 days."},
+      "teeth_count": {"avg": 36, "max": 36, "estimated": true, "source": "https://animaldiversity.org/accounts/Erinaceus_europaeus/", "note": "Derived from dental formula 3/2, 1/1, 2/3, 3/3 x2 = 36."},
+      "heart_bpm": {"avg": 190, "max": null, "estimated": true, "source": "https://www.woodlandtrust.org.uk/blog/2020/09/when-hedgehogs-hibernate/", "note": "~190 bpm active, drops to ~20 in hibernation (popular figure; other sources 160-300 active, 9-20 hibernating)."}
+    }
+  },
+  {
+    "id": "common_vampire_bat",
+    "name_ru": "Обыкновенный вампир",
+    "name_en": "Common vampire bat",
+    "latin": "Desmodus rotundus",
+    "emoji": "🦇",
+    "fun_fact": "Это единственная летучая мышь, которая умеет не только летать, но и быстро бегать и прыгать по земле.",
+    "hint": "Ночная летучая мышь из Латинской Америки, которая умеет бегать по земле и кормится рядом со спящим скотом.",
+    "metrics": {
+      "weight_kg": {"avg": 0.0325, "max": 0.05, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_vampire_bat", "note": "Commonly 25-40 g, rises sharply after a feed; ADW range 15-50 g."},
+      "length_m": {"avg": 0.08, "max": 0.09, "estimated": false, "source": "https://animaldiversity.org/accounts/Desmodus_rotundus/", "note": "Head-body 70-90 mm (ADW); Wikipedia total ~9 cm, wingspan 18 cm."},
+      "speed_kmh": {"avg": 13.8, "max": 27.3, "estimated": false, "source": "https://digitalcommons.memphis.edu/facpubs/17668", "note": "Flight, wild bats in Mexico: males avg 13.82 km/h (9.6-27.3), females 13.36 (7.2-23.4)."},
+      "lifespan_years": {"avg": 12, "max": 19.5, "estimated": true, "source": "https://animaldiversity.org/accounts/Desmodus_rotundus/", "note": "ADW: 'may be as long as 12 years' in the wild; captive females average 19.5 yrs (MPIDR). Typical wild value not given."},
+      "gestation_days": {"avg": 189, "max": null, "estimated": false, "source": "https://animaldiversity.org/accounts/Desmodus_rotundus/", "note": "About seven months (Wikipedia and ADW), ADW average 189 days."},
+      "teeth_count": {"avg": 18, "max": 18, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_vampire_bat", "note": "Dental formula 1.1.2.0/1.1.3.0 = 18 teeth, fewest among bats."},
+      "deaths_per_year": {"avg": 60, "max": null, "estimated": true, "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4325525/", "note": "60 human rabies cases from bats in Latin America in 2005 (vs 13 from dogs); includes non-vampire bats; other reports 46 (2004), 55 (2005). No recent worldwide count."},
+      "sleep_hours": {"avg": 19, "max": 20, "estimated": true, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "Bats in general 18-20 h/day; little brown bat 19.9 h. Not species-specific."}
+    }
+  }
+]

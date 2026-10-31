@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Animal Tier List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Главный экран: выбор категории и числа животных ===== -->
+<section id="home" class="screen">
+  <h1>🦁 Animal Tier List</h1>
+  <p class="sub">Расставь животных по уровням — от самых мощных (S) до самых слабых (D)</p>
+
+  <h2>Сколько животных?</h2>
+  <div id="count-picker" class="row">
+    <button class="btn pick" data-n="5">5</button>
+    <button class="btn pick active" data-n="8">8</button>
+    <button class="btn pick" data-n="10">10</button>
+  </div>
+
+  <h2>Выбери задание</h2>
+  <div id="category-list" class="grid"></div>
+</section>
+
+<!-- ===== Игровой экран: тиры сверху, карточки снизу ===== -->
+<section id="game" class="screen hidden">
+  <header class="topbar">
+    <button id="back" class="btn small">← Назад</button>
+    <h2 id="game-title"></h2>
+    <button id="hint" class="btn small">💡 Подсказка</button>
+    <button id="sound" class="btn small alt" title="Звук">🔇</button>
+  </header>
+  <p id="hint-text" class="hint-text hidden"></p>
+
+  <div id="tiers"></div>
+
+  <h3 class="pool-title">Перетащи или тапни карточку, потом тапни уровень</h3>
+  <div id="pool" class="pool"></div>
+
+  <button id="check" class="btn big" disabled>Проверить</button>
+</section>
+
+<!-- ===== Экран «тебя вызвали»: открывается по ссылке #c=… ===== -->
+<section id="challenge" class="screen hidden">
+  <h1>⚔️ Вызов!</h1>
+  <p id="ch-text" class="sub"></p>
+  <label class="sub">Твоё имя<br><input id="ch-name" class="inp" maxlength="20" placeholder="Как тебя зовут?"></label>
+  <button id="ch-accept" class="btn big">Принять вызов</button>
+  <button id="ch-decline" class="btn big alt">Просто поиграть</button>
+</section>
+
+<!-- ===== Экран результатов: 4 блока сверху вниз ===== -->
+<section id="result" class="screen hidden">
+  <!-- Блок 0: дуэль — кто победил (только если играли по вызову) -->
+  <div id="duel"></div>
+  <!-- Блок 1: оценка и тир-лист с ошибками -->
+  <h1 id="score-pct"></h1>
+  <div id="score-stars" class="stars"></div>
+  <p id="score-text"></p>
+  <div id="res-tiers"></div>
+  <button id="show-answer" class="btn big alt">Показать правильный ответ</button>
+  <!-- Вызов друга: ссылка с теми же животными и порогами -->
+  <div id="share"></div>
+
+  <!-- Блок 3: наглядный масштаб — на телефоне идёт первым (CSS order), на компьютере после цифр -->
+  <div id="res-visual"></div>
+
+  <!-- Блок 2: реальные цифры -->
+  <div id="res-numbers"><h2>📊 Реальные цифры</h2><div id="res-chart"></div></div>
+
+  <!-- Блок 4: карточки фактов -->
+  <h2>📚 Факты и источники</h2>
+  <div id="res-facts"></div>
+
+  <div class="row">
+    <button id="again" class="btn big">Ещё раз</button>
+    <button id="other" class="btn big alt">Другая категория</button>
+  </div>
+</section>
+
+<script src="data/data.js"></script>
+<script src="game.js"></script>
+<script src="results.js"></script>
+<script src="visual.js"></script>
+<script src="challenge.js"></script>
+</body>
+</html>

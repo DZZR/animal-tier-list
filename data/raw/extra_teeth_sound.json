@@ -1,0 +1,193 @@
+{
+  "lion": {
+    "loudness_db": {
+      "avg": 114,
+      "max": 117,
+      "estimated": false,
+      "distance_m": 1,
+      "source": "https://www.guinnessworldrecords.com/world-records/402374-lowest-frequency-big-cat-roar",
+      "note": "Guinness: roar 'reaches sound pressure levels (SPL) of 114 dB at a distance of 1 m'. Max 117 = peak dB re 20 uPa at 1 m for Panthera leo in Table 1 of Jakobsen et al. 2021 (Front. Ecol. Evol., https://www.frontiersin.org/articles/10.3389/fevo.2021.657254/full; data sheet cites Larom et al. 1997). Wikipedia Lion: roar audible 8 km. No canine length found in Wikipedia/zoo sources (only forum measurements ~6 cm) -> tooth omitted."
+    }
+  },
+  "tiger": {
+    "tooth_length_cm": {
+      "avg": 7.0,
+      "max": 7.6,
+      "estimated": false,
+      "source": "https://en.wikipedia.org/wiki/Tiger",
+      "note": "Wikipedia: 'canine teeth are the longest in the cat family at 6.4-7.6 cm'. avg = midpoint of range. Not stated whether crown only or whole tooth incl. root. Roar audible 3 km; no reliable dB figure (114 dB only on listicles) -> loudness omitted."
+    }
+  },
+  "hippopotamus": {
+    "tooth_length_cm": {
+      "avg": 50,
+      "max": 51,
+      "estimated": true,
+      "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+      "note": "Lower canines (tusks), ever-growing. Wikipedia: lower incisors reach 40 cm, canines 'can grow to up to 50 cm'; San Diego Zoo (https://animals.sandiegozoo.org/animals/hippo): 'canines reaching 20 inches (51 centimeters)'. These are upper bounds, no typical-adult figure given; whole tooth incl. embedded part is implied."
+    },
+    "loudness_db": {
+      "avg": 115,
+      "max": 115,
+      "estimated": true,
+      "source": "https://animals.sandiegozoo.org/animals/hippo",
+      "note": "San Diego Zoo: 'some hippo vocalizations have been measured at 115 decibels'; repeated by Smithsonian/Live Science/wildambience. No measurement distance or method published; Wikipedia gives no dB."
+    }
+  },
+  "african_elephant": {
+    "tooth_length_cm": {
+      "avg": null,
+      "max": 351,
+      "estimated": false,
+      "source": "https://en.wikipedia.org/wiki/African_bush_elephant",
+      "note": "TUSK (modified incisor), measured along outside curve incl. root portion. Wikipedia: 'The longest known tusk of an African bush elephant measured 3.51 m (11.5 ft) and weighed 117 kg'. Wikipedia Elephant: African tusks 'reaching up to 300 cm'. No typical adult tusk length found in Wikipedia or San Diego Zoo fact sheet -> avg left null."
+    },
+    "loudness_db": {
+      "avg": 117,
+      "max": 120,
+      "estimated": false,
+      "distance_m": 1,
+      "source": "https://en.wikipedia.org/wiki/Elephant_communication",
+      "note": "Wikipedia: African elephant calls reach 'sound pressure levels as high as 117 dB' (Larom et al. 1997), distance not stated there. Max 120 = 'Elephants and bats are runners up at 120 dBpeak re. 20 uPa at 1 m' in Jakobsen et al. 2021 (https://www.frontiersin.org/articles/10.3389/fevo.2021.657254/full, Stoeger et al. 2012). ElephantVoices gives contact rumbles up to 115 dB."
+    }
+  },
+  "human": {
+    "tooth_length_cm": {
+      "avg": 2.675,
+      "max": null,
+      "estimated": false,
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10964209/",
+      "note": "Maxillary canine WHOLE tooth incl. root: mean total length 26.75 +/- 1.66 mm (crown 10.34 mm, root 16.52 mm; n=15 extracted teeth, Tamil cohort). Exposed crown ~1.0 cm. Mandibular canine 25.46 mm total."
+    },
+    "loudness_db": {
+      "avg": 129,
+      "max": 129,
+      "estimated": false,
+      "source": "https://www.guinnessworldrecords.com/news/2018/4/schoolkids-try-to-beat-record-for-the-worlds-loudest-shout-522222",
+      "note": "Guinness: 'Classroom assistant Jill Drake holds the scream title at an ear-piercing 129 dBA' (London, Oct 2000). Record page (https://www.guinnessworldrecords.com/world-records/67537-loudest-scream-individual) specifies C-weighted peak SPL; measurement distance not published. Record, not typical."
+    }
+  },
+  "orangutan": {
+    "loudness_db": {
+      "avg": 100,
+      "max": 100,
+      "estimated": true,
+      "distance_m": 1,
+      "source": "https://utm.utoronto.ca/shel/media/83/download",
+      "note": "Samson, Hurst & Shumaker (captive orangutan long-call study) intro: long call is 'the loudest call in the repertoire (reaching 100 db at 1 meter away'; a 2024 Behaviour paper gives 'approximately 100 decibels (Lameira & Wich, 2008)'. Seen in search snippets only (PDF host refused fetch) -> estimated. Canine length: Wikipedia says only 'long canines'."
+    }
+  },
+  "horse": {
+    "tooth_length_cm": {
+      "avg": 6,
+      "max": 7,
+      "estimated": true,
+      "source": "https://www.ivis.org/library/aaep/aaep-annual-convention-anaheim-2012/extraction-of-incisor-and-canine-teeth",
+      "note": "Canine tooth (males), WHOLE tooth: AAEP 2012 proceedings: 'average length of a canine tooth from crown tip to apex is 5 to 7 cm', only 1/4-1/3 is clinical crown (i.e. exposed ~1.5-2.5 cm). Figure taken from search snippet (site blocked fetch). No reliable whinny dB found."
+    }
+  },
+  "gray_wolf": {
+    "loudness_db": {
+      "avg": 117,
+      "max": 117,
+      "estimated": false,
+      "distance_m": 1,
+      "source": "https://www.frontiersin.org/articles/10.3389/fevo.2021.657254/full",
+      "note": "Jakobsen et al. 2021 Table 1 (Supplementary Data Sheet 1): Canis lupus lupus howl 117 dB peak re 20 uPa at 1 m, dBA-weighted, field, citing Suter et al. (Bioacoustics 2016/2017, captive wolves; howls identifiable to 3 km). Wikipedia: howls audible over up to 130 km2. No canine length found."
+    }
+  },
+  "american_alligator": {
+    "loudness_db": {
+      "avg": 92,
+      "max": 104,
+      "estimated": false,
+      "distance_m": 5,
+      "source": "https://www.guinnessworldrecords.com/world-records/400269-noisiest-crocodilian",
+      "note": "Guinness 'Noisiest crocodilian': bellow 'At a distance of 5 m ... approximately 92 decibels' (A-weighted, 12 Oct 2015). Max 104 = peak dB re 20 uPa at 1 m in air (Todd 2007) per Jakobsen et al. 2021 table; Jakobsen text: 'alligators at around 105 dBpeak'. Underwater: ASA abstract (https://acoustics.org/pressroom/httpdocs/151st/Todd.html) 'At 1 m distance peak sound pressure levels of near to 140 dB can be obtained in water' (different reference). No tooth length found."
+    }
+  },
+  "saltwater_crocodile": {
+    "tooth_length_cm": {
+      "avg": null,
+      "max": 9,
+      "estimated": false,
+      "source": "https://en.wikipedia.org/wiki/Saltwater_crocodile",
+      "note": "Wikipedia: 'The largest tooth measured 9 cm (3.5 in) in length' (whole tooth presumably). No typical figure, no dB figure."
+    }
+  },
+  "komodo_dragon": {
+    "tooth_length_cm": {
+      "avg": 2.5,
+      "max": 2.5,
+      "estimated": true,
+      "source": "https://en.wikipedia.org/wiki/Komodo_dragon",
+      "note": "Wikipedia: 'serrated teeth that can measure up to 2.5 cm (1 in) in length' - upper bound used as avg. Crown/root not specified."
+    }
+  },
+  "great_white_shark": {
+    "tooth_length_cm": {
+      "avg": 7.5,
+      "max": 7.5,
+      "estimated": true,
+      "source": "https://en.wikipedia.org/wiki/Great_white_shark",
+      "note": "Wikipedia: 'The triangular teeth can reach 7.5 cm (3.0 in)' - upper bound used as avg (shark teeth have no root in the mammalian sense; this is total height). Megalodon article photo shows a great white tooth ~2 cm on a 13.5 cm scale next to a megalodon tooth."
+    }
+  },
+  "orca": {
+    "tooth_length_cm": {
+      "avg": 8,
+      "max": 10.2,
+      "estimated": false,
+      "source": "https://en.wikipedia.org/wiki/Orcinus_paleorca",
+      "note": "Wikipedia: 'the modern killer whale has teeth around 8 cm (3.1 in) in height and 2.5 cm (0.98 in) in diameter' (whole tooth). Max 10.2 from a Type D stranding study (Polar Biology 2023, PMC12315212, seen in search snippet: largest tooth per individual 8.0-10.2 cm) - not a species record."
+    },
+    "loudness_db": {
+      "avg": 220,
+      "max": 220,
+      "estimated": false,
+      "underwater": true,
+      "distance_m": 1,
+      "source": "https://www.frontiersin.org/articles/10.3389/fevo.2021.657254/full",
+      "note": "Echolocation clicks. Jakobsen et al. 2021 Table 1: Orcinus orca 220 dB peak re 1 uPa at 1 m (Eskesen et al. 2011). UVic thesis (https://dspace.library.uvic.ca/items/18a84bef-470d-425c-adc6-9517c3dd65e7): apparent source levels 179-221 dB re 1 uPa at 1 m. Underwater dB (re 1 uPa) not comparable to in-air dB."
+    }
+  },
+  "blue_whale": {
+    "loudness_db": {
+      "avg": 188,
+      "max": 199,
+      "estimated": false,
+      "underwater": true,
+      "distance_m": 1,
+      "source": "https://en.wikipedia.org/wiki/Blue_whale",
+      "note": "Wikipedia Blue whale: 'The maximum loudness is 188 dB'; origin Thompson & Cummings 1971 (JASA): moans estimated 188 dB re 1 uN/m2 at 1 m. Wikipedia Whale vocalization table: blue whale moans 155-188 dB re 1 uPa at 1 m. Max 199 = peak dB re 1 uPa at 1 m in Jakobsen et al. 2021 Table 1 (Sirovic et al. 2007). Underwater reference; sperm whale (236-239 dB) is louder. Baleen whale, no teeth."
+    }
+  },
+  "domestic_cat": {
+    "loudness_db": {
+      "avg": 67.8,
+      "max": 67.8,
+      "estimated": false,
+      "distance_m": 1,
+      "source": "http://www.guinnessworldrecords.com/world-records/loudest-purr-by-a-domestic-cat",
+      "note": "Guinness 'Loudest purr by a domestic cat ever': 67.8 dB (A-weighted), Smokey (25 Mar 2011) and Merlin (2 Apr 2015). Guinness news on Merlin: microphone held 1 m away. Record, not typical purr. No canine length figure found in Wikipedia."
+    }
+  },
+  "german_shepherd": {
+    "loudness_db": {
+      "avg": 108,
+      "max": 108,
+      "estimated": false,
+      "source": "https://www.rnz.co.nz/news/world/130557/australian-dog-sets-new-record-for-loudest-bark",
+      "note": "Bark. RNZ (2013): Charlie 'beat the previous record of 108 decibels, held by a German shepherd in London since 2009' (Daz, previous Guinness holder). Current Guinness 'Loudest bark by a dog' is 113.1 dB (C-weighted), golden retriever Charlie, 20 Oct 2012 (http://www.guinnessworldrecords.com/world-records/loudest-bark-by-a-dog). Measurement distance not published. No canine length found."
+    }
+  },
+  "polar_bear": {
+    "tooth_length_cm": {
+      "avg": 10,
+      "max": null,
+      "estimated": true,
+      "source": "https://collections.penn.museum/collections/object/93960",
+      "note": "Single museum specimen: Penn Museum 'Polar bear canine', '10 cm', 'The tip of the tooth is broken' (so original whole tooth incl. root was longer). No population figure in Wikipedia/San Diego Zoo (only 'canine teeth long'). Weak."
+    }
+  }
+}

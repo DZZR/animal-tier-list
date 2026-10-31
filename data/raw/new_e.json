@@ -1,0 +1,169 @@
+[
+  {
+    "id": "snow_leopard",
+    "name_ru": "Снежный барс",
+    "name_en": "Snow leopard",
+    "latin": "Panthera uncia",
+    "emoji": "🐆",
+    "fun_fact": "Снежный барс не умеет рычать, зато заворачивается в свой пушистый хвост, как в шарф, чтобы согреться.",
+    "hint": "Живёт высоко в горах среди снега и скал и охотится на горных козлов.",
+    "metrics": {
+      "weight_kg": {"avg": 50, "max": 75, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Males average 45-55 kg; large males up to 75 kg recorded"},
+      "height_m": {"avg": 0.56, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Shoulder height 56 cm"},
+      "length_m": {"avg": 1.125, "max": 1.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Head-and-body 75-150 cm; tail 80-105 cm extra"},
+      "lifespan_years": {"avg": 16.5, "max": 25, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Wild 15-18 years; up to 25 in captivity"},
+      "gestation_days": {"avg": 95, "max": 100, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Gestation 90-100 days"},
+      "tooth_length_cm": {"avg": 2.86, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Canine teeth 28.6 mm long (whole tooth not specified)"},
+      "deaths_per_year": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snow_leopard", "note": "Only three attacks on humans ever reported, none fatal"}
+    }
+  },
+  {
+    "id": "cougar",
+    "name_ru": "Пума",
+    "name_en": "Cougar",
+    "latin": "Puma concolor",
+    "emoji": "🐈",
+    "fun_fact": "У пумы больше имён, чем у любого другого зверя: её зовут и горным львом, и пантерой, и кугуаром.",
+    "hint": "Крупная одноцветная кошка Америки, которая прыгает выше всех кошек и мяукает, а не рычит.",
+    "metrics": {
+      "weight_kg": {"avg": 62, "max": 120, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cougar", "note": "North American males average 62 kg (range 53-72), females 42 kg; up to 120 kg"},
+      "height_m": {"avg": 0.75, "max": 0.9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cougar", "note": "Shoulder height 60-90 cm"},
+      "length_m": {"avg": 1.2, "max": 1.55, "estimated": false, "source": "https://animals.sandiegozoo.org/animals/mountain-lion-puma-cougar", "note": "Head-and-body 86-155 cm (San Diego Zoo); Wikipedia gives nose-to-tail male 2.4 m incl. 63-95 cm tail"},
+      "lifespan_years": {"avg": 9, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cougar", "note": "Wild 8-13, probably averages 8-10; up to 20 in captivity"},
+      "gestation_days": {"avg": 91, "max": 103, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cougar", "note": "About 91 days, range 82-103"},
+      "deaths_per_year": {"avg": 0.2, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Cougar", "note": "Calculated: 20 deaths in North America 1890-2004 (~114 years); no worldwide annual stat"}
+    }
+  },
+  {
+    "id": "eurasian_lynx",
+    "name_ru": "Рысь",
+    "name_en": "Eurasian lynx",
+    "latin": "Lynx lynx",
+    "emoji": "🐱",
+    "fun_fact": "У рыси на ушах кисточки, а на щеках бакенбарды, и ходит она по снегу на широких лапах, как на лыжах.",
+    "hint": "Лесная кошка с коротким хвостом и кисточками на ушах, выходит на охоту в сумерках.",
+    "metrics": {
+      "weight_kg": {"avg": 22, "max": 32, "estimated": false, "source": "https://en.wikipedia.org/wiki/Eurasian_lynx", "note": "Both sexes in Russia 12-32 kg; midpoint used, sexes not separated"},
+      "height_m": {"avg": 0.65, "max": 0.75, "estimated": false, "source": "https://en.wikipedia.org/wiki/Eurasian_lynx", "note": "Shoulder height 55-75 cm"},
+      "length_m": {"avg": 0.91, "max": 1.06, "estimated": false, "source": "https://en.wikipedia.org/wiki/Eurasian_lynx", "note": "Body length males 76-106 cm, females 73-99 cm"},
+      "gestation_days": {"avg": 70.5, "max": 74, "estimated": false, "source": "https://en.wikipedia.org/wiki/Eurasian_lynx", "note": "Gestation 67-74 days"}
+    }
+  },
+  {
+    "id": "sea_otter",
+    "name_ru": "Морская выдра (калан)",
+    "name_en": "Sea otter",
+    "latin": "Enhydra lutris",
+    "emoji": "🦦",
+    "fun_fact": "Каланы спят на воде, держась за лапки друг друга и заворачиваясь в водоросли, чтобы их не унесло.",
+    "hint": "Морской зверёк с самым густым мехом на свете, разбивает ракушки камнем, лёжа на спине.",
+    "metrics": {
+      "weight_kg": {"avg": 33.5, "max": 54, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sea_otter", "note": "Males 22-45 kg, females 14-33 kg; up to 54 kg recorded"},
+      "length_m": {"avg": 1.35, "max": 1.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sea_otter", "note": "Total body length males 1.2-1.5 m, females 1.0-1.4 m"},
+      "speed_kmh": {"avg": 9, "max": 9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sea_otter", "note": "Swimming up to 9 km/h"},
+      "lifespan_years": {"avg": 15, "max": 28, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sea_otter", "note": "Wild males 10-15, females 15-20, wild max 23; oldest captive female 28 (Seattle Aquarium)"},
+      "gestation_days": {"avg": 243, "max": 365, "estimated": true, "source": "https://en.wikipedia.org/wiki/Sea_otter", "note": "Gestation varies 4-12 months due to delayed implantation; midpoint 8 months. Active pregnancy ~4 months"},
+      "teeth_count": {"avg": 32, "max": 32, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sea_otter", "note": "32 teeth in adults"},
+      "dive_depth_m": {"avg": 183, "max": 183, "estimated": false, "source": "https://www.montereybayaquarium.org/animals/animals-a-to-z/sea-otter", "note": "Can dive to 600 ft (183 m); Wikipedia says they usually forage at 15-23 m. Dives typically ~1 min, max 4-5 min"}
+    }
+  },
+  {
+    "id": "capybara",
+    "name_ru": "Капибара",
+    "name_en": "Capybara",
+    "latin": "Hydrochoerus hydrochaeris",
+    "emoji": "🐹",
+    "fun_fact": "Капибара — самый большой грызун на Земле, и на её спине любят отдыхать птицы, черепахи и даже обезьянки.",
+    "hint": "Огромный добродушный грызун из Южной Америки, который обожает сидеть в воде.",
+    "metrics": {
+      "weight_kg": {"avg": 50.5, "max": 91, "estimated": false, "source": "https://en.wikipedia.org/wiki/Capybara", "note": "Typically 35-66 kg; record wild female 91 kg (Brazil)"},
+      "height_m": {"avg": 0.56, "max": 0.62, "estimated": false, "source": "https://en.wikipedia.org/wiki/Capybara", "note": "50-62 cm at the withers"},
+      "length_m": {"avg": 1.2, "max": 1.34, "estimated": false, "source": "https://en.wikipedia.org/wiki/Capybara", "note": "Total length 106-134 cm (tail vestigial)"},
+      "lifespan_years": {"avg": 4, "max": 12, "estimated": false, "source": "https://en.wikipedia.org/wiki/Capybara", "note": "Wild usually no longer than 4 years due to predation (San Diego Zoo: up to 10 wild); up to 12 in captivity"},
+      "gestation_days": {"avg": 140, "max": 150, "estimated": false, "source": "https://en.wikipedia.org/wiki/Capybara", "note": "130-150 days"},
+      "teeth_count": {"avg": 20, "max": 20, "estimated": true, "source": "https://en.wikipedia.org/wiki/Capybara", "note": "Derived from dental formula 1.0.1.3/1.0.1.3 = 20 teeth; incisors grow continuously"}
+    }
+  },
+  {
+    "id": "north_american_beaver",
+    "name_ru": "Канадский бобр",
+    "name_en": "North American beaver",
+    "latin": "Castor canadensis",
+    "emoji": "🦫",
+    "fun_fact": "Бобры строят плотины и домики из веток и грязи, а вход в дом делают под водой, чтобы никто чужой не вошёл.",
+    "hint": "Грызун с плоским хвостом, который валит деревья зубами и строит плотины на реках.",
+    "metrics": {
+      "weight_kg": {"avg": 20, "max": 50, "estimated": false, "source": "https://en.wikipedia.org/wiki/North_American_beaver", "note": "Adults 11-32 kg, 20 kg typical; exceptional individuals 40-50 kg"},
+      "length_m": {"avg": 0.82, "max": 0.9, "estimated": false, "source": "https://en.wikipedia.org/wiki/North_American_beaver", "note": "Head-and-body 74-90 cm"},
+      "speed_kmh": {"avg": 10, "max": 10, "estimated": false, "source": "https://nationalzoo.si.edu/animals/beaver", "note": "Swims up to 6 mph (10 km/h)"},
+      "lifespan_years": {"avg": 11, "max": 30, "estimated": false, "source": "https://nationalzoo.si.edu/animals/beaver", "note": "Typically 10-12 years; oldest on record 30 years in human care"},
+      "gestation_days": {"avg": 128, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/North_American_beaver", "note": "Gestation averages 128 days"}
+    }
+  },
+  {
+    "id": "platypus",
+    "name_ru": "Утконос",
+    "name_en": "Platypus",
+    "latin": "Ornithorhynchus anatinus",
+    "emoji": "🦆",
+    "fun_fact": "Утконос — млекопитающее, которое откладывает яйца, а под водой закрывает глаза и уши и ищет еду клювом, чувствуя электричество.",
+    "hint": "Австралийский зверёк с клювом, как у утки, и хвостом, как у бобра, ныряет за добычей в реках.",
+    "metrics": {
+      "weight_kg": {"avg": 1.7, "max": 3, "estimated": false, "source": "https://en.wikipedia.org/wiki/Platypus", "note": "Males average 1.7 kg, females 0.9 kg; San Diego Zoo gives males up to 3 kg"},
+      "length_m": {"avg": 0.5, "max": 0.63, "estimated": false, "source": "https://en.wikipedia.org/wiki/Platypus", "note": "Total length males avg 50 cm, females 43 cm; San Diego Zoo: males up to 63 cm bill to tail"},
+      "lifespan_years": {"avg": 13.5, "max": 30, "estimated": false, "source": "https://animals.sandiegozoo.org/animals/platypus", "note": "12-15 years on average (San Diego Zoo); Wikipedia: up to 30 in captivity, wild recapture at 24"},
+      "gestation_days": {"avg": 28, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Platypus", "note": "Eggs develop in utero about 28 days, then about 10 days external incubation"},
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Platypus", "note": "Adults lack teeth; keratinised grinding pads. Hatchlings have milk teeth that are shed"},
+      "sleep_hours": {"avg": 14, "max": 14, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "14 h/day in Sleep in animals table; San Diego Zoo also says up to 14 hours"},
+      "dive_depth_m": {"avg": 5, "max": 8, "estimated": false, "source": "https://animals.sandiegozoo.org/animals/platypus", "note": "Usually less than 5 m, occasionally about 8 m; dives ~35 s avg, up to 2 min"}
+    }
+  },
+  {
+    "id": "axolotl",
+    "name_ru": "Аксолотль",
+    "name_en": "Axolotl",
+    "latin": "Ambystoma mexicanum",
+    "emoji": "🦎",
+    "fun_fact": "Аксолотль всю жизнь остаётся «ребёнком» с жабрами-перышками и умеет отращивать потерянные лапки и даже части сердца.",
+    "hint": "Улыбающаяся водная саламандра из озёр Мексики с перистыми жабрами на голове.",
+    "metrics": {
+      "weight_kg": {"avg": 0.143, "max": 0.227, "estimated": false, "source": "https://www.nationalgeographic.com/animals/amphibians/facts/axolotl", "note": "2.11-8 oz (60-227 g), midpoint used; Wikipedia cites one specimen of 26.3 cm at 159.5 g"},
+      "length_m": {"avg": 0.23, "max": 0.45, "estimated": false, "source": "https://en.wikipedia.org/wiki/Axolotl", "note": "Total length, 23 cm most common; range 15-45 cm, over 30 cm rare"},
+      "lifespan_years": {"avg": 12.5, "max": 15, "estimated": false, "source": "https://en.wikipedia.org/wiki/Axolotl", "note": "Wild life expectancy 10-15 years"},
+      "gestation_days": {"avg": 14, "max": null, "estimated": false, "source": "https://www.nationalgeographic.com/animals/amphibians/facts/axolotl", "note": "Egg incubation: hatch about two weeks after laying"},
+      "teeth_count": {"avg": 0, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Axolotl", "note": "Only barely visible vestigial teeth; no functional teeth, no count given"}
+    }
+  },
+  {
+    "id": "naked_mole_rat",
+    "name_ru": "Голый землекоп",
+    "name_en": "Naked mole-rat",
+    "latin": "Heterocephalus glaber",
+    "emoji": "🐀",
+    "fun_fact": "Голые землекопы живут как пчёлы: у них есть королева, а остальные роют туннели и бегают по ним задом наперёд так же быстро, как вперёд.",
+    "hint": "Почти лысый грызун из Африки, который всю жизнь роет подземные ходы большими зубами.",
+    "metrics": {
+      "weight_kg": {"avg": 0.0325, "max": 0.05, "estimated": false, "source": "https://en.wikipedia.org/wiki/Naked_mole-rat", "note": "Typical 30-35 g; breeding queens well over 50 g"},
+      "length_m": {"avg": 0.09, "max": 0.1, "estimated": false, "source": "https://en.wikipedia.org/wiki/Naked_mole-rat", "note": "Body 8-10 cm"},
+      "gestation_days": {"avg": 70, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Naked_mole-rat", "note": "About 70 days"},
+      "heart_bpm": {"avg": 200, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Naked_mole-rat", "note": "Baseline about 200 bpm, dropping to 50 during oxygen deprivation (anoxia study context, not explicitly resting)"}
+    }
+  },
+  {
+    "id": "tasmanian_devil",
+    "name_ru": "Тасманийский дьявол",
+    "name_en": "Tasmanian devil",
+    "latin": "Sarcophilus harrisii",
+    "emoji": "😈",
+    "fun_fact": "Когда тасманийский дьявол волнуется, его уши краснеют, а ест он добычу целиком — с костями и шерстью.",
+    "hint": "Чёрный сумчатый хищник с острова у Австралии, кричит по ночам жутким голосом.",
+    "metrics": {
+      "weight_kg": {"avg": 8, "max": 14, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tasmanian_devil", "note": "Males average 8 kg, females 6 kg; San Diego Zoo range 5-14 kg"},
+      "length_m": {"avg": 0.652, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tasmanian_devil", "note": "Head-and-body males avg 652 mm, females 570 mm"},
+      "speed_kmh": {"avg": 13, "max": 25, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tasmanian_devil", "note": "Up to 13 km/h for short distances on typical terrain; up to 25 km/h on flat roads"},
+      "lifespan_years": {"avg": 5, "max": 7, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tasmanian_devil", "note": "Few wild devils live longer than 5 years (San Diego Zoo says 7-8); longest recorded, Coolah, more than 7 years in captivity"},
+      "gestation_days": {"avg": 21, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tasmanian_devil", "note": "Gestation 21 days (marsupial, then pouch)"},
+      "teeth_count": {"avg": 42, "max": 42, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tasmanian_devil", "note": "42 teeth, same as dogs"}
+    }
+  }
+]

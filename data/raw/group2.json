@@ -1,0 +1,234 @@
+[
+  {
+    "id": "brown_bear",
+    "name_ru": "Бурый медведь",
+    "name_en": "Brown bear",
+    "latin": "Ursus arctos",
+    "emoji": "🐻",
+    "fun_fact": "Перед зимней спячкой бурый медведь так много ест, что за лето и осень сильно толстеет, а потом спит почти всю зиму, ничего не кушая.",
+    "hint": "Один из самых крупных хищников на суше: тяжелее любого человека и бегает быстрее олимпийского чемпиона.",
+    "metrics": {
+      "bite_force_psi": {
+        "avg": 1200,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Grizzly_bear",
+        "note": "GRIZZLY figure. Wikipedia: 'has been measured at over 8 megapascals (1,200 psi)', but no primary measurement could be traced; popular sites give 975-1,160 psi. Marked estimated for safety. Brown bear BFQ = 78 (https://en.wikipedia.org/wiki/Bite_force_quotient)."
+      },
+      "weight_kg": {
+        "avg": 217,
+        "max": 751,
+        "source": "https://en.wikipedia.org/wiki/Brown_bear",
+        "note": "avg = mean of adult males from 19 populations (Brown bear article; general range 80-600 kg; inland males ~180 kg, coastal ~2x heavier). max = largest recorded WILD male, a KODIAK bear (source for max: https://en.wikipedia.org/wiki/Kodiak_bear). Captive Kodiak 'Clyde' weighed 966 kg at death (1987)."
+      },
+      "height_m": {
+        "avg": 1.5,
+        "max": null,
+        "source": "https://en.wikipedia.org/wiki/Brown_bear",
+        "note": "Shoulder height. Brown bear article gives 1.5 m (no sex split). Spread: grizzly avg 1.02 m (https://en.wikipedia.org/wiki/Grizzly_bear), Kodiak male avg 1.33 m, large Kodiak 1.5 m (https://en.wikipedia.org/wiki/Kodiak_bear). Standing on hind legs a large Kodiak can reach ~3 m."
+      },
+      "length_m": {
+        "avg": 1.9,
+        "max": 2.8,
+        "source": "https://en.wikipedia.org/wiki/Brown_bear",
+        "note": "Head-and-body length range 1-2.8 m (both sexes); avg = midpoint. Kodiak adult male avg total length 2.44 m (https://en.wikipedia.org/wiki/Kodiak_bear)."
+      },
+      "speed_kmh": {
+        "avg": 48,
+        "max": 48,
+        "source": "https://en.wikipedia.org/wiki/Grizzly_bear",
+        "note": "GRIZZLY: 'maximum speed reliably recorded at Yellowstone is 48 km/h (30 mph)'; unverified claim of 56 km/h. Confirmed by 1937 Yellowstone Nature Notes (clocked 25, 28, 30 mph): https://npshistory.com/nature_notes/yell/vol14-1-2a.htm"
+      },
+      "lifespan_years": {
+        "avg": 25,
+        "max": 50,
+        "source": "https://en.wikipedia.org/wiki/Brown_bear",
+        "note": "avg = 'average lifespan of 25 years in the wild' (grizzly males est. 22). max = Andreas, 'at least 50' at death in 2013 at Arcturos sanctuary (captive). Oldest wild individual nearly 37."
+      }
+    }
+  },
+  {
+    "id": "polar_bear",
+    "name_ru": "Белый медведь",
+    "name_en": "Polar bear",
+    "latin": "Ursus maritimus",
+    "emoji": "🐻‍❄️",
+    "fun_fact": "Под белой шубой у белого медведя чёрная кожа, а сами волоски шерсти прозрачные и только кажутся белыми.",
+    "hint": "Самый большой хищник на суше, который отлично плавает в ледяном океане.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 550,
+        "max": 1002,
+        "source": "https://en.wikipedia.org/wiki/Polar_bear",
+        "note": "Males 300-800 kg; avg = midpoint. San Diego Zoo: most males 300-635 kg (https://animals.sandiegozoo.org/animals/polar-bear). max = male shot at Kotzebue Sound, Alaska, 1960, 'reportedly' 1,002 kg (wild, not fully verified)."
+      },
+      "height_m": {
+        "avg": 1.45,
+        "max": 1.6,
+        "source": "https://en.wikipedia.org/wiki/Polar_bear",
+        "note": "Shoulder height 130-160 cm (adults, no sex split); avg = midpoint, max = top of range. San Diego Zoo says ~1.7 m."
+      },
+      "length_m": {
+        "avg": 2.25,
+        "max": 2.5,
+        "source": "https://en.wikipedia.org/wiki/Polar_bear",
+        "note": "Males 200-250 cm long (Wikipedia does not say whether total or head-and-body); avg = midpoint. San Diego Zoo head-and-body 1.8-2.7 m."
+      },
+      "speed_kmh": {
+        "avg": 40,
+        "max": 40,
+        "source": "https://en.wikipedia.org/wiki/Polar_bear",
+        "note": "'can run at estimated speeds of up to 40 km/h' - estimate, not a clocked measurement."
+      },
+      "lifespan_years": {
+        "avg": 16.5,
+        "max": 41,
+        "source": "https://animals.sandiegozoo.org/animals/polar-bear",
+        "note": "avg = San Diego Zoo males 15-18 years (females 20-25); midpoint. Wikipedia only says 'can live up to 30 years'. max = Debby, Assiniboine Park Zoo, died 2008 aged 41 (some say 41-42), captive, Guinness-certified oldest polar bear (https://en.wikipedia.org/wiki/Debby_(polar_bear))."
+      }
+    }
+  },
+  {
+    "id": "gorilla",
+    "name_ru": "Горилла",
+    "name_en": "Gorilla",
+    "latin": "Gorilla gorilla gorilla",
+    "emoji": "🦍",
+    "fun_fact": "Гориллы почти всё время едят растения, а каждый вечер строят себе новую кровать-гнездо из веток и листьев.",
+    "hint": "Самая большая обезьяна на свете, главный самец с серебристой спиной.",
+    "metrics": {
+      "bite_force_psi": {
+        "avg": 1300,
+        "max": null,
+        "estimated": true,
+        "source": "https://a-z-animals.com/animals/gorilla/what-is-a-gorillas-bite-force/",
+        "note": "WEAK SOURCE: popular site, no study cited; widely repeated figure, other sites give 600-1,500 psi. Not in Wikipedia/NatGeo/Smithsonian. Skull-model work (Wroe, via Discover) only says gorilla molar bite exceeds human 1,100-1,300 N. Consider dropping if strict sourcing required."
+      },
+      "weight_kg": {
+        "avg": 140,
+        "max": 267,
+        "source": "https://en.wikipedia.org/wiki/Western_lowland_gorilla",
+        "note": "avg = western lowland male average 140 kg (Western lowland gorilla article; genus article gives 136-227 kg). max = heaviest WILD gorilla, a 1.83 m silverback at 267 kg (https://en.wikipedia.org/wiki/Gorilla). Captive males up to 310 kg."
+      },
+      "height_m": {
+        "avg": 1.67,
+        "max": 1.83,
+        "source": "https://en.wikipedia.org/wiki/Western_lowland_gorilla",
+        "note": "Standing upright, western lowland male avg 1.67 m; 'up to 1.83 m'. Genus range 1.4-1.8 m (https://en.wikipedia.org/wiki/Gorilla)."
+      },
+      "lifespan_years": {
+        "avg": 37.5,
+        "max": 69,
+        "source": "https://en.wikipedia.org/wiki/Gorilla",
+        "note": "Wild 35-40 years; avg = midpoint. max = Fatou (female, Berlin Zoo, captive, still living, ~69 y 302 d as of Oct 2026; birth date approximate) per https://en.wikipedia.org/wiki/Oldest_hominids. Oldest male lived 61 years."
+      }
+    }
+  },
+  {
+    "id": "chimpanzee",
+    "name_ru": "Шимпанзе",
+    "name_en": "Chimpanzee",
+    "latin": "Pan troglodytes",
+    "emoji": "🐒",
+    "fun_fact": "Шимпанзе умеют пользоваться инструментами: палочкой они достают из термитника термитов, а камнем раскалывают орехи.",
+    "hint": "Наш самый близкий родственник среди животных: меньше человека, но очень сильный для своего роста.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 40,
+        "max": 136,
+        "source": "https://en.wikipedia.org/wiki/Chimpanzee",
+        "note": "avg = wild male average 40 kg. max = 'up to 136 kg in captivity' (captive)."
+      },
+      "height_m": {
+        "avg": 1.5,
+        "max": 1.68,
+        "source": "https://en.wikipedia.org/wiki/Chimpanzee",
+        "note": "Average standing height 150 cm (adults, no sex split); exceptional individuals 'over 168 cm' on two legs."
+      },
+      "lifespan_years": {
+        "avg": 23,
+        "max": 83,
+        "source": "https://en.wikipedia.org/wiki/Chimpanzee",
+        "note": "Wild life expectancy varies hugely by site: Ngogo ~33, Kanyawara ~20, Gombe 18, Tai 13; avg = midpoint of 13-33 (spread >1.5x). max = Joao, male, Chimp Eden sanctuary (captive), ~83 y 302 d as of Oct 2026, birth only estimated 1943-1948 (https://en.wikipedia.org/wiki/Oldest_hominids)."
+      }
+    }
+  },
+  {
+    "id": "orangutan",
+    "name_ru": "Орангутан",
+    "name_en": "Bornean orangutan",
+    "latin": "Pongo pygmaeus",
+    "emoji": "🦧",
+    "fun_fact": "Орангутаны почти всю жизнь проводят на деревьях, а в дождь могут накрыться большим листом, как зонтиком.",
+    "hint": "Рыжая обезьяна с очень длинными руками, которая живёт на деревьях острова Борнео.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 75,
+        "max": 204,
+        "source": "https://en.wikipedia.org/wiki/Bornean_orangutan",
+        "note": "avg = male average 75 kg (range 50-100 kg, wild survey). max = 'Andy', obese CAPTIVE male, 204 kg in 1959."
+      },
+      "height_m": {
+        "avg": 1.45,
+        "max": 1.7,
+        "source": "https://en.wikipedia.org/wiki/Bornean_orangutan",
+        "note": "Wikipedia gives male BODY LENGTH 1.2-1.7 m, not standing height; avg = midpoint. Use with caution as height."
+      },
+      "lifespan_years": {
+        "avg": 40,
+        "max": 60,
+        "source": "https://en.wikipedia.org/wiki/Bornean_orangutan",
+        "note": "Wild 35-45 years; avg = midpoint. max = 'in captivity it can live to be about 60' (approximate). News reports mention a Bornean female at Tama Zoo, Tokyo, ~62; Puan (Perth, 62) is usually listed as Sumatran; oldest orangutan overall Bella (~65, Hagenbeck) species not stated."
+      }
+    }
+  },
+  {
+    "id": "human",
+    "name_ru": "Человек",
+    "name_en": "Human (adult man)",
+    "latin": "Homo sapiens",
+    "emoji": "🧍‍♂️",
+    "fun_fact": "Человек не самый сильный и не самый быстрый, зато может бежать очень долго и придумывает инструменты, которые помогают ему во всём.",
+    "hint": "Это ты сам — с тобой сравнивают всех остальных животных.",
+    "metrics": {
+      "bite_force_psi": {
+        "avg": 162,
+        "max": null,
+        "estimated": false,
+        "source": "https://www.discovermagazine.com/planet-earth/these-animals-have-a-killer-bite-force",
+        "note": "Discover: 'the bite force of a measly human is just 162 psi' (links Cleveland Clinic; no primary study). Other popular sources 120-200 psi. Clinical studies report force in newtons: male molar mean ~465-486 N (https://pmc.ncbi.nlm.nih.gov/articles/PMC7570304). Record: Richard Hofmann 442 kg-force (975 lbf, not psi), Guinness (https://www.guinnessworldrecords.com/world-records/75273-strongest-human-bite) - max left null because it is force, not psi."
+      },
+      "strength_kg": {
+        "avg": 90,
+        "max": 510,
+        "estimated": true,
+        "source": "https://fitnessvolt.com/how-much-weight-can-the-average-man-lift/",
+        "note": "avg = untrained man deadlift '90 kilograms (70-120)' (fitness site, not peer-reviewed; game's 70 kg reference sits at bottom of range). max = deadlift world record 510 kg, Hafthor Bjornsson, 6 Sep 2025 (https://www.guinnessworldrecords.com/world-records/heaviest-deadlift.html)."
+      },
+      "weight_kg": {
+        "avg": 77,
+        "max": 635,
+        "source": "https://en.wikipedia.org/wiki/Human",
+        "note": "avg = average adult male mass 77 kg. max = Jon Brower Minnoch ~635 kg, ESTIMATED, not weighed (https://en.wikipedia.org/wiki/Jon_Brower_Minnoch); heaviest precisely measured: Robert Earl Hughes 485 kg (Guinness)."
+      },
+      "height_m": {
+        "avg": 1.71,
+        "max": 2.72,
+        "source": "https://en.wikipedia.org/wiki/Human",
+        "note": "avg = worldwide average adult male height ~171 cm. max = Robert Wadlow 2.72 m (https://en.wikipedia.org/wiki/Robert_Wadlow)."
+      },
+      "speed_kmh": {
+        "avg": 37.58,
+        "max": 44.72,
+        "source": "https://www.topendsports.com/resources/records/speed.htm",
+        "note": "avg = Usain Bolt's average over his 9.58 s 100 m world record (Berlin 2009); max = his fastest 60-80 m split average 44.72 km/h (split average, not instantaneous). Typical untrained man is much slower."
+      },
+      "lifespan_years": {
+        "avg": 73.3,
+        "max": 122,
+        "source": "https://en.wikipedia.org/wiki/Life_expectancy",
+        "note": "avg = world life expectancy at birth 73.3 (2019). max = Jeanne Calment, 122 years 164 days, longest verified human lifespan (https://en.wikipedia.org/wiki/Jeanne_Calment)."
+      }
+    }
+  }
+]

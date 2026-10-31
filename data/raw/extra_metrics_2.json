@@ -1,0 +1,96 @@
+{
+  "gray_wolf": {
+    "teeth_count": {"avg": 42, "max": 42, "estimated": false, "source": "https://en.wikipedia.org/wiki/Canidae", "note": "Most canids have 42 teeth (dental formula 3.1.4.2/3.1.4.3); Canidae article, applies to wolf."},
+    "gestation_days": {"avg": 68.5, "max": 75, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wolf", "note": "Gestation 62-75 days; midpoint."}
+  },
+  "nile_crocodile": {
+    "teeth_count": {"avg": 66, "max": 68, "estimated": false, "source": "https://en.wikipedia.org/wiki/Nile_crocodile", "note": "64-68 cone-shaped teeth; midpoint."},
+    "gestation_days": {"avg": 90, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Nile_crocodile", "note": "Incubation (egg-layer), about 90 days."},
+    "heart_bpm": {"avg": 54, "max": 65, "estimated": true, "source": "https://digital.car.chula.ac.th/tjvm/vol21/iss3/5", "note": "43-65 bpm measured in 'crocodiles' (species not named) by ECG, Thai J Vet Med 1991; midpoint. Diving heart rate can fall to 1-2 bpm (Wikipedia Crocodilia)."}
+  },
+  "saltwater_crocodile": {
+    "teeth_count": {"avg": 80, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Crocodilia", "note": "Crocodilians in general have approximately 80 teeth, replaced up to 50 times; no species-specific count found."},
+    "gestation_days": {"avg": 89, "max": 106, "estimated": true, "source": "https://en.wikipedia.org/wiki/Saltwater_crocodile", "note": "Incubation (egg-layer). Female guards nest 80-98 days (extremes 75-106) until hatching; used as proxy for incubation; midpoint."},
+    "dive_depth_m": {"avg": 15, "max": 15, "estimated": false, "source": "https://en.wikipedia.org/wiki/Saltwater_crocodile", "note": "Recorded at depths of 15 m and 'can probably go much deeper'."},
+    "heart_bpm": {"avg": 54, "max": 65, "estimated": true, "source": "https://digital.car.chula.ac.th/tjvm/vol21/iss3/5", "note": "43-65 bpm measured in 'crocodiles' (species not named), Thai J Vet Med 1991; midpoint."}
+  },
+  "american_alligator": {
+    "teeth_count": {"avg": 77, "max": 80, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_alligator", "note": "74-80 teeth; midpoint."},
+    "gestation_days": {"avg": 65, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_alligator", "note": "Incubation (egg-layer), 65-day incubation period."}
+  },
+  "komodo_dragon": {
+    "teeth_count": {"avg": 60, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "About 60 frequently replaced serrated teeth."},
+    "gestation_days": {"avg": 228, "max": 243, "estimated": true, "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "Incubation (egg-layer) 7-8 months; converted to days (7.5 x 30.4)."}
+  },
+  "great_white_shark": {
+    "teeth_count": {"avg": 300, "max": 300, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_white_shark", "note": "Total around 300 teeth arranged in rows like a conveyor belt (total, not functional front row)."},
+    "gestation_days": {"avg": 365, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Great_white_shark", "note": "Live birth after around 12 months; converted to days."},
+    "dive_depth_m": {"avg": 1300, "max": 1300, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_white_shark", "note": "May dive to depths of up to 1,300 m."}
+  },
+  "orca": {
+    "gestation_days": {"avg": 502, "max": 548, "estimated": true, "source": "https://en.wikipedia.org/wiki/Orca", "note": "Gestation 15-18 months (also NOAA); midpoint 16.5 months converted to days."},
+    "heart_bpm": {"avg": 60, "max": 60, "estimated": false, "source": "https://en.wikipedia.org/wiki/Orca", "note": "About 60 bpm at the surface, dropping to 30 bpm when submerged."},
+    "dive_depth_m": {"avg": 1087, "max": 1087, "estimated": false, "source": "https://en.wikipedia.org/wiki/Orca", "note": "Deepest recorded dive 1,087 m (tagged orca depredating toothfish); usually dives several hundred metres."}
+  },
+  "blue_whale": {
+    "heart_bpm": {"avg": 37, "max": 37, "estimated": false, "source": "https://en.wikipedia.org/wiki/Blue_whale", "note": "Heart rate drops to 2 bpm at depth and rises to 37 bpm at the surface; 37 given as resting-at-surface value, range 2-37."},
+    "gestation_days": {"avg": 335, "max": 365, "estimated": true, "source": "https://en.wikipedia.org/wiki/Blue_whale", "note": "Gestation 10-12 months; midpoint 11 months converted to days."},
+    "dive_depth_m": {"avg": 315, "max": 506, "estimated": false, "source": "https://en.wikipedia.org/wiki/Blue_whale", "note": "Greatest dive depth from tagged blue whales 315 m; deepest confirmed dive of a pygmy blue whale 506 m."},
+    "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Blue_whale", "note": "No teeth; upper jaw lined with 70-400 baleen plates."}
+  },
+  "green_anaconda": {
+    "gestation_days": {"avg": 198, "max": 213, "estimated": true, "source": "https://en.wikipedia.org/wiki/Green_anaconda", "note": "Ovoviviparous; gestation six to seven months, midpoint converted to days."}
+  },
+  "golden_eagle": {
+    "gestation_days": {"avg": 44, "max": 45, "estimated": false, "source": "https://ielc.libguides.com/sdzg/factsheets/goldeneagle/reproduction", "note": "Incubation (bird) 43-45 days per San Diego Zoo fact sheet; Wikipedia says 'six weeks'."}
+  },
+  "german_shepherd": {
+    "teeth_count": {"avg": 42, "max": 42, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dog", "note": "Adult dog jaw contains around 42 teeth."},
+    "gestation_days": {"avg": 63, "max": 68, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dog", "note": "Litters born 58-68 days after fertilization, average 63."},
+    "sleep_hours": {"avg": 10.1, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "Dogs 10.1 h/day in the captive-mammal sleep table (domestic dog, not breed-specific)."},
+    "heart_bpm": {"avg": 95, "max": 120, "estimated": false, "source": "https://www.msdvetmanual.com/multimedia/table/resting-heart-rates", "note": "Dog resting heart rate 70-120 bpm (MSD Veterinary Manual); midpoint. Large breeds tend toward the lower end."}
+  },
+  "mosquito": {
+    "length_m": {"avg": 0.0045, "max": 0.018, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mosquito", "note": "Total length typically 3-6 mm (midpoint 4.5 mm); largest genus Toxorhynchites up to 18 mm."},
+    "speed_kmh": {"avg": 1.5, "max": 2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mosquito", "note": "Anopheles flight speed 1-2 km/h; can fly up to 4 hours and cover 12 km a night."},
+    "lifespan_years": {"avg": 0.04, "max": 0.08, "estimated": true, "source": "https://en.wikipedia.org/wiki/Anopheles", "note": "Adult Anopheles probably live no more than two weeks in nature (males about a week); Wikipedia Mosquito gives a week to about a month -> max ~1 month. Converted to years."},
+    "weight_kg": {"avg": 3e-7, "max": 4.5e-7, "estimated": true, "source": "https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-3-29/tables/5", "note": "Adult An. gambiae 0.24-0.38 mg, An. arabiensis 0.33-0.45 mg (model parameters, Malaria Journal 2004); ~0.3 mg used. Popular pages say 'usually under 2.5 mg'."},
+    "gestation_days": {"avg": 2.5, "max": 21, "estimated": false, "source": "https://en.wikipedia.org/wiki/Anopheles", "note": "Egg incubation: Anopheles eggs hatch within 2-3 days (up to 2-3 weeks in cold climates). Egg-to-adult takes 5-14 days."}
+  },
+  "venomous_snake": {
+    "tooth_length_cm": {"avg": 5.1, "max": 5.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gaboon_viper", "note": "Gaboon viper has the longest fangs of any venomous snake: up to 5.1 cm, may reach 5.5 cm (whole fang)."},
+    "bones_count": {"avg": 300, "max": 400, "estimated": true, "source": "https://en.wikipedia.org/wiki/Snake", "note": "Snakes have 200-400 vertebrae (sometimes more), each body vertebra with two ribs; vertebra count only, total bones not given. Snakes in general, not venomous-specific."},
+    "speed_kmh": {"avg": 16, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Black mamba (fastest well-documented venomous snake) moves up to 16 km/h for short distances and not faster than 20 km/h."},
+    "length_m": {"avg": 2.5, "max": 4.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Total length; black mamba used as representative: typically 2-3 m, specimens up to 4.3-4.5 m. Gaboon viper 1.25-1.55 m."},
+    "weight_kg": {"avg": 1.6, "max": 11.3, "estimated": true, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Black mamba about 1.6 kg (one study: 1.03 kg avg). Max from Gaboon viper, 11.3 kg specimen (Wikipedia Gaboon viper). Representative species, not a group average."},
+    "lifespan_years": {"avg": 11, "max": 11, "estimated": true, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Black mamba recorded to live up to 11 years and may live longer; representative species."}
+  },
+  "freshwater_snail": {
+    "length_m": {"avg": 0.008, "max": 0.010, "estimated": false, "source": "https://en.wikipedia.org/wiki/Biomphalaria_glabrata", "note": "Adult shell width 6-10 mm (Biomphalaria glabrata); midpoint."},
+    "lifespan_years": {"avg": 1.4, "max": 2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Biomphalaria_glabrata", "note": "Lifespan 15-18 months in natural conditions; up to 18-24 months in the lab."},
+    "gestation_days": {"avg": 5.5, "max": 6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Biomphalaria_glabrata", "note": "Egg development: juveniles hatch from 5-6 day old eggs; generation time 4-6 weeks."}
+  },
+  "assassin_bug": {
+    "length_m": {"avg": 0.023, "max": 0.033, "estimated": false, "source": "https://www.extension.arizona.edu/node/920", "note": "Adult kissing bugs 13-33 mm (0.5 to over 1 inch) total length; midpoint."},
+    "gestation_days": {"avg": 28, "max": 35, "estimated": false, "source": "https://www.extension.arizona.edu/node/920", "note": "Egg incubation: eggs hatch in three to five weeks; midpoint 4 weeks."},
+    "lifespan_years": {"avg": 0.6, "max": 2, "estimated": true, "source": "https://irac-online.org/content/uploads/Triatomid-Factsheet.pdf", "note": "Adult life 3-12 months (IRAC factsheet, via search snippet); some species may live up to two years (NPMA). Egg-to-adult 3-4 months (R. prolixus) to 1-2 years (large species)."}
+  },
+  "scorpion": {
+    "length_m": {"avg": 0.20, "max": 0.23, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_scorpion", "note": "Emperor scorpion adults average about 20 cm; largest species Heterometrus swammerdami 23 cm, smallest Typhlochactas mitchelli 8.5 mm (Wikipedia Scorpion)."},
+    "weight_kg": {"avg": 0.030, "max": 0.030, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_scorpion", "note": "Emperor scorpion (one of the largest) weighs 30 g; small species far lighter."},
+    "lifespan_years": {"avg": 7, "max": 25, "estimated": false, "source": "https://en.wikipedia.org/wiki/Scorpion", "note": "Scorpions can reach 25 years (Wikipedia Scorpion); emperor scorpion lives 6-8 years (Wikipedia Emperor scorpion), midpoint used as typical."},
+    "gestation_days": {"avg": 274, "max": 365, "estimated": true, "source": "https://www.zoonewengland.org/franklin-park-zoo/animals/insects-spiders/emperor-scorpion/", "note": "Emperor scorpion nine-month gestation (Zoo New England); Wikipedia Scorpion: 'can last for over a year in some species'. Live birth."}
+  },
+  "honey_bee": {
+    "length_m": {"avg": 0.0135, "max": 0.022, "estimated": false, "source": "https://www.pbs.org/wnet/nature/animal-guide-honeybee/499", "note": "Worker 12-15 mm, queen 18-22 mm (PBS Nature)."},
+    "weight_kg": {"avg": 0.0001, "max": 0.0002, "estimated": false, "source": "https://www.pbs.org/wnet/nature/animal-guide-honeybee/499", "note": "Worker about 100 mg; queen and drones about 200 mg."},
+    "lifespan_years": {"avg": 0.07, "max": 8, "estimated": true, "source": "https://www.pbs.org/wnet/nature/animal-guide-honeybee/499", "note": "Workers 15-38 days in summer (~26 days = 0.07 yr); winter workers live months; queen typically 3-5 years, up to 8 years in A. m. mellifera (Wikipedia Western honey bee)."},
+    "gestation_days": {"avg": 21, "max": 24, "estimated": false, "source": "https://en.wikipedia.org/wiki/Honey_bee", "note": "Egg-to-adult development: workers 21 days, queens 16 days, drones 24 days."}
+  },
+  "deer": {
+    "teeth_count": {"avg": 32, "max": 32, "estimated": false, "source": "https://en.wikipedia.org/wiki/Deer", "note": "Most deer bear 32 teeth (dental formula 0.0.3.3/3.1.3.3)."},
+    "weight_kg": {"avg": 68, "max": 800, "estimated": false, "source": "https://en.wikipedia.org/wiki/White-tailed_deer", "note": "White-tailed deer (representative): adult males average 68 kg in summer, usually 68-136 kg; max is the moose, up to 800 kg (Wikipedia Deer); smallest northern pudu 3.3-6 kg."},
+    "length_m": {"avg": 1.58, "max": 2.2, "estimated": false, "source": "https://en.wikipedia.org/wiki/White-tailed_deer", "note": "White-tailed deer total length 95-220 cm including 10-37 cm tail; midpoint."},
+    "speed_kmh": {"avg": 50, "max": 60, "estimated": false, "source": "https://en.wikipedia.org/wiki/White-tailed_deer", "note": "Running: sprint about 60 km/h, sustained about 50 km/h over 5-6 km (white-tailed deer)."}
+  }
+}

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "galapagos_tortoise",
+    "name_ru": "Галапагосская черепаха",
+    "name_en": "Galápagos tortoise",
+    "latin": "Chelonoidis niger",
+    "emoji": "🐢",
+    "fun_fact": "Эта черепаха может обходиться без еды и воды почти целый год, запасая всё нужное внутри своего огромного панциря.",
+    "hint": "Неторопливый гигант с панцирем, который живёт на вулканических островах и жуёт кактусы и траву.",
+    "metrics": {
+      "weight_kg": {"avg": 294.5, "max": 417, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise", "note": "Males ~272-317 kg (midpoint), females 136-181 kg; heaviest documented 417 kg."},
+      "length_m": {"avg": 1.125, "max": 1.87, "estimated": true, "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise", "note": "Carapace length. Avg = midpoint of Santa Cruz tortoises 75-150 cm (varies strongly by island: Pinzon ~61 cm); largest recorded 1.87 m."},
+      "speed_kmh": {"avg": 0.3, "max": 0.3, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise", "note": "Walking speed 0.3 km/h (0.2 mph)."},
+      "lifespan_years": {"avg": 100, "max": 177, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise", "note": "Over 100 years in the wild; captive record up to 177 years (Harriet at least ~169-175)."},
+      "sleep_hours": {"avg": 16, "max": null, "estimated": true, "source": "https://animaldiversity.org/accounts/Chelonoidis_nigra/", "note": "Animal Diversity Web: 'approximate sixteen-hour slumber' per day; secondary source, no primary measurement found."},
+      "heart_bpm": {"avg": 8, "max": 10, "estimated": true, "source": "https://stories.sdzwa.org/?p=130104", "note": "San Diego Zoo article: heart beats 'a sluggish 6 to 10 times a minute' (midpoint 8); only seen in search snippet, page itself was not fetchable."},
+      "gestation_days": {"avg": 182, "max": 243, "estimated": true, "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise", "note": "Incubation (eggs). Wikipedia: hatchlings emerge after four to eight months (~122-243 days, midpoint ~182). San Diego Zoo factsheet gives 110-175 days (Galapagos Conservancy) and 80-100 days (Bonin 2006) - sources differ >1.5x, Wikipedia used."}
+    }
+  },
+  {
+    "id": "reticulated_python",
+    "name_ru": "Сетчатый питон",
+    "name_en": "Reticulated python",
+    "latin": "Malayopython reticulatus",
+    "emoji": "🐍",
+    "fun_fact": "Это самая длинная змея на планете, и она отлично плавает — питонов находили даже на далёких островах в открытом море.",
+    "hint": "Огромная пятнистая змея из тропических лесов Азии, которая не кусает ядом, а обвивает добычу кольцами.",
+    "metrics": {
+      "length_m": {"avg": 4.0, "max": 6.95, "estimated": true, "source": "https://en.wikipedia.org/wiki/Reticulated_python", "note": "Total length. Wild adults (1000+ pythons, Sumatra) 1.5-6.5 m, midpoint used as avg; largest scientifically measured 6.95 m; captive Medusa reported 7.67 m; old claim of 8.7 m (Colossus) was disproven. Animal Diversity Web gives avg 4.78 m."},
+      "weight_kg": {"avg": 38, "max": 158.8, "estimated": true, "source": "https://en.wikipedia.org/wiki/Reticulated_python", "note": "Wild Sumatran range 1-75 kg (midpoint 38); 6.95 m specimen weighed 59 kg; heaviest documented captive Medusa 158.8 kg. Animal Diversity Web claims avg 150-170 kg (likely inflated)."},
+      "teeth_count": {"avg": 100, "max": null, "estimated": true, "source": "https://www.vanderbiltmuseum.org/wp-content/uploads/2020/05/reticulated-python.pdf", "note": "About 100 curved, backward-pointing teeth (museum fact sheet); no primary count found; one care site splits ~70 upper / 30 lower."},
+      "bones_count": {"avg": 290, "max": 400, "estimated": true, "source": "https://en.wikipedia.org/wiki/Snake_skeleton", "note": "Vertebrae only: snakes in general have 'from 175 to more than 400 vertebrae' (midpoint ~290); most carry a pair of ribs, so total bones roughly double. Not species-specific."},
+      "lifespan_years": {"avg": 20, "max": 32, "estimated": false, "source": "https://animaldiversity.org/accounts/Python_reticulatus/", "note": "Wild typical 15-22 (avg 20), longest wild 23 years; captive record 32 years."},
+      "gestation_days": {"avg": 88, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Reticulated_python", "note": "Incubation (eggs): average 88 days at 31-32 C; clutch 15-80 eggs."}
+    }
+  },
+  {
+    "id": "king_cobra",
+    "name_ru": "Королевская кобра",
+    "name_en": "King cobra",
+    "latin": "Ophiophagus hannah",
+    "emoji": "🐍",
+    "fun_fact": "Королевская кобра — единственная змея, которая строит гнездо из листьев для своих яиц и охраняет его.",
+    "hint": "Самая длинная ядовитая змея, которая поднимает переднюю часть тела и раздувает «капюшон», а питается в основном другими змеями.",
+    "metrics": {
+      "length_m": {"avg": 3.59, "max": 5.85, "estimated": false, "source": "https://en.wikipedia.org/wiki/King_cobra", "note": "Total length. Adults 3.18-4 m (midpoint 3.59); record 5.85 m (another specimen 5.59 m)."},
+      "weight_kg": {"avg": 6, "max": 10, "estimated": true, "source": "https://en.wikipedia.org/wiki/King_cobra", "note": "Wikipedia gives only maxima: males up to 10 kg, females 5 kg (Kerala). 6 kg is a rough between-sex figure, not a measured mean."},
+      "tooth_length_cm": {"avg": 0.9, "max": 1.0, "estimated": false, "source": "https://nationalzoo.si.edu/animals/king-cobra", "note": "Fangs 8-10 mm long (Smithsonian National Zoo); whole fang."},
+      "lifespan_years": {"avg": 20, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/King_cobra", "note": "About 20 years in the wild; captive males average 17.1 years (Animal Diversity Web)."},
+      "gestation_days": {"avg": 85.5, "max": 105, "estimated": false, "source": "https://en.wikipedia.org/wiki/King_cobra", "note": "Incubation (eggs) 66-105 days (midpoint 85.5); gravid period 50-59 days; clutch 7-43 eggs."},
+      "deaths_per_year": {"avg": 5, "max": 5, "estimated": true, "source": "https://nationalzoo.si.edu/animals/king-cobra", "note": "Smithsonian National Zoo: 'fewer than five human deaths a year' across its range; upper bound, not an exact statistic."}
+    }
+  },
+  {
+    "id": "goliath_frog",
+    "name_ru": "Лягушка-голиаф",
+    "name_en": "Goliath frog",
+    "latin": "Conraua goliath",
+    "emoji": "🐸",
+    "fun_fact": "Самая большая лягушка в мире совсем не умеет квакать — у неё нет голосового мешка, зато она строит гнёзда из камней для своих икринок.",
+    "hint": "Гигантская лягушка из быстрых рек Западной Африки, молчаливая и очень прыгучая.",
+    "metrics": {
+      "length_m": {"avg": 0.245, "max": 0.45, "estimated": true, "source": "https://en.wikipedia.org/wiki/Goliath_frog", "note": "Snout-vent length. Wikipedia: up to ~45 cm (longest verified 35.6 cm). Avg = midpoint of 17-32 cm range from Animal Diversity Web (https://animaldiversity.org/accounts/Conraua_goliath/). Can jump 1.2-3 m."},
+      "weight_kg": {"avg": 1.925, "max": 3.305, "estimated": false, "source": "https://en.wikipedia.org/wiki/Goliath_frog", "note": "Sample of 15 frogs weighed 600-3250 g (midpoint 1.925 kg); heaviest verified 3305 g; unverified claims up to 4.5 kg."},
+      "lifespan_years": {"avg": 15, "max": 21, "estimated": false, "source": "https://en.wikipedia.org/wiki/Goliath_frog", "note": "Up to 15 years in the wild, up to 21 years in captivity."}
+    }
+  },
+  {
+    "id": "giant_squid",
+    "name_ru": "Гигантский кальмар",
+    "name_en": "Giant squid",
+    "latin": "Architeuthis dux",
+    "emoji": "🦑",
+    "fun_fact": "У гигантского кальмара самые большие глаза среди всех животных — каждый размером с обеденную тарелку, чтобы видеть в тёмной глубине.",
+    "hint": "Загадочный обитатель океанских глубин с десятью длинными щупальцами, которого люди почти никогда не видят живым.",
+    "metrics": {
+      "length_m": {"avg": 12, "max": 13, "estimated": true, "source": "https://en.wikipedia.org/wiki/Giant_squid", "note": "Total length incl. tentacles (relaxed, post mortem): females max 12-13 m, males 10 m; body+head+arms rarely exceeds 5 m, mantle ~2 m. Claims of 20 m are not documented. 'avg' here is a maximum-type figure, typical animals are smaller."},
+      "weight_kg": {"avg": 212.5, "max": 275, "estimated": true, "source": "https://en.wikipedia.org/wiki/Giant_squid", "note": "Maximum estimated 275 kg (females) and 150 kg (males); avg = midpoint of the two maxima, no typical-weight figure available."},
+      "dive_depth_m": {"avg": 650, "max": 1000, "estimated": true, "source": "https://en.wikipedia.org/wiki/Giant_squid", "note": "Habitat depth range possibly 300-1000 m (midpoint 650), not a measured dive."},
+      "lifespan_years": {"avg": 3, "max": 14, "estimated": true, "source": "https://openpolar.no/Record/ftcsic:oai:digital.csic.es:10261%2F325198", "note": "Disputed: beak/statolith increments (Perales-Raya et al. 2020) suggest ~3 years; isotope study (Landman et al. 2004) allowed up to 14 years. No consensus."},
+      "bones_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Squid", "note": "Invertebrate: no bones; only a small internal chitinous 'gladius' (pen). Has three hearts."}
+    }
+  },
+  {
+    "id": "peacock_mantis_shrimp",
+    "name_ru": "Павлиний рак-богомол",
+    "name_en": "Peacock mantis shrimp",
+    "latin": "Odontodactylus scyllarus",
+    "emoji": "🦐",
+    "fun_fact": "Удар этого разноцветного рачка такой быстрый, что вода вокруг кулачка вскипает и вспыхивает крошечной искрой света.",
+    "hint": "Яркий радужный рачок с коралловых рифов, живёт в норке и бьёт добычу своими «кулачками».",
+    "metrics": {
+      "length_m": {"avg": 0.105, "max": 0.18, "estimated": false, "source": "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus", "note": "Body length 3-18 cm (midpoint 10.5 cm)."},
+      "weight_kg": {"avg": 0.051, "max": 0.09, "estimated": true, "source": "https://cousteau.org/species/peacock-mantis-shrimp", "note": "Up to 90 g (Cousteau Society); dimensions.com gives 12-90 g (midpoint 51 g). No primary source."},
+      "speed_kmh": {"avg": 83, "max": 110, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mantis_shrimp", "note": "STRIKE speed of the raptorial club, not swimming: O. scyllarus 23 m/s (83 km/h); fastest stomatopod strike recorded 30.6 m/s (110 km/h, Gonodactylus smithii). Acceleration >10,000 g."},
+      "bite_force_n": {"avg": 1500, "max": 1500, "estimated": false, "source": "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus", "note": "PUNCH (club strike) force, not a bite: ~1500 N instantaneous impact force."},
+      "lifespan_years": {"avg": 5, "max": 6, "estimated": false, "source": "https://animaldiversity.org/accounts/Odontodactylus_scyllarus/", "note": "4-6 years (Animal Diversity Web); Cousteau claims 6-10 wild and up to 20 in captivity (undocumented)."},
+      "dive_depth_m": {"avg": 21.5, "max": 40, "estimated": false, "source": "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus", "note": "Lives at 3-40 m depth (habitat range, midpoint 21.5)."},
+      "bones_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Exoskeleton", "note": "Crustacean: cuticle exoskeleton (carapace) instead of bones."}
+    }
+  },
+  {
+    "id": "cat_flea",
+    "name_ru": "Кошачья блоха",
+    "name_en": "Cat flea",
+    "latin": "Ctenocephalides felis",
+    "emoji": "🪲",
+    "fun_fact": "Блоха прыгает так далеко, что если бы человек прыгал так же относительно своего роста, он перелетал бы через футбольное поле.",
+    "hint": "Крошечное прыгучее насекомое без крыльев, которое живёт в шерсти кошек и собак.",
+    "metrics": {
+      "length_m": {"avg": 0.0015, "max": 0.002, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cat_flea", "note": "Adults 1-2 mm long (midpoint 1.5 mm). Jump: fleas leap up to 18 cm vertically and 33 cm horizontally (~60x and ~110x body length, https://en.wikipedia.org/wiki/Flea) - no running speed documented."},
+      "lifespan_years": {"avg": 0.21, "max": 2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cat_flea", "note": "Adult fleas typically live 2-3 months (midpoint ~0.21 yr, https://en.wikipedia.org/wiki/Flea); cat fleas 'may live up to two years' under ideal conditions (Animal Diversity Web: up to 3)."},
+      "bones_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Exoskeleton", "note": "Insect: hard chitinous exoskeleton (sclerite plates), no bones."}
+    }
+  },
+  {
+    "id": "goliath_birdeater",
+    "name_ru": "Птицеед-голиаф",
+    "name_en": "Goliath birdeater",
+    "latin": "Theraphosa blondi",
+    "emoji": "🕷️",
+    "fun_fact": "Самый тяжёлый паук в мире шипит, потирая волосатые лапки, и, несмотря на имя, птиц почти не ест — чаще ловит червей и лягушек.",
+    "hint": "Огромный мохнатый паук из дождевых лесов Южной Америки, который живёт в норе и выходит на охоту ночью.",
+    "metrics": {
+      "length_m": {"avg": 0.13, "max": 0.13, "estimated": true, "source": "https://en.wikipedia.org/wiki/Goliath_birdeater", "note": "Body length up to 13 cm; leg span up to 30 cm. Only maximum given, no mean."},
+      "weight_kg": {"avg": 0.175, "max": 0.175, "estimated": true, "source": "https://en.wikipedia.org/wiki/Goliath_birdeater", "note": "Heaviest spider: up to 175 g (also Guinness World Records). Only maximum given, no mean."},
+      "tooth_length_cm": {"avg": 3, "max": 4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Goliath_birdeater", "note": "Fangs (chelicerae) 2-4 cm long (midpoint 3); whole fang."},
+      "lifespan_years": {"avg": 20, "max": 25, "estimated": false, "source": "https://en.wikipedia.org/wiki/Goliath_birdeater", "note": "Females 15-25 years (midpoint 20); males only 3-6 years, dying soon after maturity."},
+      "gestation_days": {"avg": 49, "max": 56, "estimated": false, "source": "https://en.wikipedia.org/wiki/Goliath_birdeater", "note": "Incubation (egg sac): 100-200 eggs hatch within 6-8 weeks (42-56 days, midpoint 49)."},
+      "bones_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tarantula", "note": "Arachnid: 'relies on an exoskeleton for muscular support', molts it as it grows; no bones."}
+    }
+  }
+]

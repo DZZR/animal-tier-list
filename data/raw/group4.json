@@ -1,0 +1,97 @@
+[
+  {
+    "id": "spotted_hyena",
+    "name_ru": "Гиена",
+    "name_en": "Spotted hyena",
+    "latin": "Crocuta crocuta",
+    "emoji": "🐾",
+    "fun_fact": "В стае пятнистых гиен главные — самки, и они крупнее самцов.",
+    "hint": "Гиена разгрызает кости, с которыми не справится лев.",
+    "metrics": {
+      "bite_force_psi": {"avg": 1140, "max": null, "estimated": false, "unit": "psi", "source": "https://en.wikipedia.org/wiki/Spotted_hyena", "note": "Wikipedia: can exert a pressure of 80 kgf/cm2 (1140 lbf/in², i.e. psi). Same article also cites a measured individual bite of 4,500 N on instruments and a skull-based estimate of 565.7 N at the canine tip. Origin of the 1140 psi figure (measured vs estimated) not stated."},
+      "weight_kg": {"avg": 47.75, "max": 90, "estimated": false, "unit": "kg", "source": "https://en.wikipedia.org/wiki/Spotted_hyena", "note": "Adult males in the Serengeti weigh 40.5–55.0 kg (midpoint used); Zambian males average 67.6 kg. Females are heavier than males (44.5–63.9 kg). Max: 'exceptionally large weights of 81.7 kg and 90 kg are known' (wild)."},
+      "height_m": {"avg": 0.81, "max": 0.915, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Spotted_hyena", "note": "Shoulder height 70–91.5 cm (midpoint used)."},
+      "length_m": {"avg": 1.30, "max": 1.658, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Spotted_hyena", "note": "Head-and-body length of adults 95–165.8 cm (midpoint used), sexes combined."},
+      "speed_kmh": {"avg": 60, "max": null, "estimated": false, "unit": "km/h", "source": "https://en.wikipedia.org/wiki/Spotted_hyena", "note": "Running speed up to 60 km/h during prey chases. Oakland Zoo gives up to 31 mph (~50 km/h)."},
+      "lifespan_years": {"avg": 20, "max": 25, "estimated": false, "unit": "years", "source": "https://oaklandzoo.org/animals/spotted-hyena", "note": "Wild lifespan from Oakland Zoo ('Wild: 20 years'); Wikipedia gives no wild figure. Max 25 years in zoos per Wikipedia (https://en.wikipedia.org/wiki/Spotted_hyena, zoo average 12 years); Oakland Zoo states 35 years in protected care — spread >1.25x, Wikipedia value used."}
+    }
+  },
+  {
+    "id": "gray_wolf",
+    "name_ru": "Волк",
+    "name_en": "Gray wolf",
+    "latin": "Canis lupus",
+    "emoji": "🐺",
+    "fun_fact": "Волки воют, чтобы позвать свою стаю и сообщить соседям, что территория занята.",
+    "hint": "Волк — самый крупный из диких родственников собаки, но со зверями в броне ему не тягаться.",
+    "metrics": {
+      "weight_kg": {"avg": 40, "max": 79.4, "estimated": false, "unit": "kg", "source": "https://en.wikipedia.org/wiki/Wolf", "note": "Wikipedia mean body mass 40 kg (sexes combined; males typically 2.3–4.5 kg heavier than females). Regional means: Europe 38.5 kg, North America 36 kg. Smithsonian gives males 30–80 kg. Max 79.4 kg = largest recorded (wild)."},
+      "height_m": {"avg": 0.825, "max": 0.85, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Wolf", "note": "Shoulder height 80–85 cm (midpoint used). PBS gives 0.6–0.9 m."},
+      "length_m": {"avg": 1.325, "max": 1.60, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Wolf", "note": "Wikipedia: adults measure 105–160 cm in length (midpoint used; appears to be body length without tail, not explicitly labelled head-and-body). Smithsonian/PBS give total length incl. tail 130–205 cm."},
+      "speed_kmh": {"avg": 48, "max": null, "estimated": false, "unit": "km/h", "source": "https://www.pbs.org/wnet/nature/animal-guide-gray-wolf/476", "note": "PBS: 'can gallop over short distances at speeds of more than 30 miles per hour' (30 mph ≈ 48 km/h; this is a lower bound). Wikipedia text checked had no speed figure."},
+      "lifespan_years": {"avg": 7.5, "max": 20, "estimated": false, "unit": "years", "source": "https://nationalzoo.si.edu/animals/gray-wolf", "note": "Smithsonian National Zoo: 7–8 years in the wild (midpoint), up to 20 years in human care (max, captivity). PBS gives 10–18 years average in the wild — spread >1.5x; Wikipedia gives no figure, so the Smithsonian value is used."}
+    }
+  },
+  {
+    "id": "nile_crocodile",
+    "name_ru": "Нильский крокодил",
+    "name_en": "Nile crocodile",
+    "latin": "Crocodylus niloticus",
+    "emoji": "🐊",
+    "fun_fact": "Мама нильского крокодила бережно переносит только что вылупившихся малышей к воде прямо в пасти.",
+    "hint": "Нильский крокодил — один из самых сильных кусачих зверей Африки, его челюсти мощнее, чем у льва.",
+    "metrics": {
+      "bite_force_psi": {"avg": 5000, "max": null, "estimated": false, "unit": "lbf", "source": "https://en.wikipedia.org/wiki/Crocodile", "note": "UNIT IS POUNDS-FORCE, NOT PSI. Wikipedia: more than 5,000 lbf (22,000 N), measured in the field on a 5.5 m Nile crocodile by Brady Barr (National Geographic documentary). Nile crocodile article also states 22 kN (5,000 lbf) by Brady Barr. No PSI value found."},
+      "weight_kg": {"avg": 487.5, "max": 1066, "estimated": false, "unit": "kg", "source": "https://en.wikipedia.org/wiki/Nile_crocodile", "note": "Adult males 225–750 kg (midpoint used); another section gives 150–750 kg. Max: largest accurately measured male (shot near Mwanza, Tanzania, wild) weighed about 1,043–1,089 kg (midpoint used)."},
+      "length_m": {"avg": 4.0, "max": 6.45, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Nile_crocodile", "note": "Total length. Mean adult male estimated at 4 m (males generally 3.5–5 m). Max 6.45 m = largest accurately measured male (wild, Mwanza, Tanzania)."},
+      "speed_kmh": {"avg": 14, "max": null, "estimated": false, "unit": "km/h", "source": "https://en.wikipedia.org/wiki/Nile_crocodile", "note": "Running briefly up to 14 km/h on land. Swimming maximum known speed 30–35 km/h (same source)."},
+      "lifespan_years": {"avg": 65, "max": null, "estimated": true, "unit": "years", "source": "https://en.wikipedia.org/wiki/Crocodile", "note": "Crocodile article: larger crocodile species average 60–70 years (midpoint; general figure, not Nile-specific). Nile crocodile article gives a potential maximum of 70–100 years; claimed centenarian 'Henry' (Crocworld, South Africa) is unverified, so no max recorded."}
+    }
+  },
+  {
+    "id": "saltwater_crocodile",
+    "name_ru": "Гребнистый крокодил",
+    "name_en": "Saltwater crocodile",
+    "latin": "Crocodylus porosus",
+    "emoji": "🐊",
+    "fun_fact": "Гребнистый крокодил умеет плавать в открытом море и путешествовать между островами.",
+    "hint": "Это самая крупная рептилия на планете, а её укус — самый сильный из когда-либо измеренных.",
+    "metrics": {
+      "bite_force_psi": {"avg": 3690, "max": null, "estimated": false, "unit": "lbf", "source": "https://en.wikipedia.org/wiki/Saltwater_crocodile", "note": "UNIT IS POUNDS-FORCE, NOT PSI. Measured 16,414 N (3,690 lbf) on a 4.59 m, 531 kg individual in Erickson et al. 2012 (PLoS ONE, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031781) — highest bite force measured in any animal. National Geographic mislabels this as '3,700 psi'. Regression estimate for 1,308 kg / 6.7 m individuals: 6,189–7,739 lbf (estimated, not used)."},
+      "weight_kg": {"avg": 589, "max": 1300, "estimated": false, "unit": "kg", "source": "https://en.wikipedia.org/wiki/Saltwater_crocodile", "note": "Average adult male 408–770 kg (midpoint used); typical range 200–1,100 kg. Max: Cassius (captive, Australia) approx. 1,300 kg before death in Nov 2024; Lolong (captive, Philippines) weighed 1,075 kg. An 1840 report of 2,721 kg and a 2,000 kg Bhitarkanika claim are unverified."},
+      "length_m": {"avg": 4.25, "max": 6.17, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Saltwater_crocodile", "note": "Total length. Adult males 4.0–4.5 m (midpoint used), rarely exceeding 6.3 m. Max 6.17 m = Lolong (captured wild, measured in captivity). Guinness-accepted 7.01 m Bhitarkanika male is not verified; theoretical max 7 m."},
+      "lifespan_years": {"avg": 70, "max": null, "estimated": true, "unit": "years", "source": "https://en.wikipedia.org/wiki/Crocodile", "note": "Saltwater crocodiles average around 70 years (Crocodile article; Saltwater crocodile article: estimated life expectancy upwards of 70 years). Ages over 100 possible but none verified, so no max."}
+    }
+  },
+  {
+    "id": "american_alligator",
+    "name_ru": "Аллигатор",
+    "name_en": "American alligator",
+    "latin": "Alligator mississippiensis",
+    "emoji": "🐊",
+    "fun_fact": "Аллигатор умеет рычать так громко, что вода вокруг него начинает «танцевать» мелкими брызгами.",
+    "hint": "Аллигатор кусает очень сильно, но всё же уступает своим крокодильим родственникам по размеру.",
+    "metrics": {
+      "bite_force_psi": {"avg": 2961, "max": null, "estimated": false, "unit": "lbf", "source": "https://en.wikipedia.org/wiki/American_alligator", "note": "UNIT IS POUNDS-FORCE, NOT PSI. Measured in laboratory at up to 13,172 N (2,961 lbf) (Erickson et al. lab tests). Crocodile article cites an earlier lab record of 2,125 lbf (9,450 N) for a 3.9 m alligator and a comparison value of 2,200 lbf."},
+      "weight_kg": {"avg": null, "max": 458.8, "estimated": false, "unit": "kg", "source": "https://en.wikipedia.org/wiki/American_alligator", "note": "No average adult male mass found (Wikipedia: typical mature males up to 360 kg, large males up to 450 kg). Max 458.8 kg = verified Alabama male, SCI world record 2014 (wild). An unverified ~1,000 kg Louisiana male (1890) not used."},
+      "length_m": {"avg": 3.4, "max": null, "estimated": false, "unit": "m", "source": "https://nationalzoo.si.edu/animals/american-alligator", "note": "Total length. Smithsonian: average male 3.4 m (11.2 ft); Wikipedia: most grow up to about 3.4 m, expected maximum 4.6 m. Longest claim 5.84 m is unverified, so max left empty."},
+      "lifespan_years": {"avg": 50, "max": 84, "estimated": false, "unit": "years", "source": "https://en.wikipedia.org/wiki/Saturn_(alligator)", "note": "Smithsonian (https://nationalzoo.si.edu/animals/american-alligator): about 50 years in the wild; Wikipedia: typically 50, possibly over 70. Max: Saturn died in Moscow Zoo (captivity) aged 83 or 84 in 2020; Muja (Belgrade Zoo) may be older but his hatch year is uncertain."}
+    }
+  },
+  {
+    "id": "komodo_dragon",
+    "name_ru": "Комодский варан",
+    "name_en": "Komodo dragon",
+    "latin": "Varanus komodoensis",
+    "emoji": "🦎",
+    "fun_fact": "Комодский варан пробует воздух раздвоенным языком и так чует добычу издалека.",
+    "hint": "Это самая большая ящерица в мире, но челюсти у неё слабые — она берёт хваткой и рывком, а не силой укуса.",
+    "metrics": {
+      "bite_force_psi": {"avg": 33.4, "max": null, "estimated": false, "unit": "lbf", "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3197624", "note": "UNIT IS POUNDS-FORCE, NOT PSI. D'Amore, Moreno, McHenry & Wroe 2011 (PLoS ONE) measured captive Komodo dragons with force transducers: highest value 148.56 N (= 33.4 lbf, converted), from the heavier animals (heaviest in study 74.77 kg). Authors note bite force is low for its body mass; Komodos rely on pulling. No PSI figure found."},
+      "weight_kg": {"avg": 85, "max": 166, "estimated": false, "unit": "kg", "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "Average adult male 79–91 kg (midpoint; per Guinness via Wikipedia). Smithsonian says typically about 70 kg. Max 166 kg = captive specimen, including undigested food; heaviest wild 87.4 kg."},
+      "length_m": {"avg": 2.59, "max": 3.13, "estimated": false, "unit": "m", "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "Total length. Average adult male 2.59 m. Max 3.13 m (captive; reported as 3.1–3.13 m); largest wild specimen 3.04 m."},
+      "speed_kmh": {"avg": 20, "max": null, "estimated": false, "unit": "km/h", "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "Brief sprints up to 20 km/h. Smithsonian: 16–20 km/h briefly."},
+      "lifespan_years": {"avg": 30, "max": 62, "estimated": false, "unit": "years", "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "Wild: estimated to live up to 30 years (Smithsonian: about 30 years in the wild; still being studied). Max: oldest recorded living Komodo dragon was 62 years old (some estimates of wild lifespan also reach 62)."}
+    }
+  }
+]

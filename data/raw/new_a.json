@@ -1,0 +1,150 @@
+[
+  {
+    "id": "wolverine",
+    "name_ru": "Росомаха",
+    "name_en": "Wolverine",
+    "latin": "Gulo gulo",
+    "emoji": "",
+    "fun_fact": "Росомаха так сильна, что способна разгрызать замороженное мясо и кости, которые другим зверям не по зубам.",
+    "hint": "Лохматый одиночка северных лесов и тундры, похожий на маленького медведя, но на самом деле родственник куницы.",
+    "metrics": {
+      "weight_kg": {"avg": 14.5, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wolverine", "note": "Adult male 11-18 kg (female 8-12 kg); Eurasian animals claimed up to 20 kg; Soviet literature mentions 32 kg but Wikipedia calls it improbable."},
+      "height_m": {"avg": 0.405, "max": 0.45, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wolverine", "note": "Shoulder height 36-45 cm."},
+      "length_m": {"avg": 0.87, "max": 1.09, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wolverine", "note": "Head-and-body 65-109 cm; tail 17-26 cm extra."},
+      "speed_kmh": {"avg": 48, "max": 48, "estimated": true, "source": "https://animaldiversity.org/accounts/Gulo_gulo/", "note": "ADW: 'speeds of over 48 km an hour' in an attack burst; sustained gallop probably not over 15 km/h."},
+      "lifespan_years": {"avg": 9, "max": 17, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wolverine", "note": "Wild average 8-10 years; captivity 15-17 years. ADW gives wild typical 5-7, wild max 13, captive max 17."},
+      "gestation_days": {"avg": 40, "max": 272, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wolverine", "note": "Active gestation 30-50 days after delayed implantation; total from mating to birth 120-272 days (ADW)."},
+      "teeth_count": {"avg": 38, "max": 38, "estimated": false, "source": "https://wolverinefoundation.org/general-characteristics", "note": "Dental formula I 3/3, C 1/1, P 4/4, M 1/2 = 38; about 10% of individuals lack some teeth."}
+    }
+  },
+  {
+    "id": "honey_badger",
+    "name_ru": "Медоед",
+    "name_en": "Honey badger",
+    "latin": "Mellivora capensis",
+    "emoji": "🦡",
+    "fun_fact": "Медоед не боится ни пчёл, ни ядовитых змей: его толстая и свободная кожа защищает от укусов, а после змеиного яда он просто отсыпается.",
+    "hint": "Небольшой чёрно-серый зверёк из Африки и Азии с бесстрашным характером, который любит разорять пчелиные гнёзда.",
+    "metrics": {
+      "weight_kg": {"avg": 12.5, "max": 16, "estimated": false, "source": "https://en.wikipedia.org/wiki/Honey_badger", "note": "Adult male 9-16 kg; female 5-10 kg."},
+      "height_m": {"avg": 0.255, "max": 0.28, "estimated": false, "source": "https://en.wikipedia.org/wiki/Honey_badger", "note": "Shoulder height 23-28 cm."},
+      "length_m": {"avg": 0.66, "max": 0.77, "estimated": false, "source": "https://en.wikipedia.org/wiki/Honey_badger", "note": "Head-and-body 55-77 cm; tail 12-30 cm extra."},
+      "lifespan_years": {"avg": 7.5, "max": 26, "estimated": false, "source": "https://animaldiversity.org/accounts/Mellivora_capensis/", "note": "Wild typical 7-8 years; captivity 24-26 years (max 26). Wikipedia: wild unknown, captive ~24."},
+      "gestation_days": {"avg": 60, "max": 70, "estimated": false, "source": "https://en.wikipedia.org/wiki/Honey_badger", "note": "Gestation 50-70 days."},
+      "teeth_count": {"avg": 32, "max": 32, "estimated": false, "source": "https://en.wikipedia.org/wiki/Honey_badger", "note": "Dental formula 3.1.3.1 / 3.1.3.1 = 32; teeth often irregular, some absent."}
+    }
+  },
+  {
+    "id": "red_kangaroo",
+    "name_ru": "Рыжий кенгуру",
+    "name_en": "Red kangaroo",
+    "latin": "Osphranter rufus",
+    "emoji": "🦘",
+    "fun_fact": "Рыжий кенгуру — самое крупное сумчатое на Земле, а его детёныш при рождении размером с фасолину и сам заползает в сумку мамы.",
+    "hint": "Прыгучий житель австралийских равнин с мощным хвостом-опорой, который носит малыша в сумке на животе.",
+    "metrics": {
+      "weight_kg": {"avg": 72.5, "max": 91, "estimated": false, "source": "https://en.wikipedia.org/wiki/Red_kangaroo", "note": "Adult male 55-90 kg (female 18-40 kg); largest confirmed 91 kg."},
+      "height_m": {"avg": 1.5, "max": 2.1, "estimated": false, "source": "https://en.wikipedia.org/wiki/Red_kangaroo", "note": "Standing height to top of head about 1.5 m; large males exceed 1.8 m; largest confirmed about 2.1 m."},
+      "length_m": {"avg": 1.45, "max": 1.6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Red_kangaroo", "note": "Head-and-body of males 1.3-1.6 m (females 0.85-1.05 m); tail about 1.2 m extra."},
+      "speed_kmh": {"avg": 60, "max": 70, "estimated": false, "source": "https://en.wikipedia.org/wiki/Red_kangaroo", "note": "Hopping; species page: top speed around 60 km/h; Kangaroo page: up to 70 km/h in short bursts, 40 km/h sustained for ~2 km; San Diego Zoo: bursts 50-65 km/h."},
+      "lifespan_years": {"avg": 6, "max": 22, "estimated": false, "source": "https://en.wikipedia.org/wiki/Kangaroo", "note": "Kangaroos average 6 years in the wild (Wikipedia, genus-level); ADW: recorded up to 22 years in the wild; San Diego Zoo: wild females sampled averaged 10.8 years."},
+      "gestation_days": {"avg": 33, "max": 33, "estimated": false, "source": "https://ielc.libguides.com/sdzg/factsheets/redkangaroo/reproduction", "note": "Gestation 33 days; joey then spends about 235 days in the pouch."},
+      "teeth_count": {"avg": 32, "max": 34, "estimated": false, "source": "https://animaldiversity.org/accounts/Macropodidae/", "note": "Macropodid dental formula 3/1, 1-0/0, 2/2, 4/4 = 32-34; molars move forward and are replaced through life."},
+      "deaths_per_year": {"avg": 0, "max": 1, "estimated": true, "source": "https://en.wikipedia.org/wiki/Kangaroo", "note": "Only two reliably documented human fatalities from kangaroo attacks in Australia (1936 and 2022), i.e. effectively 0 per year; not species-specific."}
+    }
+  },
+  {
+    "id": "koala",
+    "name_ru": "Коала",
+    "name_en": "Koala",
+    "latin": "Phascolarctos cinereus",
+    "emoji": "🐨",
+    "fun_fact": "У коалы на пальцах есть узоры-отпечатки, почти как у человека, а питается она листьями эвкалипта, ядовитыми для большинства животных.",
+    "hint": "Пушистый серый сумчатый с большим носом, который почти всю жизнь проводит на ветках эвкалипта в Австралии.",
+    "metrics": {
+      "weight_kg": {"avg": 9.5, "max": 15, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Adults 4-15 kg; males about 50% heavier than females; Victorian koalas about twice as heavy as Queensland ones."},
+      "length_m": {"avg": 0.725, "max": 0.9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Head-and-body 60-85 cm (lead) or 60-90 cm (body section); tail vestigial."},
+      "lifespan_years": {"avg": 15.5, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Wild 13-18 years; ADW reports lifespans over 20 years in captivity."},
+      "sleep_hours": {"avg": 20, "max": 22, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Sleeps about 20 hours a day; 'Sleep in animals' table gives 20-22 h."},
+      "heart_bpm": {"avg": 110, "max": null, "estimated": false, "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2757916", "note": "Field resting heart rate during daytime inactivity 105-114 bpm (means for 3 captive females, ECG study, 2009)."},
+      "gestation_days": {"avg": 34, "max": 35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Gestation 33-35 days; joey stays in pouch 6-7 months."},
+      "teeth_count": {"avg": 30, "max": 30, "estimated": false, "source": "https://animaldiversity.org/accounts/Phascolarctidae/", "note": "Dental formula 3/1, 1/0, 1/1, 4/4 = 30."}
+    }
+  },
+  {
+    "id": "three_toed_sloth",
+    "name_ru": "Трёхпалый ленивец",
+    "name_en": "Three-toed sloth",
+    "latin": "Bradypus variegatus",
+    "emoji": "🦥",
+    "fun_fact": "Ленивец может поворачивать голову почти назад, потому что у него больше шейных косточек, чем у жирафа, а в его шерсти живут мох и бабочки.",
+    "hint": "Медлительный обитатель тропических лесов Америки, который висит на ветках спиной вниз и спускается на землю очень редко.",
+    "metrics": {
+      "weight_kg": {"avg": 4.34, "max": 6.3, "estimated": false, "source": "https://animaldiversity.org/accounts/Bradypus_variegatus/", "note": "Adults 3.49-5.19 kg, average 4.34 kg (ADW); Wikipedia range 2.25-6.3 kg."},
+      "length_m": {"avg": 0.61, "max": 0.8, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown-throated_sloth", "note": "Total body length 42-80 cm (tail only 6-7 cm); ADW average 60 cm."},
+      "speed_kmh": {"avg": 0.24, "max": 2.16, "estimated": false, "source": "https://en.wikipedia.org/wiki/Three-toed_sloth", "note": "Average ground speed 0.24 km/h; 'Sloth' page: 3 m/min on ground, 4-4.5 m/min in trees, up to 1.6-2.16 km/h climbing when in danger, swims 13.5 m/min."},
+      "lifespan_years": {"avg": 35, "max": null, "estimated": true, "source": "https://animaldiversity.org/accounts/Bradypus_variegatus/", "note": "Wild lifespan typically 30-40 years (ADW and Wikipedia, the latter tagged citation needed); no documented maximum for this species."},
+      "sleep_hours": {"avg": 9.6, "max": 16, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_animals", "note": "Wild brown-throated sloths sleep 9.6 h/day (2008 field study); captive sloths reported near 16 h; species page says 15-18 h."},
+      "heart_bpm": {"avg": 81, "max": null, "estimated": false, "source": "https://www.scielo.br/j/bjmbr/a/xBFkcrvSXwjWGFLwLQZgGFR/?lang=en", "note": "Mean 81 +/- 18 bpm, ECG of 17 unanesthetized adult Bradypus variegatus (2005)."},
+      "gestation_days": {"avg": 183, "max": 243, "estimated": true, "source": "https://en.wikipedia.org/wiki/Brown-throated_sloth", "note": "Gestation 5-8 months, 'at least seven months'; Three-toed sloth page says around six months; midpoint 6 months used."},
+      "teeth_count": {"avg": 18, "max": 20, "estimated": false, "source": "https://animaldiversity.org/accounts/Bradypodidae/", "note": "Cheek teeth 5/4-5 = 18-20; no incisors or canines; teeth lack enamel."}
+    }
+  },
+  {
+    "id": "giant_panda",
+    "name_ru": "Большая панда",
+    "name_en": "Giant panda",
+    "latin": "Ailuropoda melanoleuca",
+    "emoji": "🐼",
+    "fun_fact": "Большая панда — настоящий медведь, но почти всё время жуёт бамбук и держит стебли с помощью особого «шестого пальца» на лапе.",
+    "hint": "Чёрно-белый медведь из горных лесов Китая, который целыми днями сидит и хрустит бамбуком.",
+    "metrics": {
+      "weight_kg": {"avg": 107.5, "max": 160, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_panda", "note": "Adults typically 100-115 kg; males up to 160 kg; females 70-125 kg."},
+      "height_m": {"avg": 0.75, "max": 0.9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_panda", "note": "Shoulder height 60-90 cm."},
+      "length_m": {"avg": 1.55, "max": 1.9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_panda", "note": "Body length 1.2-1.9 m including 10-15 cm tail."},
+      "bite_force_n": {"avg": 1298.9, "max": 1815.9, "estimated": true, "source": "https://en.wikipedia.org/wiki/Giant_panda", "note": "Skull-model estimate for a 117.5 kg panda: 1298.9 N at canines (BFQ 151.4), 1815.9 N at carnassials (BFQ 141.8)."},
+      "lifespan_years": {"avg": 17.5, "max": 38, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_panda", "note": "Oldest known panda 38 years (Jia Jia, captive). Wild typical 15-20 years (Smithsonian National Zoo); ADW gives wild 10-15; about 30 in captivity."},
+      "gestation_days": {"avg": 127.5, "max": 160, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_panda", "note": "95-160 days including delayed implantation; San Diego Zoo: average 140-150, range 84-273."}
+    }
+  },
+  {
+    "id": "moose",
+    "name_ru": "Лось",
+    "name_en": "Moose",
+    "latin": "Alces alces",
+    "emoji": "🫎",
+    "fun_fact": "Лось отлично плавает и даже ныряет за водными растениями, а самцы каждый год сбрасывают огромные рога и отращивают новые.",
+    "hint": "Самый крупный олень с широкими рогами-лопатами и длинными ногами, живущий в северных лесах и болотах.",
+    "metrics": {
+      "weight_kg": {"avg": 540, "max": 820, "estimated": false, "source": "https://en.wikipedia.org/wiki/Moose", "note": "Adult male 380-700 kg (female 200-490 kg); largest confirmed bull 820 kg (Yukon, 1897); unverified claims up to 1,180 kg."},
+      "height_m": {"avg": 1.75, "max": 2.33, "estimated": false, "source": "https://en.wikipedia.org/wiki/Moose", "note": "Shoulder height 1.4-2.1 m; largest confirmed bull 2.33 m."},
+      "length_m": {"avg": 2.75, "max": 3.1, "estimated": false, "source": "https://en.wikipedia.org/wiki/Moose", "note": "Head-and-body 2.4-3.1 m."},
+      "speed_kmh": {"avg": 56, "max": 56, "estimated": false, "source": "https://animaldiversity.org/accounts/Alces_alces/", "note": "Running max 56 km/h, sustained 9.6 km/h; swims about 9.5 km/h."},
+      "lifespan_years": {"avg": 20, "max": 22, "estimated": false, "source": "https://en.wikipedia.org/wiki/Moose", "note": "Wikipedia: average about 15-25 years; ADW: wild typical 8-15 years, record 22 years (sources differ >1.5x, Wikipedia used)."},
+      "gestation_days": {"avg": 231, "max": null, "estimated": false, "source": "https://animaldiversity.org/accounts/Alces_alces/", "note": "Average 231 days; Wikipedia says about eight months."},
+      "teeth_count": {"avg": 32, "max": 32, "estimated": false, "source": "https://animaldiversity.org/accounts/Alces_alces/", "note": "Dental formula I 0/3, C 0/1, P 3/3, M 3/3 = 32; no upper front teeth."},
+      "dive_depth_m": {"avg": 5.5, "max": 5.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Moose", "note": "Known to dive over 5.5 m to reach plants on lake bottoms."},
+      "heart_bpm": {"avg": 56, "max": 72, "estimated": false, "source": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2020.00107/full", "note": "Daily mean heart rate of wild female moose ranged 40.5 bpm (March) to 71.9 bpm (June), n=8 with implanted loggers; midpoint used."},
+      "deaths_per_year": {"avg": 12.5, "max": 15, "estimated": true, "source": "https://medicalxpress.com/news/2019-03-traffic-accidents-involving-moose-result.html", "note": "Vehicle collisions only; Sweden: about 4,500 moose collisions a year causing 10-15 human deaths; Maine 2003-2017: 26 deaths. No worldwide total exists."}
+    }
+  },
+  {
+    "id": "american_bison",
+    "name_ru": "Американский бизон",
+    "name_en": "American bison",
+    "latin": "Bison bison",
+    "emoji": "🦬",
+    "fun_fact": "Несмотря на огромный вес и горб, бизон может перепрыгнуть высокий забор и бежит быстрее любого человека.",
+    "hint": "Могучий горбатый бык прерий Северной Америки с густой тёмной гривой, когда-то бродивший по равнинам миллионными стадами.",
+    "metrics": {
+      "weight_kg": {"avg": 760, "max": 1270, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_bison", "note": "Male medians 730-792.5 kg (plains bison), female 450-497.6 kg; heaviest recorded wild bull 1,270 kg."},
+      "height_m": {"avg": 1.935, "max": 2.01, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_bison", "note": "Shoulder (withers) height 186-201 cm for plains and wood bison respectively."},
+      "length_m": {"avg": 3.5, "max": 3.8, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_bison", "note": "Head-and-body of males 3.5 m (females 2.85 m); San Diego Zoo and ADW give male range up to 3.8 m; tail 30-95 cm extra."},
+      "speed_kmh": {"avg": 67.5, "max": 70, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_bison", "note": "Running 65-70 km/h; San Diego Zoo: up to 60 km/h; ADW: up to 62 km/h."},
+      "lifespan_years": {"avg": 15, "max": 25, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_bison", "note": "Around 15 years in the wild, up to 25 in captivity; San Diego Zoo: wild about 20; ADW: wild 15-20, captivity up to 40."},
+      "gestation_days": {"avg": 285, "max": 285, "estimated": false, "source": "https://en.wikipedia.org/wiki/American_bison", "note": "Gestation 285 days."},
+      "teeth_count": {"avg": 32, "max": 32, "estimated": false, "source": "https://ielc.libguides.com/sdzg/factsheets/americanbison/characteristics", "note": "32 teeth: 12 molars, 12 premolars, 2 canines, 6 incisors; no upper incisors (same as cattle)."},
+      "deaths_per_year": {"avg": 0, "max": 1, "estimated": true, "source": "https://www.nps.gov/orgs/1778/bisoninjury.htm", "note": "Yellowstone 2000-2015: 25 people injured, no deaths; one bison-caused death in 1983 (Wikipedia). Worldwide figures unavailable."}
+    }
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "lion": {
+    "teeth_count": {"avg": 30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Felidae dental formula 3.1.3.1/3.1.2.1 = 30 teeth (Wikipedia Dentition, cat/lion/tiger row)."},
+    "tooth_length_cm": {"avg": 5.5, "max": 6, "estimated": false, "source": "https://kids.britannica.com/students/article/lion/275490", "note": "Upper canines 5–6 cm (2–2.5 in), Britannica Students; crown length. Forum/skull measurements of whole tooth incl. root reach 10–12 cm but are not from reliable sources."},
+    "sleep_hours": {"avg": 13.5, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table of average sleep in captivity: Lions 13.5 h/24 h. Lion article: inactive ~20 h/day (rest, not sleep)."},
+    "gestation_days": {"avg": 108, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "108 days in the gestation list; Lion article says around 110 days."}
+  },
+  "tiger": {
+    "teeth_count": {"avg": 30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tiger", "note": "Tiger article: 30 robust teeth; canines 6.4–7.6 cm, longest in cat family."},
+    "sleep_hours": {"avg": 15.8, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table (captivity): Tigers 15.8 h/24 h."},
+    "gestation_days": {"avg": 109, "max": 113, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "Range 105–113 days, midpoint 109; San Diego Zoo says about 103 days."}
+  },
+  "jaguar": {
+    "teeth_count": {"avg": 30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Felidae formula 3.1.3.1/3.1.2.1 = 30 teeth (all cats)."},
+    "gestation_days": {"avg": 101, "max": 111, "estimated": false, "source": "https://en.wikipedia.org/wiki/Jaguar", "note": "Gestation lasts 91 to 111 days (midpoint 101)."}
+  },
+  "leopard": {
+    "teeth_count": {"avg": 30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Felidae formula 3.1.3.1/3.1.2.1 = 30 teeth (all cats)."},
+    "sleep_hours": {"avg": 18, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table (captivity): Leopards 18 h/24 h."},
+    "gestation_days": {"avg": 93, "max": 105, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "Gestation list: 92–95 days (avg 93); Leopard article: 90–105 days."}
+  },
+  "cheetah": {
+    "teeth_count": {"avg": 30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cheetah", "note": "The cheetah has 30 teeth; dental formula 3.1.3.1/3.1.2.1; canines small and conical."},
+    "gestation_days": {"avg": 92, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "92 days; Cheetah article says nearly three months."}
+  },
+  "domestic_cat": {
+    "teeth_count": {"avg": 30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cat_anatomy", "note": "Adult: 30 permanent teeth (12 incisors, 4 canines, 10 premolars, 4 molars); kittens have 26 deciduous teeth."},
+    "heart_bpm": {"avg": 130, "max": 220, "estimated": false, "source": "https://www.merckvetmanual.com/multimedia/table/resting-heart-rates", "note": "Merck Veterinary Manual resting rate 120–140 bpm (midpoint 130); Wikipedia Cat anatomy text gives 150–180 at rest and 140–220 normal range depending on excitement."},
+    "sleep_hours": {"avg": 12.5, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table (captivity): Cats 12.5 h/24 h."},
+    "gestation_days": {"avg": 64, "max": 67, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "Range 58–67 days, average 64."}
+  },
+  "brown_bear": {
+    "teeth_count": {"avg": 42, "max": 42, "estimated": true, "source": "https://en.wikipedia.org/wiki/Bear", "note": "Computed from the general bear dental formula 3.1.2–4.2/3.1.2–4.3 (34–42 teeth); brown bears normally keep the full set of 42 premolars included. Total not stated on the page."},
+    "heart_bpm": {"avg": 55, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bear", "note": "Normal 55 bpm, slowing to as low as 9 bpm in hibernation (Wikipedia Bear). San Diego Zoo brown bear page: 70 → 10 bpm in winter sleep."},
+    "gestation_days": {"avg": 215, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "215 days (grizzly) including delayed implantation; actual embryo development ~8 weeks after implantation."}
+  },
+  "polar_bear": {
+    "teeth_count": {"avg": 38, "max": 42, "estimated": false, "source": "https://en.wikipedia.org/wiki/Polar_bear", "note": "34–42 teeth: 12 incisors, 4 canines, 8–16 premolars, 10 molars (midpoint 38)."},
+    "sleep_hours": {"avg": 8, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Polar_bear", "note": "Polar bears sleep close to eight hours a day on average; San Diego Zoo: resting up to 20 h/day."},
+    "gestation_days": {"avg": 241, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "241 days including delayed implantation (Polar bear article: 7–9 months; actual fetal development ~60 days)."}
+  },
+  "gorilla": {
+    "teeth_count": {"avg": 32, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gorilla", "note": "Dental formula 2.1.2.3/2.1.2.3 = 32 teeth, same as humans; male canines much larger."},
+    "sleep_hours": {"avg": 12, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gorilla", "note": "Gorillas sleep an average of 12 hours per day."},
+    "gestation_days": {"avg": 257, "max": 260, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "255–260 days (avg 257); Gorilla article: 8.5 months."}
+  },
+  "chimpanzee": {
+    "teeth_count": {"avg": 32, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Old World monkeys and apes: 2.1.2.3/2.1.2.3 = 32 teeth; Chimpanzee article gives the same per-quadrant formula."},
+    "heart_bpm": {"avg": 96, "max": null, "estimated": true, "source": "https://www.wrc.kyoto-u.ac.jp/en/publications/SatoshiHirata/Hirata2024-primates-heart-rate.html", "note": "Hirata et al. 2024 (Primates 65:217–222), awake captive chimpanzees without anesthesia: adult males 86.5, females 106.4 bpm; midpoint 96. Measured during training, so possibly above true resting rate."},
+    "sleep_hours": {"avg": 9.7, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table (captivity): Chimpanzees 9.7 h/24 h."},
+    "gestation_days": {"avg": 240, "max": 250, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "230–250 days (avg 240); Chimpanzee article: eight months; San Diego Zoo: 7.5 months."}
+  },
+  "orangutan": {
+    "teeth_count": {"avg": 32, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Old World monkeys and apes share the 2.1.2.3/2.1.2.3 formula = 32 teeth."},
+    "gestation_days": {"avg": 234, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "Bornean orangutan 234 days; Orangutan article: around nine months; San Diego Zoo: 8–10 months."}
+  },
+  "human": {
+    "teeth_count": {"avg": 32, "max": 32, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dentition", "note": "Formula 2.1.2.2–3/2.1.2.2–3: 28–32 teeth depending on whether third molars (wisdom teeth) are present; full set 32."},
+    "bones_count": {"avg": 206, "max": 270, "estimated": false, "source": "https://en.wikipedia.org/wiki/Human_skeleton", "note": "Around 206 bones in adulthood (excluding accessory bones); around 270 at birth, which fuse during growth."},
+    "sleep_hours": {"avg": 8, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table: Humans 8.0 h/24 h."},
+    "heart_bpm": {"avg": 75, "max": 100, "estimated": false, "source": "https://en.wikipedia.org/wiki/Heart_rate", "note": "Normal resting adult 60–100 bpm (AHA; midpoint 75); the article notes evidence for a 50–90 range; trained athletes 40–60."},
+    "gestation_days": {"avg": 270, "max": 275, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "259–275 days (avg 270)."},
+    "dive_depth_m": {"avg": 214, "max": 214, "estimated": false, "source": "https://en.wikipedia.org/wiki/Freediving", "note": "Freediving record: No-Limits 214 m, Herbert Nitsch, Santorini, 6 June 2012 (AIDA). Deepest self-propelled constant-weight dive: 136 m, Alexey Molchanov, 2023 (CMAS)."}
+  },
+  "african_bush_elephant": {
+    "teeth_count": {"avg": 26, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/African_bush_elephant", "note": "Dental formula 1.0.3.3/0.0.3.3 = 26 teeth incl. 2 tusks (upper incisors); six molars per quadrant develop in succession over life."},
+    "tooth_length_cm": {"avg": 195, "max": 351, "estimated": false, "source": "https://en.wikipedia.org/wiki/African_elephant", "note": "Tusks (whole tooth) typically 1.5–2.4 m (midpoint 195 cm), 23–45 kg; longest known African bush elephant tusk 3.51 m, 117 kg (Wikipedia African bush elephant). Britannica average ~2 m."},
+    "heart_bpm": {"avg": 28, "max": 35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant", "note": "About 28 bpm standing, rising to ~35 lying down; Merck Veterinary Manual: 25–35 bpm."},
+    "sleep_hours": {"avg": 3.5, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant", "note": "Elephants average 3–4 hours of sleep per day (midpoint 3.5); wild elephants were recorded sleeping only ~2 h/day (New Scientist citation on Sleep in non-human animals)."},
+    "gestation_days": {"avg": 670, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "670 days (~22 months); longest of any land mammal."},
+    "bones_count": {"avg": 338, "max": 351, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant", "note": "Skeleton of 326–351 bones (midpoint 338)."}
+  },
+  "hippo": {
+    "teeth_count": {"avg": 41, "max": 44, "estimated": true, "source": "https://en.wikipedia.org/wiki/Hippopotamidae", "note": "Computed from the family dental formula 2–3.1.4.3/1–3.1.4.3: 38–44 teeth (midpoint 41); incisor number varies within the species. Total not stated on the page."},
+    "gestation_days": {"avg": 237, "max": 250, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "225–250 days (avg 237); Hippopotamus article: eight months."}
+  },
+  "white_rhino": {
+    "gestation_days": {"avg": 467, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "467 days; White rhinoceros article: 16 months; San Diego Zoo: 15–16 months."}
+  },
+  "giraffe": {
+    "teeth_count": {"avg": 32, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Giraffidae", "note": "Computed from the ruminant formula 0.0.3.3/3.1.3.3 = 32 teeth; no upper front teeth (hard palate instead). Total not stated on the page."},
+    "heart_bpm": {"avg": 150, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giraffe", "note": "Heart rate about 150 bpm, relatively high for its size; heart weighs ~11 kg and is ~60 cm long."},
+    "sleep_hours": {"avg": 4.6, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giraffe", "note": "About 4.6 h/day, intermittent, mostly at night (captive studies); Sleep-in-animals table 4.5 h. San Diego Zoo claims only 5–30 min per day (wild, naps), >1.5x spread."},
+    "gestation_days": {"avg": 430, "max": 460, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "420–450 days (avg 430); Giraffe article: 400–460 days; San Diego Zoo: 14 months."}
+  },
+  "horse": {
+    "bones_count": {"avg": 205, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Horse", "note": "The horse skeleton averages 205 bones (also Equine anatomy article)."},
+    "teeth_count": {"avg": 36, "max": 44, "estimated": false, "source": "https://en.wikipedia.org/wiki/Horse", "note": "Adults have 36 teeth (12 incisors, 24 premolars/molars); stallions and geldings add 4 canine tushes = 40; either sex may have 1–4 small wolf teeth, up to 44."},
+    "heart_bpm": {"avg": 34, "max": 40, "estimated": false, "source": "https://www.merckvetmanual.com/multimedia/table/resting-heart-rates", "note": "Resting 28–40 bpm (midpoint 34), Merck Veterinary Manual."},
+    "sleep_hours": {"avg": 2, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sleep_in_non-human_animals", "note": "Comparative table (captivity): Horses 2 h/24 h; can sleep standing."},
+    "gestation_days": {"avg": 336, "max": 370, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_mammalian_gestation_durations", "note": "330–342 days (avg 336); Horse article: approximately 340 days, range 320–370."}
+  },
+  "ostrich": {
+    "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_ostrich", "note": "Lacking teeth; swallows pebbles to grind food in the gizzard."},
+    "gestation_days": {"avg": 40, "max": 46, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_ostrich", "note": "Incubation (bird), not gestation: 35–45 days (midpoint 40); San Diego Zoo: 42–46 days."}
+  },
+  "spotted_hyena": {
+    "teeth_count": {"avg": 34, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Hyena", "note": "Computed from the hyena dental formula 3.1.4.1/3.1.3.1 = 34 teeth; total not stated on the page. Canines short but thick and robust."},
+    "gestation_days": {"avg": 110, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Spotted_hyena", "note": "Average 110 days, though length varies greatly."}
+  }
+}

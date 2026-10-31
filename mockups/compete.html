@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Макет: соревновательный режим</title>
+<style>
+:root{--bg:#fff8e7;--ink:#2b2b2b;--card:#fff;--accent:#ff7a1a;--good:#38b000;--bad:#e5383b;--s:#ff4d4d;--a:#ff9f1c;--b:#ffd60a;--c:#8ac926;--d:#4cc9f0}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:#f0f0f0;color:var(--ink);padding:16px}
+h1{font-size:22px;margin:0 0 4px}
+.lead{color:#555;margin:0 0 16px}
+.variant{background:#fff;border-radius:16px;padding:16px;margin-bottom:24px;box-shadow:0 2px 8px #0001}
+.variant h2{margin:0 0 4px;font-size:19px}
+.variant .meta{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;color:#555;margin-bottom:12px}
+.variant .meta b{color:var(--ink)}
+.phones{display:flex;gap:14px;overflow-x:auto;padding-bottom:8px}
+.phone{flex:0 0 230px;height:430px;background:var(--bg);border:6px solid #222;border-radius:26px;padding:12px;font-size:12px;position:relative;overflow:hidden}
+.phone .cap{position:absolute;left:0;right:0;bottom:-28px;text-align:center;font-size:11px;color:#777}
+.phone-wrap{padding-bottom:30px;position:relative}
+.ttl{font-weight:800;font-size:14px;margin:4px 0 8px}
+.btn{display:block;background:var(--accent);color:#fff;border-radius:12px;padding:9px;text-align:center;font-weight:700;margin:6px 0}
+.btn.alt{background:#fff;color:var(--accent);border:2px solid var(--accent)}
+.inp{background:#fff;border:2px solid #ddd;border-radius:10px;padding:8px;margin:5px 0;color:#999}
+.tier{display:flex;height:34px;margin:3px 0;border-radius:8px;overflow:hidden;background:#fff}
+.tier .l{width:34px;display:flex;align-items:center;justify-content:center;font-weight:900;color:#fff}
+.tier .l small{font-size:7px;font-weight:600}
+.tier .d{flex:1;display:flex;gap:3px;align-items:center;padding:0 4px}
+.chip{width:26px;height:26px;border-radius:6px;background:#fde;display:flex;align-items:center;justify-content:center;font-size:15px}
+.chip.ok{outline:2px solid var(--good)}.chip.bad{outline:2px solid var(--bad)}
+.vs{display:flex;gap:6px;align-items:stretch}
+.vs .p{flex:1;background:#fff;border-radius:10px;padding:8px;text-align:center}
+.vs .p .pct{font-size:24px;font-weight:900}
+.vs .p.win{outline:3px solid var(--good)}
+.lb{background:#fff;border-radius:10px;padding:6px 8px;margin:4px 0;display:flex;justify-content:space-between;align-items:center}
+.lb .ic{font-size:16px;margin-right:6px}
+.lb .who{flex:1}
+.lb .who small{display:block;color:#777;font-size:10px}
+.lb .sc{font-weight:800}
+.badge{display:inline-block;background:#ffd60a;border-radius:8px;padding:1px 6px;font-size:10px;font-weight:700}
+.note{background:#fff3cd;border-left:4px solid var(--a);padding:8px 12px;border-radius:8px;font-size:14px;margin-top:10px}
+.tl{font-size:11px;color:#777;text-align:center;margin-top:6px}
+.link{background:#fff;border:1px dashed #999;border-radius:8px;padding:6px;font-family:monospace;font-size:10px;word-break:break-all}
+.reco{background:#e8f8e0;border-left:4px solid var(--good)}
+</style></head><body>
+<h1>Соревновательный режим — 3 варианта</h1>
+<p class="lead">Слева → справа: что видит игрок по шагам. Нижняя подпись под телефоном — что происходит.</p>
+
+<!-- ===== Вариант A ===== -->
+<div class="variant">
+  <h2>A. Дуэль на одном телефоне <span class="badge">рекомендую первым</span></h2>
+  <div class="meta"><span><b>Сервер:</b> не нужен</span><span><b>Регистрация:</b> просто имя</span><span><b>Работает:</b> как сейчас, двойной клик по index.html</span><span><b>Сделать:</b> один вечер</span></div>
+  <div class="phones">
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">⚔️ Дуэль</div>
+      <div class="inp">Игрок 1: Артём</div>
+      <div class="inp">Игрок 2: Маша</div>
+      <div class="ttl" style="margin-top:12px">Задание</div>
+      <div class="lb"><span class="ic">⚖️</span><span class="who">Кто тяжелее?</span></div>
+      <div class="lb"><span class="ic">💀</span><span class="who">Кто опаснее?</span></div>
+      <div class="btn">Начать дуэль</div>
+      <div class="cap">1. Два имени, одна категория. Имена запоминаются.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">Ход Артёма 🙈 Маша не смотрит</div>
+      <div class="tier"><div class="l" style="background:var(--s)">S<small>от 2000</small></div><div class="d"><div class="chip">🐘</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--a)">A<small>500–2000</small></div><div class="d"><div class="chip">🦛</div><div class="chip">🦒</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--b)">B<small>100–500</small></div><div class="d"></div></div>
+      <div class="tier"><div class="l" style="background:var(--c)">C<small>20–100</small></div><div class="d"><div class="chip">🧍</div><div class="chip">🐆</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--d)">D<small>до 20</small></div><div class="d"><div class="chip">🐱</div></div></div>
+      <div class="btn">Готово → передать телефон</div>
+      <div class="cap">2. Первый расставляет те же 8 животных. Тир B пустой — это нормально.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">Ход Маши</div>
+      <div class="tier"><div class="l" style="background:var(--s)">S<small>от 2000</small></div><div class="d"><div class="chip">🐘</div><div class="chip">🦛</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--a)">A<small>500–2000</small></div><div class="d"><div class="chip">🦒</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--b)">B<small>100–500</small></div><div class="d"><div class="chip">🐆</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--c)">C<small>20–100</small></div><div class="d"><div class="chip">🧍</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--d)">D<small>до 20</small></div><div class="d"><div class="chip">🐱</div></div></div>
+      <div class="btn">Проверить обоих</div>
+      <div class="cap">3. Второй — те же животные, те же пороги. Ответы первого скрыты.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">🏆 Победила Маша</div>
+      <div class="vs">
+        <div class="p"><div>Артём</div><div class="pct">75%</div>⭐⭐</div>
+        <div class="p win"><div>Маша</div><div class="pct">94%</div>⭐⭐⭐</div>
+      </div>
+      <div class="ttl" style="margin-top:10px">Где разошлись</div>
+      <div class="lb"><span class="ic">🦛</span><span class="who">Бегемот<small>Артём: A · Маша: S · верно: S</small></span></div>
+      <div class="lb"><span class="ic">🐆</span><span class="who">Леопард<small>Артём: C · Маша: B · верно: B</small></span></div>
+      <div class="btn alt">Реванш (новые животные)</div>
+      <div class="cap">4. Разбор только спорных карточек, потом общий экран с цифрами как сейчас.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">👑 Лидеры (этот телефон)</div>
+      <div class="lb"><span class="ic">⚖️</span><span class="who">Вес<small>лучший результат</small></span><span class="sc">Маша 94%</span></div>
+      <div class="lb"><span class="ic">🦷</span><span class="who">Клыки</span><span class="sc">Артём 88%</span></div>
+      <div class="lb"><span class="ic">💀</span><span class="who">Опасность</span><span class="sc">Артём 81%</span></div>
+      <div class="lb"><span class="ic">🏃</span><span class="who">Скорость</span><span class="sc">Маша 79%</span></div>
+      <div class="lb"><span class="ic">📣</span><span class="who">Громкость</span><span class="sc">—</span></div>
+      <div class="ttl" style="margin-top:10px">Счёт дуэлей: Маша 3 — 2 Артём</div>
+      <div class="cap">5. Лидер в каждой категории. Хранится в телефоне (localStorage), как сейчас лучший счёт.</div>
+    </div></div>
+  </div>
+  <div class="note reco">Плюс: ничего не ломается, не нужен интернет, нет паролей для детей. Минус: соперник должен быть рядом.</div>
+</div>
+
+<!-- ===== Вариант B ===== -->
+<div class="variant">
+  <h2>B. Вызов по ссылке</h2>
+  <div class="meta"><span><b>Сервер:</b> не нужен, но игру надо выложить в интернет (GitHub Pages, бесплатно)</span><span><b>Регистрация:</b> имя</span><span><b>Сделать:</b> 1–2 дня</span></div>
+  <div class="phones">
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">Твой результат: 88% ⭐⭐</div>
+      <div class="tier"><div class="l" style="background:var(--s)">S</div><div class="d"><div class="chip ok">🐘</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--a)">A</div><div class="d"><div class="chip ok">🦛</div><div class="chip bad">🦒</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--b)">B</div><div class="d"></div></div>
+      <div class="btn">📤 Вызвать друга</div>
+      <div class="btn alt">Ещё раз</div>
+      <div class="cap">1. Сыграл сам → кнопка «вызвать».</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">Отправь другу</div>
+      <div class="link">animals.example.io/#d=weight.8.k7f2q.Artem.88</div>
+      <div class="btn">Скопировать</div>
+      <div class="btn alt">Поделиться (WhatsApp, Telegram…)</div>
+      <div class="tl">В ссылке зашито: категория, те же животные, те же пороги, твой счёт. Сервер не нужен.</div>
+      <div class="cap">2. Ссылка — это и есть «вызов».</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">⚔️ Артём вызывает тебя!</div>
+      <div class="lb"><span class="ic">⚖️</span><span class="who">Кто тяжелее? · 8 животных<small>Артём набрал ?? — узнаешь после своей попытки</small></span></div>
+      <div class="inp">Твоё имя: Маша</div>
+      <div class="btn">Принять вызов</div>
+      <div class="cap">3. Друг открывает ссылку, играет тот же набор.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">🏆 Маша 94 — 88 Артём</div>
+      <div class="vs">
+        <div class="p"><div>Артём</div><div class="pct">88%</div></div>
+        <div class="p win"><div>Маша</div><div class="pct">94%</div></div>
+      </div>
+      <div class="btn">📤 Ответный вызов</div>
+      <div class="tl">Артём узнает результат, только когда Маша пришлёт ответную ссылку.</div>
+      <div class="cap">4. Сравнение. Пинг-понг ссылками.</div>
+    </div></div>
+  </div>
+  <div class="note">Плюс: соревнуемся на расстоянии без аккаунтов. Минус: общего рейтинга нет — лидеры только у каждого в телефоне; результат соперника приходит «ответной ссылкой».</div>
+</div>
+
+<!-- ===== Вариант C ===== -->
+<div class="variant">
+  <h2>C. Онлайн-лига с аккаунтами</h2>
+  <div class="meta"><span><b>Сервер:</b> нужен (Firebase/Supabase, бесплатный тариф)</span><span><b>Регистрация:</b> ник + PIN или вход через Google</span><span><b>Сделать:</b> 1–2 недели + поддержка</span></div>
+  <div class="phones">
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">Вход</div>
+      <div class="inp">Ник: Artem_Lion</div>
+      <div class="inp">PIN: ••••</div>
+      <div class="btn">Войти</div>
+      <div class="btn alt">Войти через Google</div>
+      <div class="tl">Ники детей надо модерировать (фильтр слов).</div>
+      <div class="cap">1. Аккаунт.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">⚔️ Найти соперника</div>
+      <div class="lb"><span class="ic">🎲</span><span class="who">Случайный онлайн<small>сейчас играют: 14</small></span></div>
+      <div class="lb"><span class="ic">👥</span><span class="who">Друг по нику</span></div>
+      <div class="lb"><span class="ic">📅</span><span class="who">Задание дня<small>все играют один набор, рейтинг до полуночи</small></span></div>
+      <div class="cap">2. Живая дуэль или «задание дня» (как Wordle).</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">⏱ 0:42 · Маша тоже расставляет…</div>
+      <div class="tier"><div class="l" style="background:var(--s)">S</div><div class="d"><div class="chip">🐘</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--a)">A</div><div class="d"><div class="chip">🦛</div></div></div>
+      <div class="tier"><div class="l" style="background:var(--b)">B</div><div class="d"></div></div>
+      <div class="tier"><div class="l" style="background:var(--c)">C</div><div class="d"><div class="chip">🧍</div></div></div>
+      <div class="tl">Соперник: 5 из 8 поставлено</div>
+      <div class="cap">3. Одновременно, с таймером и прогрессом соперника.</div>
+    </div></div>
+    <div class="phone-wrap"><div class="phone">
+      <div class="ttl">👑 Мировые лидеры</div>
+      <div class="lb"><span class="ic">⚖️</span><span class="who">Вес</span><span class="sc">Lena_K 98%</span></div>
+      <div class="lb"><span class="ic">🦷</span><span class="who">Клыки</span><span class="sc">Artem_Lion 96%</span></div>
+      <div class="lb"><span class="ic">💀</span><span class="who">Опасность</span><span class="sc">Zoo_Boy 95%</span></div>
+      <div class="ttl" style="margin-top:8px">Ты: 12-й из 340 · 🏆 Эксперт по клыкам</div>
+      <div class="cap">4. Общий рейтинг по каждой категории, звания.</div>
+    </div></div>
+  </div>
+  <div class="note">Плюс: настоящее соревнование и мировые лидеры. Минус: хостинг, база, пароли детей, защита от накрутки (ответы видны в data.js — нужен серверный подсчёт), поддержка. Имеет смысл, только если игру выкладываем публично.</div>
+</div>
+
+<div class="note reco"><b>Что предлагаю:</b> сделать A сейчас (отдельно — лидеры по категориям на экране старта), потом B, когда игра окажется в интернете. C — только если будет публичный запуск.</div>
+</body></html>

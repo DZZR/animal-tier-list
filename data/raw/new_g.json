@@ -1,0 +1,178 @@
+[
+  {
+    "id": "leatherback_sea_turtle",
+    "name_ru": "Кожистая черепаха",
+    "name_en": "Leatherback sea turtle",
+    "latin": "Dermochelys coriacea",
+    "emoji": "🐢",
+    "fun_fact": "У кожистой черепахи нет твёрдого панциря — её спина покрыта кожей, похожей на резину.",
+    "hint": "Самая крупная из морских черепах, переплывает океаны и питается в основном медузами.",
+    "metrics": {
+      "weight_kg": {"avg": 475, "max": 650, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "Adults 250-700 kg, midpoint; largest verified specimen 650 kg (Harlech turtle 916 kg is doubted)"},
+      "length_m": {"avg": 2.0, "max": 2.7, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "Total length 1.83-2.2 m, midpoint; up to 2.7 m"},
+      "speed_kmh": {"avg": 6, "max": 35.28, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "Swimming: typical 1.8-10.08 km/h; Guinness 1992 record 35.28 km/h"},
+      "lifespan_years": {"avg": 45, "max": 90, "estimated": true, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "Estimates range 30-50+ years; 2020 CSIRO genomic estimate 90.4 years; NOAA says 45-50+"},
+      "gestation_days": {"avg": 65, "max": 70, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "Incubation 60-70 days"},
+      "dive_depth_m": {"avg": 1280, "max": 1280, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "Deepest recorded dive 1,280 m; NOAA gives ~4,000 ft (1,220 m); ADW 1,230 m"},
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leatherback_sea_turtle", "note": "No teeth; sharp points on the beak and backward spines in the throat instead"}
+    }
+  },
+  {
+    "id": "manta_ray",
+    "name_ru": "Гигантский морской дьявол",
+    "name_en": "Giant oceanic manta ray",
+    "latin": "Mobula birostris",
+    "emoji": "",
+    "fun_fact": "Манта имеет самый большой мозг среди всех рыб и может узнавать себя в зеркале.",
+    "hint": "Огромный плоский скат с «крыльями», который парит в толще воды и фильтрует планктон.",
+    "metrics": {
+      "weight_kg": {"avg": 1350, "max": 3000, "estimated": true, "source": "https://en.wikipedia.org/wiki/Manta_ray", "note": "Mantas reach 1,350 kg (Manta ray page); Giant oceanic manta ray page claims weight around 3,000 kg for 7 m disc — sources differ >2x, 1,350 used as avg"},
+      "length_m": {"avg": 4.5, "max": 7, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray", "note": "Disc width (wingtip to wingtip): typical 4.5 m, up to 7 m across; some sources claim 9 m"},
+      "speed_kmh": {"avg": 10, "max": 24, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray", "note": "Swimming up to 24 km/h; cruising ~10 km/h during mating chase (Manta ray page)"},
+      "lifespan_years": {"avg": 40, "max": 50, "estimated": true, "source": "https://en.wikipedia.org/wiki/Manta_ray", "note": "May live as long as 50 years; typical not stated, avg is an estimate"},
+      "gestation_days": {"avg": 380, "max": 395, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray", "note": "Gestation thought to be 12-13 months; one recorded pregnancy 372 days"},
+      "dive_depth_m": {"avg": 1250, "max": 1250, "estimated": false, "source": "https://en.wikipedia.org/wiki/Manta_ray", "note": "Satellite-tagged M. birostris descended to at least 1,250 m"}
+    }
+  },
+  {
+    "id": "hammerhead_shark",
+    "name_ru": "Гигантская акула-молот",
+    "name_en": "Great hammerhead",
+    "latin": "Sphyrna mokarran",
+    "emoji": "🦈",
+    "fun_fact": "Широкая голова-молот работает как металлоискатель — ей акула находит скатов, спрятавшихся в песке.",
+    "hint": "Акула с плоской широкой головой, похожей на молоток, охотится на скатов у дна.",
+    "metrics": {
+      "weight_kg": {"avg": 230, "max": 580, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "Typical adults over 230 kg; heaviest known 580 kg female (Boca Grande 2006); max commonly cited 449.5 kg"},
+      "length_m": {"avg": 4.0, "max": 6.2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "Total length typical 3.5-4.6 m, midpoint; max 6.1-6.2 m"},
+      "lifespan_years": {"avg": 25, "max": 44, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "Typically 20-30 years; record female estimated 40-50; ADW gives oldest recorded 44"},
+      "gestation_days": {"avg": 335, "max": 365, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "Gestation 11 months; ADW range 7-12 months"},
+      "dive_depth_m": {"avg": 80, "max": 300, "estimated": true, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "Habitat depth to 80 m offshore (Wikipedia); ADW habitat range 1-300 m. Not a dive record"},
+      "teeth_count": {"avg": 70, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "Functional row: upper 17 per side + 2-3 symphysial, lower 16-17 per side + 1-3 symphysial = ~70 teeth; calculated from Wikipedia counts. ADW: over 30 rows in upper jaw"},
+      "deaths_per_year": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_hammerhead", "note": "ISAF: 34 bites by Sphyrna as of 2011 (17 unprovoked), none fatal"}
+    }
+  },
+  {
+    "id": "whale_shark",
+    "name_ru": "Китовая акула",
+    "name_en": "Whale shark",
+    "latin": "Rhincodon typus",
+    "emoji": "🦈",
+    "fun_fact": "Узор из пятен на спине китовой акулы уникален, как отпечаток пальца у человека.",
+    "hint": "Самая большая рыба на планете, мирно процеживает планктон огромной пастью.",
+    "metrics": {
+      "weight_kg": {"avg": 15000, "max": 15000, "estimated": true, "source": "https://en.wikipedia.org/wiki/Whale_shark", "note": "Karachi 2012 specimen around 15,000 kg; typical adult weight not given in Wikipedia; ADW lists high 30,844 kg (unverified)"},
+      "length_m": {"avg": 9, "max": 18.8, "estimated": true, "source": "https://en.wikipedia.org/wiki/Whale_shark", "note": "Total length; males mature at 8-9 m, most observed smaller than 18-20 m; largest reliably recorded 18.8 m; ADW average 7 m"},
+      "speed_kmh": {"avg": 2, "max": 3.9, "estimated": false, "source": "https://animaldiversity.org/accounts/Rhincodon_typus/", "note": "Swimming: cruises 0.05-1.0+ m/s; satellite tracking up to 3.9 km/h. Wikipedia only says slow-moving"},
+      "lifespan_years": {"avg": 105, "max": 130, "estimated": true, "source": "https://en.wikipedia.org/wiki/Whale_shark", "note": "Estimated 80-130 years, midpoint"},
+      "dive_depth_m": {"avg": 1928, "max": 1928, "estimated": false, "source": "https://en.wikipedia.org/wiki/Whale_shark", "note": "Deepest recorded dive 1,928 m"}
+    }
+  },
+  {
+    "id": "beluga_whale",
+    "name_ru": "Белуха",
+    "name_en": "Beluga whale",
+    "latin": "Delphinapterus leucas",
+    "emoji": "🐳",
+    "fun_fact": "Белуху прозвали «морской канарейкой» за свист, щебет и трели, которыми она болтает с сородичами.",
+    "hint": "Белоснежный кит северных морей с мягкой «шишкой» на лбу и очень гибкой шеей.",
+    "metrics": {
+      "weight_kg": {"avg": 1350, "max": 1900, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Males 1,100-1,600 kg, midpoint; occasionally up to 1,900 kg"},
+      "length_m": {"avg": 4.5, "max": 5.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Total length, males 3.5-5.5 m midpoint; females 3-4.1 m"},
+      "speed_kmh": {"avg": 6, "max": 22, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Swimming: typically 3-9 km/h; can sustain 22 km/h for up to 15 min"},
+      "lifespan_years": {"avg": 50, "max": 79, "estimated": true, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Estimated 70-80 years possible; oldest living 79; ADW wild 40-60+, midpoint used"},
+      "gestation_days": {"avg": 400, "max": 475, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Gestation 12-14.5 months (~400 days); captive data up to 475 days; NOAA ~15 months"},
+      "dive_depth_m": {"avg": 900, "max": 1000, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Wild record over 900 m; NOAA: dives to 1,000 m for up to 25 min; captive 400-647 m"},
+      "teeth_count": {"avg": 38, "max": 40, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Total 36-40 small blunt teeth, 8-10 per side per jaw"},
+      "heart_bpm": {"avg": 100, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Beluga_whale", "note": "Resting ~100 bpm, drops to 12-20 bpm during dives"}
+    }
+  },
+  {
+    "id": "humpback_whale",
+    "name_ru": "Горбатый кит",
+    "name_en": "Humpback whale",
+    "latin": "Megaptera novaeangliae",
+    "emoji": "🐋",
+    "fun_fact": "Самцы горбатых китов поют длинные песни, которые меняются из года в год, как модные хиты.",
+    "hint": "Большой кит с очень длинными плавниками, который выпрыгивает из воды и поёт часами.",
+    "metrics": {
+      "weight_kg": {"avg": 30000, "max": 40000, "estimated": true, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "Up to 40 metric tons (Wikipedia, NOAA); ADW average mass 30,000 kg"},
+      "length_m": {"avg": 14.5, "max": 17.4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "Total length adults 14-15 m midpoint; longest reliably 17.4 m male (18.6 m female record considered unlikely)"},
+      "speed_kmh": {"avg": 11.5, "max": 27, "estimated": false, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "Swimming: cruising 7.9-15.1 km/h midpoint; up to 27 km/h when threatened"},
+      "lifespan_years": {"avg": 50, "max": 95, "estimated": true, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "May live over 50 years; oldest recorded 95; NOAA says 80-90 years"},
+      "gestation_days": {"avg": 350, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "Gestation 11.5 months (~350 days); NOAA 11 months"},
+      "dive_depth_m": {"avg": 80, "max": 616, "estimated": false, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "Typical dives up to 80 m; occasionally as deep as 616 m"},
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Humpback_whale", "note": "No teeth in adults; 540-800 baleen plates (fetuses start with teeth)"}
+    }
+  },
+  {
+    "id": "leopard_seal",
+    "name_ru": "Морской леопард",
+    "name_en": "Leopard seal",
+    "latin": "Hydrurga leptonyx",
+    "emoji": "🦭",
+    "fun_fact": "Морской леопард часами поёт под водой, а в его пасти есть и острые зубы, и «сито» для процеживания криля.",
+    "hint": "Пятнистый антарктический тюлень с длинной змеиной шеей, охотник на пингвинов.",
+    "metrics": {
+      "weight_kg": {"avg": 400, "max": 600, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Adults 200-600 kg midpoint; females up to 50% larger (ADW: males ~300 kg, females to 500 kg)"},
+      "length_m": {"avg": 3.0, "max": 3.8, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Total length 2.4-3.5 m midpoint; ADW females up to 3.8 m"},
+      "lifespan_years": {"avg": 26, "max": 30, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Wild up to 26 years (Wikipedia); ADW: average 26, recorded up to 30"},
+      "gestation_days": {"avg": 274, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Average gestation 274 days"},
+      "dive_depth_m": {"avg": 80, "max": 80, "estimated": true, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Primarily shallow divers, capable of diving deeper than 80 m; no documented record depth"},
+      "tooth_length_cm": {"avg": 2.5, "max": 2.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Canine teeth up to 2.5 cm long (exposed crown)"},
+      "loudness_db": {"avg": 165, "max": 177, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "Male underwater calls 153-177 dB re 1 μPa at 1 m, midpoint", "underwater": true, "distance_m": 1},
+      "deaths_per_year": {"avg": 0, "max": 1, "estimated": true, "source": "https://en.wikipedia.org/wiki/Leopard_seal", "note": "One recorded human fatality ever (Kirsty Brown, 2003); annual rate effectively 0"}
+    }
+  },
+  {
+    "id": "southern_elephant_seal",
+    "name_ru": "Южный морской слон",
+    "name_en": "Southern elephant seal",
+    "latin": "Mirounga leonina",
+    "emoji": "🦭",
+    "fun_fact": "Самцы морских слонов раздувают нос-хобот и ревут так, что их слышно на всём пляже.",
+    "hint": "Самый тяжёлый тюлень в мире, самцы с хоботом месяцами ныряют в холодном океане.",
+    "metrics": {
+      "weight_kg": {"avg": 3350, "max": 4000, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_elephant_seal", "note": "Adult bulls 3,000-3,700 kg midpoint; exceptional males up to 4,000 kg (Elephant seal page); females much smaller"},
+      "length_m": {"avg": 5.2, "max": 6.0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_elephant_seal", "note": "Bulls 4.6-5.8 m including rear flippers, midpoint; exceptional up to 6 m"},
+      "speed_kmh": {"avg": 10, "max": 10, "estimated": true, "source": "https://en.wikipedia.org/wiki/Southern_elephant_seal", "note": "Only figure given: as fast as 10 km/h over short distances (on land); swimming speed not documented in sources opened"},
+      "lifespan_years": {"avg": 21, "max": 23, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant_seal", "note": "Average lifespan of southern elephant seal 21 years; ADW: males to 14, females to 20+; max not firmly documented"},
+      "gestation_days": {"avg": 335, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant_seal", "note": "Gestation 11 months incl. delayed implantation (~335 days); ADW/AnAge gives 220 days active gestation"},
+      "dive_depth_m": {"avg": 2388, "max": 2388, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_elephant_seal", "note": "Deepest recorded dive 2,388 m; dives can exceed 100 min"},
+      "sleep_hours": {"avg": 2, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant_seal", "note": "About two hours of sleep a day during the ~7 months at sea, in <20-min bouts while sinking"}
+    }
+  },
+  {
+    "id": "black_mamba",
+    "name_ru": "Чёрная мамба",
+    "name_en": "Black mamba",
+    "latin": "Dendroaspis polylepis",
+    "emoji": "🐍",
+    "fun_fact": "Чёрная мамба вовсе не чёрная — она серая или оливковая, а чёрной у неё только внутренность пасти.",
+    "hint": "Длинная быстрая африканская змея, которая приподнимает переднюю часть тела и раскрывает тёмную пасть.",
+    "metrics": {
+      "weight_kg": {"avg": 1.6, "max": 2.4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Reported body mass about 1.6 kg; study of 7 snakes averaged 1.03 kg, heaviest 2.4 kg"},
+      "length_m": {"avg": 2.5, "max": 4.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Total length 2-3 m midpoint; specimens of 4.3-4.5 m reported"},
+      "speed_kmh": {"avg": 16, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Ground speed up to 16 km/h over short distances; article elsewhere says cannot exceed 20 km/h (ADW: up to 20 km/h)"},
+      "lifespan_years": {"avg": 10, "max": 11, "estimated": true, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Recorded to live up to 11 years (captive), may live longer; ADW captive female average 10.1 years; wild typical unknown"},
+      "gestation_days": {"avg": 85, "max": 90, "estimated": false, "source": "https://animaldiversity.org/accounts/Dendroaspis_polylepis/", "note": "Egg incubation 80-90 days (2-3 months); clutch 6-17 eggs per Wikipedia"},
+      "tooth_length_cm": {"avg": 0.65, "max": 0.65, "estimated": false, "source": "https://en.wikipedia.org/wiki/Black_mamba", "note": "Fangs up to 6.5 mm long (whole fang)"}
+    }
+  },
+  {
+    "id": "gila_monster",
+    "name_ru": "Ядозуб (жилатье)",
+    "name_en": "Gila monster",
+    "latin": "Heloderma suspectum",
+    "emoji": "🦎",
+    "fun_fact": "Ядозуб запасает жир в толстом хвосте и почти всю жизнь проводит под землёй, выходя наружу лишь иногда.",
+    "hint": "Крупная медлительная пустынная ящерица Северной Америки с бугристой чёрно-оранжевой кожей.",
+    "metrics": {
+      "weight_kg": {"avg": 0.675, "max": 1.4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gila_monster", "note": "Typical body mass 550-800 g midpoint; San Diego Zoo gives 0.7-1.4 kg; Nat Geo 4 lb (1.8 kg) popular claim"},
+      "length_m": {"avg": 0.45, "max": 0.56, "estimated": true, "source": "https://en.wikipedia.org/wiki/Gila_monster", "note": "Total length; largest specimens 51-56 cm; snout-vent 26-36 cm; typical total ~45 cm estimated"},
+      "lifespan_years": {"avg": 20, "max": 30, "estimated": false, "source": "https://animals.sandiegozoo.org/animals/gila-monster", "note": "Up to 20 years in native range, over 30 years in captivity (Nat Geo: up to 40 captive); Wikipedia gives no lifespan"},
+      "gestation_days": {"avg": 150, "max": 300, "estimated": true, "source": "https://en.wikipedia.org/wiki/Gila_monster", "note": "Incubation: eggs laid late May-June, hatch late October (~5 months, implied by Wikipedia). San Diego Zoo: 4 months; ADW: ~10 months incl. overwintering — sources differ >2x"},
+      "deaths_per_year": {"avg": 0, "max": 1, "estimated": true, "source": "https://en.wikipedia.org/wiki/Gila_monster", "note": "One confirmed fatality since 1930 (Colorado, Feb 2024); annual rate effectively 0"}
+    }
+  }
+]

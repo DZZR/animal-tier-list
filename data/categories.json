@@ -1,0 +1,151 @@
+[
+  {
+    "id": "deaths",
+    "metric": "deaths_per_year",
+    "title": "Самые опасные для человека",
+    "question": "От кого гибнет больше всего людей в год?",
+    "unit": "человек в год",
+    "compare_phrase": "в {x} раз опаснее акулы",
+    "ref_id": "great_white_shark",
+    "visual": "scale",
+    "note": "Сухие цифры ВОЗ и статистики. У человека считаются гибели от рук других людей.",
+    "icon": "☠️"
+  },
+  {
+    "id": "bite_force",
+    "metric": "bite_force_n",
+    "title": "Сила укуса",
+    "question": "Кто кусает сильнее всех?",
+    "unit": "Н",
+    "unit_alt": {
+      "name": "кг силы",
+      "factor": 0.102
+    },
+    "compare_phrase": "кусает в {x} раз сильнее человека",
+    "visual": "scale",
+    "icon": "🦷"
+  },
+  {
+    "id": "teeth",
+    "metric": "tooth_length_cm",
+    "title": "Длина клыков",
+    "question": "У кого самые длинные зубы?",
+    "unit": "см",
+    "compare_phrase": "клык в {x} раз длиннее человеческого",
+    "visual": "silhouettes",
+    "icon": "🦣"
+  },
+  {
+    "id": "loudness",
+    "metric": "loudness_db",
+    "title": "Громкость",
+    "question": "Кто кричит громче всех?",
+    "unit": "дБ",
+    "compare_phrase": "громче самого громкого человеческого крика",
+    "visual": "scale",
+    "note": "Децибелы — логарифмическая шкала: +10 дБ = в 10 раз больше энергии звука.",
+    "icon": "📢"
+  },
+  {
+    "id": "weight",
+    "metric": "weight_kg",
+    "title": "Вес",
+    "question": "Кто тяжелее всех?",
+    "unit": "кг",
+    "compare_phrase": "весит как {x} человек",
+    "visual": "balance",
+    "icon": "⚖️"
+  },
+  {
+    "id": "height",
+    "metric": "height_m",
+    "title": "Рост",
+    "question": "Кто выше всех?",
+    "unit": "м",
+    "compare_phrase": "в {x} раз выше человека",
+    "visual": "silhouettes",
+    "icon": "📏"
+  },
+  {
+    "id": "length",
+    "metric": "length_m",
+    "title": "Длина",
+    "question": "Кто длиннее всех?",
+    "unit": "м",
+    "compare_phrase": "в {x} раз длиннее человека",
+    "ref_metric": "height_m",
+    "visual": "silhouettes",
+    "icon": "🐍"
+  },
+  {
+    "id": "speed",
+    "metric": "speed_kmh",
+    "title": "Скорость",
+    "question": "Кто быстрее всех?",
+    "unit": "км/ч",
+    "compare_phrase": "в {x} раз быстрее бегуна",
+    "visual": "race",
+    "icon": "🏃"
+  },
+  {
+    "id": "teeth_count",
+    "metric": "teeth_count",
+    "title": "Сколько зубов",
+    "question": "У кого больше всего зубов?",
+    "unit": "зубов",
+    "compare_phrase": "в {x} раз больше зубов, чем у человека",
+    "visual": "scale",
+    "icon": "😁"
+  },
+  {
+    "id": "sleep",
+    "metric": "sleep_hours",
+    "title": "Сон",
+    "question": "Кто спит дольше всех?",
+    "unit": "ч в сутки",
+    "compare_phrase": "спит в {x} раз дольше человека",
+    "visual": "scale",
+    "icon": "😴"
+  },
+  {
+    "id": "heart",
+    "metric": "heart_bpm",
+    "title": "Сердце",
+    "question": "У кого сердце бьётся чаще всех?",
+    "unit": "ударов/мин",
+    "compare_phrase": "сердце бьётся в {x} раз чаще, чем у человека",
+    "visual": "scale",
+    "icon": "❤️"
+  },
+  {
+    "id": "gestation",
+    "metric": "gestation_days",
+    "title": "Беременность",
+    "question": "Кто дольше всех вынашивает детёнышей?",
+    "unit": "дней",
+    "compare_phrase": "в {x} раз дольше, чем у человека",
+    "visual": "scale",
+    "note": "У птиц и рептилий — срок, пока яйцо лежит в гнезде.",
+    "icon": "🥚"
+  },
+  {
+    "id": "dive",
+    "metric": "dive_depth_m",
+    "title": "Глубина ныряния",
+    "question": "Кто ныряет глубже всех?",
+    "unit": "м",
+    "compare_phrase": "в {x} раз глубже рекорда человека",
+    "visual": "scale",
+    "icon": "🤿"
+  },
+  {
+    "id": "lifespan",
+    "metric": "lifespan_years",
+    "title": "Продолжительность жизни",
+    "question": "Кто живёт дольше всех?",
+    "unit": "лет",
+    "compare_phrase": "живёт как {x} поколения людей",
+    "visual": "lifelines",
+    "icon": "⏳"
+  }
+]

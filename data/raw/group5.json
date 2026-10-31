@@ -1,0 +1,252 @@
+[
+  {
+    "id": "great_white_shark",
+    "name_ru": "Белая акула",
+    "name_en": "Great white shark",
+    "latin": "Carcharodon carcharias",
+    "emoji": "🦈",
+    "fun_fact": "Белая акула чувствует слабые электрические сигналы других животных особыми точками на морде.",
+    "hint": "Самая знаменитая хищная рыба океана: у неё огромные зубы, но по размеру она уступает китам.",
+    "metrics": {
+      "bite_force_psi": {
+        "avg": null,
+        "max": 4095,
+        "max_newtons": 18216,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Great_white_shark",
+        "note": "Computer model (2008 study, Wroe et al.), not measured. 4,095 lbf (18,216 N) is the back-of-jaw projection for a 6.4 m, 3,324 kg shark; front teeth 9,320 N (2,100 lbf). A 2.5 m juvenile: 1,602 N front / 3,131 N back. Figures are pound-force, popularly quoted as 'psi'."
+      },
+      "weight_kg": {
+        "avg": 1450,
+        "max": 2530,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Great_white_shark",
+        "note": "Females are larger: females 1,000–1,900 kg (midpoint used), males 680–1,000 kg. Max = heaviest reliably measured. NOAA gives 'up to 4,500 pounds' (~2,040 kg)."
+      },
+      "length_m": {
+        "avg": 4.75,
+        "max": 6.02,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Great_white_shark",
+        "note": "Avg = midpoint of female maturity length 4.6–4.9 m (males mature at 3.4–4.0 m). Max = longest reliably measured. NOAA: up to ~21 ft (6.4 m)."
+      },
+      "speed_kmh": {
+        "avg": 3.87,
+        "max": 24.12,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Great_white_shark",
+        "note": "Cruising 2.88–4.86 km/h (midpoint used); sprint 'up to 24.12 km/h'. Both described as estimates."
+      },
+      "lifespan_years": {
+        "avg": null,
+        "max": 70,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Great_white_shark",
+        "note": "'Estimated to reach over 70 years of age.' NOAA: maximum age estimates range from 30 to over 70 years. No typical wild lifespan found; males mature ~26 y, females ~33 y."
+      }
+    }
+  },
+  {
+    "id": "orca",
+    "name_ru": "Косатка",
+    "name_en": "Orca",
+    "latin": "Orcinus orca",
+    "emoji": "🐋",
+    "fun_fact": "Косатки живут дружными семьями, и у каждой семьи есть свой собственный «язык» из звуков.",
+    "hint": "Чёрно-белый морской охотник, который на самом деле самый большой из дельфинов.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 6000,
+        "max": 10000,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Orca",
+        "note": "Males 'in excess of 6 t' (used as avg); females about 3–4 t. Large males 'over 10 t'; large females over 7.5 t."
+      },
+      "length_m": {
+        "avg": 7,
+        "max": 10,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Orca",
+        "note": "Males typically 6–8 m (midpoint used); females 5–7 m. Males recorded at 10 m, females at 8.5 m."
+      },
+      "speed_kmh": {
+        "max": 56,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Orca",
+        "note": "'Speeds of up to 15.5 m/s (56 km/h)'."
+      },
+      "lifespan_years": {
+        "avg": 30,
+        "max": 80,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Orca",
+        "note": "Wild males ~29–30 years (max ~50–60); wild females average 50–80 years. Max = upper bound of biopsy age (65–80) of the female 'Granny'; some researchers estimated her at up to 105 years."
+      }
+    }
+  },
+  {
+    "id": "blue_whale",
+    "name_ru": "Синий кит",
+    "name_en": "Blue whale",
+    "latin": "Balaenoptera musculus",
+    "emoji": "🐳",
+    "fun_fact": "Синий кит питается крошечными рачками — крилем, процеживая морскую воду через пластины китового уса.",
+    "hint": "Самое большое животное, которое когда-либо жило на Земле, — больше любого динозавра.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 103500,
+        "max": 190000,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Blue_whale",
+        "note": "Females larger than males. Average adult 72–135 t (midpoint used). Max 'up to 190–200 t' (lower bound used)."
+      },
+      "length_m": {
+        "avg": 22.0,
+        "max": 29.9,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Blue_whale",
+        "note": "Avg = mean length of mature females, Eastern North Pacific population. Max = longest scientifically measured (29.9 m); a 33.6 m record exists but whales over 30.5 m are questioned."
+      },
+      "speed_kmh": {
+        "avg": 5,
+        "max": 27,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Blue_whale",
+        "note": "Typical 2–8 km/h (midpoint used). Max = 'racing mode' ~7.5 m/s (27 km/h). The same article also mentions bursts of 32–48 km/h near boats/predators (spread >1.5x vs. 27); the measured 27 km/h is used."
+      },
+      "lifespan_years": {
+        "avg": 85,
+        "max": 110,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Blue_whale",
+        "note": "'Live around 80–90 years or more' (midpoint used); oldest aged by earplug method: 110 years."
+      }
+    }
+  },
+  {
+    "id": "green_anaconda",
+    "name_ru": "Анаконда",
+    "name_en": "Green anaconda",
+    "latin": "Eunectes murinus",
+    "emoji": "🐍",
+    "fun_fact": "Анаконда прекрасно плавает и может долго прятаться под водой, выставив наружу только глаза и ноздри.",
+    "hint": "Самая тяжёлая змея в мире, которая любит жить в болотах и реках Южной Америки.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 55,
+        "max": 97.5,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Green_anaconda",
+        "note": "Typical adult 30–80 kg (midpoint used; 'less well studied'). Females are much larger than males. Max = heaviest verified wild specimen (female, Jesús Rivas)."
+      },
+      "length_m": {
+        "avg": 4.6,
+        "max": 6.27,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Green_anaconda",
+        "note": "Avg = mean length of mature females (males average ~3 m). Max = largest verified captive specimen; longest verified wild one 5.21 m; species reported up to 6.32 m."
+      },
+      "lifespan_years": {
+        "avg": 10,
+        "max": 37.9,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Green_anaconda",
+        "note": "'About ten years' in the wild; captivity 30+ years; Guinness record 37 years 317 days (captive)."
+      }
+    }
+  },
+  {
+    "id": "golden_eagle",
+    "name_ru": "Беркут",
+    "name_en": "Golden eagle",
+    "latin": "Aquila chrysaetos",
+    "emoji": "🦅",
+    "fun_fact": "У беркута такое острое зрение, что он замечает зайца с огромной высоты.",
+    "hint": "Лёгкий по весу, но в пикирующем полёте обгоняет почти всех животных на планете.",
+    "metrics": {
+      "strength_kg": {
+        "avg": 2.5,
+        "max": 5,
+        "estimated": true,
+        "source": "https://wildlife-damage-management.extension.org/?p=755",
+        "note": "Generic statement about large eagles (not golden-eagle-specific): cannot take off from flat ground with more than 5–6 lb (2–3 kg); flying into wind from hillsides sometimes carry about twice that. Page could not be opened (DNS error); figures taken from the search-result text. Low confidence."
+      },
+      "weight_kg": {
+        "avg": 5.1,
+        "max": 7.7,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Golden_eagle",
+        "note": "Females larger: females average ~5.1 kg, males ~3.6 kg. Max = heaviest wild bird on record; an unnaturally heavy falconry bird reached 12.1 kg."
+      },
+      "length_m": {
+        "avg": 0.84,
+        "max": 1.02,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Golden_eagle",
+        "note": "Body length 66–102 cm (midpoint used). Wingspan 1.8–2.34 m (not length)."
+      },
+      "speed_kmh": {
+        "avg": 48.5,
+        "max": 320,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Golden_eagle",
+        "note": "Avg = typical soaring 45–52 km/h (midpoint). Max = stoop dive 240–320 km/h (upper bound). Gliding up to 190 km/h."
+      },
+      "lifespan_years": {
+        "avg": 13,
+        "max": 32,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Golden_eagle",
+        "note": "Avg = life expectancy in Germany extrapolated from survival rates. Max = oldest wild bird (banded in Sweden, recovered 32 years later); North America record 31 y 8 m."
+      }
+    }
+  },
+  {
+    "id": "german_shepherd",
+    "name_ru": "Немецкая овчарка",
+    "name_en": "German Shepherd",
+    "latin": "Canis lupus familiaris",
+    "emoji": "🐕",
+    "fun_fact": "Немецкие овчарки работают поводырями, спасателями и полицейскими собаками, потому что очень умны и легко учатся.",
+    "hint": "Единственный домашний зверь в этой компании — верный друг человека.",
+    "metrics": {
+      "bite_force_psi": {
+        "avg": 238,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/German_Shepherd",
+        "note": "Measured on Nat Geo 'Dangerous Encounters' (Brady Barr): 'over 1,060 newtons (238 lbf)'. Pound-force, popularly quoted as psi."
+      },
+      "strength_kg": {
+        "max": 496,
+        "estimated": true,
+        "source": "https://amcv.org.au/Downloads/Results/2021WeightPullResults.pdf",
+        "note": "Weight-pull competition (load on a cart, dragged, not lifted): GSD 'Kaden', 43.4 kg, pulled 496 kg, AMCV event 25 April 2021. Single event result, not a breed record."
+      },
+      "weight_kg": {
+        "avg": 35,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/German_Shepherd",
+        "note": "Males 30–40 kg (midpoint used), females 22–32 kg (VDH standard). No documented heaviest individual found."
+      },
+      "height_m": {
+        "avg": 0.625,
+        "max": 0.65,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/German_Shepherd",
+        "note": "Shoulder height, breed standard: males 60–65 cm (midpoint used; max = standard upper limit, not a record), females 55–60 cm."
+      },
+      "speed_kmh": {
+        "max": 48,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/German_Shepherd",
+        "note": "'Sprint at speeds of up to 30 miles per hour (48 km/h)'."
+      },
+      "lifespan_years": {
+        "avg": 10,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/German_Shepherd",
+        "note": "'Overall lifespan is approximately 10 years.' AKC page did not show figures; no documented max found."
+      }
+    }
+  }
+]

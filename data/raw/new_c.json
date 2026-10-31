@@ -1,0 +1,146 @@
+[
+  {
+    "id": "bottlenose_dolphin",
+    "name_ru": "Афалина",
+    "name_en": "Bottlenose dolphin",
+    "latin": "Tursiops truncatus",
+    "emoji": "🐬",
+    "fun_fact": "У каждой афалины есть свой особый свист — как имя, по которому её узнают другие дельфины.",
+    "hint": "Это морское млекопитающее дышит воздухом, любит играть и ищет рыбу с помощью эха от щелчков.",
+    "metrics": {
+      "teeth_count": {"avg": 92, "max": 116, "estimated": true, "source": "https://en.wikipedia.org/wiki/Bottlenose_dolphin", "note": "18-28 conical teeth on each side of each jaw = 72-112 total (midpoint 92); Wikipedia 'Dolphin' page gives 72-116"},
+      "loudness_db": {"avg": 228, "max": 228, "estimated": false, "source": "https://cormorant.comp.uvic.ca/archives/list/marmam@devlists.uvic.ca/message/NZCXWJVQBVFTDI6CAVQBWSCYTU6TOHBM/attachment/2/attachment.html", "note": "Echolocation click source level 177-228 dB re 1 uPa peak-to-peak at 1 m, wild T. truncatus/T. aduncus (Wahlberg et al. 2011, JASA); max given", "distance_m": 1, "underwater": true},
+      "weight_kg": {"avg": 300, "max": 650, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bottlenose_dolphin", "note": "Average 300 kg, range 150-650 kg; adults of both sexes"},
+      "length_m": {"avg": 3.0, "max": 4.0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin", "note": "Total length; typical adults 2.5-3.5 m (midpoint), overall range 2-4 m"},
+      "speed_kmh": {"avg": 32, "max": 35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bottlenose_dolphin", "note": "Burst swimming 29-35 km/h (midpoint as avg); routine 5-11 km/h"},
+      "lifespan_years": {"avg": 40, "max": 60, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin", "note": "Wild: at least 40, up to 60 years; captivity up to 51"},
+      "sleep_hours": {"avg": 8, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bottlenose_dolphin", "note": "Daily sleeping cycle about 8 hours (unihemispheric sleep); SeaWorld: ~33% of the day"},
+      "heart_bpm": {"avg": 105, "max": null, "estimated": false, "source": "https://sicb.org/?p=27148", "note": "Resting at surface 105+/-8 bpm; resting submerged ~40 bpm (Noren & Williams, SICB abstract)"},
+      "gestation_days": {"avg": 365, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin", "note": "Gestation 12 months"},
+      "dive_depth_m": {"avg": 1000, "max": 1000, "estimated": false, "source": "https://www.argos-system.org/how-deep-bottlenose-dolphins-dive/", "note": "Deepest recorded ~1000 m, tagged offshore dolphins off Bermuda (Fahlman et al. 2023, Marine Mammal Science); SeaWorld: 390 m experimental, 492 m offshore female"}
+    }
+  },
+  {
+    "id": "sperm_whale",
+    "name_ru": "Кашалот",
+    "name_en": "Sperm whale",
+    "latin": "Physeter macrocephalus",
+    "emoji": "🐳",
+    "fun_fact": "У кашалота самый большой мозг из всех животных на Земле, а голова занимает треть его тела.",
+    "hint": "Этот гигант с огромной квадратной головой охотится на кальмаров в тёмной глубине и общается щелчками.",
+    "metrics": {
+      "tooth_length_cm": {"avg": 20, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Teeth up to 20 cm long and 8 cm across (whole tooth incl. root), up to 1 kg each; lower jaw only"},
+      "teeth_count": {"avg": 44, "max": 52, "estimated": true, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "18-26 teeth on each side of lower jaw = 36-52 (midpoint 44); upper teeth rudimentary, rarely erupt"},
+      "loudness_db": {"avg": 236, "max": 236, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Clicks with source level as loud as 236 dB re 1 uPa at 1 m - loudest animal sound", "distance_m": 1, "underwater": true},
+      "weight_kg": {"avg": 45000, "max": 57000, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Average male 45 t (female 15 t); 18 m male estimated 57 t; a 20.7 m whale estimated at 80 t"},
+      "length_m": {"avg": 16, "max": 20.7, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Total length; average male 16 m (female 11 m); largest reliably measured 20.7 m"},
+      "speed_kmh": {"avg": 30, "max": 35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Swimming 25-35 km/h (midpoint as avg)"},
+      "lifespan_years": {"avg": 70, "max": 80, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Can live 70 years or more; oldest recorded 77-80 years"},
+      "sleep_hours": {"avg": 1.7, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "2008 study: deep sleep about 7% of the time (= ~1.7 h/day, calculated), vertical drifting near surface"},
+      "gestation_days": {"avg": 457, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Gestation 14-16 months (midpoint 15 months)"},
+      "dive_depth_m": {"avg": 2250, "max": 2250, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Deepest recorded 2,250 m, dives up to 120 min; typical feeding dives 300-800 m"}
+    }
+  },
+  {
+    "id": "walrus",
+    "name_ru": "Морж",
+    "name_en": "Walrus",
+    "latin": "Odobenus rosmarus",
+    "emoji": "🦭",
+    "fun_fact": "Морж может спать прямо в воде: воздушный мешок в его горле работает как надувной спасательный круг.",
+    "hint": "Усатый толстяк с длинными бивнями живёт среди арктических льдов и собирает моллюсков со дна.",
+    "metrics": {
+      "tooth_length_cm": {"avg": 100, "max": 100, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Tusks (upper canines) can reach 1 m and weigh up to 5.4 kg; whole tusk incl. root"},
+      "teeth_count": {"avg": 18, "max": 38, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Typical dentition 18 teeth; maximum 38 (many are vestigial)"},
+      "weight_kg": {"avg": 900, "max": 2000, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Atlantic males average 900 kg (females 560 kg; Pacific females 800 kg); outsized Pacific males up to 2,000 kg, 1,883 kg measured in a 2015 study"},
+      "length_m": {"avg": 2.85, "max": 3.95, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Body length 2.2-3.5 m (midpoint); 3.95 m among most reliably measured"},
+      "speed_kmh": {"avg": 35, "max": 35, "estimated": false, "source": "https://seaworld.org/animals/all-about/walrus/adaptations/", "note": "Short bursts up to 35 km/h; normal swimming about 7 km/h"},
+      "lifespan_years": {"avg": 25, "max": 49, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "20-30 years in the wild (midpoint); max 49 years, captive walrus Slowpoke at SeaWorld Orlando"},
+      "sleep_hours": {"avg": 4.1, "max": null, "estimated": true, "source": "https://teams.semel.ucla.edu/sleep-research/publication/behavioral-sleep-walrus", "note": "Behavioral sleep 17+/-4% of 24 h in four captive walruses (= ~4.1 h, calculated; Pryaslova et al. 2009); ranged 0-60% of the day"},
+      "gestation_days": {"avg": 472, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Gestation 15-16 months incl. delayed implantation (midpoint 15.5 months)"},
+      "dive_depth_m": {"avg": 500, "max": 500, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Dives exceeding 500 m recorded in Smith Sound; typical 31+/-17 m (Svalbard); SeaWorld: usually no deeper than 80 m"}
+    }
+  },
+  {
+    "id": "emperor_penguin",
+    "name_ru": "Императорский пингвин",
+    "name_en": "Emperor penguin",
+    "latin": "Aptenodytes forsteri",
+    "emoji": "🐧",
+    "fun_fact": "Папа-пингвин всю антарктическую зиму держит яйцо на лапах под тёплой складкой кожи и ничего не ест.",
+    "hint": "Самая крупная нелетающая птица Антарктиды ходит вразвалку по льду и ныряет за рыбой в ледяную воду.",
+    "metrics": {
+      "weight_kg": {"avg": 34, "max": 45.4, "estimated": true, "source": "https://en.wikipedia.org/wiki/Emperor_penguin", "note": "Range 22.7-45.4 kg (midpoint as avg); weight varies strongly with breeding season; males heavier than females"},
+      "height_m": {"avg": 0.9, "max": 1.08, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_penguin", "note": "Standing height 83-97 cm (Friedman 1945; midpoint); max measured 1.08 m (Prevost 1961); body length 110-120 cm"},
+      "speed_kmh": {"avg": 14.4, "max": 14.4, "estimated": false, "source": "https://seaworld.org/animals/all-about/penguin/adaptations/", "note": "Observed swimming 14.4 km/h; normally not exceeding 10.8 km/h; Wikipedia: average 6-9 km/h"},
+      "lifespan_years": {"avg": 20, "max": 50, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_penguin", "note": "Typically 20 years in the wild (life expectancy 19.9); some may live to about 50"},
+      "heart_bpm": {"avg": 72, "max": 256, "estimated": false, "source": "https://seaworld.org/animals/all-about/penguin/adaptations/", "note": "Resting averages about 72 bpm; slowed to 3-6 bpm during an 18-min dive; max 256 bpm at surface after deep dives"},
+      "gestation_days": {"avg": 70, "max": 75, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_penguin", "note": "Incubation around 65-75 days (midpoint), by the male"},
+      "dive_depth_m": {"avg": 564, "max": 564, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_penguin", "note": "Deepest recorded 564 m (Auster rookery, 1994), dive lasted 21.8 min; feeding dives often ~50 m"}
+    }
+  },
+  {
+    "id": "peregrine_falcon",
+    "name_ru": "Сапсан",
+    "name_en": "Peregrine falcon",
+    "latin": "Falco peregrinus",
+    "emoji": "🦅",
+    "fun_fact": "Сапсан — самое быстрое животное планеты: он складывает крылья и падает на добычу камнем с небес.",
+    "hint": "Эта хищная птица гнездится на скалах и высоких зданиях и ловит голубей прямо в воздухе.",
+    "metrics": {
+      "weight_kg": {"avg": 0.665, "max": 1.5, "estimated": true, "source": "https://en.wikipedia.org/wiki/Peregrine_falcon", "note": "Males 330-1,000 g (midpoint as avg per brief); females larger, 700-1,500 g (max)"},
+      "length_m": {"avg": 0.46, "max": 0.58, "estimated": false, "source": "https://en.wikipedia.org/wiki/Peregrine_falcon", "note": "Body length 34-58 cm (midpoint); wingspan 74-120 cm"},
+      "speed_kmh": {"avg": 136, "max": 389, "estimated": false, "source": "https://en.wikipedia.org/wiki/List_of_birds_by_flight_speed", "note": "Level flight 112-160 km/h (midpoint as avg); dive (stoop) 389 km/h measured in 2005 (Ken Franklin, Nat Geo); radar-measured dives 184 km/h"},
+      "lifespan_years": {"avg": 13, "max": 19.75, "estimated": true, "source": "https://animaldiversity.org/accounts/Falco_peregrinus/", "note": "Birds surviving first year average ~13 years (Animal Diversity Web); banding averages 5-8 years incl. juvenile mortality; max wild 19 years 9 months (Wikipedia)"},
+      "gestation_days": {"avg": 31, "max": 33, "estimated": false, "source": "https://en.wikipedia.org/wiki/Peregrine_falcon", "note": "Incubation 29-33 days (midpoint)"}
+    }
+  },
+  {
+    "id": "bee_hummingbird",
+    "name_ru": "Колибри-пчёлка",
+    "name_en": "Bee hummingbird",
+    "latin": "Mellisuga helenae",
+    "emoji": "🐦",
+    "fun_fact": "Самая маленькая птица в мире весит меньше монетки и умеет летать задом наперёд и зависать в воздухе.",
+    "hint": "Крошечная птичка с Кубы жужжит крыльями как пчела и пьёт нектар из цветов, не садясь на них.",
+    "metrics": {
+      "weight_kg": {"avg": 0.00195, "max": 0.0026, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bee_hummingbird", "note": "Male average 1.95 g; females heavier at 2.6 g (max); smallest bird in the world"},
+      "length_m": {"avg": 0.055, "max": 0.061, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bee_hummingbird", "note": "Total length: male 5.5 cm, female 6.1 cm"},
+      "speed_kmh": {"avg": 44, "max": 48, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bee_hummingbird", "note": "Flies at 40-48 km/h (midpoint); wings beat 80-200 times per second"},
+      "lifespan_years": {"avg": 7, "max": 10, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bee_hummingbird", "note": "Up to 7 years in the wild, 10 years in captivity"},
+      "heart_bpm": {"avg": 1000, "max": 1260, "estimated": true, "source": "https://en.wikipedia.org/wiki/Hummingbird", "note": "Family-level figures, not bee hummingbird specifically: daytime rate higher than 1,000 bpm, max 1,260 bpm (blue-throated hummingbird); torpor 50-180 bpm"},
+      "gestation_days": {"avg": 21, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bee_hummingbird", "note": "Incubation 21 days, female only"}
+    }
+  },
+  {
+    "id": "domestic_chicken",
+    "name_ru": "Домашняя курица",
+    "name_en": "Domestic chicken",
+    "latin": "Gallus gallus domesticus",
+    "emoji": "🐔",
+    "fun_fact": "Кур на Земле больше, чем всех остальных птиц вместе взятых, а их предки — дикие лесные петухи из Азии.",
+    "hint": "Эта птица живёт на фермах и во дворах, несёт яйца, роет землю лапами и кричит на рассвете.",
+    "metrics": {
+      "weight_kg": {"avg": 2.9, "max": 10, "estimated": true, "source": "https://en.wikipedia.org/wiki/Leghorn_chicken", "note": "Varies by breed: Leghorn cocks 2.4-3.4 kg (midpoint as avg), hens 2.0-2.5 kg; Jersey Giant cocks 5.9 kg; heaviest recorded rooster Weirdo (White Sully) 10 kg in 1973 per Guinness https://www.guinnessworldrecords.com/world-records/70789-heaviest-breed-of-chicken"},
+      "lifespan_years": {"avg": 7.5, "max": 16, "estimated": false, "source": "https://en.wikipedia.org/wiki/Chicken", "note": "Typical 5-10 years depending on breed (midpoint); oldest known 16 years"},
+      "heart_bpm": {"avg": 275, "max": 300, "estimated": false, "source": "https://merckvetmanual.com/multimedia/table/resting-heart-rates", "note": "Resting adult chicken 250-300 bpm (midpoint); chick 350-450 bpm"},
+      "gestation_days": {"avg": 21, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Chicken", "note": "Incubation about 21 days"}
+    }
+  },
+  {
+    "id": "giant_pacific_octopus",
+    "name_ru": "Гигантский осьминог",
+    "name_en": "Giant Pacific octopus",
+    "latin": "Enteroctopus dofleini",
+    "emoji": "🐙",
+    "fun_fact": "У гигантского осьминога три сердца и голубая кровь, а цвет кожи он меняет быстрее, чем ты моргаешь.",
+    "hint": "Восьмирукий мастер маскировки живёт в холодных морях, прячется в норах и открывает банки с крышками.",
+    "metrics": {
+      "weight_kg": {"avg": 15, "max": 71, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_Pacific_octopus", "note": "Adults usually about 15 kg; largest live-weighed specimen 71 kg (Guinness https://www.guinnessworldrecords.com/world-records/79291-largest-octopus); unverified claims up to 270 kg"},
+      "length_m": {"avg": 3.0, "max": 4.3, "estimated": true, "source": "https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus", "note": "Arm span: at least 2 m, often exceeds 4 m (Monterey Bay Aquarium); up to 4.3 m per Wikipedia (max); body (mantle) up to 60 cm"},
+      "lifespan_years": {"avg": 4, "max": 5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_Pacific_octopus", "note": "Typically 3-5 years (midpoint); longest-lived octopus species"},
+      "gestation_days": {"avg": 180, "max": null, "estimated": true, "source": "https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus", "note": "Egg incubation: mother guards eggs up to six months until hatching (longer in colder water); 18,000-74,000 eggs"},
+      "dive_depth_m": {"avg": 2000, "max": 2000, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_Pacific_octopus", "note": "Depth range from intertidal down to 2,000 m (habitat depth, not a dive record); Monterey Bay Aquarium: to 1,500 m and more"}
+    }
+  }
+]

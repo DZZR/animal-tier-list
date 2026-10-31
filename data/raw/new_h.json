@@ -1,0 +1,166 @@
+[
+  {
+    "id": "monarch_butterfly",
+    "name_ru": "Бабочка монарх",
+    "name_en": "Monarch butterfly",
+    "latin": "Danaus plexippus",
+    "emoji": "🦋",
+    "fun_fact": "Монархи каждую осень летят через всю Северную Америку в Мексику, хотя ни одна бабочка не делала этот путь раньше.",
+    "hint": "Оранжево-чёрная бабочка, чьи гусеницы едят только молочай.",
+    "metrics": {
+      "lifespan_years": {"avg": 0.067, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Monarch_butterfly", "note": "Adults typically live 2-5 weeks in breeding season (midpoint 3.5 weeks). Migratory generation lives ~8x longer (Wikipedia migration page), no exact max given."},
+      "speed_kmh": {"avg": 9, "max": 9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Monarch_butterfly", "note": "Flight speed of adults around 9 km/h (6 mph)."},
+      "length_m": {"avg": 0.096, "max": 0.102, "estimated": false, "source": "https://en.wikipedia.org/wiki/Monarch_butterfly", "note": "WINGSPAN 8.9-10.2 cm (adult); body length not given. Full-grown caterpillar 4.5 cm."},
+      "gestation_days": {"avg": 5.5, "max": 8, "estimated": false, "source": "https://en.wikipedia.org/wiki/Monarch_butterfly", "note": "Egg incubation: eggs take 3-8 days to hatch."}
+    }
+  },
+  {
+    "id": "dung_beetle",
+    "name_ru": "Жук-навозник (скарабей)",
+    "name_en": "Dung beetle (sacred scarab)",
+    "latin": "Scarabaeus sacer",
+    "emoji": "🪲",
+    "fun_fact": "Навозник катит шар навоза задними лапами и ориентируется по Млечному Пути.",
+    "hint": "Жук, который катает шары и был священным в Древнем Египте.",
+    "metrics": {
+      "length_m": {"avg": 0.0295, "max": 0.04, "estimated": false, "source": "https://en.wikipedia.org/wiki/Scarabaeus_sacer", "note": "Total body length of adults 1.9-4.0 cm (Scarabaeus sacer). Strength record: Onthophagus taurus pulls 1,141x own body weight (https://en.wikipedia.org/wiki/Dung_beetle)."}
+    }
+  },
+  {
+    "id": "rhinoceros_beetle",
+    "name_ru": "Жук-геркулес",
+    "name_en": "Hercules beetle (rhinoceros beetle)",
+    "latin": "Dynastes hercules",
+    "emoji": "🪲",
+    "fun_fact": "Жук-геркулес носит на голове огромный рог, которым борется с соперниками, а личинкой живёт в гнилой древесине больше года.",
+    "hint": "Крупный тропический жук с длинным рогом, один из сильнейших насекомых.",
+    "metrics": {
+      "length_m": {"avg": 0.0675, "max": 0.173, "estimated": false, "source": "https://en.wikipedia.org/wiki/Hercules_beetle", "note": "Body 50-85 mm excluding horn (midpoint); males up to 173 mm including horn."},
+      "weight_kg": {"avg": 0.034, "max": 0.0375, "estimated": false, "source": "https://animaldiversity.org/accounts/Dynastes_hercules/", "note": "Adult male average 34 g (female 16.3 g); range 11.5-37.5 g. Larvae can exceed 100 g (Wikipedia)."},
+      "lifespan_years": {"avg": 0.375, "max": 2.83, "estimated": false, "source": "https://en.wikipedia.org/wiki/Hercules_beetle", "note": "Adults live 3-6 months in captivity (midpoint). Max = total potential lifespan 34 months incl. larval stage (ADW, artificial conditions)."},
+      "gestation_days": {"avg": 27.7, "max": 30, "estimated": false, "source": "https://en.wikipedia.org/wiki/Hercules_beetle", "note": "Egg incubation: eggs hatch after ~27.7 days (ADW: about 1 month)."}
+    }
+  },
+  {
+    "id": "amazonian_giant_centipede",
+    "name_ru": "Гигантская сколопендра",
+    "name_en": "Amazonian giant centipede",
+    "latin": "Scolopendra gigantea",
+    "emoji": "",
+    "fun_fact": "Гигантская сколопендра умеет свисать с потолка пещеры и ловить пролетающих летучих мышей.",
+    "hint": "Самая крупная многоножка в мире, живёт в Южной Америке и охотится по ночам.",
+    "metrics": {
+      "length_m": {"avg": 0.30, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Scolopendra_gigantea", "note": "Total length exceeding 30 cm; largest centipede species. ADW: up to 12 inches."},
+      "lifespan_years": {"avg": 10, "max": null, "estimated": false, "source": "https://animaldiversity.org/accounts/Scolopendra_gigantea/", "note": "Normal lifespan about ten years (ADW). Wikipedia documents a single human fatality (child, Venezuela 2014) — no per-year statistic."}
+    }
+  },
+  {
+    "id": "housefly",
+    "name_ru": "Комнатная муха",
+    "name_en": "Housefly",
+    "latin": "Musca domestica",
+    "emoji": "🪰",
+    "fun_fact": "Муха пробует еду лапками и может ходить по потолку благодаря липким подушечкам.",
+    "hint": "Самое привычное крылатое насекомое в наших домах.",
+    "metrics": {
+      "length_m": {"avg": 0.0065, "max": 0.008, "estimated": false, "source": "https://en.wikipedia.org/wiki/Housefly", "note": "Adults usually 6-7 mm long; ADW range 4-8 mm. Wingspan 13-15 mm."},
+      "weight_kg": {"avg": 0.000012, "max": null, "estimated": false, "source": "https://animaldiversity.org/accounts/Musca_domestica/", "note": "Average adult mass 0.012 g (12 mg). Wikipedia: pupae 8-20 mg."},
+      "lifespan_years": {"avg": 0.058, "max": 0.164, "estimated": false, "source": "https://en.wikipedia.org/wiki/Housefly", "note": "Adults normally live 2-4 weeks (~21 days midpoint); ADW high 60 days."},
+      "speed_kmh": {"avg": 7.2, "max": 24, "estimated": true, "source": "https://en.wikipedia.org/wiki/Insect_flight", "note": "Wikipedia flight-parameters table: 2.0 m/s (=7.2 km/h, converted), 190 wingbeats/s. ADW: bursts up to 15 mph (=24 km/h, converted)."},
+      "gestation_days": {"avg": 0.42, "max": 1, "estimated": false, "source": "https://animaldiversity.org/accounts/Musca_domestica/", "note": "Egg incubation: larvae hatch within 8-12 hours in warm weather (midpoint ~10 h), up to a day (Wikipedia). Whole life cycle 7-10 days."}
+    }
+  },
+  {
+    "id": "common_green_darner",
+    "name_ru": "Стрекоза зелёный коромысел",
+    "name_en": "Common green darner",
+    "latin": "Anax junius",
+    "emoji": "",
+    "fun_fact": "Эта стрекоза улетает на юг, как перелётная птица, а обратно возвращаются уже её дети.",
+    "hint": "Крупная зелёная стрекоза Северной Америки, большая часть её жизни проходит под водой.",
+    "metrics": {
+      "length_m": {"avg": 0.074, "max": 0.08, "estimated": false, "source": "https://en.wikipedia.org/wiki/Green_darner", "note": "Total body length 6.8-8 cm; wingspan up to 10 cm."},
+      "speed_kmh": {"avg": 16, "max": 54, "estimated": false, "source": "https://en.wikipedia.org/wiki/Green_darner", "note": "Avg = tracked groundspeed 16 km/h (Great Lakes). Max = 36-54 km/h for large hawker dragonflies in general (https://en.wikipedia.org/wiki/Dragonfly); claims of 97 km/h deemed unreliable."},
+      "lifespan_years": {"avg": 0.08, "max": 1.1, "estimated": false, "source": "https://animaldiversity.org/accounts/Anax_junius/", "note": "Adults live several weeks to a little over a month (~1 month). Max = total life incl. nymph: 11-12 months nymphal development + adult."},
+      "gestation_days": {"avg": 7, "max": null, "estimated": false, "source": "https://animaldiversity.org/accounts/Anax_junius/", "note": "Egg incubation: eggs hatch after at least 6-7 days (Wikipedia Dragonfly: about a week)."}
+    }
+  },
+  {
+    "id": "coconut_crab",
+    "name_ru": "Пальмовый вор",
+    "name_en": "Coconut crab",
+    "latin": "Birgus latro",
+    "emoji": "🦀",
+    "fun_fact": "Пальмовый вор лазает по пальмам и умеет вскрывать кокосы своими клешнями.",
+    "hint": "Самый большой сухопутный рак, живёт на тропических островах и лазает по деревьям.",
+    "metrics": {
+      "weight_kg": {"avg": 4.0, "max": 4.1, "estimated": true, "source": "https://en.wikipedia.org/wiki/Coconut_crab", "note": "Pages give only maximum: up to 4.1 kg (Wikipedia), 4 kg (ADW); typical adult average not stated, so avg = ~max, estimated."},
+      "length_m": {"avg": 0.40, "max": 0.91, "estimated": false, "source": "https://en.wikipedia.org/wiki/Coconut_crab", "note": "Body length up to 40 cm; max = leg span 0.9-0.91 m. Carapace up to 200 mm."},
+      "lifespan_years": {"avg": 60, "max": 60, "estimated": true, "source": "https://en.wikipedia.org/wiki/Coconut_crab", "note": "Total lifespan may be over 60 years; reaches full size at 40-60 years, possibly up to 120. ADW lists max 60 in wild."},
+      "gestation_days": {"avg": 27, "max": 45, "estimated": false, "source": "https://animaldiversity.org/accounts/Birgus_latro/", "note": "Egg brooding (female carries eggs): 25-29 days depending on tides; up to 45 days recorded."}
+    }
+  },
+  {
+    "id": "australian_box_jellyfish",
+    "name_ru": "Морская оса (кубомедуза)",
+    "name_en": "Australian box jellyfish",
+    "latin": "Chironex fleckeri",
+    "emoji": "🪼",
+    "fun_fact": "У этой медузы есть глаза на каждом из четырёх углов тела, хотя мозга у неё нет.",
+    "hint": "Почти прозрачная медуза кубической формы у берегов Австралии.",
+    "metrics": {
+      "length_m": {"avg": 0.16, "max": 0.35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Chironex_fleckeri", "note": "Bell diameter usually ~16 cm, up to 35 cm. Tentacles up to 3 m long when hunting."},
+      "weight_kg": {"avg": 2, "max": 2, "estimated": true, "source": "https://animaldiversity.org/accounts/Chironex_fleckeri/", "note": "ADW lists mass high 2 kg only; typical weight not given."},
+      "lifespan_years": {"avg": 0.75, "max": 1, "estimated": true, "source": "https://animaldiversity.org/accounts/Chironex_fleckeri/", "note": "Lifespan thought to be under a year (die after spawning); longest captive specimen 9 months."},
+      "speed_kmh": {"avg": 1.9, "max": 7.4, "estimated": true, "source": "https://animaldiversity.org/accounts/Chironex_fleckeri/", "note": "Swimming: can move up to 4 knots (=7.4 km/h), typically 1 knot or less by day (=1.9 km/h); converted from knots."},
+      "deaths_per_year": {"avg": 0.47, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Chironex_fleckeri", "note": "Calculated: at least 64 known deaths in Australia 1884-2021 (137 years). Some sources say 63. Worldwide/Philippines figures not documented on page."}
+    }
+  },
+  {
+    "id": "japanese_giant_salamander",
+    "name_ru": "Японская исполинская саламандра",
+    "name_en": "Japanese giant salamander",
+    "latin": "Andrias japonicus",
+    "emoji": "🦎",
+    "fun_fact": "Эта саламандра почти не видит и находит добычу по колебаниям воды, а папа сторожит яйца всю зиму.",
+    "hint": "Огромная земноводная из холодных горных рек Японии, редко выходит на сушу.",
+    "metrics": {
+      "length_m": {"avg": 1.36, "max": 1.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Japanese_giant_salamander", "note": "Total length: can grow to 1.5 m; largest wild specimen on record 1.36 m (used as avg since typical length not given)."},
+      "weight_kg": {"avg": 25, "max": 26.3, "estimated": false, "source": "https://en.wikipedia.org/wiki/Japanese_giant_salamander", "note": "Can weigh about 25 kg; heaviest wild specimen on record 26.3 kg."},
+      "lifespan_years": {"avg": 50, "max": 52, "estimated": true, "source": "https://en.wikipedia.org/wiki/Japanese_giant_salamander", "note": "Max = captive record 52 years (Natura Artis Magistra). Wild 'nearly 80 years' claim lacks citation. ADW: 50+ years."},
+      "gestation_days": {"avg": 94.5, "max": 105, "estimated": false, "source": "https://animaldiversity.org/accounts/Andrias_japonicus/", "note": "Egg incubation: hatching 12-15 weeks after fertilization (84-105 days). 400-500 eggs per clutch."}
+    }
+  },
+  {
+    "id": "roman_snail",
+    "name_ru": "Виноградная улитка",
+    "name_en": "Roman snail (Burgundy snail)",
+    "latin": "Helix pomatia",
+    "emoji": "🐌",
+    "fun_fact": "На зиму виноградная улитка запечатывает вход в раковину известковой крышечкой и спит до весны.",
+    "hint": "Большая садовая улитка с коричневой витой раковиной, любит сырую погоду.",
+    "metrics": {
+      "length_m": {"avg": 0.04, "max": 0.05, "estimated": false, "source": "https://en.wikipedia.org/wiki/Helix_pomatia", "note": "Shell width 30-50 mm, height 30-45 mm (shell diameter, not extended body length)."},
+      "lifespan_years": {"avg": 5, "max": 35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Helix_pomatia", "note": "Typical wild lifespan 5 years (ADW); Wikipedia: up to 20 years, maximum 35 years."},
+      "speed_kmh": {"avg": 0.047, "max": 0.047, "estimated": true, "source": "https://en.wikipedia.org/wiki/Cornu_aspersum", "note": "1974 estimate for garden snail Cornu aspersum: 1.3 cm/s (0.03 mph) top speed; questioned — races reach only 2.4 mm/s. Different species, no figure for Helix pomatia."},
+      "gestation_days": {"avg": 24.5, "max": 28, "estimated": false, "source": "https://en.wikipedia.org/wiki/Helix_pomatia", "note": "Egg incubation: juveniles hatch after 3-4 weeks. Clutch 40-65 eggs."}
+    }
+  },
+  {
+    "id": "etruscan_shrew",
+    "name_ru": "Карликовая многозубка",
+    "name_en": "Etruscan shrew",
+    "latin": "Suncus etruscus",
+    "emoji": "",
+    "fun_fact": "Самое лёгкое млекопитающее в мире ест почти без остановки, иначе быстро замёрзнет.",
+    "hint": "Крошечный зверёк с длинным носиком, вечно спешит и ищет насекомых.",
+    "metrics": {
+      "weight_kg": {"avg": 0.0018, "max": 0.0025, "estimated": false, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Body mass 1.3-2.5 g, usually about 1.8 g. ADW: 1.8-3 g."},
+      "length_m": {"avg": 0.04, "max": 0.052, "estimated": false, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Body length excluding tail 3-5.2 cm, about 4 cm."},
+      "lifespan_years": {"avg": 2, "max": 3, "estimated": true, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Typically around two years with large uncertainty; ADW: related species 1.5-3 years, captive avg 2.7."},
+      "heart_bpm": {"avg": 1200, "max": 1511, "estimated": false, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Heart rate up to 1511 beats/min (25 beats/s); during recovery from torpor rises from 100 to 800-1200 beats/min. Avg = upper active range ~1200."},
+      "gestation_days": {"avg": 27.5, "max": 28, "estimated": false, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Gestation 27-28 days; 2-6 young per litter."},
+      "teeth_count": {"avg": 30, "max": 30, "estimated": false, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Usually 30 teeth; 4th upper intermediate tooth rudimentary, absent in some individuals."}
+    }
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "id": "african_bush_elephant",
+    "name_ru": "Слон африканский",
+    "name_en": "African bush elephant",
+    "latin": "Loxodonta africana",
+    "emoji": "🐘",
+    "fun_fact": "Хоботом слон может и поднять бревно, и аккуратно сорвать одну травинку.",
+    "hint": "Самое тяжёлое животное, которое ходит по суше.",
+    "metrics": {
+      "strength_kg": {
+        "avg": 350,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Elephant",
+        "note": "Wikipedia (Elephant): trunk 'powerful enough to lift up to 350 kg'. National Geographic gives up to 270 kg (https://www.nationalgeographic.com/animals/article/animal-records-gallery). Controlled study (Zoo Atlanta, bioRxiv 2022) had a female struggle with a 60 kg barbell, but it was not a max-load test. Trunk only, not whole-body carrying."
+      },
+      "weight_kg": {
+        "avg": 6000,
+        "max": 10400,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/African_bush_elephant",
+        "note": "Mature males average 6.0 t. Max = largest well-measured bull (Angola, 1974), weight estimated/calculated. San Diego Zoo gives ~10,886 kg for the same record bull."
+      },
+      "height_m": {
+        "avg": 3.2,
+        "max": 3.96,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/African_bush_elephant",
+        "note": "Shoulder height of mature males. Max = Angola bull 1974 (calculated)."
+      },
+      "speed_kmh": {
+        "avg": 25,
+        "max": null,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Elephant",
+        "note": "Wikipedia (Elephant, genus-level) top speed 25 km/h. That figure comes from Hutchinson et al. 2003 (Nature) measured on ASIAN elephants; a 2006 JEB paper says African near-max speeds were undocumented. Popular claims of 40 km/h are untraced."
+      },
+      "lifespan_years": {
+        "avg": null,
+        "max": 70,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Elephant",
+        "note": "'Elephants can live up to 70 years in the wild' (Wikipedia Elephant; National Geographic also 'up to 70 years'). African bush elephant article: maximum lifespan 70-75 years. No clean typical wild lifespan found (San Diego Zoo lists 38-47 years median life expectancy without specifying wild/zoo), so avg omitted."
+      }
+    }
+  },
+  {
+    "id": "hippo",
+    "name_ru": "Бегемот",
+    "name_en": "Hippopotamus",
+    "latin": "Hippopotamus amphibius",
+    "emoji": "🦛",
+    "fun_fact": "Бегемот не умеет плавать, а ходит и подпрыгивает по дну реки.",
+    "hint": "Открывает пасть шире всех в этой группе, и челюсти у него сильнее всех.",
+    "metrics": {
+      "bite_force_psi": {
+        "avg": 1800,
+        "max": null,
+        "estimated": false,
+        "source": "https://a-z-animals.com/blog/what-is-a-hippos-bite-force/",
+        "note": "WEAK SOURCING. Not in Wikipedia or National Geographic (NatGeo only says 'nearly three times stronger than a lion's'). Figure traces to a single field measurement of a FEMALE hippo, reportedly by Brady Barr for a National Geographic TV show (~8,100 N); males never measured. No peer-reviewed paper found. A-Z Animals gives 1,800-2,000 PSI (8,000-8,900 N); Field & Stream, Discover, PopSci repeat 1,800 PSI. 'PSI' is used loosely for a force."
+      },
+      "weight_kg": {
+        "avg": 1480,
+        "max": 2660,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "note": "Bulls average ~1.48 t; exceptionally large males recorded at 2.66 t. National Geographic says males up to 9,920 lb (~4,500 kg) - more than 1.5x the Wikipedia max, Wikipedia used."
+      },
+      "height_m": {
+        "avg": 1.525,
+        "max": 1.65,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "note": "Male shoulder height 1.40-1.65 m, midpoint used."
+      },
+      "length_m": {
+        "avg": 3.375,
+        "max": null,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "note": "Typical head-body length 3.3-3.45 m (not sex-specific), midpoint used. National Geographic: up to 16.5 ft (~5 m), likely including tail."
+      },
+      "speed_kmh": {
+        "avg": 30,
+        "max": null,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "note": "Wikipedia: 'reported to reach 30 km/h but this has not been confirmed'. National Geographic: 22 mph (~35 km/h) over short distances."
+      },
+      "lifespan_years": {
+        "avg": 45,
+        "max": 65,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Hippopotamus",
+        "note": "Typical lifespan 40-50 years (not specified wild vs captive), midpoint used; National Geographic: up to 40 in the wild. Max 65 = captive record (Bertha, Lu)."
+      }
+    }
+  },
+  {
+    "id": "white_rhino",
+    "name_ru": "Носорог",
+    "name_en": "White rhinoceros",
+    "latin": "Ceratotherium simum",
+    "emoji": "🦏",
+    "fun_fact": "Белый носорог совсем не белый, а серый, и ест траву, как газонокосилка.",
+    "hint": "Второе по тяжести сухопутное животное после слона, с рогом на носу.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 2150,
+        "max": 3600,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "note": "Data for white rhinoceros (used as generic 'носорог'). Bulls average 2,000-2,300 kg, midpoint used; specimens up to 3,600 kg considered reliable, larger claims unverified."
+      },
+      "height_m": {
+        "avg": 1.78,
+        "max": 1.86,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "note": "Bull shoulder height 170-186 cm, midpoint used."
+      },
+      "length_m": {
+        "avg": 3.85,
+        "max": 4.0,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "note": "Bull head-and-body length 3.7-4 m, midpoint used. National Geographic: 11-13.75 ft (3.4-4.2 m)."
+      },
+      "speed_kmh": {
+        "avg": 50,
+        "max": 64,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "note": "Wikipedia internally inconsistent: 'can run 50 km/h' and sustain 48-50 km/h; also 'up to 40 mph (64 km/h) for very short bursts'. 64 is the less reliable figure."
+      },
+      "lifespan_years": {
+        "avg": null,
+        "max": 50,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/White_rhinoceros",
+        "note": "'Can live to be up to 40-50 years old' - wild vs captive not separated; typical wild lifespan not found."
+      }
+    }
+  },
+  {
+    "id": "giraffe",
+    "name_ru": "Жираф",
+    "name_en": "Giraffe",
+    "latin": "Giraffa camelopardalis",
+    "emoji": "🦒",
+    "fun_fact": "У жирафа язык тёмно-фиолетовый и такой длинный, что он может почистить им себе ухо.",
+    "hint": "Самое высокое животное на планете.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 1192,
+        "max": null,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Giraffe",
+        "note": "Average adult male. San Diego Zoo: males up to 1,360 kg; National Geographic: 1,750-2,800 lb (794-1,270 kg). Heaviest individual not documented."
+      },
+      "height_m": {
+        "avg": 5.0,
+        "max": 5.8,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Giraffe",
+        "note": "STANDING (head/ossicone) height, not shoulder. Wikipedia: adults 4.3-5.7 m, males taller (no male-only average given) - midpoint 5.0 of both sexes, so males likely a bit above. San Diego Zoo: males up to 5.5 m. Max = George, Masai giraffe at Chester Zoo (1960s), 5.8 m per Guinness (https://www.guinnessworldrecords.com/world-records/464584-tallest-giraffe-ever); other sources say 5.88 m."
+      },
+      "speed_kmh": {
+        "avg": 60,
+        "max": null,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Giraffe",
+        "note": "Sprint up to 60 km/h, sustain 50 km/h for several km. San Diego Zoo record 56 km/h; National Geographic 35 mph (56 km/h)."
+      },
+      "lifespan_years": {
+        "avg": 25,
+        "max": 38,
+        "estimated": false,
+        "source": "https://www.nationalgeographic.com/animals/mammals/facts/giraffe",
+        "note": "Avg = National Geographic wild lifespan 25 years. Max = Wikipedia 'up to 38 years' (https://en.wikipedia.org/wiki/Giraffe), wild/captive not specified. San Diego Zoo: 15-20 years."
+      }
+    }
+  },
+  {
+    "id": "horse",
+    "name_ru": "Лошадь",
+    "name_en": "Horse (domestic)",
+    "latin": "Equus ferus caballus",
+    "emoji": "🐎",
+    "fun_fact": "Лошади умеют спать стоя, потому что их ноги могут «запираться» и не сгибаться.",
+    "hint": "Домашний помощник человека, который бегает быстрее всех в этой группе на длинных дистанциях.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 465,
+        "max": 1524,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Horse",
+        "note": "No male-specific average. Avg = midpoint of light riding horses 380-550 kg; draft horses 700-1,000 kg (Draft horse article: 640-910 kg). Max = Sampson/Mammoth, Shire born 1848, estimated peak 1,524 kg - domestic heavy breed."
+      },
+      "height_m": {
+        "avg": 1.525,
+        "max": 2.19,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Horse",
+        "note": "Height at withers, light riding horses 142-163 cm (midpoint); draft horses 163-183 cm. Max = Sampson/Mammoth (Shire), 219 cm (Draft horse article says 218 cm)."
+      },
+      "speed_kmh": {
+        "avg": 44,
+        "max": 70.76,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Horse",
+        "note": "Gallop averages 40-48 km/h (midpoint). Max = sprint record 70.76 km/h over a short distance (Thoroughbred)."
+      },
+      "lifespan_years": {
+        "avg": 27.5,
+        "max": 62,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Horse",
+        "note": "DOMESTIC life expectancy 25-30 years (midpoint). Max = 'Old Billy', 19th century, 62 years."
+      }
+    }
+  },
+  {
+    "id": "ostrich",
+    "name_ru": "Страус",
+    "name_en": "Common ostrich",
+    "latin": "Struthio camelus",
+    "emoji": "🦤",
+    "fun_fact": "Страус не умеет летать, зато его глаз больше, чем его мозг.",
+    "hint": "Самая большая птица на свете и самый быстрый бегун на двух ногах.",
+    "metrics": {
+      "weight_kg": {
+        "avg": 115,
+        "max": 156.8,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+        "note": "Males 100-130 kg (midpoint; San Diego Zoo same range). Max = exceptional males of nominate subspecies up to 156.8 kg. National Geographic: 220-350 lb (100-159 kg)."
+      },
+      "height_m": {
+        "avg": 2.425,
+        "max": 2.75,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+        "note": "STANDING (head) height, not shoulder. Males 2.1-2.75 m, midpoint used; max = top of range, no individual record."
+      },
+      "speed_kmh": {
+        "avg": 70,
+        "max": null,
+        "estimated": false,
+        "source": "https://en.wikipedia.org/wiki/Common_ostrich",
+        "note": "'Can run at a speed over 70 km/h, or possibly 80 km/h' - 80 unconfirmed, not used. San Diego Zoo and National Geographic: up to 43 mph (70 km/h). Kick force 225 kgf (2,210 N) documented on same page - not a lifting metric, so no strength_kg."
+      },
+      "lifespan_years": {
+        "avg": 35,
+        "max": 62.6,
+        "estimated": false,
+        "source": "https://www.nationalgeographic.com/animals/birds/facts/ostrich",
+        "note": "Avg = National Geographic wild lifespan 30-40 years (midpoint). Max = captive record 62 years 7 months (https://en.wikipedia.org/wiki/Common_ostrich). San Diego Zoo: median life expectancy in human care ~10 years."
+      }
+    }
+  }
+]

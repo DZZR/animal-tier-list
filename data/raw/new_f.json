@@ -1,0 +1,176 @@
+[
+  {
+    "id": "bald_eagle",
+    "name_ru": "Белоголовый орлан",
+    "name_en": "Bald eagle",
+    "latin": "Haliaeetus leucocephalus",
+    "emoji": "🦅",
+    "fun_fact": "Белоголовый орлан строит самые большие гнёзда среди всех птиц — в такое гнездо мог бы поместиться взрослый человек.",
+    "hint": "Крупная хищная птица с белой головой, которая ловит рыбу у рек и озёр Северной Америки.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 4.1, "max": 8.2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bald_eagle", "note": "Males average 4.1 kg, females 5.6 kg; typical 3-6.3 kg; record 8.2 kg (1876, New York)."},
+      "length_m": {"avg": 0.86, "max": 1.02, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bald_eagle", "note": "Total body length 70-102 cm; wingspan 1.8-2.3 m."},
+      "speed_kmh": {"avg": 63, "max": 160, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bald_eagle", "note": "Level flight (gliding/flapping) 56-70 km/h; dive 120-160 km/h."},
+      "lifespan_years": {"avg": 20, "max": 38, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bald_eagle", "note": "Typical ~20 years in the wild; oldest wild 38; captive nearly 50."},
+      "gestation_days": {"avg": 35, "max": 36, "estimated": false, "source": "https://www.audubon.org/field-guide/bird/bald-eagle", "note": "Incubation (not gestation): 34-36 days, both parents."}
+    }
+  },
+  {
+    "id": "snowy_owl",
+    "name_ru": "Полярная сова",
+    "name_en": "Snowy owl",
+    "latin": "Bubo scandiacus",
+    "emoji": "🦉",
+    "fun_fact": "В отличие от большинства сов, полярная сова часто охотится днём — летом в Арктике ночь почти не наступает.",
+    "hint": "Белая сова тундры, которая гнездится прямо на земле и питается в основном леммингами.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 2.1, "max": 2.95, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snowy_owl", "note": "Female median 2.10 kg (larger sex), male median 1.66 kg; max 2,951 g (female)."},
+      "length_m": {"avg": 0.61, "max": 0.71, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snowy_owl", "note": "Total length: males mean 58.7 cm, females mean 63.7 cm; range 52.5-71 cm. Wingspan up to 183 cm."},
+      "speed_kmh": {"avg": 80, "max": 80, "estimated": true, "source": "https://factanimal.com/snowy-owl/", "note": "Top speed 'up to 80 km/h (50 mph)' from popular sources; no peer-reviewed measurement; some sites say 60 km/h."},
+      "lifespan_years": {"avg": 10, "max": 23.8, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snowy_owl", "note": "Typical ~10 years wild; longest wild 23 years 10 months (banded); captive 25-30."},
+      "gestation_days": {"avg": 32.4, "max": 33, "estimated": false, "source": "https://en.wikipedia.org/wiki/Snowy_owl", "note": "Incubation (not gestation): 31.8-33 days; unconfirmed reports 27-38."}
+    }
+  },
+  {
+    "id": "common_raven",
+    "name_ru": "Ворон",
+    "name_en": "Common raven",
+    "latin": "Corvus corax",
+    "emoji": "🐦‍⬛",
+    "fun_fact": "Вороны — одни из самых умных птиц: они решают головоломки, играют и даже умеют подражать человеческой речи.",
+    "hint": "Крупная чёрная птица с низким хрипловатым голосом, живущая от Арктики до пустынь.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 1.47, "max": 2.25, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_raven", "note": "Average 1.47 kg; recorded range 0.69-2.25 kg."},
+      "length_m": {"avg": 0.63, "max": 0.71, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_raven", "note": "Total length averages 63 cm, range 54-71 cm; wingspan 116-153 cm."},
+      "speed_kmh": {"avg": 45, "max": 75, "estimated": true, "source": "https://boap.uib.no/index.php/ornis/article/view/700", "note": "Cruising ~45 km/h; ~75 km/h observed while chasing willow grouse (Hogstedt 2014, Ornis Norvegica, no timing data). Popular sites give 55-80 km/h."},
+      "lifespan_years": {"avg": 12.5, "max": 23.25, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_raven", "note": "Wild typically 10-15 years; longest ringed wild 23 years 3 months; Tower of London ravens >40 years."},
+      "gestation_days": {"avg": 19.5, "max": 21, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_raven", "note": "Incubation (not gestation): 18-21 days, female only."}
+    }
+  },
+  {
+    "id": "flamingo",
+    "name_ru": "Розовый фламинго",
+    "name_en": "Greater flamingo",
+    "latin": "Phoenicopterus roseus",
+    "emoji": "🦩",
+    "fun_fact": "Фламинго рождаются серыми и становятся розовыми только благодаря красителям из креветок и водорослей, которые они едят.",
+    "hint": "Длинноногая розовая птица, которая стоит на одной ноге в солёных мелких озёрах и цедит воду изогнутым клювом.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 3, "max": 4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Greater_flamingo", "note": "Range 2-4 kg; midpoint used."},
+      "height_m": {"avg": 1.3, "max": 1.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Greater_flamingo", "note": "Standing height 110-150 cm; midpoint used."},
+      "speed_kmh": {"avg": 50, "max": 60, "estimated": true, "source": "https://www.animalwised.com/can-flamingos-fly-the-flight-of-the-flamingo-4497.html", "note": "Flight: ~50 km/h over short distances, up to 60 km/h on long flights with tailwind; popular source, no measurement study."},
+      "lifespan_years": {"avg": 35, "max": 83, "estimated": false, "source": "https://en.wikipedia.org/wiki/Greater_flamingo", "note": "Wild average 30-40 years; oldest 'Greater' at Adelaide Zoo died aged at least 83."},
+      "gestation_days": {"avg": 29, "max": 32, "estimated": false, "source": "https://en.wikipedia.org/wiki/Greater_flamingo", "note": "Incubation (not gestation): eggs hatch in 26-32 days."}
+    }
+  },
+  {
+    "id": "emu",
+    "name_ru": "Эму",
+    "name_en": "Emu",
+    "latin": "Dromaius novaehollandiae",
+    "emoji": "",
+    "fun_fact": "У эму яйца высиживает папа: почти два месяца он не ест, не пьёт и почти не встаёт с гнезда.",
+    "hint": "Высокая нелетающая птица Австралии с длинными ногами, которая быстро бегает и издаёт глухое бухающее «бум».",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 37, "max": 60, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Females larger: average 37 kg (males 31.5 kg); range 18-60 kg; breeding females 45-58 kg."},
+      "height_m": {"avg": 1.7, "max": 1.9, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Standing height; largest individuals 150-190 cm, up to 1.9 m."},
+      "length_m": {"avg": 1.52, "max": 1.64, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Bill-to-tail length 139-164 cm; males avg 148.5, females 156.8 cm."},
+      "speed_kmh": {"avg": 48, "max": 48, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Running sprint 48 km/h (flightless)."},
+      "lifespan_years": {"avg": 10, "max": 20, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Wild 'upwards of 10 years'; captive up to 20."},
+      "sleep_hours": {"avg": 7, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Sleeps around 7 hours per 24 h, waking from deep sleep about every 90 minutes."},
+      "heart_bpm": {"avg": 45.8, "max": null, "estimated": false, "source": "https://cob.silverchair.com/jeb/article-pdf/2429664/jexbio_104_1_193.pdf", "note": "Resting heart rate 45.8 beats/min in exercising-emu study (J. Exp. Biol. 104, 1983); rose 3.9x at peak exercise. Number seen in search snippet; PDF itself returned 403."},
+      "gestation_days": {"avg": 56, "max": 56, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emu", "note": "Incubation (not gestation): 56 days, by the male."}
+    }
+  },
+  {
+    "id": "wandering_albatross",
+    "name_ru": "Странствующий альбатрос",
+    "name_en": "Wandering albatross",
+    "latin": "Diomedea exulans",
+    "emoji": "",
+    "fun_fact": "У странствующего альбатроса самые длинные крылья среди всех птиц — он может парить над океаном часами, почти не махая ими.",
+    "hint": "Огромная морская птица южных океанов, которая почти всю жизнь парит над волнами и выходит на берег только ради гнезда.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 9.1, "max": 12.7, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wandering_albatross", "note": "Most adults 6.35-11.91 kg (midpoint); adult range 5.9-12.7 kg; fledglings up to 16.1 kg."},
+      "length_m": {"avg": 1.21, "max": 1.35, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wandering_albatross", "note": "Body length 107-135 cm; wingspan mean 3.1 m, verified max 3.7 m."},
+      "speed_kmh": {"avg": 135, "max": 135, "estimated": false, "source": "https://en.wikipedia.org/wiki/Wandering_albatross", "note": "Flight speed of 135 km/h recorded (gliding flight; no separate level/dive figures)."},
+      "lifespan_years": {"avg": 50, "max": 51, "estimated": true, "source": "https://en.wikipedia.org/wiki/Wandering_albatross", "note": "'Can live for over 50 years' (Wikipedia; Nat Geo: up to 50). Oldest known estimated 46-51 years (Prince Edward Islands, ACAP). AnAge gives ~35 years typical; spread noted."},
+      "gestation_days": {"avg": 77, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Wandering_albatross", "note": "Incubation (not gestation): 'about 11 weeks' = ~77 days, among the longest of any bird."}
+    }
+  },
+  {
+    "id": "kakapo",
+    "name_ru": "Какапо",
+    "name_en": "Kākāpō",
+    "latin": "Strigops habroptilus",
+    "emoji": "🦜",
+    "fun_fact": "Какапо — единственный в мире нелетающий попугай, он ведёт ночной образ жизни и пахнет мёдом и цветами.",
+    "hint": "Пухлый зелёный ночной попугай из Новой Зеландии, который не умеет летать и лазает по деревьям.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 2, "max": 3, "estimated": false, "source": "https://en.wikipedia.org/wiki/K%C4%81k%C4%81p%C5%8D", "note": "Males 1.5-3 kg (avg ~2 kg); females 0.95-1.6 kg (avg ~1.5 kg)."},
+      "length_m": {"avg": 0.61, "max": 0.64, "estimated": false, "source": "https://en.wikipedia.org/wiki/K%C4%81k%C4%81p%C5%8D", "note": "Total length 58-64 cm."},
+      "lifespan_years": {"avg": 60, "max": 100, "estimated": false, "source": "https://en.wikipedia.org/wiki/K%C4%81k%C4%81p%C5%8D", "note": "Average life expectancy 60 (+/-20) years; reported up to 100; oldest known 'Richard Henry' possibly 80."},
+      "loudness_db": {"avg": 132, "max": 132, "estimated": true, "source": "https://a-z-animals.com/animals/lists/loudest-animals", "note": "Male boom 'up to 132 dB' is a popular uncited claim; Wikipedia only says booms audible >=1 km on still night, up to 5 km with wind, frequency <100 Hz."},
+      "gestation_days": {"avg": 30, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/K%C4%81k%C4%81p%C5%8D", "note": "Incubation (not gestation): 'eggs usually hatch within 30 days'."}
+    }
+  },
+  {
+    "id": "common_swift",
+    "name_ru": "Чёрный стриж",
+    "name_en": "Common swift",
+    "latin": "Apus apus",
+    "emoji": "",
+    "fun_fact": "Стриж может не садиться на землю почти целый год — он ест, пьёт и даже спит прямо в полёте.",
+    "hint": "Небольшая тёмная птица с серповидными крыльями, которая с криком носится над городскими крышами и ловит насекомых на лету.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 0.045, "max": 0.05, "estimated": false, "source": "https://animaldiversity.org/accounts/Apus_apus/", "note": "Body mass 44.9 g (ADW); popular guides give 30-50 g."},
+      "length_m": {"avg": 0.165, "max": 0.17, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_swift", "note": "Total length 16-17 cm; wingspan 38-40 cm."},
+      "speed_kmh": {"avg": 111.6, "max": 111.6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_swift", "note": "Maximum horizontal (level) flying speed 111.6 km/h; no dive figure."},
+      "lifespan_years": {"avg": 5.5, "max": 18, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_swift", "note": "Average about 5.5 years (RSPB); Oxford bird ringed as adult found dying 16 years later, so at least ~18. ADW lists 21 years max."},
+      "gestation_days": {"avg": 19.5, "max": 20, "estimated": false, "source": "https://animaldiversity.org/accounts/Apus_apus/", "note": "Incubation (not gestation): 19-20 days."}
+    }
+  },
+  {
+    "id": "mute_swan",
+    "name_ru": "Лебедь-шипун",
+    "name_en": "Mute swan",
+    "latin": "Cygnus olor",
+    "emoji": "🦢",
+    "fun_fact": "Лебедь-шипун назван так потому, что он почти не кричит, а на врагов грозно шипит, распушив крылья.",
+    "hint": "Крупная белая водоплавающая птица с оранжевым клювом и чёрной шишкой у его основания, которая плавает в прудах и парках.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 11.2, "max": 23, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mute_swan", "note": "Males (cobs) average 10.6-11.87 kg, females 8.5-9.67 kg; one Polish cob almost 23 kg, largest verified weight for a flying bird."},
+      "length_m": {"avg": 1.5, "max": 1.7, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mute_swan", "note": "Total length typically 140-160 cm, extremes 125-170 cm; wingspan 200-240 cm."},
+      "speed_kmh": {"avg": 88.5, "max": 88.5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mute_swan", "note": "Level flight up to 88.5 km/h (55 mph)."},
+      "lifespan_years": {"avg": 10, "max": 29.1, "estimated": false, "source": "https://www.bto.org/learn/about-birds/birdfacts/mute-swan", "note": "Typical lifespan 10 years (BTO); oldest ringed bird 29 years 1 month (2009). Some popular sources claim a 40+ year German-ringed bird, unverified."},
+      "gestation_days": {"avg": 36, "max": 44, "estimated": false, "source": "https://en.wikipedia.org/wiki/Mute_swan", "note": "Incubation (not gestation): female broods ~36 days (Wikipedia); BTO gives 34-44 days."}
+    }
+  },
+  {
+    "id": "southern_cassowary",
+    "name_ru": "Шлемоносный казуар",
+    "name_en": "Southern cassowary",
+    "latin": "Casuarius casuarius",
+    "emoji": "",
+    "fun_fact": "На голове у казуара растёт твёрдый «шлем», а птенцов высиживает и воспитывает папа.",
+    "hint": "Крупная нелетающая птица тропических лесов Австралии и Новой Гвинеи с ярко-синей шеей и роговым гребнем на голове.",
+    "metrics": {
+      "teeth_count": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bird", "note": "Birds have toothless beaked jaws (Wikipedia 'Bird')."},
+      "weight_kg": {"avg": 61, "max": 85, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_cassowary", "note": "Females larger: 46.7-76 kg (midpoint); males 29.2-55 kg; largest contemporary ~85 kg; historical specimens 76-119 kg."},
+      "height_m": {"avg": 1.65, "max": 2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_cassowary", "note": "Standing height 1.5-1.8 m; largest recorded around 2 m."},
+      "speed_kmh": {"avg": 50, "max": 50, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_cassowary", "note": "Running up to 50 km/h (flightless); can jump nearly 2 m."},
+      "lifespan_years": {"avg": 19, "max": 40, "estimated": false, "source": "https://nationalzoo.si.edu/animals/southern-cassowary", "note": "Wild 18-20 years; up to 40 in human care (Smithsonian National Zoo). Some zoos claim 60+."},
+      "deaths_per_year": {"avg": 0.016, "max": 1, "estimated": true, "source": "https://en.wikipedia.org/wiki/Southern_cassowary", "note": "Only two human deaths reported since 1900 (1926 Australia, 2019 Florida) = ~0.02/year; 2003 study: 150 attacks on humans, one fatal."},
+      "gestation_days": {"avg": 50, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Southern_cassowary", "note": "Incubation (not gestation): around 50 days, by the male."}
+    }
+  }
+]

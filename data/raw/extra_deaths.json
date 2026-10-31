@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "collected": "2026-10-31",
+    "metric": "deaths_per_year",
+    "notes": "All figures are from pages opened with WebFetch or WebSearch snippets on 2026-10-31. Deaths are inherently estimates; estimated=false only for direct counts (ISAF). Omitted for lack of a documented yearly figure: spotted_hyena, horse, cheetah, tsetse fly (WHO: <1000 reported cases/yr since 2018, no death count), box jellyfish (only cumulative totals: ~64 deaths in Australia 1884-2021)."
+  },
+  "existing": {
+    "human": {
+      "deaths_per_year": {
+        "avg": 458000,
+        "max": null,
+        "estimated": true,
+        "source": "https://unodc.org/unodc/press/releases/2023/December/fifty-two-people-lost-their-lives-to-homicide-globally-every-hour-in-2021--says-new-report-from-unodc.html",
+        "note": "UNODC Global Study on Homicide 2023: ~458,000 intentional homicide victims in 2021 (range since 2000: 400,000-450,000/yr). Homicide only, no wars. Figure from WebSearch snippet; press-release page itself returned 404."
+      }
+    },
+    "german_shepherd": {
+      "deaths_per_year": {
+        "avg": 44203,
+        "max": null,
+        "estimated": true,
+        "source": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+        "note": "ALL DOGS, not German shepherds: WHO rabies fact sheet (17 Sep 2026) - 44,203 human rabies deaths/yr (Global Health Estimates 2021), dogs transmit up to 99% of cases; WHO says true number likely higher. US direct dog-attack deaths ~43/yr (2011-2021, Wikipedia Dog bite)."
+      }
+    },
+    "nile_crocodile": {
+      "deaths_per_year": {
+        "avg": 1000,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Nile_crocodile",
+        "note": "Crocodiles overall ~1,000/yr (Wikipedia 'List of deadliest animals', 2016 media estimates). Nile crocodile article: older studies ~1,000 deaths/yr from Nile crocs; a more recent study 275-745 attacks/yr, 63% fatal (~175-470 deaths). Shaky, order of magnitude 'hundreds to a thousand'."
+      }
+    },
+    "saltwater_crocodile": {
+      "deaths_per_year": {
+        "avg": 15,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Nile_crocodile",
+        "note": "Study cited in Wikipedia (Nile crocodile, 'Attacks on humans'): ~30 saltwater crocodile attacks/yr, 50% fatal => ~15 deaths/yr. Australia: 106 deaths 1971-2013 (~2.5/yr); Sarawak 2.8/yr 2000-2003 (Wikipedia Saltwater crocodile). Likely underreported outside Australia."
+      }
+    },
+    "hippo": {
+      "deaths_per_year": {
+        "avg": 500,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/List_of_deadliest_animals_to_humans",
+        "note": "~500/yr, all four sources in the Wikipedia list agree (CNET, Business Insider, BBC 2016; Discover Wildlife). Africa only. No primary count exists."
+      }
+    },
+    "african_bush_elephant": {
+      "deaths_per_year": {
+        "avg": 605,
+        "max": null,
+        "estimated": true,
+        "source": "https://www.tribuneindia.com/news/nation/2-950-killed-in-human-wildlife-conflict-in-5-years-529554",
+        "note": "ELEPHANTS IN GENERAL (mostly Asian elephants): India govt figure 605 human deaths in 2022-23 (Ministry of Environment reply to Parliament; 1,500 killed 2019-2022 per Wikipedia Elephant). Worldwide older estimate ~500/yr (Wikipedia list, 2016). African-elephant-only figure not documented."
+      }
+    },
+    "lion": {
+      "deaths_per_year": {
+        "avg": 250,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/List_of_deadliest_animals_to_humans",
+        "note": "SHAKY. Wikipedia list: 250/yr (CNET 2016) vs 22+/yr (Business Insider). Only solid data: Tanzania, >563 killed 1990-2005 (Packer et al., Nature 2005) = ~22-70/yr in one country. Africa-wide total unknown; 'tens to a few hundred'."
+      }
+    },
+    "tiger": {
+      "deaths_per_year": {
+        "avg": 80,
+        "max": null,
+        "estimated": true,
+        "source": "https://www.tribuneindia.com/news/nation/2-950-killed-in-human-wildlife-conflict-in-5-years-529554",
+        "note": "India govt data (Parliament replies): 59 deaths in 2021, 103-110 in 2022, 82-85 in 2023, ~49 in 2019-2020. India holds ~75% of wild tigers; Bangladesh Sundarbans adds ~2-25/yr (Wikipedia Tiger attack). Worldwide total not published; ~80/yr is the India level of recent years."
+      }
+    },
+    "gray_wolf": {
+      "deaths_per_year": {
+        "avg": 1.3,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Wolf_attack",
+        "note": "NINA (Norwegian Institute for Nature Research) review: 498 attacks and 25 deaths worldwide 2002-2020, 14 of them from rabies => ~1.3 deaths/yr. Our World in Data: 'single-digit'."
+      }
+    },
+    "great_white_shark": {
+      "deaths_per_year": {
+        "avg": 8,
+        "max": null,
+        "estimated": false,
+        "source": "https://www.floridamuseum.ufl.edu/shark-attacks/yearly-worldwide-summary/",
+        "note": "ALL SHARK SPECIES, not only great white: ISAF five-year average 2020-2024 = 8 unprovoked fatalities/yr; 2025: 9 unprovoked fatal (65 unprovoked bites). Direct count of confirmed cases."
+      }
+    },
+    "komodo_dragon": {
+      "deaths_per_year": {
+        "avg": 0.13,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Komodo_dragon",
+        "note": "Komodo National Park records 1974-2012: 24 attacks, 5 fatal in 38 years => ~0.13/yr (roughly one death per 8 years)."
+      }
+    },
+    "polar_bear": {
+      "deaths_per_year": {
+        "avg": 0.14,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Polar_bear",
+        "note": "Wilder et al. 2017: 73 recorded attacks and 20 deaths worldwide 1870-2014 => ~0.14/yr (about one death per 7 years)."
+      }
+    },
+    "brown_bear": {
+      "deaths_per_year": {
+        "avg": 10,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Brown_bear",
+        "note": "Wikipedia Brown bear: 'around 10 people a year are killed by brown bears in Russia', more than the rest of the range combined; 2019 study (North America + Eurasia): 95 fatalities 2000-2015 (~6/yr). So roughly 6-15/yr worldwide."
+      }
+    },
+    "leopard": {
+      "deaths_per_year": {
+        "avg": 55,
+        "max": null,
+        "estimated": true,
+        "source": "https://en.wikipedia.org/wiki/Leopard_attack",
+        "note": "SHAKY. No global database. Nepal study (2001): ~55 deaths/yr; India Uttarakhand 239 deaths 2000-2007 (~30/yr); Maharashtra 17 in 2022. Worldwide realistically 'dozens to ~100'."
+      }
+    }
+  },
+  "new": [
+    {
+      "id": "mosquito",
+      "name_ru": "Малярийный комар",
+      "name_en": "Anopheles mosquito",
+      "latin": "Anopheles",
+      "emoji": "🦟",
+      "length_m": 0.005,
+      "fun_fact": "Кусают только самки комаров: кровь нужна им, чтобы отложить яйца, а самцы пьют нектар.",
+      "hint": "Самое маленькое животное в списке оказалось самым опасным.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 610000,
+          "max": null,
+          "estimated": true,
+          "source": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+          "note": "Via malaria only: WHO malaria fact sheet (4 Dec 2025) - 610,000 malaria deaths and 282 million cases in 2024. Other mosquito-borne diseases (dengue etc.) add roughly 100,000 more (Our World in Data), not counted here. Body length 3-6 mm (Wikipedia Mosquito)."
+        }
+      }
+    },
+    {
+      "id": "venomous_snake",
+      "name_ru": "Ядовитые змеи",
+      "name_en": "Venomous snakes",
+      "latin": "Serpentes (venomous)",
+      "emoji": "🐍",
+      "fun_fact": "Змеи не слышат звуков, зато чувствуют малейшую дрожь земли всем телом.",
+      "hint": "Их яд спасает жизни: из него делают лекарства и противоядие.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 109645,
+          "max": null,
+          "estimated": true,
+          "source": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+          "note": "WHO snakebite fact sheet (17 Sep 2026): 81,410-137,880 deaths/yr, midpoint 109,645; 1.8-2.7 million envenomings/yr. All venomous species together. Face: saw-scaled viper (Echis carinatus, 38-80 cm) is one of India's 'big four' responsible for most snakebite deaths, but Wikipedia names no single deadliest species."
+        }
+      }
+    },
+    {
+      "id": "freshwater_snail",
+      "name_ru": "Пресноводная улитка",
+      "name_en": "Freshwater snail",
+      "latin": "Bulinus / Biomphalaria",
+      "emoji": "🐌",
+      "fun_fact": "Улитка сама никого не трогает: в ней живут крошечные паразиты, которые потом уплывают в воду и ищут людей.",
+      "hint": "Медленная, маленькая и совсем не хищная, но стоит в списке выше крокодила.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 14353,
+          "max": null,
+          "estimated": true,
+          "source": "https://www.who.int/news-room/fact-sheets/detail/schistosomiasis",
+          "note": "Via schistosomiasis: WHO fact sheet (23 Feb 2026) estimates 14,353 deaths/yr globally and says this is likely an underestimate. Media estimates range 10,000-200,000 (Wikipedia Freshwater snail)."
+        }
+      }
+    },
+    {
+      "id": "assassin_bug",
+      "name_ru": "Поцелуйный клоп",
+      "name_en": "Kissing bug (assassin bug)",
+      "latin": "Triatominae",
+      "emoji": "🪲",
+      "fun_fact": "Этого клопа прозвали «поцелуйным»: он выходит ночью и кусает спящих людей около губ.",
+      "hint": "Живёт в Латинской Америке и переносит болезнь, которую назвали в честь врача.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 10000,
+          "max": null,
+          "estimated": true,
+          "source": "https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis)",
+          "note": "Via Chagas disease: WHO fact sheet (8 Apr 2026) - 'more than 10,000 deaths every year', ~8 million infected."
+        }
+      }
+    },
+    {
+      "id": "scorpion",
+      "name_ru": "Скорпион",
+      "name_en": "Scorpion",
+      "latin": "Scorpiones",
+      "emoji": "🦂",
+      "length_m": 0.058,
+      "fun_fact": "В ультрафиолетовом свете скорпионы светятся голубовато-зелёным, и учёные ищут их ночью с фонариком.",
+      "hint": "Жало на хвосте опаснее всего для маленьких детей, а взрослые обычно выздоравливают.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 3000,
+          "max": null,
+          "estimated": true,
+          "source": "https://en.wikipedia.org/wiki/Scorpion_sting",
+          "note": "Chippaux 2012 (cited in Wikipedia Scorpion sting): ~3,000 deaths/yr worldwide; Wikipedia Scorpion article: ~1.5 million envenomations and ~2,600 deaths/yr. Length 0.058 m = average deathstalker (Leiurus quinquestriatus), Wikipedia."
+        }
+      }
+    },
+    {
+      "id": "honey_bee",
+      "name_ru": "Медоносная пчела",
+      "name_en": "Honey bee (and wasps, hornets)",
+      "latin": "Apis mellifera",
+      "emoji": "🐝",
+      "fun_fact": "Чтобы собрать одну ложку мёда, пчёлам нужно облететь тысячи цветков.",
+      "hint": "Опасна не сама по себе, а для тех, у кого сильная аллергия на укус.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 72,
+          "max": null,
+          "estimated": false,
+          "source": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7227a6.htm",
+          "note": "USA ONLY: CDC NCHS - 788 deaths from hornet, wasp and bee stings 2011-2021, average 72/yr (death certificates, ICD-10 X23). No reliable worldwide figure found. Mostly allergic reactions."
+        }
+      }
+    },
+    {
+      "id": "deer",
+      "name_ru": "Олень",
+      "name_en": "Deer",
+      "latin": "Cervidae",
+      "emoji": "🦌",
+      "fun_fact": "Самцы оленей каждый год сбрасывают рога и отращивают новые, ещё больше прежних.",
+      "hint": "Сам олень никого не трогает: беда случается, когда он выбегает на дорогу перед машиной.",
+      "metrics": {
+        "deaths_per_year": {
+          "avg": 440,
+          "max": null,
+          "estimated": true,
+          "source": "https://en.wikipedia.org/wiki/Deer%E2%80%93vehicle_collisions",
+          "note": "USA ONLY, via car collisions: Conover 2019 (cited in Wikipedia) - at least 440 human deaths/yr and ~59,000 injuries. Wikipedia deadliest-animals list gives 130/yr (CNET 2016). No worldwide figure."
+        }
+      }
+    }
+  ]
+}
