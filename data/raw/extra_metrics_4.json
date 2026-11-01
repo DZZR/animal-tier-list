@@ -1,0 +1,143 @@
+{
+  "human": {
+    "brain_mass_g": {"avg": 1350, "max": 1400, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler (Univ. Washington) table: adult human 1,300-1,400 g; Wikipedia Brain size: 1,345 g adult males, 1,222 g adult females (https://en.wikipedia.org/wiki/Brain_size)"},
+    "maturity_years": {"avg": 12.5, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Puberty", "note": "Females: menarche on average ~12.5 years (puberty onset ~10.5); males begin puberty at 11.5-12"}
+  },
+  "african_bush_elephant": {
+    "brain_mass_g": {"avg": 4783, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table 'elephant' 4,783 g; Wikipedia Brain size says elephant brain 'just over 5 kg' (https://en.wikipedia.org/wiki/Brain_size)"},
+    "maturity_years": {"avg": 11, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/African_bush_elephant", "note": "Females: cows ovulate for the first time at 11 years; males: spermatogenesis ~15 years, first musth 24-30"}
+  },
+  "sperm_whale": {
+    "brain_mass_g": {"avg": 7080, "max": 9200, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Wikipedia: average 7.08 kg, smallest 6.4 kg, largest 9.2 kg; Chudler table gives 7,800 g"},
+    "maturity_years": {"avg": 9, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Sperm_whale", "note": "Females: 6-13 years, ~9 on average; males 9-21 years"}
+  },
+  "blue_whale": {
+    "brain_mass_g": {"avg": 3636, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Blue_whale", "note": "Single specimen (50.9 t whale) brain weighed ~3.636 kg"},
+    "maturity_years": {"avg": 10, "max": 15, "estimated": false, "source": "https://en.wikipedia.org/wiki/Blue_whale", "note": "Females average 10 years, males 12; overall range 5-15 years"}
+  },
+  "orca": {
+    "brain_mass_g": {"avg": 5620, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: killer whale 5,620 g"},
+    "maturity_years": {"avg": 11.5, "max": 13, "estimated": false, "source": "https://en.wikipedia.org/wiki/Orca", "note": "Females begin to mature at 10-13 years (midpoint); males sexually mature at 15"}
+  },
+  "bottlenose_dolphin": {
+    "brain_mass_g": {"avg": 1600, "max": 1700, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brain_size", "note": "Wikipedia: bottlenose dolphin 1.5-1.7 kg (midpoint); Chudler table 1,500-1,600 g"},
+    "maturity_years": {"avg": 7.5, "max": 10, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_bottlenose_dolphin", "note": "Females 5-10 years (midpoint); males 8-13 years"}
+  },
+  "chimpanzee": {
+    "brain_mass_g": {"avg": 420, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: chimpanzee 420 g"},
+    "maturity_years": {"avg": 15, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Chimpanzee", "note": "Wikipedia says females 'reach adulthood at around 15 years', males ~16; not stated as sexual maturity explicitly"}
+  },
+  "gorilla": {
+    "brain_mass_g": {"avg": 502, "max": 540, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: gorilla 465-540 g (midpoint)"},
+    "maturity_years": {"avg": 11, "max": 12, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gorilla", "note": "Females mature at 10-12 years (midpoint; earlier in captivity); males 11-13"}
+  },
+  "orangutan": {
+    "brain_mass_g": {"avg": 370, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: orangutan 370 g; Wikipedia gives endocranial volume 397 cm3"},
+    "maturity_years": {"avg": 15, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Orangutan", "note": "Males sexually mature at ~15; female age not stated, first birth typically ~15"}
+  },
+  "lion": {
+    "brain_mass_g": {"avg": 240, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: lion 240 g"},
+    "maturity_years": {"avg": 4, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Lion", "note": "Females: most lionesses reproduce by 4 years; males reach maturity at ~3"}
+  },
+  "tiger": {
+    "brain_mass_g": {"avg": 263.5, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: tiger 263.5 g"},
+    "maturity_years": {"avg": 3.5, "max": 4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tiger", "note": "Females 3-4 years (midpoint); males 4-5 years (Mazak 1981)"}
+  },
+  "domestic_cat": {
+    "brain_mass_g": {"avg": 30, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: cat 30 g"},
+    "maturity_years": {"avg": 0.625, "max": 0.83, "estimated": false, "source": "https://en.wikipedia.org/wiki/Cat", "note": "Queens (females) 5-10 months (midpoint 7.5 mo); males 5-7 months; varies by breed"}
+  },
+  "german_shepherd": {
+    "brain_mass_g": {"avg": 72, "max": null, "estimated": true, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: dog (beagle) 72 g; German Shepherd specific value not found, larger breed likely somewhat heavier"},
+    "maturity_years": {"avg": 0.75, "max": 2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Dog", "note": "Both sexes ~6 months to 1 year (midpoint 9 mo); up to 2 years in some large breeds"}
+  },
+  "horse": {
+    "brain_mass_g": {"avg": 532, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: horse 532 g"},
+    "maturity_years": {"avg": 1.5, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Horse", "note": "Physically capable of reproduction at ~18 months (esp. colts); domestic horses rarely bred before 3, especially females"}
+  },
+  "holstein_cow": {
+    "brain_mass_g": {"avg": 441, "max": 458, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: cow 425-458 g (midpoint); generic cattle, not Holstein-specific"}
+  },
+  "domestic_pig": {
+    "brain_mass_g": {"avg": 180, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: pig 180 g"},
+    "maturity_years": {"avg": 0.625, "max": 1, "estimated": false, "source": "https://en.wikipedia.org/wiki/Pig", "note": "Female pigs reach sexual maturity at 3-12 months (midpoint 7.5 mo); male age not stated"}
+  },
+  "house_mouse": {
+    "maturity_years": {"avg": 0.115, "max": 0.15, "estimated": false, "source": "https://en.wikipedia.org/wiki/House_mouse", "note": "Females ~6 weeks (0.115 yr), males ~8 weeks; can copulate from 5 weeks"}
+  },
+  "brown_rat": {
+    "brain_mass_g": {"avg": 2, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: rat (400 g body weight) 2 g"},
+    "maturity_years": {"avg": 0.1, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_rat", "note": "Both sexes: sexual maturity in about 5 weeks (0.096 yr)"}
+  },
+  "etruscan_shrew": {
+    "maturity_years": {"avg": 0.08, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Etruscan_shrew", "note": "Independent at 3-4 weeks 'and soon sexually mature'; ~1 month taken as estimate, sex not specified"}
+  },
+  "domestic_chicken": {
+    "maturity_years": {"avg": 0.42, "max": null, "estimated": true, "source": "https://en.wikipedia.org/wiki/Chicken", "note": "Wikipedia: 'a pullet is a sexually immature chicken less than 22 weeks of age' -> hens mature ~22 weeks; indirect"}
+  },
+  "ostrich": {
+    "maturity_years": {"avg": 3, "max": 4, "estimated": false, "source": "https://en.wikipedia.org/wiki/Common_ostrich", "note": "Both sexes mature at 2-4 years (midpoint); females ~6 months earlier than males"}
+  },
+  "bee_hummingbird": {
+    "maturity_years": {"avg": 1, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Bee_hummingbird", "note": "Reach sexual maturity at one year of age (sex not specified)"}
+  },
+  "nile_crocodile": {
+    "maturity_years": {"avg": 14, "max": 16, "estimated": false, "source": "https://en.wikipedia.org/wiki/Nile_crocodile", "note": "Sexual maturity 12-16 years on average (midpoint); sexes not separated"}
+  },
+  "komodo_dragon": {
+    "maturity_years": {"avg": 9.5, "max": 11, "estimated": false, "source": "https://en.wikipedia.org/wiki/Komodo_dragon", "note": "Take approximately 8-11 years to mature (midpoint); sexes not separated"}
+  },
+  "galapagos_tortoise": {
+    "maturity_years": {"avg": 22.5, "max": 40, "estimated": false, "source": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_tortoise", "note": "Sexual maturity ~20-25 years in captivity (midpoint), possibly 40 years in the wild"}
+  },
+  "great_white_shark": {
+    "brain_mass_g": {"avg": 34, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: shark (great white) 34 g"},
+    "maturity_years": {"avg": 33, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Great_white_shark", "note": "Females 33 years, males ~26 (2015 study); older 1985 estimate was 9-10 years"}
+  },
+  "giant_pacific_octopus": {
+    "maturity_years": {"avg": 1.5, "max": 2, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giant_Pacific_octopus", "note": "Sexual maturity at 1-2 years (midpoint); sexes not separated"}
+  },
+  "giraffe": {
+    "brain_mass_g": {"avg": 680, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: giraffe 680 g"},
+    "maturity_years": {"avg": 4, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Giraffe", "note": "Females able to reproduce at 4 years; males spermatogenesis at 3-4 but mate from ~7"}
+  },
+  "hippo": {
+    "brain_mass_g": {"avg": 582, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: hippopotamus 582 g"},
+    "maturity_years": {"avg": 5.5, "max": 6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Hippopotamus", "note": "Cows (females) 5-6 years (midpoint); bulls ~7.5 years"}
+  },
+  "white_rhino": {
+    "maturity_years": {"avg": 6.5, "max": 7, "estimated": false, "source": "https://en.wikipedia.org/wiki/White_rhinoceros", "note": "Cows (females) 6-7 years (midpoint); bulls 10-12 years"}
+  },
+  "polar_bear": {
+    "brain_mass_g": {"avg": 498, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: polar bear 498 g"},
+    "maturity_years": {"avg": 4, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Polar_bear", "note": "Females ~4 years, males ~6 years"}
+  },
+  "brown_bear": {
+    "brain_mass_g": {"avg": 234, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: grizzly bear 234 g (grizzly = North American brown bear)"},
+    "maturity_years": {"avg": 6, "max": 8, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown_bear", "note": "Females mature sexually between 4 and 8 years (midpoint); males first mate about a year later"}
+  },
+  "red_kangaroo": {
+    "maturity_years": {"avg": 2.5, "max": 5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Red_kangaroo", "note": "Females normally begin breeding at ~2.5 years (as early as 18 months, as late as 5 in drought); male age not stated"}
+  },
+  "koala": {
+    "brain_mass_g": {"avg": 19.2, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Wikipedia: koala brain weighs only 19.2 g on average"},
+    "maturity_years": {"avg": 3, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Koala", "note": "Females ~3 years, males ~4 years"}
+  },
+  "three_toed_sloth": {
+    "maturity_years": {"avg": 3, "max": 5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Brown-throated_sloth", "note": "Brown-throated sloth: females ~3 years, males 3-5 (avg ~4)"}
+  },
+  "naked_mole_rat": {
+    "maturity_years": {"avg": 1, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Naked_mole-rat", "note": "Queen and breeding males able to breed at one year of age (only breeders reproduce)"}
+  },
+  "platypus": {
+    "brain_mass_g": {"avg": 9, "max": null, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: platypus 9 g"},
+    "maturity_years": {"avg": 2, "max": null, "estimated": false, "source": "https://en.wikipedia.org/wiki/Platypus", "note": "Females believed to become sexually mature at 2 years; males fully grown ~2 years"}
+  },
+  "walrus": {
+    "brain_mass_g": {"avg": 1073, "max": 1126, "estimated": false, "source": "https://faculty.washington.edu/chudler/facts.html", "note": "Chudler table: walrus 1,020-1,126 g (midpoint)"},
+    "maturity_years": {"avg": 5, "max": 6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Walrus", "note": "Females begin ovulating at 4-6 years (midpoint); males mature from ~7 but mate ~15"}
+  },
+  "emperor_penguin": {
+    "maturity_years": {"avg": 3, "max": 6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Emperor_penguin", "note": "Can breed at ~3 years, but generally do not begin breeding for another 1-3 years (4-6)"}
+  }
+}

@@ -13,7 +13,7 @@ function renderVisual(state) {
   const sorted = [...state.animals].sort((a, b) => metric(b) - metric(a));
   const human = state.animals.find((a) => a.id === "human");
   const fn = { silhouettes, balance, race, lifelines, scale }[cat.visual] || scale;
-  box.insertAdjacentHTML("beforeend", `<h2>👀 Наглядно</h2>`);
+  box.insertAdjacentHTML("beforeend", `<h2>${t("👀 Наглядно")}</h2>`);
   fn(box, sorted, human, cat, metric);
   // та же подсветка, что и в остальных блоках
   box.querySelectorAll("[data-id]").forEach((el) => {
@@ -33,7 +33,9 @@ function silhouettes(box, sorted, human, cat, metric) {
   const maxV = metric(sorted[0]);
   const k = 300 / maxV;                            // при зуме 1 самый большой = 300 px
   const teeth = cat.metric === "tooth_length_cm";
-  box.insertAdjacentHTML("beforeend", `<p class="small">Всё в одном масштабе${human ? `, человек — ${fmt(metric(human))} ${cat.unit}` : ""}. Мелких почти не видно — так и есть в жизни. Колесо мыши или два пальца — приблизить, тянуть — двигать. <button class="btn small alt" id="zoom-reset">Сброс</button></p>`);
+  const unit = L(cat, "unit");
+  const humanNote = human ? t(", человек — {v}").replace("{v}", `${fmt(metric(human))} ${unit}`) : "";
+  box.insertAdjacentHTML("beforeend", `<p class="small">${t("Всё в одном масштабе{h}. Мелких почти не видно — так и есть в жизни. Колесо мыши или два пальца — приблизить, тянуть — двигать.").replace("{h}", humanNote)} <button class="btn small alt" id="zoom-reset">${t("Сброс")}</button></p>`);
   const view = document.createElement("div");
   view.className = "v-zoom";
   const scene = document.createElement("div");
@@ -45,7 +47,7 @@ function silhouettes(box, sorted, human, cat, metric) {
       : `<div class="v-fig">${pic(a)}</div>`;
     scene.insertAdjacentHTML("beforeend",
       `<div class="v-item ${a.id === "human" ? "human" : ""}" data-id="${a.id}" data-px="${metric(a) * k}">${fig}
-         <div class="v-label">${teeth ? pic(a, 'class="mini"') + "<br>" : ""}${nameFor(a)}<br><b>${fmt(metric(a))} ${cat.unit}</b></div></div>`);
+         <div class="v-label">${teeth ? pic(a, 'class="mini"') + "<br>" : ""}${nameFor(a)}<br><b>${fmt(metric(a))} ${unit}</b></div></div>`);
   }
   view.appendChild(scene);
   box.appendChild(view);
@@ -96,35 +98,38 @@ function enableZoom(view, setZoom, startScale = 1) {
 // ---- Весы: сколько человечков надо, чтобы уравновесить ----
 function balance(box, sorted, human, cat, metric) {
   const hw = human ? metric(human) : 70;
+  const unit = L(cat, "unit");
   for (const a of sorted) {
     if (a.id === "human") continue;
     const n = metric(a) / hw;
     let icons, text;
     if (n >= 1) {
       const count = Math.round(n);
-      icons = "🧍".repeat(Math.min(count, 300)) + (count > 300 ? ` … ещё ${count - 300}` : "");
-      text = `= ${count.toLocaleString("ru-RU")} ${plural(count, "человек", "человека", "человек")}`;
+      icons = "🧍".repeat(Math.min(count, 300)) + (count > 300 ? t(" … ещё {n}").replace("{n}", count - 300) : "");
+      // В русском «5 человек», в es/en форма множественного — отдельный ключ «людей»
+      const word = plural(count, t("человек"), t("человека"), LANG === "ru" ? "человек" : t("людей"));
+      text = `= ${count.toLocaleString(numLocale())} ${word}`;
     } else {
       const inv = Math.round(1 / n);
       icons = "🧍 = " + `${pic(a, 'class="mini"')}`.repeat(Math.min(inv, 200)) + (inv > 200 ? " …" : "");
-      text = `один человек весит как ${inv.toLocaleString("ru-RU")} ${nameFor(a).toLowerCase()}`;
+      text = t("один человек весит как {n} {name}").replace("{n}", inv.toLocaleString(numLocale())).replace("{name}", nameFor(a).toLowerCase());
     }
     box.insertAdjacentHTML("beforeend",
-      `<div class="v-row" data-id="${a.id}"><div class="v-head">${pic(a, 'class="mini"')} ${nameFor(a)} <b>${fmt(metric(a))} ${cat.unit}</b> ${text}</div><div class="v-icons">${icons}</div></div>`);
+      `<div class="v-row" data-id="${a.id}"><div class="v-head">${pic(a, 'class="mini"')} ${nameFor(a)} <b>${fmt(metric(a))} ${unit}</b> ${text}</div><div class="v-icons">${icons}</div></div>`);
   }
 }
 
 // ---- Гонка: 3 секунды, путь пропорционален скорости ----
 function race(box, sorted, human, cat, metric) {
   const maxV = metric(sorted[0]);
-  box.insertAdjacentHTML("beforeend", `<p class="small">За 3 секунды каждый пробегает столько, сколько успел бы на своей максимальной скорости. <button class="btn small" id="race-go">▶ Старт</button> <button class="btn small alt" id="race-skip">Пропустить</button></p>`);
+  box.insertAdjacentHTML("beforeend", `<p class="small">${t("За 3 секунды каждый пробегает столько, сколько успел бы на своей максимальной скорости.")} <button class="btn small" id="race-go">${t("▶ Старт")}</button> <button class="btn small alt" id="race-skip">${t("Пропустить")}</button></p>`);
   const track = document.createElement("div");
   track.className = "v-track";
   for (const a of sorted) {
     track.insertAdjacentHTML("beforeend",
       `<div class="v-lane ${a.id === "human" ? "human" : ""}" data-id="${a.id}">
          <div class="v-runner" data-to="${(metric(a) / maxV * 100).toFixed(1)}">${pic(a, 'class="mini"')}</div>
-         <div class="v-lane-label">${nameFor(a)} · ${fmt(metric(a))} ${cat.unit}</div></div>`);
+         <div class="v-lane-label">${nameFor(a)} · ${fmt(metric(a))} ${L(cat, "unit")}</div></div>`);
   }
   box.appendChild(track);
   const run = (sec) => track.querySelectorAll(".v-runner").forEach((r) => {
@@ -142,7 +147,7 @@ function lifelines(box, sorted, human, cat, metric) {
     const m = a.metrics[cat.metric];
     box.insertAdjacentHTML("beforeend",
       `<div class="v-life ${a.id === "human" ? "human" : ""}" data-id="${a.id}">
-         <div class="v-head">${pic(a, 'class="mini"')} ${nameFor(a)} <b>${fmt(m.avg)} ${cat.unit}</b>${m.max != null ? ` <span class="small">(рекорд ${fmt(m.max)})</span>` : ""}</div>
+         <div class="v-head">${pic(a, 'class="mini"')} ${nameFor(a)} <b>${fmt(m.avg)} ${L(cat, "unit")}</b>${m.max != null ? ` <span class="small">${t("(рекорд {v})").replace("{v}", fmt(m.max))}</span>` : ""}</div>
          <div class="v-line"><div class="v-fill" style="width:${metric(a) / maxV * 100}%"></div>${m.max != null ? `<div class="v-max" style="left:${Math.min(100, m.max / maxV * 100)}%"></div>` : ""}</div></div>`);
   }
 }
@@ -156,7 +161,7 @@ function scale(box, sorted, human, cat, metric) {
   const pos = (v) => mode === "log" ? 100 * Math.log10(1 + v) / Math.log10(1 + maxV)
             : mode === "sqrt" ? 100 * Math.sqrt(v / maxV) : 100 * v / maxV;
   const hint = { log: "Шкала логарифмическая — иначе мелкие не видны.", sqrt: "Шкала сжата (корень), чтобы мелкие не слипались.", lin: "Чем правее — тем больше." }[mode];
-  box.insertAdjacentHTML("beforeend", `<p class="small">${hint}</p>`);
+  box.insertAdjacentHTML("beforeend", `<p class="small">${t(hint)}</p>`);
   const ruler = document.createElement("div");
   ruler.className = "v-ruler";
   // Подписи на трёх уровнях сверху и снизу по очереди, чтобы не налезали
@@ -172,7 +177,9 @@ function scale(box, sorted, human, cat, metric) {
   box.appendChild(wrap);
 }
 
+// Русские формы «1 человек / 2 человека / 5 человек»; в es/en только единственное и множественное
 function plural(n, one, few, many) {
+  if (LANG !== "ru") return n === 1 ? one : many;
   const m10 = n % 10, m100 = n % 100;
   return m10 === 1 && m100 !== 11 ? one : m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20) ? few : many;
 }

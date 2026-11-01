@@ -1,0 +1,552 @@
+{
+ "lion": {
+  "title": "Lion",
+  "text": "The lion is a large cat of the genus Panthera, currently ranging only in sub-Saharan Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane that extends from the head to the shoulders and chest.\nThe lion inhabits grasslands, savannahs, and shrublands. It is an apex and keystone predator, preying mostly on medium-sized and large hooved mammals. It is usually more diurnal than other wild cats, but when persecuted, it adapts to being active at night and at twilight.",
+  "url": "https://en.wikipedia.org/wiki/Lion"
+ },
+ "tiger": {
+  "title": "Tiger",
+  "text": "The tiger is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur that fades to white in parts, with black, mostly vertical stripes. It is traditionally classified into nine subspecies, though some recognise only two subspecies, the mainland Asian tiger and the Sunda Islands tiger.\nThroughout its range, it inhabits mainly forests, from coniferous and temperate broadleaf and mixed forests in the Russian Far East and Northeast China to tropical and subtropical moist broadleaf forests on the Indian subcontinent and Southeast Asia. The tiger is an apex predator and preys mainly on ungulates, which it takes by ambush. It lives a mostly solitary life and defends its home range from individuals of the same sex.",
+  "url": "https://en.wikipedia.org/wiki/Tiger"
+ },
+ "jaguar": {
+  "title": "Jaguar",
+  "text": "The jaguar is a large cat species and the only living member of the genus Panthera that is native to the Americas. Its coat features pale yellow to tan colored fur covered with spots that transition to rosettes on the sides; some individuals have a melanistic spotted coat. With a body length of up to 1.85 m and a weight of up to 158 kg, it is the biggest cat species in the Americas and the third largest in the world. The jaguar's powerful bite allows it to pierce the carapaces of turtles and tortoises, and to employ an unusual killing method: it bites directly through the skull of mammalian prey between the ears to deliver a fatal blow to the brain.\nThe modern jaguar's ancestors probably entered the Americas from Eurasia during the Early Pleistocene via the land bridge that once spanned the Bering Strait. The oldest jaguar fossils found in North America date to between 0.85 to 0.82 million years ago.",
+  "url": "https://en.wikipedia.org/wiki/Jaguar"
+ },
+ "leopard": {
+  "title": "Leopard",
+  "text": "The leopard is one of the five extant cat species in the genus Panthera. It has a pale yellowish to dark golden fur with dark spots grouped in rosettes. Its body is slender and muscular, reaching a length of 92–183 cm with a 66–102 cm long tail and a shoulder height of 60–70 cm. Males typically weigh 30.9–72 kg, and females 20.5–43 kg.\nThe leopard was first described in 1758, and several subspecies were proposed in the 19th and 20th centuries. Today, eight subspecies are recognised in its wide range in Africa and Asia.",
+  "url": "https://en.wikipedia.org/wiki/Leopard"
+ },
+ "cheetah": {
+  "title": "Cheetah",
+  "text": "The cheetah is a species of large feline and the only living member of the genus Acinonyx. The cheetah is a pursuit predator and the fastest land animal, capable of running at 93–104 km/h; it has evolved for speed, having powerful hindlimb muscles and a long lumbar spine. The cheetah has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots. The head is small and rounded, with a short snout and black tear-like facial streaks. It has a height of 67–94 cm at the shoulder, and the head-and-body length is between 1.1 and 1.5 m. Adults weigh between 21 and 65 kg.",
+  "url": "https://en.wikipedia.org/wiki/Cheetah"
+ },
+ "domestic_cat": {
+  "title": "Cat",
+  "text": "The cat, also called domestic cat and house cat, is a small domesticated carnivorous mammal. It is a member of Felidae, the family of mammals in the order Carnivora also colloquially referred to as cats. An obligate carnivore requiring a predominantly meat-based diet, it has retractable claws adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator.\nCat communication includes meowing, purring, trilling, hissing, growling, grunting, body language, and scent marking.",
+  "url": "https://en.wikipedia.org/wiki/Cat"
+ },
+ "brown_bear": {
+  "title": "Brown bear",
+  "text": "The brown bear is a large bear native to Eurasia and North America. Of the land carnivorans, it is rivaled in size only by its closest relative, the polar bear, which is much less variable in size and slightly bigger on average. The brown bear is a sexually dimorphic species, as adult males are larger and more compactly built than females. The fur ranges in color from cream to reddish to dark brown. It has evolved large hump muscles, unique among bears, and paws up to 21 cm wide and 36 cm long, to effectively dig through dirt. Its teeth are similar to those of other bears and reflect its dietary plasticity.",
+  "url": "https://en.wikipedia.org/wiki/Brown%20bear"
+ },
+ "polar_bear": {
+  "title": "Polar bear",
+  "text": "The polar bear is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore by body mass, with adult males weighing 300–800 kg. The species is sexually dimorphic, as adult females are much smaller. The polar bear is white or yellowish-furred with black skin and a thick layer of fat. It is more slender than the brown bear, with a narrower skull, longer neck and lower shoulder hump.",
+  "url": "https://en.wikipedia.org/wiki/Polar%20bear"
+ },
+ "gorilla": {
+  "title": "Gorilla",
+  "text": "Gorillas are large, primarily herbivorous, great apes that live in the tropical forests of equatorial Africa. The genus Gorilla is divided into two species: the eastern gorilla and the western gorilla, and either four or five subspecies. The DNA of gorillas is highly similar to that of humans, from 96 to 99% depending on what is included, and they are the next closest living relatives to humans after the bonobos and chimpanzees.\nGorillas are the largest living primates, reaching heights between 1.25 and 1.8 m, weights between 68 and 227 kg, and arm spans up to 2.6 m, depending on species and sex. They tend to live in troops, with the leader being called a silverback. The eastern gorilla is distinguished from the western by darker fur colour and some other minor morphological differences.",
+  "url": "https://en.wikipedia.org/wiki/Gorilla"
+ },
+ "chimpanzee": {
+  "title": "Chimpanzee",
+  "text": "The chimpanzee, commonly abbreviated to chimp, is a medium-sized great ape species found in the forests and savannas of equatorial Africa. It has four confirmed subspecies and a fifth proposed one. The chimpanzee shares the genus Pan with the bonobo. Evidence from fossils and DNA sequencing shows that the two species are humans' closest living relatives. The chimpanzee is bigger and more robust than the bonobo. It is covered in coarse black hair but has a bare face, fingers, toes, palms of the hands, and soles of the feet.",
+  "url": "https://en.wikipedia.org/wiki/Chimpanzee"
+ },
+ "orangutan": {
+  "title": "Bornean orangutan",
+  "text": "The Bornean orangutan is an orangutan species endemic to the island of Borneo. It belongs to the only genus of great apes native to Asia and is the largest of the three Pongo species. It has a coarse, reddish coat and up to 1.5 m long arms. It is sexually dimorphic — males are larger than females and develop large cheek pads.\nThe Bornean orangutan inhabits Borneo lowland rain forests and Borneo montane rain forests up to an elevation of 1,500 m. Its diet includes fruits, seeds, flowers, bird eggs, sap and vines.",
+  "url": "https://en.wikipedia.org/wiki/Bornean%20orangutan"
+ },
+ "human": {
+  "title": "Human",
+  "text": "Humans are the most abundant and widespread species of primates, characterized by bipedalism, minimal body hair, and large, complex brains enabling the development of advanced technology, culture, and language. Humans are highly social beings and tend to live in complex social structures composed of many cooperating and competing groups, from families and kinship networks to political states. Social interactions between humans have established a wide variety of values, social norms, and rituals, which bolster human society. Curiosity and the human desire to understand and influence the environment have motivated humanity's development of art, science, philosophy, religion, mythology, and other fields of knowledge.\nHumans have a large and highly developed prefrontal cortex, the region of the brain associated with higher cognition. They are intelligent beings, capable of episodic memory, flexible facial expressions, self-awareness and a theory of mind.",
+  "url": "https://en.wikipedia.org/wiki/Human"
+ },
+ "african_bush_elephant": {
+  "title": "African bush elephant",
+  "text": "The African bush elephant, also known as the African savanna elephant, is a species of elephant native to sub-Saharan Africa and the largest living terrestrial animal, with fully grown bulls reaching an average shoulder height of 3.04–3.36 m and a body mass of 5.2–6.9 t; the largest recorded specimen had a shoulder height of 3.96 m and an estimated body mass of 10.4 t. It is characterised by its long prehensile trunk with two finger-like processes; a concave back; large ears which help reduce body heat; and sturdy tusks that are noticeably curved. Its skin is grey with scanty hairs, and bending cracks which support thermoregulation by retaining water.\nThe African bush elephant inhabits a variety of habitats such as forests, grasslands, woodlands, wetlands and agricultural land. It is a mixed herbivore feeding mostly on grasses, creepers, herbs, leaves, and bark. The average adult consumes about 150 kg of vegetation and 230 L of water each day.",
+  "url": "https://en.wikipedia.org/wiki/African%20bush%20elephant"
+ },
+ "hippo": {
+  "title": "Hippopotamus",
+  "text": "The hippopotamus, often shortened to hippo, further qualified as the common hippopotamus, Nile hippopotamus and river hippopotamus, is a large semiaquatic mammal native to sub-Saharan Africa. It is one of only two extant species in the family Hippopotamidae, the other being the pygmy hippopotamus. Its name comes from the Ancient Greek for \"river horse\".\nAfter elephants and rhinoceroses, the hippopotamus is the next largest land mammal. It is also the largest extant land artiodactyl. Despite their physical resemblance to pigs and other terrestrial even-toed ungulates, the closest living relatives of the hippopotamids are cetaceans, from which they diverged about 55 million years ago.",
+  "url": "https://en.wikipedia.org/wiki/Hippopotamus"
+ },
+ "white_rhino": {
+  "title": "White rhinoceros",
+  "text": "The white rhinoceros, white rhino or square-lipped rhinoceros is the largest extant species of rhinoceros. It has a wide mouth used for grazing and is the most social of all rhino species. The white rhinoceros consists of two subspecies: the southern white rhinoceros, with an estimated 17,464 individuals in the wild as of the end of 2023, and the much rarer northern white rhinoceros. The northern subspecies is critically endangered and on the brink of extinction; it has only two confirmed left as of 2018. Sudan, the world's last known male northern white rhinoceros, died in Kenya in March 2018. White rhinoceros can run up to 40 mph for very short bursts.",
+  "url": "https://en.wikipedia.org/wiki/White%20rhinoceros"
+ },
+ "giraffe": {
+  "title": "Giraffe",
+  "text": "Giraffes are large African hoofed mammals. They are the tallest living terrestrial animals and the largest ruminants on Earth. They are classified under the family Giraffidae, along with their closest extant relative, the okapi. Traditionally, giraffes have been thought of as one species, Giraffa camelopardalis, with nine subspecies. Most recently, researchers proposed dividing them into four extant species, with seven subspecies, which can be distinguished morphologically by their fur coat patterns. Six valid extinct species of Giraffa are known from the fossil record.",
+  "url": "https://en.wikipedia.org/wiki/Giraffe"
+ },
+ "horse": {
+  "title": "Horse",
+  "text": "The horse is a domesticated, one-toed, hoofed mammal. It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus. The horse has evolved over the past 45 to 55 million years from a small multi-toed creature, Eohippus, into the large single-toed animal of today, originally in North America. Humans began domesticating horses around 4000 BCE in Central Asia, primarily associated with the Botai culture; their domestication is believed to have been widespread by 3000 BCE. However, contemporary genetic evidence indicates that modern domesticated breeds do not descend from this lineage, instead pointing to the Western Eurasian steppes in the lower Volga-Don region as the homeland of modern domestic horses. The modern horse breed replaced the local populations through their rapid expansion across Eurasia from 2000 BCE. Horses in the subspecies caballus are domesticated, although some domesticated populations live in the wild as feral horses. These feral populations are not true wild horses, which are horses that have never been domesticated.",
+  "url": "https://en.wikipedia.org/wiki/Horse"
+ },
+ "ostrich": {
+  "title": "Common ostrich",
+  "text": "The common ostrich, or simply ostrich, is a species of flightless bird native to certain areas of Africa and is the largest living species of bird. The common ostrich is one of two extant species of ostriches, the only living members of the genus Struthio in the ratite group of birds. The other is the Somali ostrich, which has been recognised as a distinct species by BirdLife International since 2014, having been previously considered a distinctive subspecies of ostrich.\nThe common ostrich belongs to the order Struthioniformes. Struthioniformes previously contained all the ratites, such as the kiwis, emus, rheas, and cassowaries. However, a recent genetic analysis has found that the group is not monophyletic, as it is paraphyletic with respect to the tinamous, so the ostriches are now classified as the only members of the order.",
+  "url": "https://en.wikipedia.org/wiki/Common%20ostrich"
+ },
+ "spotted_hyena": {
+  "title": "Spotted hyena",
+  "text": "The spotted hyena, also known as the laughing hyena, is a hyena species, currently classed as the sole extant member of the genus Crocuta, native to sub-Saharan Africa. It is listed as being of least concern by the IUCN due to its widespread range and large numbers estimated between 27,000 and 47,000 individuals. The species is, however, experiencing declines outside of protected areas due to habitat loss and poaching. Populations of Crocuta, usually considered a subspecies of Crocuta crocuta, known as cave hyenas, roamed across Eurasia for at least one million years until the end of the Late Pleistocene. The spotted hyena is the largest extant member of the Hyaenidae, and is further physically distinguished from other species by its vaguely bear-like build, rounded ears, less prominent mane, spotted pelt, more dual-purposed dentition, fewer nipples, and pseudo-penis. It is the only placental mammalian species where females have a pseudo-penis and lack an external vaginal opening.",
+  "url": "https://en.wikipedia.org/wiki/Spotted%20hyena"
+ },
+ "gray_wolf": {
+  "title": "Wolf",
+  "text": "The wolf, also known as the grey wolf or gray wolf, is a canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, including the dog and dingo, though grey wolves, as popularly understood, include only naturally occurring wild subspecies. The wolf is the largest wild extant member of the family Canidae, and is further distinguished from other Canis species by its less pointed ears and muzzle, as well as a shorter torso and a longer tail. The wolf is nonetheless related closely enough to smaller Canis species, such as the coyote and the golden jackal, to produce fertile hybrids with them. The wolf's fur is usually mottled white, brown, grey, and black, although subspecies in the Arctic region may be nearly all white.\nOf all members of the genus Canis, the wolf is most specialized for cooperative game hunting, as demonstrated by its physical adaptations to tackling large prey, its more social nature, and its highly advanced expressive behaviour, including individual or group howling.",
+  "url": "https://en.wikipedia.org/wiki/Wolf"
+ },
+ "nile_crocodile": {
+  "title": "Nile crocodile",
+  "text": "The Nile crocodile is a large crocodilian native to freshwater habitats in Africa, where it is present in 26 countries. It is widely distributed in sub-Saharan Africa, occurring mostly in the eastern, southern, and central regions of the continent, and lives in different types of aquatic environments such as lakes, rivers, swamps and marshlands. It occasionally inhabits deltas, brackish lakes and rarely also saltwater. Its range once stretched from the Nile Delta throughout the Nile River. Lake Turkana in Kenya has one of the largest undisturbed Nile crocodile populations.\nGenerally, the adult male Nile crocodile is between 3.5 and 5 m in length and weighs 225 to 750 kg.",
+  "url": "https://en.wikipedia.org/wiki/Nile%20crocodile"
+ },
+ "saltwater_crocodile": {
+  "title": "Saltwater crocodile",
+  "text": "The saltwater crocodile is a crocodilian native to saltwater habitats, brackish wetlands and freshwater rivers from India's east coast across Southeast Asia and the Sundaland to northern Australia and Micronesia. It has been listed as Least Concern on the IUCN Red List since 1996. It was hunted for its skin throughout its range up to the 1970s, and is threatened by illegal killing and habitat loss. It is regarded as dangerous to humans.\nThe saltwater crocodile is the largest living reptile. Males can grow to a weight of 1,000–1,500 kg and a length of 6 m, rarely exceeding 6.3 m.",
+  "url": "https://en.wikipedia.org/wiki/Saltwater%20crocodile"
+ },
+ "american_alligator": {
+  "title": "American alligator",
+  "text": "The American alligator, sometimes referred to as a common alligator or just gator, is a large crocodilian reptile native to the Southeastern United States. It is one of the two extant species in the genus Alligator, and is larger than the only other living alligator species, the Chinese alligator.\nAdult male American alligators measure 3.4 to 4.8 m in length, and can weigh up to 450 kg, with unverified sizes of up to 5.84 m and weights of 1,000 kg making it the heaviest member of the family Alligatoridae, and the second longest one, after the black caiman. Females are smaller, measuring 2.6 to 3.35 m in length. The American alligator inhabits subtropical and tropical freshwater wetlands, such as marshes and cypress swamps, from southern Oklahoma and Texas to North Carolina. It is distinguished from the sympatric American crocodile by its broader U-shaped snout, with overlapping jaws and darker coloration, and is less tolerant of saltwater but more tolerant of cooler climates than the American crocodile, which is found only in tropical and warm subtropical climates.",
+  "url": "https://en.wikipedia.org/wiki/American%20alligator"
+ },
+ "komodo_dragon": {
+  "title": "Komodo dragon",
+  "text": "The Komodo dragon, also known as the Komodo monitor, is a large reptile of the monitor lizard family Varanidae that is endemic to the Indonesian islands of Komodo, Rinca, Flores, Gili Dasami, and Gili Motang. The largest extant population lives  within the Komodo National Park in Eastern Indonesia. It is the largest extant species of lizard, with the males growing to a maximum length of 3 m and weighing up to 150 kg.\nAs a result of their size, which is exceptional among reptiles, Komodo dragons are apex predators, dominating the ecosystems in which they live. Komodo dragons hunt and ambush prey; juveniles take small prey like invertebrates or birds, and adults favour larger mammals, occasionally even attacking humans. The diet of adult Komodo dragons mainly consists of Javan rusa and feral pigs, though they also eat considerable amounts of carrion.",
+  "url": "https://en.wikipedia.org/wiki/Komodo%20dragon"
+ },
+ "great_white_shark": {
+  "title": "Great white shark",
+  "text": "The great white shark, also known as the white shark, white pointer, or great white, is a large shark. It is closely related to the mako sharks, the porbeagle, and the salmon shark. It is a robustly built species with a grayish upperside and a white underside. The white shark is one of the largest living shark and fish species, though it is still smaller than the whale shark and basking shark. It has about 300 triangular, serrated teeth that are continuously replaced. Its massive, fatty liver can reach over a quarter of its body weight, providing buoyancy and storing energy.",
+  "url": "https://en.wikipedia.org/wiki/Great%20white%20shark"
+ },
+ "orca": {
+  "title": "Orca",
+  "text": "The orca, or killer whale, is a toothed whale and the largest member of the oceanic dolphin family. The only extant species in the genus Orcinus, it is recognizable by its distinct pigmentation; being mostly black on top, white on the bottom and having recognizable white eye patches. A cosmopolitan species, it inhabits a wide range of marine environments, from Arctic to Antarctic regions to tropical seas, but is more commonly documented in temperate or cooler coastal waters. Scientists have proposed dividing the global population into races, subspecies, or possibly even species.\nOrcas are apex predators with a diverse diet. Individual populations often specialize in particular types of prey, including bony fish, sharks, rays, and marine mammals such as seals, dolphins, and whales.",
+  "url": "https://en.wikipedia.org/wiki/Orca"
+ },
+ "blue_whale": {
+  "title": "Blue whale",
+  "text": "The blue whale is a species of baleen whale and the largest marine mammal in the rorqual family Balaenopteridae. Reaching a maximum confirmed length of 29.9–30.5 m and weighing up to 190–200 t, it is the largest animal known to have ever existed. The blue whale's long and slender body can be of various shades of greyish-blue on its upper surface and somewhat lighter underneath. Four subspecies are recognized: B. m. musculus in the North Atlantic and North Pacific, B. m. intermedia in the Southern Ocean, B. m.",
+  "url": "https://en.wikipedia.org/wiki/Blue%20whale"
+ },
+ "green_anaconda": {
+  "title": "Green anaconda",
+  "text": "The green anaconda is a species of snake in the family Boidae. The species is native to northern South America. It is one of the longest and heaviest known extant snake species. Like all boas, it is a non-venomous constrictor. The green anaconda generally has a life expectancy of ten years in the wild, although some specimens live longer when taken care of in captivity. The green anaconda lives in tropical rainforests and tends to prefer shallow, slow-moving waters, such as streams, rivers, and flooded grasslands.",
+  "url": "https://en.wikipedia.org/wiki/Green%20anaconda"
+ },
+ "golden_eagle": {
+  "title": "Golden eagle",
+  "text": "The golden eagle is a bird of prey living in the Northern Hemisphere. It is the most widely distributed species of eagle. Like all eagles, it belongs to the family Accipitridae. They are one of the best-known birds of prey in the Northern Hemisphere. These birds are dark brown, with lighter golden-brown plumage on their napes. Immature eagles of this species typically have white on the tail and often have white markings on the wings.",
+  "url": "https://en.wikipedia.org/wiki/Golden%20eagle"
+ },
+ "german_shepherd": {
+  "title": "German Shepherd",
+  "text": "The German Shepherd, also known in Britain as an Alsatian, is a German breed of working dog of medium to large size. It is characterized by its intelligent and obedient nature.\nIt was developed in Germany from 1899 by Max von Stephanitz, using various traditional German herding dogs, and gained international recognition after the end of the First World War. It was bred as a herding dog, for herding sheep, but has since been used in many other types of work, including disability assistance, search-and-rescue, police work, and warfare. It is commonly kept as a companion dog, and is among the most frequently registered breeds world-wide.",
+  "url": "https://en.wikipedia.org/wiki/German%20Shepherd"
+ },
+ "mosquito": {
+  "title": "Anopheles",
+  "text": "Anopheles is a genus of mosquito first described by the German entomologist J. W. Meigen in 1818, and are known as nail mosquitoes and marsh mosquitoes. Many such mosquitoes are vectors of the parasite Plasmodium, a genus of protozoans that cause malaria in birds, reptiles, and mammals, including humans. The Anopheles gambiae mosquito is the best-known species of marsh mosquito that transmits the Plasmodium falciparum, which is a malarial parasite deadly to human beings; no other mosquito genus is a vector of human malaria.\nThe genus Anopheles diverged from other mosquitoes approximately 100 million years ago, and, like other mosquitoes, the eggs, larvae, and pupae are aquatic. The Anopheles larva has no respiratory siphon through which to breathe, so it breathes and feeds with its body horizontal to the surface of the water. The adult mosquito hatches from the surface and feeds on the nectar of flowers; the female mosquito also feeds on blood, which animal diet allows them to carry and transmit parasites between hosts.",
+  "url": "https://en.wikipedia.org/wiki/Anopheles"
+ },
+ "venomous_snake": {
+  "title": "Indian cobra",
+  "text": "The Indian cobra, also known commonly as the spectacled cobra, Asian cobra, or binocellate cobra, is a species of cobra, a venomous snake in the family Elapidae. The species is native to the Indian subcontinent, and is a member of the \"Big Four\" species that are responsible for the most snakebite cases in Sri Lanka and India. \nThe Indian cobra is revered in Hindu mythology and culture, and is often seen with snake charmers. It is a protected species under the Indian Wildlife Protection Act.",
+  "url": "https://en.wikipedia.org/wiki/Indian%20cobra"
+ },
+ "freshwater_snail": {
+  "title": "Freshwater snail",
+  "text": "Freshwater snails are gastropod mollusks that live in fresh water. There are many different families. They are found throughout the world in various habitats, ranging from ephemeral pools to the largest lakes, and from small seeps and springs to major rivers. The great majority of freshwater gastropods have a shell, with very few exceptions. Some groups of snails that live in freshwater respire using gills, whereas other groups need to reach the surface to breathe air. In addition, some are amphibious and have both gills and a lung (e.g.",
+  "url": "https://en.wikipedia.org/wiki/Freshwater%20snail"
+ },
+ "assassin_bug": {
+  "title": "Triatominae",
+  "text": "The members of the Triatominae , a subfamily of the Reduviidae, are also known as conenose bugs,  kissing bugs, or vampire bugs. Other local names for them, used in Latin America and by Latinos generally, include barbeiros, vinchucas, pitos, chipos and chinches. Most of the 130 or more species of this subfamily feed on vertebrate blood; a very small portion of species feed on invertebrates. They are mainly found and widespread in the Americas, with a few species present in Asia and Africa. These bugs usually share shelter with nesting vertebrates, from which they suck blood.  In areas where Chagas disease occurs, all triatomine species are potential vectors of the Chagas disease parasite Trypanosoma cruzi, but only those species that are well adapted to living with humans are considered important vectors.",
+  "url": "https://en.wikipedia.org/wiki/Triatominae"
+ },
+ "scorpion": {
+  "title": "Scorpion",
+  "text": "Scorpions are predatory arachnids with eight legs, a pair of grasping pincers and a narrow, segmented tail, often carried in a characteristic forward curve over the back and always ending with a stinger. The evolutionary history of scorpions goes back to the Silurian Period, approximately 430 million years ago. They mainly live in deserts but have adapted to a wide range of environmental conditions, and can be found on all continents except Antarctica. There are over 2,500 described species, with 22 extant families recognized to date. Their taxonomy is being revised to account for 21st-century genomic studies.\nScorpions primarily prey on insects and other invertebrates, but some species hunt vertebrates.",
+  "url": "https://en.wikipedia.org/wiki/Scorpion"
+ },
+ "honey_bee": {
+  "title": "Honey bee",
+  "text": "A honey bee is a eusocial flying insect from the genus Apis of the largest bee family, Apidae. Honey bees are known for their creation of perennial nests within cavities containing hexagonal cells made of secreted wax, their large colony sizes, and their routine regurgitation of digested carbohydrates as surplus food storage in the form of honey, the lattermost of which distinguishes their hives as a prized foraging target of many mellivorous animals including honey badgers, bears and human hunter-gatherers. \nAlthough honey bees represent only a small fraction of the roughly 20,000 known species of bees, they are the bee clade most familiar to humans and are also the most valuable beneficial insects to agriculture and horticulture. The best-known honey bee species is the western honey bee, which was domesticated and farmed for honey production and crop pollination.",
+  "url": "https://en.wikipedia.org/wiki/Honey%20bee"
+ },
+ "deer": {
+  "title": "Deer",
+  "text": "A deer or true deer is a hoofed ruminant ungulate of the family Cervidae. Cervidae is divided into subfamilies Cervinae and Capreolinae. Male deer of almost all species, as well as female reindeer, grow and shed new antlers each year. These antlers are bony extensions of the skull and are often used for combat between males.\nThe musk deer of Asia and chevrotains of tropical African and Asian forests are separate families that are also in the ruminant clade Ruminantia; they are not especially closely related to Cervidae.\nDeer appear in art from Paleolithic cave paintings onwards, and they have played a role in mythology, religion, and literature throughout history, as well as in heraldry, such as red deer that appear in the coat of arms of Åland.",
+  "url": "https://en.wikipedia.org/wiki/Deer"
+ },
+ "wolverine": {
+  "title": "Wolverine",
+  "text": "The wolverine, also called the carcajou or quickhatch, is the largest land-dwelling member of the family Mustelidae. It is a muscular carnivore and a solitary animal. The wolverine has a reputation for ferocity and strength out of proportion to its size, with the documented ability to kill prey many times larger than itself.\nThe wolverine is found primarily in remote reaches of the northern boreal forests and subarctic and alpine tundra of the Northern Hemisphere, with the greatest numbers in Northern Canada, the U.S. state of Alaska, the mainland Nordic countries of Europe, and throughout western Russia and Siberia. Its population has steadily declined since the 19th century owing to trapping, range reduction and habitat fragmentation. The wolverine has become essentially absent from the southern end of its range in both Europe and North America.",
+  "url": "https://en.wikipedia.org/wiki/Wolverine"
+ },
+ "honey_badger": {
+  "title": "Honey badger",
+  "text": "The honey badger, also known as the ratel, is a mammal widely distributed across Africa, Southwest Asia, and the Indian subcontinent. It is the sole living representative of the Mellivorinae subfamily of the Mustelidae.\nIt has a fairly long body, with a distinctly thick-set and broad back, and remarkably loose skin, allowing the badger to turn and twist freely within it. The largest terrestrial mustelid in Africa, the honey badger measures 55 to 77 cm long and weighs up to 16 kg. Sexual dimorphism has been recorded in this species, with males being larger and heavier than females. It has two pairs of mammae, and an eversible anal pouch.",
+  "url": "https://en.wikipedia.org/wiki/Honey%20badger"
+ },
+ "red_kangaroo": {
+  "title": "Red kangaroo",
+  "text": "The red kangaroo is the largest of all kangaroos, the largest terrestrial mammal native to Australia, and the largest extant marsupial. It is found across mainland Australia, except for the more fertile areas, such as southern Western Australia, the eastern and southeastern coasts, and the rainforests along the northern coast.",
+  "url": "https://en.wikipedia.org/wiki/Red%20kangaroo"
+ },
+ "koala": {
+  "title": "Koala",
+  "text": "The koala, sometimes inaccurately called the koala bear, is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae. Its closest living relatives are the wombats. The koala is found in coastal areas of the continent's eastern and southern regions, inhabiting Queensland, New South Wales, Victoria, and South Australia. It is easily recognisable by its stout, tailless body and large head with round, fluffy ears and large, dark nose. The koala has a body length of 60–85 cm and weighs 4–15 kg.",
+  "url": "https://en.wikipedia.org/wiki/Koala"
+ },
+ "three_toed_sloth": {
+  "title": "Three-toed sloth",
+  "text": "The three-toed or three-fingered sloths are arboreal neotropical mammals. They are the only members of the genus Bradypus and the family Bradypodidae. The five living species of three-toed sloths are the brown-throated sloth, the maned sloth, the pale-throated sloth, the southern maned sloth, and the pygmy three-toed sloth. In complete contrast to past morphological studies, which tended to place Bradypus as the sister group to all other folivorans, molecular studies place them nested within the sloth superfamily Megatherioidea, making them the only surviving members of that radiation.",
+  "url": "https://en.wikipedia.org/wiki/Three-toed%20sloth"
+ },
+ "giant_panda": {
+  "title": "Giant panda",
+  "text": "The giant panda, also known as the panda bear or simply panda, is a bear species endemic to China. It is characterised by its white coat with black patches around the eyes, ears, legs and shoulders. Its body is rotund; adult individuals weigh 100 to 115 kg and are typically 1.2 to 1.9 m long. It is sexually dimorphic, with males being typically 10–20% larger than females. A thumb is visible on its forepaw, which helps in holding bamboo in place for feeding. It has large molar teeth and expanded temporal fossae to meet its dietary requirements.",
+  "url": "https://en.wikipedia.org/wiki/Giant%20panda"
+ },
+ "moose": {
+  "title": "Moose",
+  "text": "The moose or elk is the world's tallest, largest and heaviest extant species of deer and the only extant species in the genus Alces. It is also the tallest, and the second-largest, land animal in North America, falling short only to the American bison in body mass. Most adult male moose have broad, palmate antlers; most other members of the deer family have pointed antlers with a dendritic configuration. Moose inhabit the circumpolar boreal forests or temperate broadleaf and mixed forests of the Northern Hemisphere, thriving in cooler, temperate areas as well as subarctic climates.\nHunting shaped the relationship between moose and humans, both in Eurasia and North America. Prior to the early modern period, moose were one of many valuable sources of sustenance for certain North American Indians.",
+  "url": "https://en.wikipedia.org/wiki/Moose"
+ },
+ "american_bison": {
+  "title": "American bison",
+  "text": "The American bison, commonly known as the American buffalo, or simply buffalo, is a species of bison that is endemic to North America. It is one of two extant species of bison, along with the European bison. Its historical range circa 9000 BC is referred to as the great bison belt, a tract of rich grassland spanning from Alaska south to the Gulf of Mexico, and east to the Atlantic Seaboard, as far north as New York, south to Georgia, and according to some sources, further south to northern Florida, with sightings in North Carolina near Buffalo Ford on the Catawba River as late as 1750.\nTwo subspecies or ecotypes have been described: the plains bison, smaller and with a more rounded hump; and the wood bison, the larger of the two and having a taller, square hump.",
+  "url": "https://en.wikipedia.org/wiki/American%20bison"
+ },
+ "plains_zebra": {
+  "title": "Plains zebra",
+  "text": "The plains zebra is the most common and geographically widespread species of zebra. Its range is fragmented, but spans much of southern and eastern Africa south of the Sahara. Six or seven subspecies have been recognised, including the quagga which was thought to be a separate species. More recent research supports variations in zebra populations being clines rather than subspecies.\nPlains zebras are intermediate in size between the larger Grévy's zebra and the smaller mountain zebra and tend to have broader stripes than both. Great variation in coat patterns exists between clines and individuals.",
+  "url": "https://en.wikipedia.org/wiki/Plains%20zebra"
+ },
+ "dromedary_camel": {
+  "title": "Dromedary",
+  "text": "The dromedary, also known as the dromedary camel, Arabian camel and one-humped camel, is a large camel of the genus Camelus with one hump on its back. It is the tallest of the three camel species; adult males stand 1.8–2.4 m at the shoulder, while females are 1.7–1.9 m tall. Males typically weigh between 400 and 690 kg, and females weigh between 300 and 540 kg.\nThe dromedary's distinctive features include its long, curved neck, narrow chest, a single hump, and long hairs on the throat, shoulders, and hump. The coat is generally a shade of brown. The hump is 20 cm tall or more, and is made of fat bound together by fibrous tissue.",
+  "url": "https://en.wikipedia.org/wiki/Dromedary"
+ },
+ "domestic_pig": {
+  "title": "Pig",
+  "text": "The pig, also called swine or hog, is an omnivorous, domesticated, even-toed, hoofed mammal. It is named the domestic pig when distinguishing it from other members of the genus Sus. Some authorities consider it a subspecies of Sus scrofa; other authorities consider it a distinct species. Pigs were domesticated independently twice during the Neolithic, in the Near East around the Tigris Basin, and in China. When domesticated pigs arrived in Europe from the Near East, they extensively interbred with wild boar in Europe but retained their domesticated features.\nPigs are farmed primarily for meat, called pork.",
+  "url": "https://en.wikipedia.org/wiki/Pig"
+ },
+ "holstein_cow": {
+  "title": "Holstein Friesian",
+  "text": "The Holstein Friesian is an international breed or group of breeds of dairy cattle.  \nThis use of Holstein is found twice in history:\n\nIn Britain it was used to indicate the imported cattle ancestral to the shorthorn; a significant proportion of those animals did come from Holstein.\nIn modern US English it refers to animals based almost exclusively on stock from the Netherlands. This use goes back to the use of \"Holstein\" in the title of a very influential article by Winthrop W. Chenery, the Massachusetts resident who purchased the US's first Holland cow from a Dutch sailing master in 1852.\nAt least in the United Kingdom, whereas the Friesian and Holstein breeds are considered separate, they are also considered so similar that it is not possible to distinguish between them for statistical purposes.",
+  "url": "https://en.wikipedia.org/wiki/Holstein%20Friesian"
+ },
+ "house_mouse": {
+  "title": "House mouse",
+  "text": "The house mouse is a small mammal of the rodent family Muridae, characteristically having a pointed snout, large rounded ears, and a long and almost hairless tail. It is one of the most abundant species of the genus Mus. Although a wild animal, the house mouse has benefited significantly from associating with human habitation to the point that truly wild populations are significantly less common than the synanthropic populations near human activity.\nThe house mouse has been domesticated as the pet or fancy mouse, and as the laboratory mouse, which is one of the most important model organisms in biology and medicine. The complete mouse reference genome was sequenced in 2002.",
+  "url": "https://en.wikipedia.org/wiki/House%20mouse"
+ },
+ "brown_rat": {
+  "title": "Brown rat",
+  "text": "The brown rat, also known as the common rat, street rat, sewer rat, wharf rat, Hanover rat, Norway rat and Norwegian rat, is a widespread, common species of rat. One of the largest muroids, it is a brown or grey rodent with a body length of up to 28 cm long, and a tail slightly shorter than that. It weighs between 140 and 500 g. Thought to have originated in northern China and neighbouring areas, it has now spread to all continents except Antarctica, and is the dominant rat in Europe and much of North America, having become naturalised across the world. With rare exceptions, the brown rat lives wherever humans live, particularly in urban areas. It is omnivorous, reproduces rapidly, and can be a vector for several human diseases.",
+  "url": "https://en.wikipedia.org/wiki/Brown%20rat"
+ },
+ "european_hedgehog": {
+  "title": "European hedgehog",
+  "text": "The European hedgehog, also known as the West European hedgehog, Western European hedgehog or common hedgehog, is a hedgehog species native to Europe from Iberia and Italy northwards into Scandinavia and westwards into Ireland. It is a generally common and widely distributed species that can survive across a wide range of habitat types. It is a well-known species, and a favourite in European gardens, both for its endearing appearance and its preference for eating a range of garden pests. While populations are currently stable across much of its range, it is declining severely in Great Britain, where it is now Red Listed, meaning that it is considered to be at risk of local extinction. Outside its native range the species was introduced to New Zealand during the late nineteenth and early twentieth centuries.",
+  "url": "https://en.wikipedia.org/wiki/European%20hedgehog"
+ },
+ "common_vampire_bat": {
+  "title": "Common vampire bat",
+  "text": "The common vampire bat is a small, leaf-nosed bat native to the Americas. It is one of three extant species of vampire bats, the other two being the hairy-legged and the white-winged vampire bats. \nThe common vampire bat practices hematophagy, mainly feeding on the blood of livestock. The bat usually approaches its prey at night while they are sleeping. It then uses its razor-sharp teeth to cut open the skin of its hosts and lap up their blood with its long tongue. The species is highly polygynous, and dominant adult males defend groups of females.",
+  "url": "https://en.wikipedia.org/wiki/Common%20vampire%20bat"
+ },
+ "bottlenose_dolphin": {
+  "title": "Bottlenose dolphin",
+  "text": "The bottlenose dolphin is a toothed whale in the genus Tursiops. They are common, cosmopolitan members of the family Delphinidae, the family of oceanic dolphins. Molecular studies show the genus contains three species: the common bottlenose dolphin, the Indo-Pacific bottlenose dolphin, and Tamanend's bottlenose dolphin. Others, like the Burrunan dolphin (Tursiops australis), may be alternately considered their own species or be subspecies of T. aduncus. Bottlenose dolphins inhabit warm and temperate seas worldwide, being found everywhere except for the Arctic and Antarctic Circle regions. Their name derives from the Latin tursio and truncatus for the truncated teeth.",
+  "url": "https://en.wikipedia.org/wiki/Bottlenose%20dolphin"
+ },
+ "sperm_whale": {
+  "title": "Sperm whale",
+  "text": "The sperm whale or cachalot is the largest of the toothed whales and the largest toothed predator. It is the only living member of the genus Physeter and one of three extant species in the sperm whale superfamily Physeteroidea, along with the pygmy sperm whale and dwarf sperm whale of the genus Kogia.\nThe sperm whale is a pelagic mammal with a worldwide range, and will migrate seasonally for feeding and breeding. Females and young males live together in groups, while mature males live solitary lives outside of the mating season. The females cooperate to protect and nurse their young. Females give birth every four to twenty years and care for the calves for more than a decade.",
+  "url": "https://en.wikipedia.org/wiki/Sperm%20whale"
+ },
+ "walrus": {
+  "title": "Walrus",
+  "text": "The walrus is a large pinniped marine mammal with  discontinuous distribution about the North Pole in the Arctic Ocean and subarctic seas of the Northern Hemisphere. It is the only extant species in the family Odobenidae and genus Odobenus. This species is subdivided into two subspecies: the Atlantic walrus, which lives in the Atlantic Ocean, and the Pacific walrus, which lives in the Pacific Ocean.\nAdult walrus are characterised by prominent tusks and whiskers, and considerable bulk; adult males in the Pacific can weigh more than 2,000 kilograms and, among pinnipeds, are exceeded in size only by the two species of elephant seals.",
+  "url": "https://en.wikipedia.org/wiki/Walrus"
+ },
+ "emperor_penguin": {
+  "title": "Emperor penguin",
+  "text": "The emperor penguin is the tallest and heaviest of all living penguin species and is endemic to Antarctica. The male and female are similar in plumage and size, reaching 100 cm in length and weighing from 22 to 45 kg. Feathers of the head and back are black and sharply delineated from the white belly, pale-yellow breast and bright-yellow ear patches.\nLike all species of penguin, the emperor is flightless, with a streamlined body, and wings stiffened and flattened into flippers for a marine habitat. Its diet consists primarily of fish, but also includes crustaceans, such as krill, and cephalopods, such as squid. While hunting, the species can remain submerged around 20 minutes, diving to a depth of 535 m.",
+  "url": "https://en.wikipedia.org/wiki/Emperor%20penguin"
+ },
+ "peregrine_falcon": {
+  "title": "Peregrine falcon",
+  "text": "The peregrine falcon, sometimes referred to simply as the peregrine, is a bird of prey in the family Falconidae known for its speed. A large, crow-sized falcon, it has a blue-grey back, barred white underparts and a black head. As is typical for bird-eating raptors, peregrine falcons are sexually dimorphic, with females being considerably larger than males. Historically, the bird has also been known as the \"black-cheeked falcon\" in Australia and the \"duck hawk\" in North America.\nThe breeding range includes land regions from the Arctic tundra to the tropics. It can be found nearly everywhere on Earth, except extreme polar regions, very high mountains, and most tropical rainforests.",
+  "url": "https://en.wikipedia.org/wiki/Peregrine%20falcon"
+ },
+ "bee_hummingbird": {
+  "title": "Bee hummingbird",
+  "text": "The bee hummingbird, zunzuncito or Helena hummingbird is a species of hummingbird, native to the island of Cuba in the Caribbean. It is the smallest known bird. The bee hummingbird feeds on flower nectar and insects.",
+  "url": "https://en.wikipedia.org/wiki/Bee%20hummingbird"
+ },
+ "domestic_chicken": {
+  "title": "Chicken",
+  "text": "The chicken is the domesticated form of the red junglefowl, originally native to Southeast Asia. It was first domesticated around 8,000 years ago and is one of the most common and widespread domesticated animals in the world. Chickens are primarily kept for their meat and eggs, though they are also kept as pets.\nAs of 2023, the global chicken population exceeded 26.5 billion, with more than 50 billion birds produced annually for consumption. Specialized breeds such as broilers and laying hens have been developed for meat and egg production, respectively. A hen bred for laying can produce over 300 eggs per year.",
+  "url": "https://en.wikipedia.org/wiki/Chicken"
+ },
+ "giant_pacific_octopus": {
+  "title": "Giant Pacific octopus",
+  "text": "The giant Pacific octopus, also known as the North Pacific giant octopus, is a large marine cephalopod belonging to the genus Enteroctopus and Enteroctopodidae family.\nIts spatial distribution encompasses much of the coastal North Pacific, from the Mexican state of Baja California, north along the United States' West Coast, and British Columbia, Canada; across the northern Pacific to the Russian Far East, south to the East China Sea, the Yellow Sea, the Sea of Japan, Japan's Pacific east coast, and around the Korean Peninsula. It can be found from the intertidal zone down to 2,000 m, and is best-adapted to colder, oxygen- and nutrient-rich waters. It is the largest octopus species on earth and can often be found in aquariums and research facilities in addition to the ocean. E. dofleini play an important role in maintaining the health and biodiversity of deep sea ecosystems, cognitive research, and the fishing industry.",
+  "url": "https://en.wikipedia.org/wiki/Giant%20Pacific%20octopus"
+ },
+ "galapagos_tortoise": {
+  "title": "Galápagos tortoise",
+  "text": "The Galápagos tortoise, also called the Galápagos giant tortoise, is a very large species of tortoise in the genus Chelonoidis. The species comprises 15 subspecies. It is the largest living species of tortoise, and can weigh up to 417 kg. They are also the largest extant terrestrial cold-blooded animals.\nWith lifespans in the wild of over 100 years, it is one of the longest-lived vertebrates. Captive Galapagos tortoises can live up to 177 years.",
+  "url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos%20tortoise"
+ },
+ "reticulated_python": {
+  "title": "Reticulated python",
+  "text": "The reticulated python is a python species native to South and Southeast Asia. It is the world's longest snake, and the third heaviest after the green anaconda and Burmese python. It is a non-venomous constrictor and an excellent swimmer that has been reported far out at sea. It has colonized many small islands within its range. Because of its wide distribution, it is listed as least concern on the IUCN Red List. In several countries in its range, it is hunted for its skin, for use in traditional medicine, and for sale as pets.",
+  "url": "https://en.wikipedia.org/wiki/Reticulated%20python"
+ },
+ "king_cobra": {
+  "title": "King cobra",
+  "text": "The king cobra is a species complex of snakes endemic to Asia. With an average length of 3.18 to 4 m and a record length of 5.85 m, it is the world's longest venomous snake and among the heaviest. Under the genus Ophiophagus, it is not phylogenetically a true cobra despite its common name and some resemblance. Spanning from the Indian subcontinent through Southeastern Asia to Southern China, the king cobra is widely distributed albeit not commonly seen. \nIndividuals have diversified colouration across its habitats, from black with white strips to unbroken brownish grey, although after taxonomic re-evaluation, it is no longer the sole member of its genus but is now a species complex; these differences in pattern and other aspects may cause the genus to be split into at least four species, spread across its large geographic range.\nIt chiefly hunts other snakes, including those of its own kind, although other lizards and rodents are also occasional prey.",
+  "url": "https://en.wikipedia.org/wiki/King%20cobra"
+ },
+ "goliath_frog": {
+  "title": "Goliath frog",
+  "text": "The goliath frog, otherwise known commonly as the giant slippery frog and the goliath bullfrog, is a species of frog in the family Conrauidae. The goliath frog is the largest living frog. Specimens can reach up to about 45 centimetres in snout–vent length and 4.5 kilograms in weight. This species has a relatively small habitat range in Cameroon and Equatorial Guinea. Its numbers are dwindling due to habitat destruction, collection for food, and the pet trade.",
+  "url": "https://en.wikipedia.org/wiki/Goliath%20frog"
+ },
+ "giant_squid": {
+  "title": "Giant squid",
+  "text": "The giant squid is a species of deep-ocean dwelling squid in the family Architeuthidae. It can grow to a tremendous size, offering an example of abyssal gigantism; recent estimates put the maximum body size at around 5 m for females, with males slightly shorter, from the posterior fins to the tip of its long arms. This makes it longer than the colossal squid at an estimated 4.2 m, but substantially lighter, as it is less robust and its arms make up much of the length. The mantle of the giant squid is about 2 m long, and the feeding tentacles of the giant squid, concealed in life, are 10 m. Claims of specimens measuring 20 m or more have not been scientifically documented.\nThe number of different giant squid species has been debated, but genetic research suggests that only one species exists.",
+  "url": "https://en.wikipedia.org/wiki/Giant%20squid"
+ },
+ "peacock_mantis_shrimp": {
+  "title": "Odontodactylus scyllarus",
+  "text": "Odontodactylus scyllarus, commonly known as the peacock mantis shrimp, harlequin mantis shrimp, painted mantis shrimp, clown mantis shrimp, rainbow mantis shrimp, peacock odontodactyl,  thumb splitter, or simply mantis shrimp, is a large odontodactylid stomatopod native to the epipelagic seabed across the Indo-Pacific, ranging from the Marianas to East Africa, and as far South as Northern KwaZulu Natal in South Africa. It is one of roughly 480 species of mantis shrimp, which are well known for their raptorial claws, exceptional vision, and their unique way of interacting with other marine species.\nIn the marine aquarium trade, it is both prized for its attractiveness and considered by others to be a dangerous pest.",
+  "url": "https://en.wikipedia.org/wiki/Odontodactylus%20scyllarus"
+ },
+ "cat_flea": {
+  "title": "Cat flea",
+  "text": "The cat flea is an extremely common parasitic insect whose principal host is the domestic cat, although a high proportion of the fleas found on dogs also belong to this species. This is despite the widespread existence of a separate and well-established \"dog\" flea, Ctenocephalides canis. Cat fleas originated in Africa but can now be found globally. As humans began domesticating cats, the prevalence of the cat flea increased and it spread throughout the world.\nOf the cat fleas, Ctenocephalides felis felis is the most common, although other subspecies do exist, including C. felis strongylus, C. orientis, and C. damarensis. Over 90% of fleas found on both dogs and cats are Ctenocephalides felis felis.",
+  "url": "https://en.wikipedia.org/wiki/Cat%20flea"
+ },
+ "goliath_birdeater": {
+  "title": "Goliath birdeater",
+  "text": "The Goliath birdeater is a large spider that belongs to the tarantula family Theraphosidae. Found in northern South America, it is the largest spider in the world by mass (175 g) and body length (up to 13 cm), and second to the giant huntsman spider by leg span. It is also considerably longer than the largest known prehistoric spider, Mongolarachne, that had a body length of 2.46 centimeters. It is also called the Goliath tarantula or Goliath bird-eating spider; the practice of calling theraphosids \"bird-eating\" derives from an early 18th-century copper engraving by Maria Sibylla Merian that shows one eating a hummingbird. Despite the spider's name, it rarely preys on birds.",
+  "url": "https://en.wikipedia.org/wiki/Goliath%20birdeater"
+ },
+ "snow_leopard": {
+  "title": "Snow leopard",
+  "text": "The snow leopard is a felid species in the genus Panthera. It has a thick whitish to grey fur with black spots on the head and neck, with larger rosettes on the back, flanks and bushy tail. Males are larger than the females, and both sexes have long canine teeth. Its small rounded ears, broad paws, and thick tails are adaptations for living in cold, mountainous environments.\nThe snow leopard is native to the mountain ranges of Asia, ranging from eastern Hindu Kush, the Himalayas and the Tibetan Plateau to southern Siberia, Mongolia and western China. It inhabits alpine and subalpine zones at elevations of 3,000–4,500 m featuring cliffs and ridges, but also lives at lower elevations in the northern part of its range.",
+  "url": "https://en.wikipedia.org/wiki/Snow%20leopard"
+ },
+ "cougar": {
+  "title": "Cougar",
+  "text": "The cougar, also called puma, mountain lion, catamount, and panther, is a large small cat native to the Americas. It inhabits North, Central and South America, making it the most widely distributed wild, terrestrial mammal in the Western Hemisphere, and one of the most widespread in the world. Its range spans Yukon, British Columbia and Alberta in Canada, the Rocky Mountains and areas in the western United States. Further south, its range extends through Mexico to the Amazon rainforest and the southern Andes Mountains in Patagonia. It is an adaptable generalist species, occurring in most American habitat types. It prefers habitats with dense underbrush and rocky areas for stalking but also lives in open areas.",
+  "url": "https://en.wikipedia.org/wiki/Cougar"
+ },
+ "eurasian_lynx": {
+  "title": "Eurasian lynx",
+  "text": "The Eurasian lynx is one of the four extant species within the medium-sized wild cat genus Lynx. It is widely distributed from Northern, Central and Eastern Europe to Central Asia and Siberia, the Tibetan Plateau and the Himalayas. It inhabits temperate and boreal forests up to an elevation of 5,500 m. Despite its wide distribution, it is threatened by habitat loss and fragmentation, poaching and depletion of prey.",
+  "url": "https://en.wikipedia.org/wiki/Eurasian%20lynx"
+ },
+ "sea_otter": {
+  "title": "Sea otter",
+  "text": "The sea otter is a marine mammal native to the coasts of the northern and eastern North Pacific Ocean. Adult sea otters typically weigh between 14 and 45 kg, making them the heaviest members of the weasel family, but among the smallest marine mammals. Unlike most marine mammals, the sea otter's primary form of insulation is an exceptionally thick coat of fur, the densest in the animal kingdom. Although it can walk on land, the sea otter is capable of living exclusively in the ocean.\nThe sea otter inhabits nearshore environments, where it dives to the sea floor to forage. It preys mostly on marine invertebrates such as sea urchins, various mollusks and crustaceans, and some species of fish.",
+  "url": "https://en.wikipedia.org/wiki/Sea%20otter"
+ },
+ "capybara": {
+  "title": "Capybara",
+  "text": "The capybara or greater capybara is the largest living rodent, native to all countries in South America except Chile. It is a semiaquatic herbivore that inhabits savannas and dense forests, living near and in bodies of freshwater and feeding mainly on grasses and aquatic plants. \nTogether with the lesser capybara, it constitutes the genus Hydrochoerus. Its other close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria.\nThe capybara is a highly social species that usually lives in groups of 10–20 individuals, but can be found in groups as large as 100. It is hunted for its meat and hide and for grease from its thick fatty skin.",
+  "url": "https://en.wikipedia.org/wiki/Capybara"
+ },
+ "north_american_beaver": {
+  "title": "North American beaver",
+  "text": "The North American beaver is one of two extant beaver species, along with the Eurasian beaver. It is native to North America and has been introduced in South America and Europe. The North American beaver is one of the national symbols of Canada and the official state mammal of Oregon and New York. North American beavers are widespread across the continental United States, Canada, southern Alaska, and some parts of northern Mexico.\nIn Canada and the United States, the North American beaver is often referred to simply as \"beaver;\" however, this can cause some confusion because another distantly related rodent, Aplodontia rufa, is often called the \"mountain beaver\". Other vernacular names, including American beaver and Canadian beaver, distinguish this species from the other extant beaver species, Castor fiber, which is native to Eurasia.",
+  "url": "https://en.wikipedia.org/wiki/North%20American%20beaver"
+ },
+ "platypus": {
+  "title": "Platypus",
+  "text": "The platypus, sometimes referred to as the duck-billed platypus, is a semiaquatic, egg-laying mammal endemic to eastern Australia, including Tasmania. The platypus is the sole living representative of the family Ornithorhynchidae and genus Ornithorhynchus, though a number of related species appear in the fossil record. Together with the four species of echidna, it is one of the five extant species of monotremes, mammals that lay eggs instead of giving birth to live young. Like other monotremes, the platypus has a sense of electrolocation, which it uses to detect prey in water while its eyes, ears and nostrils are closed. It is one of the few species of venomous mammals, as the male platypus has a spur on each hind foot that delivers an extremely painful venom.\nThe unusual appearance of this egg-laying, duck-billed, beaver-tailed mammal at first baffled European naturalists.",
+  "url": "https://en.wikipedia.org/wiki/Platypus"
+ },
+ "axolotl": {
+  "title": "Axolotl",
+  "text": "The axolotl is a species of mole salamander. It is neotenic, reaching sexual maturity without undergoing metamorphosis, and the adults remain fully aquatic with obvious external gills. Axolotls may be difficult to distinguish from the larval stage of other neotenic adult mole salamanders, in particular the tiger salamander, or other species such as mudpuppies.\nAxolotls originally inhabited a system of interconnected wetlands and lakes in the highlands of Mexico. They were known to inhabit the smaller lakes of Xochimilco and Chalco and are presumed to have inhabited the larger lakes of Texcoco and Zumpango. The desiccation of these lakes, initiated by the Aztecs and accelerated during the 20th century, has led to the destruction of much of the axolotl's natural habitat, an area now largely occupied by Mexico City.",
+  "url": "https://en.wikipedia.org/wiki/Axolotl"
+ },
+ "naked_mole_rat": {
+  "title": "Naked mole-rat",
+  "text": "The naked mole-rat, also known as the sand puppy, is a burrowing rodent native to the Horn of Africa and parts of Kenya, notably in Somali regions. It is the only species in the genus Heterocephalus.\nThe naked mole-rat exhibits a highly unusual set of physiological and behavioural traits that allow it to thrive in a harsh underground environment, most notably its being the only mammalian thermoconformer with an almost entirely ectothermic form of body temperature regulation, as well as exhibiting eusociality, a complex social structure including a reproductive division of labour, separation of reproductive and non-reproductive castes, and cooperative care of young. The closely related Damaraland mole-rat is the only other known eusocial mammal. Naked mole-rats lack pain sensitivity in their skin, and have very low metabolic and respiratory rates. The animal is also remarkable for its longevity and resistance to cancer and oxygen deprivation.",
+  "url": "https://en.wikipedia.org/wiki/Naked%20mole-rat"
+ },
+ "tasmanian_devil": {
+  "title": "Tasmanian devil",
+  "text": "The Tasmanian devil is a carnivorous marsupial of the family Dasyuridae. It was formerly present across mainland Australia, but became extinct there around 3,500 years ago; it is now confined to the island of Tasmania. The size of a small dog, the Tasmanian devil became the largest carnivorous marsupial in the world following the extinction of the thylacine in 1936. It is related to quolls, and distantly related to the thylacine. It is characterised by its stocky and muscular build, black fur, pungent odour, extremely loud screech, keen sense of smell, and ferocity when feeding. The Tasmanian devil's large head and neck allow it to generate among the strongest bites per unit body mass of any extant predatory land mammal.",
+  "url": "https://en.wikipedia.org/wiki/Tasmanian%20devil"
+ },
+ "bald_eagle": {
+  "title": "Bald eagle",
+  "text": "The bald eagle is a bird of prey found in North America. A sea eagle, it has two known subspecies and forms a species pair with the white-tailed eagle, which occupies the same niche as the bald eagle in the Palearctic. Its range includes most of Canada and Alaska, all of the contiguous United States, and northern Mexico. It is found near large bodies of open water with an abundant food supply and old-growth trees for nesting.\nThe bald eagle is an opportunistic feeder that subsists mainly on fish, upon which it swoops down and snatches from the water with its talons. It builds the largest nest of any North American bird and the largest tree nests ever recorded for any animal species, up to 4 m deep, 2.5 m wide, and 1 metric ton in weight.",
+  "url": "https://en.wikipedia.org/wiki/Bald%20eagle"
+ },
+ "snowy_owl": {
+  "title": "Snowy owl",
+  "text": "The snowy owl, also known as the polar owl, the white owl and the Arctic owl, is a large, white owl of the true owl family. Snowy owls are native to the Arctic regions of both North America and the Palearctic, breeding mostly on the tundra. It has a number of unique adaptations to its habitat and lifestyle, which are quite distinct from other extant owls. One of the largest species of owl, it is the only owl with mainly white plumage. Males tend to be a purer white overall while females tend to have more extensive flecks of dark brown. Juvenile male snowy owls have dark markings and may appear similar to females until maturity, at which point they typically turn whiter.",
+  "url": "https://en.wikipedia.org/wiki/Snowy%20owl"
+ },
+ "common_raven": {
+  "title": "Common raven",
+  "text": "The common raven or northern raven is a large all-black passerine bird. It is the most widely distributed of all corvids, found across the Northern Hemisphere. There are 11 accepted subspecies with little variation in appearance, although recent research has demonstrated significant genetic differences among populations from various regions. It is one of the two largest corvids, alongside the thick-billed raven, and is the heaviest passerine bird; at maturity, the common raven averages 63 centimetres in length and 1.47 kilograms in weight, up to 2 kg in the heaviest individuals. Although their typical lifespan is considerably shorter, common ravens can live more than 23 years in the wild. Young birds may travel in flocks but later mate for life, with each mated pair defending a territory.",
+  "url": "https://en.wikipedia.org/wiki/Common%20raven"
+ },
+ "flamingo": {
+  "title": "Greater flamingo",
+  "text": "The greater flamingo is the largest and most widespread species of the flamingo family. Common in the Old World, they are found in Northern and Sub-Saharan Africa, the Indian subcontinent, Central Asia, the Middle East, the Levant, the Persian Gulf, the Gulf of Aden, the Red Sea, and the Mediterranean countries of Southern Europe.",
+  "url": "https://en.wikipedia.org/wiki/Greater%20flamingo"
+ },
+ "emu": {
+  "title": "Emu",
+  "text": "The emu is a species of flightless bird endemic to Australia, where it is the tallest native bird. It is the only extant member of the genus Dromaius and the third-tallest living bird after its African ratite relatives, the common ostrich and Somali ostrich. The emu's native ranges cover most of the Australian mainland. The Tasmanian, Kangaroo Island and King Island subspecies became extinct after the European settlement of Australia in 1788.\nThe emu has soft, brown feathers, a long neck, and long legs. It can grow up to 1.9 m in height.",
+  "url": "https://en.wikipedia.org/wiki/Emu"
+ },
+ "wandering_albatross": {
+  "title": "Snowy albatross",
+  "text": "The snowy albatross, also known as the wandering albatross, white-winged albatross, or goonie, is a large seabird from the family Diomedeidae; they have a circumpolar range in the Southern Ocean. It is the largest species of albatross and was long considered to be the same species as the Tristan albatross and the Antipodean albatross. Together with the Amsterdam albatross, it forms the wandering albatross species complex, which some began referring to more recently as \"snowy\".\nThe snowy albatross is one of the two largest members of the genus Diomedea, being similar in size to the southern royal albatross. It has the greatest known wingspan of any living bird and is also one of the most far-ranging birds. Some individual snowy albatrosses are known to circumnavigate the Southern Ocean three times in one year, covering more than 120,000 km.",
+  "url": "https://en.wikipedia.org/wiki/Snowy%20albatross"
+ },
+ "kakapo": {
+  "title": "Kākāpō",
+  "text": "The kākāpō, sometimes known as the owl-parrot, is a species of large, nocturnal, ground-dwelling parrot of the superfamily Strigopoidea. It is endemic to New Zealand.\nKākāpō can be up to 64 cm long. They have a combination of unique traits among parrots: finely blotched yellow–green plumage, a distinct facial disc, owl-like forward-facing eyes with surrounding discs of specially textured feathers, a large grey beak, short legs, large blue feet, relatively short wings and a short tail. It is the world's only flightless parrot, the world's heaviest parrot, and also is nocturnal, herbivorous, visibly sexually dimorphic in body size, has a low basal metabolic rate, and does not have male parental care. It is the only parrot to have a polygynous lek breeding system.",
+  "url": "https://en.wikipedia.org/wiki/K%C4%81k%C4%81p%C5%8D"
+ },
+ "common_swift": {
+  "title": "Common swift",
+  "text": "The common swift is a medium-sized bird, superficially similar to the barn swallow or house martin but somewhat larger, though not stemming from those passerine species, being in the order Apodiformes. The resemblances between the groups are due to convergent evolution, reflecting similar contextual development. The swifts' nearest relatives are the New World hummingbirds and the Southeast Asian treeswifts.\nIts scientific name Apus is Latin for a swift, thought by the ancients to be a type of swallow with no feet.\nSwifts have very short legs which they use primarily for clinging to vertical surfaces. They never settle voluntarily on the ground where they would be vulnerable to accidents and predation, and non-breeding individuals may spend up to ten months in continuous flight.",
+  "url": "https://en.wikipedia.org/wiki/Common%20swift"
+ },
+ "mute_swan": {
+  "title": "Mute swan",
+  "text": "The mute swan is a species of swan and a member of the family Anatidae within the waterfowl order. It is native to much of Europe and parts of Asia and the far north of Africa. It is an introduced species in North America, home to the largest populations outside of its native range, with additional smaller introductions in Australasia and Southern Africa. The name \"mute\" derives from it being less vocal than other swan species. Typically measuring 140 to 160 cm in length, this large swan is wholly white in plumage, with an orange beak bordered with black. It is recognisable by its pronounced knob atop the beak, which is larger in males.",
+  "url": "https://en.wikipedia.org/wiki/Mute%20swan"
+ },
+ "southern_cassowary": {
+  "title": "Southern cassowary",
+  "text": "The southern cassowary, also known as double-wattled cassowary, Australian cassowary, or two-wattled cassowary, is a large, flightless, mostly black bird, found in Indonesia, Papua New Guinea, and northeastern Australia. It is one of the three living species of cassowary, alongside the dwarf cassowary and the northern cassowary. It is a ratite and therefore related to the emu, ostrich, rhea and kiwi. Southern cassowaries are among the largest birds in the world, only weighing less than ostriches. \nThe Australian population is listed as Endangered under federal and Queensland state legislation.",
+  "url": "https://en.wikipedia.org/wiki/Southern%20cassowary"
+ },
+ "leatherback_sea_turtle": {
+  "title": "Leatherback sea turtle",
+  "text": "The leatherback sea turtle, sometimes called the lute turtle, leathery turtle or simply the luth, is a large species of sea turtle. The largest of all living turtles and the heaviest non-crocodilian reptile, it reaches lengths of up to 2.7 metres and weights of 500 kilograms. It is the only living species in the genus Dermochelys and family Dermochelyidae. It can easily be differentiated from other modern sea turtles by its lack of a bony shell; instead, its carapace is covered by oily flesh and flexible, leather-like skin, for which it is named. Leatherback turtles have a global range, although there are multiple distinct subpopulations. The species as a whole is considered vulnerable, and some of its subpopulations are critically endangered.",
+  "url": "https://en.wikipedia.org/wiki/Leatherback%20sea%20turtle"
+ },
+ "manta_ray": {
+  "title": "Giant oceanic manta ray",
+  "text": "The giant oceanic manta ray, giant manta ray, oceanic manta ray, or pelagic manta ray is a species of ray in the family Mobulidae and the largest type of ray in the world. It is circumglobal and is typically found in tropical and subtropical waters but can also be found in temperate waters. Until 2017, the species was classified in the genus Manta, along with the smaller reef manta ray. DNA testing revealed that both mantas are closer related to some Mobula species than these are to other Mobula, being claded together. As a result, the two Manta species were absorbed into Mobula to reflect the new classification.",
+  "url": "https://en.wikipedia.org/wiki/Giant%20oceanic%20manta%20ray"
+ },
+ "hammerhead_shark": {
+  "title": "Great hammerhead",
+  "text": "The great hammerhead is the largest species of hammerhead shark, belonging to the family Sphyrnidae, attaining an average length of 4.6 m and reaching a maximum length of 6.2 m. It is found around the globe in all the warmer parts of the oceans. The great hammerhead can be distinguished from other hammerheads by the shape of its \"hammer\", which is wide with an almost straight front margin, its tall, sickle-shaped first dorsal fin, and its strongly falcated pelvic fins. A solitary, strong-swimming apex predator, the great hammerhead feeds on a wide variety of prey ranging from crustaceans and cephalopods, to bony fish, to smaller sharks. Observations of this species in the wild suggest that the cephalofoil functions to immobilize stingrays, a favored prey. This species has a viviparous mode of reproduction, bearing litters of up to 2-49 pups every two years.",
+  "url": "https://en.wikipedia.org/wiki/Great%20hammerhead"
+ },
+ "whale_shark": {
+  "title": "Whale shark",
+  "text": "The whale shark is a slow-moving, filter-feeding carpet shark and the largest known extant fish species. An individual with a length of 18.8 m has been considered the largest reliably recorded. The whale shark holds many records for size in the animal kingdom, most notably being by far the largest living non-cetacean animal. It is the only living species of the genus Rhincodon and the only extant member of the family Rhincodontidae, which belongs to the subclass Elasmobranchii in the class Chondrichthyes. Before 1984, it was classified as Rhiniodon into Rhinodontidae. An extinct species, Rhincodon ferriolensis, was described in Europe, in the Late Burdigalian stage.",
+  "url": "https://en.wikipedia.org/wiki/Whale%20shark"
+ },
+ "beluga_whale": {
+  "title": "Beluga whale",
+  "text": "The beluga whale or the white whale is an Arctic and sub-Arctic cetacean. It is one of two living members of the family Monodontidae, along with the narwhal, and the only member of the genus Delphinapterus. It is also known as the sea canary, due to its high-pitched calls; and the melonhead, though that more commonly refers to the melon-headed whale, which is an oceanic dolphin.\nThe beluga is adapted to life in the Arctic, with anatomical and physiological characteristics that differentiate it from other cetaceans. Amongst these are its all-white colour that gives the whale its name; and the absence of a dorsal fin, which allows it to swim under ice with ease. It possesses a distinctive protuberance at the front of its head which houses an echolocation organ called the melon, which in this species is large and deformable.",
+  "url": "https://en.wikipedia.org/wiki/Beluga%20whale"
+ },
+ "humpback_whale": {
+  "title": "Humpback whale",
+  "text": "The humpback whale is a species of baleen whale. It is a rorqual and is the only species in the genus Megaptera. Adults range in length from 14–17 m and weigh up to 40 metric tons. The humpback has a distinctive body shape, with long pectoral fins and tubercles on its head. It is known for breaching and other distinctive surface behaviors, making it popular with whale watchers. Males produce a complex song that typically lasts from 4 to 33 minutes.",
+  "url": "https://en.wikipedia.org/wiki/Humpback%20whale"
+ },
+ "leopard_seal": {
+  "title": "Leopard seal",
+  "text": "The leopard seal, also referred to as the sea leopard, is a long and muscular seal native to the Southern Ocean of Antarctica and southern Patagonia. It is the second largest species of seal in the Antarctic. It is the same length as, but half the weight of, a walrus. Its fur coat is countershaded, being silver on the bottom and dark gray on the top, and is distinctive for its leopard-like pattern of dark spots.\nThe leopard seal is an apex predator, with massive jaws, and teeth which are 2.5 cm long. It feeds on a wide range of prey including its fellow pinnipeds, cephalopods, krill, fish, and birds, particularly penguins.",
+  "url": "https://en.wikipedia.org/wiki/Leopard%20seal"
+ },
+ "southern_elephant_seal": {
+  "title": "Southern elephant seal",
+  "text": "The southern elephant seal is one of two species of elephant seals. It is the largest member of the clade Pinnipedia and the order Carnivora, as well as the largest extant marine mammal that is not a cetacean. It gets its name from its massive size and the large proboscis of the adult male, which is used to produce very loud roars, especially during the breeding season. A bull southern elephant seal is about more than twice the weight of a male northern elephant seal as large sub-adult southern elephant seals have weighed 3 tons, as well as more than twice the weight of a male Pacific walrus.",
+  "url": "https://en.wikipedia.org/wiki/Southern%20elephant%20seal"
+ },
+ "black_mamba": {
+  "title": "Black mamba",
+  "text": "The black mamba is a species of highly venomous snake belonging to the family Elapidae. It is native to parts of sub-Saharan Africa. First formally described by Albert Günther in 1864, it is the second-longest venomous snake after the king cobra; mature specimens generally exceed 2 m and commonly grow to 3 m. Specimens of 4.3 to 4.5 m have been reported. It varies in colour from grey to dark brown. Juvenile black mambas tend to be more pale in colour than adults, and darken with age.",
+  "url": "https://en.wikipedia.org/wiki/Black%20mamba"
+ },
+ "gila_monster": {
+  "title": "Gila monster",
+  "text": "The Gila monster is a species of venomous lizard native to the Southwestern United States and the northwestern Mexican state of Sonora. It is a heavy, slow-moving reptile, up to 22 in long, and it is the only venomous lizard native to the United States. The Gila monster is sluggish in nature, so it is not generally dangerous and very rarely poses a real threat to humans, though the bite is painful. Nonetheless, it has a fearsome reputation and is sometimes killed despite the species being protected by state law in Arizona.\nThe lower teeth have venom grooves to transmit the venom to the prey. The venom contains multiple peptides; one of these, exendin-4, formed the basis for the development of the GLP-1 receptor agonists, used to treat type 2 diabetes and obesity.",
+  "url": "https://en.wikipedia.org/wiki/Gila%20monster"
+ },
+ "monarch_butterfly": {
+  "title": "Monarch butterfly",
+  "text": "The monarch butterfly or simply monarch is a milkweed butterfly in the family Nymphalidae. Other common names, depending on region, include milkweed, common tiger, wanderer, and black-veined brown. It is among the most familiar of North American butterflies and an iconic pollinator, although it is not an especially effective pollinator of milkweeds. Its wings feature an easily recognizable black, orange, and white pattern, with a wingspan of 8.9–10.2 cm. A Müllerian mimic, the viceroy butterfly, is similar in color and pattern, but is markedly smaller and has an extra black stripe across each hindwing.\nThe eastern North American monarch population is notable for its annual southward late-summer/autumn instinctive migration from the northern and central United States and southern Canada to Florida and Mexico.",
+  "url": "https://en.wikipedia.org/wiki/Monarch%20butterfly"
+ },
+ "dung_beetle": {
+  "title": "Scarabaeus sacer",
+  "text": "Scarabaeus sacer, common name sacred scarab, is the type species of the genus Scarabaeus and the family Scarabaeidae. This dung beetle is native to southern Europe, North Africa, West Asia, and was venerated in ancient Egypt.",
+  "url": "https://en.wikipedia.org/wiki/Scarabaeus%20sacer"
+ },
+ "rhinoceros_beetle": {
+  "title": "Hercules beetle",
+  "text": "The Hercules beetle is a species of rhinoceros beetle native to the tropical forests of southern Mexico, Central America, South America, and the Lesser Antilles. It is the longest extant species of beetle in the world, and is also one of the largest flying insects in the world.",
+  "url": "https://en.wikipedia.org/wiki/Hercules%20beetle"
+ },
+ "amazonian_giant_centipede": {
+  "title": "Scolopendra gigantea",
+  "text": "Scolopendra gigantea, also known as the Peruvian giant yellow-leg centipede or Amazonian giant centipede, is a centipede in the genus Scolopendra. It is the largest centipede species in the world, with a length exceeding 30 centimetres. Specimens may have 21 or 23 segments. It is found in various places throughout South America and the extreme south Caribbean, where it preys on a wide variety of animals, including other sizable arthropods, amphibians, mammals and reptiles.",
+  "url": "https://en.wikipedia.org/wiki/Scolopendra%20gigantea"
+ },
+ "housefly": {
+  "title": "Housefly",
+  "text": "The housefly is a species of fly in the family Muscidae. From its place of origin, possibly in the Middle East, it has spread around the world as a commensal of humans. Adults are gray to black, with four dark, longitudinal lines on the thorax, slightly hairy bodies, and a single pair of membranous wings. They have red compound eyes, set farther apart in the slightly larger female.\nThe female housefly usually mates only once and stores the sperm for later use. It lays batches of about 100 eggs on decaying organic matter such as food waste, carrion, or feces.",
+  "url": "https://en.wikipedia.org/wiki/Housefly"
+ },
+ "common_green_darner": {
+  "title": "Green darner",
+  "text": "The green darner or common green darner, after its resemblance to a darning needle, is a species of dragonfly in the family Aeshnidae. One of the most common and abundant species throughout North America, it also ranges south to Panama. It is well known for its great migration distance from the northern United States south into Texas and Mexico. It also occurs in the Caribbean, Tahiti, and Asia from Japan to mainland China. It is the official insect for the state of Washington in the United States.\nThe green darner is a large dragonfly; males grow to 8 cm in length with a wingspan up to 10 cm.",
+  "url": "https://en.wikipedia.org/wiki/Green%20darner"
+ },
+ "coconut_crab": {
+  "title": "Coconut crab",
+  "text": "The coconut crab is a terrestrial species of giant hermit crab, and is also known as the robber crab or palm thief. It is the largest living terrestrial arthropod, with a weight up to 4.1 kg. The distance from the tip of one leg to the tip of another can be as wide as 90 cm. It is found on islands across the Indian and Pacific Oceans, as far east as the Gambier Islands, Pitcairn Islands, and Caroline Island, and as far west as Zanzibar. While its range broadly shadows the distribution of the coconut palm, the coconut crab has been extirpated from most areas with a significant human population such as mainland Australia and Madagascar.\nThe coconut crab is the only species of the genus Birgus, and is related to the other terrestrial hermit crabs of the genus Coenobita.",
+  "url": "https://en.wikipedia.org/wiki/Coconut%20crab"
+ },
+ "australian_box_jellyfish": {
+  "title": "Chironex fleckeri",
+  "text": "Chironex fleckeri, commonly known as the Australian box jelly and nicknamed the sea wasp, is a species of extremely venomous box jellyfish found in coastal waters from northern Australia and Papua New Guinea to Indonesia, East Timor, Cambodia, Malaysia, Singapore, the Philippines and Vietnam. It has been described as \"the most lethal jellyfish in the world\", with at least 64 known deaths in Australia from 1884 to 2021.\nNotorious for its sting, C. fleckeri has tentacles up to 3 m long covered with millions of cnidocytes which, on contact, release microscopic darts delivering an extremely powerful venom. Being stung commonly results in excruciating pain, and if the sting area is significant, an untreated victim may die in two to five minutes. The amount of venom in one animal is said to be enough to kill 60 adult humans.",
+  "url": "https://en.wikipedia.org/wiki/Chironex%20fleckeri"
+ },
+ "japanese_giant_salamander": {
+  "title": "Japanese giant salamander",
+  "text": "The Japanese giant salamander is a species of fully aquatic giant salamander endemic to Japan, occurring across the western portion of the main island of Honshu, with smaller populations present on Shikoku and in northern Kyushu. With a length of up to 5 feet, it is the third-largest salamander in the world, being surpassed only by the very similar and closely related Chinese giant salamander and the South China giant salamander.\nIt is known in Japanese as ōsanshōuo, literally meaning \"giant salamander\". Other local names include hanzaki, hanzake, and ankou. This salamander was first catalogued by Europeans when the resident physician of Dejima Island in Nagasaki, Philipp Franz von Siebold, captured an individual and shipped it back to Leiden in the Netherlands, in the 1820s. The species was designated as a special natural monument in 1951, and is protected by the Central Government.",
+  "url": "https://en.wikipedia.org/wiki/Japanese%20giant%20salamander"
+ },
+ "roman_snail": {
+  "title": "Helix pomatia",
+  "text": "Helix pomatia, known as the Roman snail, Burgundy snail, or escargot, is a species of large, air-breathing stylommatophoran land snail belonging to the family Helicidae and native to Europe. It is characterized by a globular brown shell.",
+  "url": "https://en.wikipedia.org/wiki/Helix%20pomatia"
+ },
+ "etruscan_shrew": {
+  "title": "Etruscan shrew",
+  "text": "The Etruscan shrew, also known as the Etruscan pygmy shrew, white-toothed pygmy shrew and Savi's pygmy shrew, is the smallest known extant mammal by mass, weighing only about 1.8 g on average - as much as a paperclip.\nThe Etruscan shrew has a body length of about 4 cm excluding the tail. It is characterized by very rapid movements and a fast metabolism, eating about 1.5–2 times its own body weight per day. It feeds on various small vertebrates and invertebrates, mostly insects, and can hunt individuals of the same size as itself. These shrews prefer warm and damp climates and are widely distributed in the belt between 10° and 45°N latitude stretching from Europe and North Africa to Malaysia. They are also found in the Maltese islands, situated in the middle of the Mediterranean Sea.",
+  "url": "https://en.wikipedia.org/wiki/Etruscan%20shrew"
+ }
+}

@@ -4,51 +4,93 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Animal Tier List</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
 
 <!-- ===== Главный экран: выбор категории и числа животных ===== -->
 <section id="home" class="screen">
+  <!-- Переключатель языка (i18n.js) -->
+  <div id="lang-switch" class="lang"><button class="btn small" data-lang="ru">RU</button><button class="btn small" data-lang="es">ES</button><button class="btn small" data-lang="en">EN</button></div>
   <h1>🦁 Animal Tier List</h1>
-  <p class="sub">Расставь животных по уровням — от самых мощных (S) до самых слабых (D)</p>
+  <p class="sub" data-i18n="Расставь животных по уровням — от самых мощных (S) до самых слабых (D)">Расставь животных по уровням — от самых мощных (S) до самых слабых (D)</p>
 
-  <h2>Сколько животных?</h2>
+  <h2 data-i18n="Сколько животных?">Сколько животных?</h2>
   <div id="count-picker" class="row">
     <button class="btn pick" data-n="5">5</button>
     <button class="btn pick active" data-n="8">8</button>
     <button class="btn pick" data-n="10">10</button>
   </div>
 
-  <h2>Выбери задание</h2>
+  <h2 data-i18n="Выбери задание">Выбери задание</h2>
   <div id="category-list" class="grid"></div>
+
+  <button id="party-btn" class="btn big alt" data-i18n="🎉 Вечеринка: команда на команду">🎉 Вечеринка: команда на команду</button>
+</section>
+
+<!-- ===== Вечеринка: настройка команд и выбор режима (party.js) ===== -->
+<section id="party" class="screen hidden">
+  <header class="topbar"><button id="party-back" class="btn small" data-i18n="← Назад">← Назад</button><h2 data-i18n="🎉 Вечеринка">🎉 Вечеринка</h2><span></span></header>
+  <div class="row teams">
+    <label><span data-i18n="Команда 1">Команда 1</span><br><input id="team-a" class="inp" maxlength="14" value="🦁 Львы" data-i18n-val="🦁 Львы"></label>
+    <label><span data-i18n="Команда 2">Команда 2</span><br><input id="team-b" class="inp" maxlength="14" value="🦈 Акулы" data-i18n-val="🦈 Акулы"></label>
+  </div>
+  <div id="party-score" class="sub"></div>
+  <h2 data-i18n="⚡ Дуэль капитанов">⚡ Дуэль капитанов</h2>
+  <p class="sub" data-i18n="По одному от команды к экрану. 10 быстрых вопросов «кто больше?» — кто первый тапнул верно, тот и забрал очко.">По одному от команды к экрану. 10 быстрых вопросов «кто больше?» — кто первый тапнул верно, тот и забрал очко.</p>
+  <button id="duel-start" class="btn big" data-i18n="Начать дуэль">Начать дуэль</button>
+  <h2 data-i18n="🏆 Команда на команду">🏆 Команда на команду</h2>
+  <p class="sub" data-i18n="Обе команды расставляют одних и тех же животных по очереди. Выбери задание:">Обе команды расставляют одних и тех же животных по очереди. Выбери задание:</p>
+  <div id="party-cats" class="grid"></div>
+</section>
+
+<!-- ===== Дуэль капитанов: два животных, две зоны для тапа ===== -->
+<section id="duel-screen" class="screen hidden">
+  <div class="duel-top"><span id="duel-sa"></span><b id="duel-q"></b><span id="duel-sb"></span></div>
+  <div class="duel-pair">
+    <div class="duel-card" id="duel-left"></div>
+    <div class="duel-vs">VS</div>
+    <div class="duel-card" id="duel-right"></div>
+  </div>
+  <p id="duel-msg" class="sub"></p>
+  <div class="duel-zones">
+    <div class="duel-zone" data-team="0"><b id="duel-na"></b><div class="row"><button class="btn big" data-pick="0" data-i18n="◀ левый">◀ левый</button><button class="btn big" data-pick="1" data-i18n="правый ▶">правый ▶</button></div></div>
+    <div class="duel-zone" data-team="1"><b id="duel-nb"></b><div class="row"><button class="btn big" data-pick="0" data-i18n="◀ левый">◀ левый</button><button class="btn big" data-pick="1" data-i18n="правый ▶">правый ▶</button></div></div>
+  </div>
+</section>
+
+<!-- ===== Между ходами команд: передать устройство ===== -->
+<section id="handover" class="screen hidden">
+  <h1 id="ho-title"></h1>
+  <p id="ho-text" class="sub"></p>
+  <button id="ho-go" class="btn big" data-i18n="Мы готовы">Мы готовы</button>
 </section>
 
 <!-- ===== Игровой экран: тиры сверху, карточки снизу ===== -->
 <section id="game" class="screen hidden">
   <header class="topbar">
-    <button id="back" class="btn small">← Назад</button>
+    <button id="back" class="btn small" data-i18n="← Назад">← Назад</button>
     <h2 id="game-title"></h2>
-    <button id="hint" class="btn small">💡 Подсказка</button>
-    <button id="sound" class="btn small alt" title="Звук">🔇</button>
+    <button id="hint" class="btn small" data-i18n="💡 Подсказка">💡 Подсказка</button>
+    <button id="sound" class="btn small alt" title="Звук" data-i18n-title="Звук">🔇</button>
   </header>
   <p id="hint-text" class="hint-text hidden"></p>
 
   <div id="tiers"></div>
 
-  <h3 class="pool-title">Перетащи или тапни карточку, потом тапни уровень</h3>
+  <h3 class="pool-title" data-i18n="Перетащи или тапни карточку, потом тапни уровень">Перетащи или тапни карточку, потом тапни уровень</h3>
   <div id="pool" class="pool"></div>
 
-  <button id="check" class="btn big" disabled>Проверить</button>
+  <button id="check" class="btn big" disabled data-i18n="Проверить">Проверить</button>
 </section>
 
 <!-- ===== Экран «тебя вызвали»: открывается по ссылке #c=… ===== -->
 <section id="challenge" class="screen hidden">
-  <h1>⚔️ Вызов!</h1>
+  <h1 data-i18n="⚔️ Вызов!">⚔️ Вызов!</h1>
   <p id="ch-text" class="sub"></p>
-  <label class="sub">Твоё имя<br><input id="ch-name" class="inp" maxlength="20" placeholder="Как тебя зовут?"></label>
-  <button id="ch-accept" class="btn big">Принять вызов</button>
-  <button id="ch-decline" class="btn big alt">Просто поиграть</button>
+  <label class="sub"><span data-i18n="Твоё имя">Твоё имя</span><br><input id="ch-name" class="inp" maxlength="20" placeholder="Как тебя зовут?" data-i18n-ph="Как тебя зовут?"></label>
+  <button id="ch-accept" class="btn big" data-i18n="Принять вызов">Принять вызов</button>
+  <button id="ch-decline" class="btn big alt" data-i18n="Просто поиграть">Просто поиграть</button>
 </section>
 
 <!-- ===== Экран результатов: 4 блока сверху вниз ===== -->
@@ -60,7 +102,7 @@
   <div id="score-stars" class="stars"></div>
   <p id="score-text"></p>
   <div id="res-tiers"></div>
-  <button id="show-answer" class="btn big alt">Показать правильный ответ</button>
+  <button id="show-answer" class="btn big alt" data-i18n="Показать правильный ответ">Показать правильный ответ</button>
   <!-- Вызов друга: ссылка с теми же животными и порогами -->
   <div id="share"></div>
 
@@ -68,22 +110,25 @@
   <div id="res-visual"></div>
 
   <!-- Блок 2: реальные цифры -->
-  <div id="res-numbers"><h2>📊 Реальные цифры</h2><div id="res-chart"></div></div>
+  <div id="res-numbers"><h2 data-i18n="📊 Реальные цифры">📊 Реальные цифры</h2><div id="res-chart"></div></div>
 
   <!-- Блок 4: карточки фактов -->
-  <h2>📚 Факты и источники</h2>
+  <h2 data-i18n="📚 Факты и источники">📚 Факты и источники</h2>
   <div id="res-facts"></div>
 
   <div class="row">
-    <button id="again" class="btn big">Ещё раз</button>
-    <button id="other" class="btn big alt">Другая категория</button>
+    <button id="again" class="btn big" data-i18n="Ещё раз">Ещё раз</button>
+    <button id="other" class="btn big alt" data-i18n="Другая категория">Другая категория</button>
   </div>
 </section>
 
-<script src="data/data.js"></script>
-<script src="game.js"></script>
-<script src="results.js"></script>
-<script src="visual.js"></script>
-<script src="challenge.js"></script>
+<script src="data/data.js?v=12"></script>
+<script src="i18n.js?v=12"></script>
+<script src="game.js?v=12"></script>
+<script src="results.js?v=12"></script>
+<script src="visual.js?v=12"></script>
+<script src="challenge.js?v=12"></script>
+<script src="share.js?v=12"></script>
+<script src="party.js?v=12"></script>
 </body>
 </html>

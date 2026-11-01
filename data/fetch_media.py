@@ -44,34 +44,45 @@ def fetch_image(a):
     print("  фото:", a["id"], lic, artist)
     return c
 
-def fetch_summary(a):
-    if a["id"] in summaries: return summaries[a["id"]]
-    # en-статья → ссылка на ru-статью → её вступление
-    r = api("en", titles=title_of(a), prop="langlinks", lllang="ru", redirects=1)
-    ll = r["query"]["pages"][0].get("langlinks")
-    if not ll: print("  нет ru-статьи:", a["id"]); return None
-    ru_title = ll[0]["title"]
-    r = api("ru", titles=ru_title, prop="extracts", exintro=1, explaintext=1, exsentences=6, redirects=1)
-    text = r["query"]["pages"][0].get("extract", "").strip()
+# Сводка на языке lang: en-статья → langlinks → вступление. Для en — сразу сама статья.
+# ru пишется в summaries.json (как раньше), es/en — в summaries_es.json / summaries_en.json.
+def fetch_summary(a, lang):
+    store = summaries[lang]
+    if a["id"] in store: return store[a["id"]]
+    if lang == "en":
+        title = title_of(a)
+    else:
+        r = api("en", titles=title_of(a), prop="langlinks", lllang=lang, redirects=1)
+        ll = r["query"]["pages"][0].get("langlinks")
+        if not ll: print(f"  нет {lang}-статьи:", a["id"]); return None
+        title = ll[0]["title"]
+    r = api(lang, titles=title, prop="extracts", exintro=1, explaintext=1, exsentences=6, redirects=1)
+    page = r["query"]["pages"][0]
+    text = page.get("extract", "").strip()
     text = re.sub(r"\s*\([^()]*\)", "", text)  # убрать скобки с транскрипциями и латынью
-    print("  сводка:", a["id"], len(text), "симв.")
-    return {"title": ru_title, "text": text, "url": "https://ru.wikipedia.org/wiki/" + urllib.parse.quote(ru_title)}
+    if not text: print(f"  пустая {lang}-сводка:", a["id"]); return None
+    title = page.get("title", title)
+    print(f"  сводка {lang}:", a["id"], len(text), "симв.")
+    return {"title": title, "text": text, "url": f"https://{lang}.wikipedia.org/wiki/" + urllib.parse.quote(title)}
 
 animals = json.load(open("animals.json", encoding="utf-8"))
 credits = json.load(open(f"{IMG_DIR}/credits.json", encoding="utf-8")) if os.path.exists(f"{IMG_DIR}/credits.json") else {}
-summaries = json.load(open("summaries.json", encoding="utf-8")) if os.path.exists("summaries.json") else {}
+SUM_FILE = {"ru": "summaries.json", "es": "summaries_es.json", "en": "summaries_en.json"}
+summaries = {l: (json.load(open(f, encoding="utf-8")) if os.path.exists(f) else {}) for l, f in SUM_FILE.items()}
 
 for a in animals:
     print(a["id"])
     try:
         c = fetch_image(a)
         if c: credits[a["id"]] = c
-        s = fetch_summary(a)
-        if s: summaries[a["id"]] = s
+        for lang in SUM_FILE:
+            s = fetch_summary(a, lang)
+            if s: summaries[lang][a["id"]] = s
     except Exception as e:
         print("  ошибка:", e)
     time.sleep(0.3)
 
 json.dump(credits, open(f"{IMG_DIR}/credits.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-json.dump(summaries, open("summaries.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print(f"\nфото: {len(credits)}, сводок: {len(summaries)} из {len(animals)}")
+for lang, f in SUM_FILE.items():
+    json.dump(summaries[lang], open(f, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"\nфото: {len(credits)}, сводок: " + ", ".join(f"{l} {len(s)}" for l, s in summaries.items()) + f" из {len(animals)}")

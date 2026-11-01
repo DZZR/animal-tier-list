@@ -169,6 +169,22 @@ for a in animals:
         a["image_credit"] = credits.get(a["id"])
     if a["id"] in summaries:
         a["wiki_ru"] = summaries[a["id"]]
+    for lang in ("es", "en"):   # summaries_es.json / summaries_en.json → wiki_es / wiki_en
+        f = f"summaries_{lang}.json"
+        if os.path.exists(f):
+            s = json.load(open(f, encoding="utf-8"))
+            if a["id"] in s: a[f"wiki_{lang}"] = s[a["id"]]
+
+# Переводы (raw/i18n_animals_*.json от агентов): name_es, fun_fact_es/en, hint_es/en, у метрик name_es/en, how_es/en
+for f in sorted(glob.glob("raw/i18n_animals_*.json")):
+    for aid, tr in json.load(open(f, encoding="utf-8")).items():
+        if aid not in by_id: print("!! i18n: нет id", aid); continue
+        for k, v in tr.items():
+            if k == "metrics":
+                for mk, mv in v.items():
+                    if mk in by_id[aid]["metrics"]: by_id[aid]["metrics"][mk].update(mv)
+            else:
+                by_id[aid][k] = v
 
 METRICS = ["bite_force_n", "tooth_length_cm", "teeth_count", "bones_count", "loudness_db", "deaths_per_year",
            "weight_kg", "height_m", "length_m", "speed_kmh", "lifespan_years",
@@ -194,6 +210,11 @@ json.dump(animals, open("animals.json", "w", encoding="utf-8"), ensure_ascii=Fal
 # data.js — та же информация, но подключается тегом <script>: так игра открывается двойным кликом
 # по index.html без веб-сервера (браузеры запрещают fetch() с диска).
 cats = json.load(open("categories.json", encoding="utf-8"))
+# Переводы категорий (raw/i18n_categories.json): title_es/en, question_es/en, unit_es/en, compare_*_es/en
+if os.path.exists("raw/i18n_categories.json"):
+    ctr = json.load(open("raw/i18n_categories.json", encoding="utf-8"))
+    for c in cats:
+        c.update(ctr.get(c["id"], {}))
 open("data.js", "w", encoding="utf-8").write(
     "// Сгенерировано merge.py из animals.json и categories.json — не править руками.\n"
     "window.ANIMALS = " + json.dumps(animals, ensure_ascii=False) + ";\n"

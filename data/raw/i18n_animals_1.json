@@ -1,0 +1,519 @@
+{
+  "lion": {
+    "name_es": "León",
+    "fun_fact_es": "Los leones son los únicos felinos que viven en grandes familias, y su rugido se escucha desde muy lejos.",
+    "fun_fact_en": "Lions are the only cats that live in big families, and their roar can be heard from very far away.",
+    "hint_es": "El rey de la selva muerde fuerte, pero el tigre y el jaguar lo superan en mordida, y el león solo corre en arrancones cortos.",
+    "hint_en": "The king of beasts bites hard, but the tiger and jaguar bite harder, and the lion only runs in short bursts.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Ataques a personas, sobre todo en Tanzania.",
+        "how_en": "Attacks on people, mostly in Tanzania."
+      }
+    }
+  },
+  "tiger": {
+    "name_es": "Tigre",
+    "fun_fact_es": "Los tigres nadan muy bien y les gusta refrescarse en el agua, y cada tigre tiene sus propias rayas, como huellas digitales.",
+    "fun_fact_en": "Tigers are great swimmers and love cooling off in the water, and every tiger has its own stripes, like fingerprints.",
+    "hint_es": "El felino más grande del planeta, más pesado incluso que el león.",
+    "hint_en": "The biggest cat on the planet, heavier even than a lion.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Ataques, sobre todo en India y Bangladesh.",
+        "how_en": "Attacks, mostly in India and Bangladesh."
+      }
+    }
+  },
+  "jaguar": {
+    "name_es": "Jaguar",
+    "fun_fact_es": "Al jaguar le encanta el agua, nada muy bien y hasta pesca peces y tortugas.",
+    "fun_fact_en": "The jaguar loves water, swims really well, and even catches fish and turtles.",
+    "hint_es": "No es el felino más grande, pero para su tamaño tiene una de las mordidas más potentes de todos los felinos.",
+    "hint_en": "Not the biggest cat, but for its size it has one of the most powerful bites of any cat."
+  },
+  "leopard": {
+    "name_es": "Leopardo",
+    "fun_fact_es": "El leopardo sube su presa a lo alto de un árbol para que no se la quiten los leones y las hienas.",
+    "fun_fact_en": "The leopard drags its prey high up into a tree so lions and hyenas can't steal it.",
+    "hint_es": "Un forzudo trepador: sube al árbol presas más pesadas que él, aunque es bastante más ligero que el león y el tigre.",
+    "hint_en": "A tree-climbing strongman: it hauls prey heavier than itself up a tree, even though it's much lighter than a lion or tiger.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Ataques, sobre todo en India y Nepal.",
+        "how_en": "Attacks, mostly in India and Nepal."
+      }
+    }
+  },
+  "cheetah": {
+    "name_es": "Guepardo",
+    "fun_fact_es": "El guepardo no puede esconder las garras como otros felinos: le sirven para agarrarse al suelo cuando corre, como los taquetes de unos tenis de futbol.",
+    "fun_fact_en": "The cheetah can't pull in its claws like other cats do; they help it grip the ground while running, like the spikes on running shoes.",
+    "hint_es": "El animal más rápido en tierra, pero entre los grandes felinos es uno de los más ligeros.",
+    "hint_en": "The fastest animal on land, but among the big cats it's one of the lightest."
+  },
+  "domestic_cat": {
+    "name_es": "Gato doméstico",
+    "fun_fact_es": "Los gatos no solo ronronean cuando están contentos, y además duermen la mayor parte del día.",
+    "fun_fact_en": "Cats don't only purr when they're happy, and they sleep most of the day.",
+    "hint_es": "El más pequeño de este grupo, pero vive más que muchos de sus parientes salvajes.",
+    "hint_en": "The smallest one in this crowd, but it lives longer than many of its wild relatives."
+  },
+  "brown_bear": {
+    "name_es": "Oso pardo",
+    "fun_fact_es": "Antes de dormir todo el invierno, el oso pardo come tanto que engorda muchísimo en verano y otoño, y luego duerme casi todo el invierno sin comer nada.",
+    "fun_fact_en": "Before its long winter sleep, the brown bear eats so much that it gets really fat over summer and fall, then sleeps almost all winter without eating a thing.",
+    "hint_es": "Uno de los depredadores más grandes de la tierra: pesa más que cualquier persona y corre más rápido que un campeón olímpico.",
+    "hint_en": "One of the biggest predators on land: heavier than any human and faster than an Olympic champion.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Ataques, sobre todo en Rusia.",
+        "how_en": "Attacks, mostly in Russia."
+      }
+    }
+  },
+  "polar_bear": {
+    "name_es": "Oso polar",
+    "fun_fact_es": "Debajo de su abrigo blanco, el oso polar tiene la piel negra, y sus pelos en realidad son transparentes y solo parecen blancos.",
+    "fun_fact_en": "Under its white coat, the polar bear has black skin, and its hairs are actually clear and only look white.",
+    "hint_es": "El depredador más grande de la tierra, y nada de maravilla en el océano helado.",
+    "hint_en": "The biggest predator on land, and a great swimmer in the icy ocean.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Más o menos una muerte cada 7 años.",
+        "how_en": "Roughly one death every 7 years."
+      }
+    }
+  },
+  "gorilla": {
+    "name_es": "Gorila",
+    "fun_fact_es": "Los gorilas pasan casi todo el tiempo comiendo plantas, y cada noche se hacen una cama nueva con ramas y hojas.",
+    "fun_fact_en": "Gorillas spend almost all their time eating plants, and every evening they build themselves a fresh nest-bed out of branches and leaves.",
+    "hint_es": "El mono más grande del mundo, con un macho líder de espalda plateada.",
+    "hint_en": "The biggest ape in the world, led by a male with a silver back."
+  },
+  "chimpanzee": {
+    "name_es": "Chimpancé",
+    "fun_fact_es": "Los chimpancés saben usar herramientas: con un palito sacan termitas del termitero y con una piedra rompen nueces.",
+    "fun_fact_en": "Chimpanzees know how to use tools: they fish termites out of a mound with a stick and crack nuts with a rock.",
+    "hint_es": "Nuestro pariente más cercano entre los animales: más chico que una persona, pero muy fuerte para su tamaño.",
+    "hint_en": "Our closest animal relative: smaller than a human, but very strong for its size."
+  },
+  "orangutan": {
+    "name_es": "Orangután de Borneo",
+    "fun_fact_es": "Los orangutanes pasan casi toda la vida en los árboles, y cuando llueve pueden taparse con una hoja grande como paraguas.",
+    "fun_fact_en": "Orangutans spend almost their whole lives in the trees, and when it rains they can hold a big leaf over their heads like an umbrella.",
+    "hint_es": "Un mono pelirrojo de brazos muy largos que vive en los árboles de la isla de Borneo.",
+    "hint_en": "A red-haired ape with very long arms that lives in the trees of the island of Borneo."
+  },
+  "human": {
+    "name_es": "Humano (hombre adulto)",
+    "fun_fact_es": "El ser humano no es el más fuerte ni el más rápido, pero puede correr mucho tiempo e inventa herramientas que lo ayudan en todo.",
+    "fun_fact_en": "Humans aren't the strongest or the fastest, but they can run for a very long time and invent tools that help them with everything.",
+    "hint_es": "Eres tú: con el humano se compara a todos los demás animales.",
+    "hint_en": "That's you: every other animal here is compared to a human.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Muertes causadas por otras personas (homicidios, sin contar guerras).",
+        "how_en": "Deaths caused by other people (homicides, not counting wars)."
+      }
+    }
+  },
+  "african_bush_elephant": {
+    "name_es": "Elefante africano de sabana",
+    "fun_fact_es": "Con la trompa, el elefante puede levantar un tronco o arrancar con cuidado una sola hojita de pasto.",
+    "fun_fact_en": "With its trunk, an elephant can lift a log or gently pluck a single blade of grass.",
+    "hint_es": "El animal más pesado que camina sobre la tierra.",
+    "hint_en": "The heaviest animal that walks on land.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Pisotean a personas cuando los pueblos están en sus caminos (sobre todo en India).",
+        "how_en": "They trample people when villages sit on their paths (mostly in India)."
+      }
+    }
+  },
+  "hippo": {
+    "name_es": "Hipopótamo",
+    "fun_fact_es": "El hipopótamo no sabe nadar: camina y da brincos por el fondo del río.",
+    "fun_fact_en": "The hippo can't actually swim; it walks and bounces along the river bottom.",
+    "hint_es": "Abre la boca más que nadie en este grupo, y sus mandíbulas son las más fuertes de todos.",
+    "hint_en": "It opens its mouth wider than anyone in this group, and its jaws are the strongest of all.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Voltea lanchas y ataca para defender su territorio; solo en África.",
+        "how_en": "It flips boats and attacks to defend its territory; Africa only."
+      }
+    }
+  },
+  "white_rhino": {
+    "name_es": "Rinoceronte blanco",
+    "fun_fact_es": "El rinoceronte blanco no es blanco para nada, es gris, y come pasto como una podadora.",
+    "fun_fact_en": "The white rhino isn't white at all, it's gray, and it eats grass like a lawnmower.",
+    "hint_es": "El segundo animal terrestre más pesado después del elefante, con un cuerno en la nariz.",
+    "hint_en": "The second-heaviest land animal after the elephant, with a horn on its nose."
+  },
+  "giraffe": {
+    "name_es": "Jirafa",
+    "fun_fact_es": "La lengua de la jirafa es morada oscura y tan larga que puede limpiarse la oreja con ella.",
+    "fun_fact_en": "A giraffe's tongue is dark purple and so long it can clean its own ear with it.",
+    "hint_es": "El animal más alto del planeta.",
+    "hint_en": "The tallest animal on the planet."
+  },
+  "horse": {
+    "name_es": "Caballo (doméstico)",
+    "fun_fact_es": "Los caballos pueden dormir parados, porque sus patas se pueden «trabar» para no doblarse.",
+    "fun_fact_en": "Horses can sleep standing up, because their legs can \"lock\" so they don't bend.",
+    "hint_es": "El ayudante doméstico del ser humano, el que corre más rápido de todo este grupo en distancias largas.",
+    "hint_en": "A human's domestic helper, and the fastest runner in this group over long distances."
+  },
+  "ostrich": {
+    "name_es": "Avestruz",
+    "fun_fact_es": "El avestruz no puede volar, pero su ojo es más grande que su cerebro.",
+    "fun_fact_en": "The ostrich can't fly, but its eye is bigger than its brain.",
+    "hint_es": "El ave más grande del mundo y el corredor más rápido sobre dos patas.",
+    "hint_en": "The biggest bird in the world and the fastest runner on two legs."
+  },
+  "spotted_hyena": {
+    "name_es": "Hiena manchada",
+    "fun_fact_es": "En la manada de hienas manchadas mandan las hembras, y son más grandes que los machos.",
+    "fun_fact_en": "In a spotted hyena clan, the females are in charge, and they're bigger than the males.",
+    "hint_es": "La hiena tritura huesos que ni un león puede romper.",
+    "hint_en": "A hyena crunches through bones that even a lion can't handle."
+  },
+  "gray_wolf": {
+    "name_es": "Lobo gris",
+    "fun_fact_es": "Los lobos aúllan para llamar a su manada y avisarles a los vecinos que ese territorio ya tiene dueño.",
+    "fun_fact_en": "Wolves howl to call their pack and tell the neighbors that this territory is taken.",
+    "hint_es": "El lobo es el más grande de los parientes salvajes del perro, pero no puede competir con los animales acorazados.",
+    "hint_en": "The wolf is the biggest of the dog's wild relatives, but it's no match for the armored beasts.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Los ataques son muy raros; la mitad de los casos son lobos con rabia.",
+        "how_en": "Attacks are extremely rare; half the cases are rabid wolves."
+      }
+    }
+  },
+  "nile_crocodile": {
+    "name_es": "Cocodrilo del Nilo",
+    "fun_fact_es": "La mamá cocodrilo del Nilo lleva con mucho cuidado a sus crías recién nacidas hasta el agua, dentro de su boca.",
+    "fun_fact_en": "A Nile crocodile mom gently carries her newly hatched babies to the water right inside her mouth.",
+    "hint_es": "El cocodrilo del Nilo es uno de los animales con la mordida más fuerte de África; sus mandíbulas son más potentes que las del león.",
+    "hint_en": "The Nile crocodile is one of Africa's hardest-biting animals; its jaws are more powerful than a lion's.",
+    "metrics": {
+      "deaths_per_year": {
+        "name_es": "Cocodrilos",
+        "name_en": "Crocodiles",
+        "how_es": "Ataques cerca del agua; todos los cocodrilos del mundo juntos.",
+        "how_en": "Attacks near the water; all the world's crocodiles combined."
+      }
+    }
+  },
+  "saltwater_crocodile": {
+    "name_es": "Cocodrilo de agua salada",
+    "fun_fact_es": "El cocodrilo de agua salada puede nadar en mar abierto y viajar de una isla a otra.",
+    "fun_fact_en": "The saltwater crocodile can swim in the open sea and travel from island to island.",
+    "hint_es": "Es el reptil más grande del planeta, y su mordida es la más fuerte que se ha medido jamás.",
+    "hint_en": "It's the biggest reptile on the planet, and its bite is the strongest ever measured.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Ataques en Australia y el sureste de Asia.",
+        "how_en": "Attacks in Australia and Southeast Asia."
+      }
+    }
+  },
+  "american_alligator": {
+    "name_es": "Aligátor americano",
+    "fun_fact_es": "El aligátor ruge tan fuerte que el agua a su alrededor empieza a «bailar» en gotitas.",
+    "fun_fact_en": "An alligator can bellow so loudly that the water around it starts to \"dance\" in tiny droplets.",
+    "hint_es": "El aligátor muerde muy fuerte, pero aun así es más chico que sus parientes los cocodrilos.",
+    "hint_en": "The alligator bites very hard, but it's still smaller than its crocodile cousins."
+  },
+  "komodo_dragon": {
+    "name_es": "Dragón de Komodo",
+    "fun_fact_es": "El dragón de Komodo prueba el aire con su lengua partida en dos y así huele a su presa desde lejos.",
+    "fun_fact_en": "The Komodo dragon tastes the air with its forked tongue and smells its prey from far away.",
+    "hint_es": "Es la lagartija más grande del mundo, pero sus mandíbulas son débiles: atrapa con agarre y jalón, no con fuerza de mordida.",
+    "hint_en": "It's the biggest lizard in the world, but its jaws are weak; it grips and yanks instead of relying on bite force.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Más o menos una muerte cada 8 años, solo en la isla de Komodo.",
+        "how_en": "Roughly one death every 8 years, only on Komodo Island."
+      }
+    }
+  },
+  "great_white_shark": {
+    "name_es": "Gran tiburón blanco",
+    "fun_fact_es": "El tiburón blanco siente las débiles señales eléctricas de otros animales con unos puntitos especiales en su hocico.",
+    "fun_fact_en": "The great white shark senses the faint electrical signals of other animals through special spots on its snout.",
+    "hint_es": "El pez depredador más famoso del océano: tiene dientes enormes, pero en tamaño las ballenas le ganan.",
+    "hint_en": "The ocean's most famous predatory fish: it has huge teeth, but whales beat it in size.",
+    "metrics": {
+      "deaths_per_year": {
+        "name_es": "Tiburones",
+        "name_en": "Sharks",
+        "how_es": "Todas las especies de tiburón juntas: ataques a bañistas y surfistas.",
+        "how_en": "All shark species combined: attacks on swimmers and surfers."
+      }
+    }
+  },
+  "orca": {
+    "name_es": "Orca",
+    "fun_fact_es": "Las orcas viven en familias muy unidas, y cada familia tiene su propio «idioma» de sonidos.",
+    "fun_fact_en": "Orcas live in close-knit families, and each family has its own \"language\" of sounds.",
+    "hint_es": "Un cazador marino blanco y negro que en realidad es el delfín más grande de todos.",
+    "hint_en": "A black-and-white ocean hunter that is actually the biggest dolphin of all."
+  },
+  "blue_whale": {
+    "name_es": "Ballena azul",
+    "fun_fact_es": "La ballena azul come unos camaroncitos diminutos llamados kril, colando el agua de mar con las láminas de sus barbas.",
+    "fun_fact_en": "The blue whale eats tiny shrimp-like creatures called krill, straining seawater through the plates of its baleen.",
+    "hint_es": "El animal más grande que ha vivido jamás en la Tierra, más grande que cualquier dinosaurio.",
+    "hint_en": "The biggest animal that has ever lived on Earth, bigger than any dinosaur."
+  },
+  "green_anaconda": {
+    "name_es": "Anaconda verde",
+    "fun_fact_es": "La anaconda nada muy bien y puede esconderse mucho tiempo bajo el agua, dejando afuera solo los ojos y la nariz.",
+    "fun_fact_en": "The anaconda is a great swimmer and can hide underwater for a long time with only its eyes and nostrils poking out.",
+    "hint_es": "La serpiente más pesada del mundo, que vive en los pantanos y ríos de Sudamérica.",
+    "hint_en": "The heaviest snake in the world, which likes to live in the swamps and rivers of South America."
+  },
+  "golden_eagle": {
+    "name_es": "Águila real",
+    "fun_fact_es": "El águila real tiene una vista tan aguda que ve una liebre desde muy alto en el cielo.",
+    "fun_fact_en": "The golden eagle's eyesight is so sharp it can spot a hare from way up high.",
+    "hint_es": "Ligera de peso, pero cuando se lanza en picada le gana a casi todos los animales del planeta.",
+    "hint_en": "Light in weight, but in a dive it outpaces almost every animal on the planet."
+  },
+  "german_shepherd": {
+    "name_es": "Pastor alemán",
+    "fun_fact_es": "Los pastores alemanes trabajan como perros guía, rescatistas y policías, porque son muy inteligentes y aprenden fácil.",
+    "fun_fact_en": "German Shepherds work as guide dogs, rescue dogs, and police dogs because they're very smart and learn easily.",
+    "hint_es": "El único animal doméstico de este grupo: el amigo fiel del ser humano.",
+    "hint_en": "The only pet in this crowd: a human's loyal friend.",
+    "metrics": {
+      "deaths_per_year": {
+        "name_es": "Perros",
+        "name_en": "Dogs",
+        "how_es": "Todos los perros del mundo: la mordida de un perro con rabia es mortal si no hay vacuna. En Europa casi no hay rabia.",
+        "how_en": "All the world's dogs: a bite from a rabid dog is deadly without a vaccine. Europe has almost no rabies."
+      }
+    }
+  },
+  "mosquito": {
+    "name_es": "Mosquito de la malaria",
+    "fun_fact_es": "Solo pican las hembras: necesitan sangre para poner sus huevos, mientras los machos beben néctar.",
+    "fun_fact_en": "Only female mosquitoes bite: they need blood to lay their eggs, while the males drink nectar.",
+    "hint_es": "Un insecto diminuto que chupa sangre y vive donde haya agua tibia y estancada.",
+    "hint_en": "A tiny insect that drinks blood and lives wherever there's warm, still water.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Transmite la malaria: su picadura mete un parásito en la sangre. Casi todas las víctimas están en África.",
+        "how_en": "It spreads malaria: its bite puts a parasite into the blood. Almost all victims are in Africa."
+      }
+    }
+  },
+  "venomous_snake": {
+    "name_es": "Serpientes venenosas",
+    "fun_fact_es": "Las serpientes no oyen sonidos, pero sienten la más mínima vibración del suelo con todo el cuerpo.",
+    "fun_fact_en": "Snakes can't hear sounds, but they feel the slightest tremble in the ground with their whole body.",
+    "hint_es": "Su veneno salva vidas: con él se hacen medicinas y antídotos.",
+    "hint_en": "Their venom saves lives: it's used to make medicines and antivenom.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Mordeduras de todas las serpientes venenosas del mundo juntas; la mayoría en India y África.",
+        "how_en": "Bites from all the world's venomous snakes combined; most in India and Africa."
+      }
+    }
+  },
+  "freshwater_snail": {
+    "name_es": "Caracol de agua dulce",
+    "fun_fact_es": "El caracol no le hace nada a nadie: dentro de él viven parásitos diminutos que luego salen al agua y buscan personas.",
+    "fun_fact_en": "The snail itself doesn't hurt anyone: tiny parasites live inside it, then swim out into the water looking for people.",
+    "hint_es": "Vive en ríos y lagos tibios de África y Asia, donde la gente se baña y lava la ropa.",
+    "hint_en": "It lives in warm rivers and lakes in Africa and Asia, where people swim and do their washing.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "No muerde: dentro viven larvas de un gusano parásito. Salen al agua y perforan la piel de los bañistas (esquistosomiasis, África y Asia).",
+        "how_en": "It doesn't bite: larvae of a parasitic worm live inside it. They swim out and burrow through swimmers' skin (schistosomiasis, Africa and Asia)."
+      }
+    }
+  },
+  "assassin_bug": {
+    "name_es": "Chinche besucona",
+    "fun_fact_es": "A esta chinche le dicen «besucona» porque sale de noche y pica a la gente dormida cerca de los labios.",
+    "fun_fact_en": "This bug got the name \"kissing bug\" because it comes out at night and bites sleeping people near their lips.",
+    "hint_es": "Una chinche nocturna de Latinoamérica que pica en la cara a la gente mientras duerme.",
+    "hint_en": "A nighttime bug from Latin America that bites sleeping people on the face.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "La chinche besucona pica a la gente dormida y transmite la enfermedad de Chagas (Sudamérica).",
+        "how_en": "The kissing bug bites sleeping people and spreads Chagas disease (South America)."
+      }
+    }
+  },
+  "scorpion": {
+    "name_es": "Escorpión",
+    "fun_fact_es": "Bajo luz ultravioleta, los escorpiones brillan de un color azul verdoso, y los científicos los buscan de noche con una lámpara.",
+    "fun_fact_en": "Under ultraviolet light, scorpions glow bluish-green, and scientists hunt for them at night with a flashlight.",
+    "hint_es": "El aguijón de su cola es más peligroso para los niños pequeños; los adultos casi siempre se recuperan.",
+    "hint_en": "The stinger on its tail is most dangerous for small children; adults usually recover.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Picadura del aguijón venenoso; solo unas pocas especies son peligrosas.",
+        "how_en": "Sting from the venomous tail; only a few species are dangerous."
+      }
+    }
+  },
+  "honey_bee": {
+    "name_es": "Abeja melífera",
+    "fun_fact_es": "Para juntar una sola cucharada de miel, las abejas tienen que visitar miles de flores.",
+    "fun_fact_en": "To gather a single spoonful of honey, bees have to visit thousands of flowers.",
+    "hint_es": "Solo pica para defenderse, y después de picar se muere.",
+    "hint_en": "It only stings to defend itself, and it dies after stinging.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Solo Estados Unidos: alergia mortal a picaduras de abejas, avispas y avispones.",
+        "how_en": "USA only: deadly allergic reactions to bee, wasp, and hornet stings."
+      }
+    }
+  },
+  "deer": {
+    "name_es": "Venado",
+    "fun_fact_es": "Los venados machos tiran sus cuernos cada año y les crecen otros nuevos, todavía más grandes.",
+    "fun_fact_en": "Male deer shed their antlers every year and grow new ones, even bigger than before.",
+    "hint_es": "Vive junto a los caminos del bosque y le gusta cruzarlos de repente cuando está oscureciendo.",
+    "hint_en": "It lives near forest roads and loves to dash across them at dusk.",
+    "metrics": {
+      "deaths_per_year": {
+        "how_es": "Solo Estados Unidos: choques con autos en las carreteras.",
+        "how_en": "USA only: collisions with cars on the roads."
+      }
+    }
+  },
+  "wolverine": {
+    "name_es": "Glotón",
+    "fun_fact_es": "El glotón es tan fuerte que puede roer carne y huesos congelados que otros animales no pueden ni morder.",
+    "fun_fact_en": "The wolverine is so strong it can gnaw through frozen meat and bones that other animals can't even bite into.",
+    "hint_es": "Un solitario peludo de los bosques del norte y la tundra, parecido a un oso chiquito pero en realidad pariente de la marta.",
+    "hint_en": "A shaggy loner of the northern forests and tundra that looks like a little bear but is actually related to the marten."
+  },
+  "honey_badger": {
+    "name_es": "Ratel",
+    "fun_fact_es": "Al ratel no le dan miedo ni las abejas ni las serpientes venenosas: su piel gruesa y suelta lo protege de las mordidas, y después del veneno de serpiente solo se echa a dormir.",
+    "fun_fact_en": "The honey badger isn't scared of bees or venomous snakes: its thick, loose skin protects it from bites, and after snake venom it just sleeps it off.",
+    "hint_es": "Un animalito negro y gris de África y Asia, sin miedo a nada, al que le gusta saquear nidos de abejas.",
+    "hint_en": "A small black-and-gray animal from Africa and Asia with a fearless attitude that loves raiding bee nests."
+  },
+  "red_kangaroo": {
+    "name_es": "Canguro rojo",
+    "fun_fact_es": "El canguro rojo es el marsupial más grande de la Tierra, pero al nacer su bebé es del tamaño de un frijol y se mete solito a la bolsa de su mamá.",
+    "fun_fact_en": "The red kangaroo is the biggest marsupial on Earth, yet its newborn baby is the size of a bean and crawls into its mom's pouch all by itself.",
+    "hint_es": "Un saltarín de las llanuras de Australia con una cola fuerte que le sirve de apoyo, y que carga a su bebé en una bolsa en la panza.",
+    "hint_en": "A bouncy resident of the Australian plains with a strong tail it leans on, carrying its baby in a pouch on its belly."
+  },
+  "koala": {
+    "name_es": "Koala",
+    "fun_fact_es": "El koala tiene huellas digitales casi como las de una persona, y come hojas de eucalipto que son venenosas para la mayoría de los animales.",
+    "fun_fact_en": "Koalas have fingerprints almost like a human's, and they eat eucalyptus leaves that are poisonous to most animals.",
+    "hint_es": "Un marsupial gris y peludo de nariz grande que pasa casi toda su vida en las ramas de los eucaliptos de Australia.",
+    "hint_en": "A fluffy gray marsupial with a big nose that spends almost its whole life in the eucalyptus branches of Australia."
+  },
+  "three_toed_sloth": {
+    "name_es": "Perezoso de tres dedos",
+    "fun_fact_es": "El perezoso puede girar la cabeza casi hacia atrás porque tiene más huesitos en el cuello que una jirafa, y en su pelaje viven musgo y mariposas.",
+    "fun_fact_en": "A sloth can turn its head almost all the way backward because it has more neck bones than a giraffe, and moss and moths live in its fur.",
+    "hint_es": "Un habitante lentísimo de las selvas de América que cuelga de las ramas de espaldas y casi nunca baja al suelo.",
+    "hint_en": "A super-slow resident of the American rainforests that hangs upside down from branches and almost never comes down to the ground."
+  },
+  "giant_panda": {
+    "name_es": "Panda gigante",
+    "fun_fact_es": "El panda gigante es un oso de verdad, pero se pasa casi todo el tiempo masticando bambú y sujeta los tallos con un «sexto dedo» especial en la pata.",
+    "fun_fact_en": "The giant panda is a real bear, but it spends almost all its time chewing bamboo and holds the stalks with a special \"sixth finger\" on its paw.",
+    "hint_es": "Un oso blanco y negro de los bosques de montaña de China que se pasa el día sentado crujiendo bambú.",
+    "hint_en": "A black-and-white bear from the mountain forests of China that sits all day crunching bamboo."
+  },
+  "moose": {
+    "name_es": "Alce",
+    "fun_fact_es": "El alce nada muy bien y hasta se sumerge para comer plantas acuáticas, y los machos tiran sus enormes cuernos cada año y les crecen otros nuevos.",
+    "fun_fact_en": "The moose is a great swimmer and even dives for water plants, and the males shed their huge antlers every year and grow new ones.",
+    "hint_es": "El venado más grande, con cuernos anchos como palas y patas largas, que vive en los bosques y pantanos del norte.",
+    "hint_en": "The biggest deer, with wide shovel-shaped antlers and long legs, living in the northern forests and swamps."
+  },
+  "american_bison": {
+    "name_es": "Bisonte americano",
+    "fun_fact_es": "A pesar de su enorme peso y su joroba, el bisonte puede saltar una cerca alta y corre más rápido que cualquier persona.",
+    "fun_fact_en": "Despite its huge weight and hump, a bison can jump a tall fence and runs faster than any human.",
+    "hint_es": "El poderoso toro jorobado de las praderas de Norteamérica, con una melena oscura y tupida, que antes recorría las llanuras en manadas de millones.",
+    "hint_en": "The mighty humpbacked bull of the North American prairies, with a thick dark mane, that once roamed the plains in herds of millions."
+  },
+  "plains_zebra": {
+    "name_es": "Cebra de llanura",
+    "fun_fact_es": "Cada cebra tiene su propio patrón de rayas, único como la huella digital de una persona.",
+    "fun_fact_en": "Every zebra has its own one-of-a-kind stripe pattern, like a human fingerprint.",
+    "hint_es": "Un habitante rayado de las sabanas africanas que pasta en grandes manadas y duerme parado.",
+    "hint_en": "A striped resident of the African savannas that grazes in big herds and sleeps standing up."
+  },
+  "dromedary_camel": {
+    "name_es": "Camello de una joroba (dromedario)",
+    "fun_fact_es": "La joroba del camello no guarda agua sino grasa, que lo ayuda a pasar mucho tiempo sin comer.",
+    "fun_fact_en": "A camel's hump doesn't store water but fat, which helps it go a long time without food.",
+    "hint_es": "El barco del desierto de una sola joroba, que puede cerrar la nariz para que no le entre arena.",
+    "hint_en": "The one-humped ship of the desert, which can close its nostrils to keep out sand."
+  },
+  "domestic_pig": {
+    "name_es": "Cerdo doméstico",
+    "fun_fact_es": "Los cerdos son muy inteligentes: aprenden trucos más rápido que los perros y les gusta jugar con una pelota.",
+    "fun_fact_en": "Pigs are very smart: they learn tricks faster than dogs and love playing with a ball.",
+    "hint_es": "Un habitante rosado o manchado de la granja, con hocico chato, que adora escarbar la tierra y bañarse en el lodo.",
+    "hint_en": "A pink or spotted farm resident with a snout that loves digging in the dirt and bathing in mud."
+  },
+  "holstein_cow": {
+    "name_es": "Vaca doméstica (Holstein)",
+    "fun_fact_es": "La vaca tiene un estómago con cuatro partes, y puede masticar el mismo pasto varias veces.",
+    "fun_fact_en": "A cow's stomach has four parts, and it can chew the same grass several times over.",
+    "hint_es": "Una habitante de la granja blanca con manchas negras que mastica pasto todo el día y da leche.",
+    "hint_en": "A black-and-white spotted farm resident that chews grass all day and gives milk."
+  },
+  "house_mouse": {
+    "name_es": "Ratón doméstico",
+    "fun_fact_es": "Los dientes de enfrente del ratón crecen toda la vida, por eso siempre necesita roer algo.",
+    "fun_fact_en": "A mouse's front teeth never stop growing, so it always needs to gnaw on something.",
+    "hint_es": "Un roedor gris chiquitito de cola larga que vive cerca de la gente y adora las migajas.",
+    "hint_en": "A tiny gray rodent with a long tail that lives near people and loves crumbs."
+  },
+  "brown_rat": {
+    "name_es": "Rata gris (rata de alcantarilla)",
+    "fun_fact_es": "Las ratas nadan muy bien y pueden bucear para conseguir comida hasta debajo del agua.",
+    "fun_fact_en": "Rats are great swimmers and can dive to find food even underwater.",
+    "hint_es": "Un roedor gris grande que vive en las ciudades, nada muy bien y sale de noche a buscar comida.",
+    "hint_en": "A big gray rodent that lives in cities, swims well, and goes looking for food at night."
+  },
+  "european_hedgehog": {
+    "name_es": "Erizo común",
+    "fun_fact_es": "Cuando se asusta, el erizo se hace bolita con las espinas hacia afuera, y ningún depredador sabe por dónde agarrarlo.",
+    "fun_fact_en": "When it gets scared, a hedgehog rolls into a spiky ball, and no predator can figure out how to grab it.",
+    "hint_es": "Un animalito espinoso y nocturno de jardines y bosques que se duerme en invierno hasta la primavera.",
+    "hint_en": "A spiky nighttime creature of gardens and woods that sleeps through the winter until spring."
+  },
+  "common_vampire_bat": {
+    "name_es": "Vampiro común",
+    "fun_fact_es": "Es el único murciélago que no solo vuela, sino que también corre y brinca rápido por el suelo.",
+    "fun_fact_en": "It's the only bat that doesn't just fly but can also run and hop quickly along the ground.",
+    "hint_es": "Un murciélago nocturno de Latinoamérica que puede correr por el suelo y se alimenta junto al ganado dormido.",
+    "hint_en": "A nighttime bat from Latin America that can run on the ground and feeds next to sleeping livestock."
+  },
+  "bottlenose_dolphin": {
+    "name_es": "Delfín nariz de botella",
+    "fun_fact_es": "Cada delfín nariz de botella tiene su propio silbido especial, como un nombre con el que lo reconocen los demás delfines.",
+    "fun_fact_en": "Every bottlenose dolphin has its own special whistle, like a name that other dolphins recognize it by.",
+    "hint_es": "Este mamífero marino respira aire, le gusta jugar y encuentra peces con el eco de sus chasquidos.",
+    "hint_en": "This sea mammal breathes air, loves to play, and finds fish using the echo of its clicks."
+  },
+  "sperm_whale": {
+    "name_es": "Cachalote",
+    "fun_fact_es": "El cachalote tiene el cerebro más grande de todos los animales de la Tierra, y su cabeza ocupa una tercera parte de su cuerpo.",
+    "fun_fact_en": "The sperm whale has the biggest brain of any animal on Earth, and its head takes up a third of its body.",
+    "hint_es": "Este gigante de cabeza enorme y cuadrada caza calamares en las profundidades oscuras y se comunica con chasquidos.",
+    "hint_en": "This giant with a huge square head hunts squid in the dark depths and talks in clicks."
+  }
+}

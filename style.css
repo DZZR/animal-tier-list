@@ -201,3 +201,31 @@ h3 { font-size: 1rem; margin: 14px 0 6px; color: #666; font-weight: normal; }
 .link-box { background: #fff; border: 2px dashed #aaa; border-radius: 12px; padding: 8px 10px; font-family: monospace; font-size: 0.8rem; word-break: break-all; margin: 8px 0; }
 .warn { background: #ffe5e5; border-radius: 12px; padding: 8px 12px; }
 #share { margin-top: 10px; }
+
+/* ---- Вечеринка (party.js) ---- */
+.teams label { flex: 1; font-size: 0.9rem; color: #666; }
+#party-btn { margin-top: 22px; }
+.duel-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 1.1rem; }
+.duel-top span { background: #fff; border-radius: 12px; padding: 6px 16px; font-weight: 900; font-size: 1.6rem; min-width: 56px; text-align: center; }
+.duel-top b { flex: 1; text-align: center; }
+.duel-pair { display: flex; align-items: center; gap: 8px; margin: 12px 0; }
+.duel-card { flex: 1; background: #fff; border-radius: 16px; border: 4px solid #e5dcc3; padding: 8px; text-align: center; min-height: 180px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; transition: transform .2s; }
+.duel-card img { width: 100%; max-width: 220px; aspect-ratio: 1; object-fit: cover; border-radius: 12px; }
+.duel-card .emo { font-size: 4rem; }
+.duel-card.win { border-color: #2e9e4f; background: #e6f7eb; transform: scale(1.04); }
+.duel-card.lose { border-color: #e03131; background: #ffe3e3; opacity: .7; }
+.duel-vs { font-weight: 900; color: #999; }
+.duel-zones { display: flex; gap: 10px; margin-top: 8px; }
+.duel-zone { flex: 1; background: #fff; border-radius: 16px; padding: 10px; text-align: center; touch-action: manipulation; }
+.duel-zone .btn { margin-top: 8px; font-size: 1rem; padding: 10px 6px; }
+.duel-zone.off { opacity: .45; pointer-events: none; }
+@media (max-width: 600px) { .duel-zone .row { flex-direction: column; gap: 6px; } .duel-card { min-height: 140px; } }
+.trust { font-size: 0.78rem; border-radius: 8px; padding: 1px 6px; background: #eef; white-space: nowrap; }
+.trust.e { background: #fff3cd; } .trust.q { background: #ffe3e3; }
+
+/* Переключатель языка на главном экране (i18n.js) */
+#home { position: relative; }
+.lang { position: absolute; top: 0; right: 0; display: flex; gap: 4px; }
+.lang .btn { min-height: 30px; min-width: 0; padding: 4px 8px; font-size: 0.8rem; background: #fff; color: var(--text); box-shadow: 0 2px 0 #ddd; }
+.lang .btn.active { background: var(--accent); color: #fff; box-shadow: 0 2px 0 var(--accent-dark); }

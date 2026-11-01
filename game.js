@@ -37,8 +37,10 @@ function renderHome() {
     if (!enough) btn.classList.add("disabled");
     // Рекорд ≥90% — значок «эксперт»: ребёнок может быть экспертом по весу, но не по клыкам
     const expert = best >= 90;
-    btn.innerHTML = `<div class="cat-icon">${cat.icon || "🐾"}</div><b>${cat.title}</b><span>${cat.question}</span>` +
-      `<div class="best">${!enough ? "Мало животных для " + state.count : expert ? "🏆 Эксперт · " + best + "%" : best ? "Рекорд: " + best + "%" : "Ещё не играл"}</div>`;
+    const bestText = !enough ? t("Мало животных для {n}").replace("{n}", state.count)
+      : expert ? t("🏆 Эксперт · {n}%").replace("{n}", best) : best ? t("Рекорд: {n}%").replace("{n}", best) : t("Ещё не играл");
+    btn.innerHTML = `<div class="cat-icon">${cat.icon || "🐾"}</div><b>${L(cat, "title")}</b><span>${L(cat, "question")}</span>` +
+      `<div class="best">${bestText}</div>`;
     if (expert) btn.classList.add("expert");
     if (enough) btn.onclick = () => startRound(cat);
     list.appendChild(btn);
@@ -141,7 +143,7 @@ function startRound(cat, fixed) {
   state.correct = computeCorrect(state.animals, cat, fixed && fixed.th);
   if (state.human) state.placed.human = state.correct.human;
 
-  $("#game-title").textContent = cat.question;
+  $("#game-title").textContent = L(cat, "question");
   $("#hint").disabled = false;
   $("#hint-text").classList.add("hidden");
   renderGame();
@@ -149,10 +151,10 @@ function startRound(cat, fixed) {
 }
 
 // Имя карточки: у метрики может быть своё («Собаки» вместо «Немецкая овчарка» в категории «опасность»,
-// потому что цифра там — про всех собак мира). Поле name_ru внутри метрики.
+// потому что цифра там — про всех собак мира). Поле name_ru внутри метрики. Язык — через L() (i18n.js).
 function nameFor(a) {
   const m = state.cat && a.metrics[state.cat.metric];
-  return (m && m.name_ru) || a.name_ru;
+  return (m && L(m, "name_ru")) || L(a, "name_ru");
 }
 
 function cardEl(a) {
@@ -162,17 +164,17 @@ function cardEl(a) {
   // Фото, если скачано (img/<id>.jpg), иначе эмодзи
   const pic = a.image ? `<img src="${a.image}" alt="" draggable="false">` : (a.emoji || a.name_ru[0]);
   el.innerHTML = `<div class="pic">${pic}</div><div class="name">${nameFor(a)}</div>`;
-  if (a.id === "human") { el.classList.add("locked"); el.title = "Человек — ориентир, его нельзя двигать"; }
+  if (a.id === "human") { el.classList.add("locked"); el.title = t("Человек — ориентир, его нельзя двигать"); }
   else attachDrag(el);
   return el;
 }
 
 // Подписи границ тиров: «от 60», «30–60», …, «до 5». Это пороги раунда, а не значения животных.
 function tierRanges() {
-  const th = state.thresholds, f = (v) => v.toLocaleString("ru-RU", { maximumFractionDigits: 3 });
+  const th = state.thresholds, f = (v) => v.toLocaleString(numLocale(), { maximumFractionDigits: 3 });
   return TIERS.map((_, i) => {
-    if (i === 0) return `от ${f(th[0])}`;
-    if (i === TIERS.length - 1) return `до ${f(th[th.length - 1])}`;
+    if (i === 0) return t("от {x}").replace("{x}", f(th[0]));
+    if (i === TIERS.length - 1) return t("до {x}").replace("{x}", f(th[th.length - 1]));
     return `${f(th[i])}–${f(th[i - 1])}`;
   });
 }
@@ -185,7 +187,7 @@ function renderGame() {
     const row = document.createElement("div");
     row.className = "tier";
     row.dataset.tier = i;
-    row.innerHTML = `<div class="tier-label" style="background:var(--tier-${t})">${t}<small>${ranges[i]}<br>${state.cat.unit}</small></div><div class="tier-drop"></div>`;
+    row.innerHTML = `<div class="tier-label" style="background:var(--tier-${t})">${t}<small>${ranges[i]}<br>${L(state.cat, "unit")}</small></div><div class="tier-drop"></div>`;
     row.onclick = () => { if (state.selected) place(state.selected, i); };
     tiers.appendChild(row);
   });
@@ -276,7 +278,7 @@ $("#hint").onclick = () => {
   $("#hint").disabled = true;
   const candidates = state.animals.filter((a) => a.id !== "human" && a.hint);
   const a = shuffle([...candidates])[0];
-  $("#hint-text").textContent = a ? `${a.emoji || ""} ${a.hint}` : "Подсказки нет 🙈";
+  $("#hint-text").textContent = a ? `${a.emoji || ""} ${L(a, "hint")}` : t("Подсказки нет 🙈");
   $("#hint-text").classList.remove("hidden");
 };
 
@@ -318,10 +320,11 @@ $("#check").onclick = () => {
   const pct = score();
   const stars = pct >= 90 ? 3 : pct >= 70 ? 2 : 1;   // случайная расстановка даёт ~36%, полуслучайная ~60%
   beep(pct >= 60);
+  if (partyCheck(pct)) return;         // party.js: первая команда сыграла — передаём устройство второй
   renderResults(state, pct, stars);   // results.js
   const prev = +(localStorage.getItem(bestKey(state.cat)) || 0);
   if (pct > prev) localStorage.setItem(bestKey(state.cat), pct);
-  $("#score-text").textContent = pct > prev ? "Новый рекорд! 🎉" : `Твой рекорд: ${prev}%`;
+  $("#score-text").textContent = pct > prev ? t("Новый рекорд! 🎉") : t("Твой рекорд: {n}%").replace("{n}", prev);
   renderChallenge(pct);   // challenge.js: сравнение с соперником или кнопка «вызвать друга»
   showScreen("result");
 };

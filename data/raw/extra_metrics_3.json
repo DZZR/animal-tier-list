@@ -1,0 +1,44 @@
+{
+  "human": {
+    "jump_length_m": {"avg": 8.95, "max": 8.95, "estimated": false, "source": "https://en.wikipedia.org/wiki/Long_jump", "note": "Running long jump world record: Mike Powell (USA) 8.95 m, 1991; women's record 7.52 m (Galina Chistyakova, 1988). Standing long jump record 3.71 m (Arne Tvervaag, 1968; https://en.wikipedia.org/wiki/Standing_long_jump). Typical kids/adults jump far less."},
+    "strength_ratio": {"avg": 5, "max": 5, "estimated": false, "source": "https://en.wikipedia.org/wiki/Lamar_Gant", "note": "Powerlifting record relative to body weight: Lamar Gant deadlifted 300 kg at 60 kg body weight (1985), first human to lift 5x own weight. Heaviest absolute deadlift 510 kg (Hafthor Bjornsson, https://en.wikipedia.org/wiki/Deadlift), about 2.5x body weight."}
+  },
+  "red_kangaroo": {
+    "jump_length_m": {"avg": 8.5, "max": 12, "estimated": false, "source": "https://en.wikipedia.org/wiki/Red_kangaroo", "note": "Running bound. Wikipedia: males cover 8-9 m in one leap, 1.8-3 m high. ADW gives up to 8 m (https://animaldiversity.org/accounts/Macropus_rufus/). San Diego Zoo: in an emergency bounds of 12 m long and 3 m high (https://animals.sandiegozoo.org/animals/kangaroo-and-wallaby); Nat Geo says 25 ft (7.6 m)."}
+  },
+  "cat_flea": {
+    "jump_length_m": {"avg": 0.33, "max": 0.33, "estimated": false, "source": "https://en.wikipedia.org/wiki/Flea", "note": "Standing jump: fleas jump horizontally up to 33 cm and vertically up to 18 cm, i.e. about 110 body lengths in distance (Flea article, general for fleas)."}
+  },
+  "cougar": {
+    "jump_length_m": {"avg": 12.2, "max": 12.2, "estimated": true, "source": "https://www.nationalgeographic.com/animals/mammals/facts/mountain-lion", "note": "Nat Geo: leaps around 40 ft (12.2 m) horizontally or 18 ft vertically in a single jump (popular page, converted from feet). Wikipedia gives only the vertical: leaps up to 5.5 m into a tree (https://en.wikipedia.org/wiki/Cougar)."}
+  },
+  "snow_leopard": {
+    "jump_length_m": {"avg": 7, "max": 15.2, "estimated": true, "source": "https://animals.sandiegozoo.org/animals/snow-leopard", "note": "Sources differ >1.5x. San Diego Zoo: pounces as far as six times its body length (body 99-130 cm -> about 6-7.8 m, our calculation). Nat Geo: able to leap as far as 50 ft (15.2 m) (https://www.nationalgeographic.com/animals/mammals/facts/snow-leopard). Wikipedia gives no figure."}
+  },
+  "deer": {
+    "jump_length_m": {"avg": 9, "max": 9, "estimated": false, "source": "https://en.wikipedia.org/wiki/White-tailed_deer", "note": "White-tailed deer (running): can jump 3 m high and up to 9 m forward."}
+  },
+  "tiger": {
+    "jump_length_m": {"avg": 10, "max": 10, "estimated": false, "source": "https://en.wikipedia.org/wiki/Tiger", "note": "Wikipedia: a tiger can sprint 56 km/h and leap 10 m (running leap, reported maximum)."}
+  },
+  "leopard": {
+    "jump_length_m": {"avg": 6, "max": 6, "estimated": false, "source": "https://en.wikipedia.org/wiki/Leopard", "note": "Wikipedia: leaps over 6 m horizontally and jumps up to 3 m vertically (running leap)."},
+    "strength_ratio": {"avg": 2.4, "max": 2.4, "estimated": true, "source": "https://en.wikipedia.org/wiki/Leopard", "note": "Calculated: Wikipedia says the leopard drags carcasses heavier than itself up into trees, one hauled a young giraffe of nearly 125 kg; male leopards weigh 30.9-72 kg (midpoint ~51.5 kg) -> ~2.4x body weight hauled up a tree."}
+  },
+  "african_bush_elephant": {
+    "jump_length_m": {"avg": 0, "max": 0, "estimated": false, "source": "https://en.wikipedia.org/wiki/Elephant", "note": "Elephants cannot jump at all: Wikipedia states they are incapable of trotting, jumping or galloping."},
+    "strength_ratio": {"avg": 0.058, "max": 0.058, "estimated": true, "source": "https://en.wikipedia.org/wiki/Elephant", "note": "Trunk only: powerful enough to lift up to 350 kg; adult male African bush elephant 5.2-6.9 t (midpoint ~6050 kg) -> trunk lifts ~0.06 of body weight (calculation). Whole-body pulling capacity not sourced."}
+  },
+  "dung_beetle": {
+    "strength_ratio": {"avg": 1141, "max": 1141, "estimated": false, "source": "https://en.wikipedia.org/wiki/Onthophagus_taurus", "note": "Onthophagus taurus measured pulling 1141 times its own body mass; considered the strongest animal relative to size."}
+  },
+  "rhinoceros_beetle": {
+    "strength_ratio": {"avg": 100, "max": 850, "estimated": true, "source": "https://en.wikipedia.org/wiki/Hercules_beetle", "note": "Measured: carrying capacity only up to ~100x body mass, at which point the beetle can barely move (Hercules beetle article, measurements on a smaller rhinoceros beetle species). Popular anecdotal claim of 850x own weight appears on https://en.wikipedia.org/wiki/Dynastinae (Kram 1996) and is disputed."}
+  },
+  "bald_eagle": {
+    "strength_ratio": {"avg": 1, "max": 1.66, "estimated": true, "source": "https://en.wikipedia.org/wiki/Bald_eagle", "note": "Carrying in flight: Wikipedia says bald eagles can fly with fish at least equal to their own weight, though many sources claim normally no more than half; one observed carrying a 6.8 kg mule deer fawn vs male average weight 4.1 kg -> ~1.66x (calculation). Fish up to 2x own weight are dragged, not flown."}
+  },
+  "golden_eagle": {
+    "strength_ratio": {"avg": 0.8, "max": 1, "estimated": true, "source": "https://animaldiversity.org/accounts/Aquila_chrysaetos/", "note": "ADW: golden eagles can carry up to 8 lb (3.6 kg) during flight; adult weight males 3.0-4.5 kg, females 3.9-6.1 kg (ADW) -> roughly 0.6-1.2x, about 0.8 of body weight on average (calculation). Wikipedia gives no carrying figure."}
+  }
+}

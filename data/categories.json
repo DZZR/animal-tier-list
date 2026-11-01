@@ -9,7 +9,8 @@
     "ref_id": "great_white_shark",
     "visual": "scale",
     "note": "Сухие цифры ВОЗ и статистики. У человека считаются гибели от рук других людей.",
-    "icon": "☠️"
+    "icon": "☠️",
+    "compare_less": "акула опаснее в {x} раз"
   },
   {
     "id": "bite_force",
@@ -23,7 +24,8 @@
     },
     "compare_phrase": "кусает в {x} раз сильнее человека",
     "visual": "scale",
-    "icon": "🦷"
+    "icon": "🦷",
+    "compare_less": "ты кусаешь в {x} раз сильнее"
   },
   {
     "id": "teeth",
@@ -33,7 +35,8 @@
     "unit": "см",
     "compare_phrase": "клык в {x} раз длиннее человеческого",
     "visual": "silhouettes",
-    "icon": "🦣"
+    "icon": "🦣",
+    "compare_less": "твой клык в {x} раз длиннее"
   },
   {
     "id": "loudness",
@@ -54,7 +57,8 @@
     "unit": "кг",
     "compare_phrase": "весит как {x} человек",
     "visual": "balance",
-    "icon": "⚖️"
+    "icon": "⚖️",
+    "compare_less": "ты в {x} раз тяжелее"
   },
   {
     "id": "height",
@@ -64,7 +68,8 @@
     "unit": "м",
     "compare_phrase": "в {x} раз выше человека",
     "visual": "silhouettes",
-    "icon": "📏"
+    "icon": "📏",
+    "compare_less": "ты в {x} раз выше"
   },
   {
     "id": "length",
@@ -75,7 +80,8 @@
     "compare_phrase": "в {x} раз длиннее человека",
     "ref_metric": "height_m",
     "visual": "silhouettes",
-    "icon": "🐍"
+    "icon": "🐍",
+    "compare_less": "ты в {x} раз длиннее"
   },
   {
     "id": "speed",
@@ -85,7 +91,8 @@
     "unit": "км/ч",
     "compare_phrase": "в {x} раз быстрее бегуна",
     "visual": "race",
-    "icon": "🏃"
+    "icon": "🏃",
+    "compare_less": "бегун в {x} раз быстрее"
   },
   {
     "id": "teeth_count",
@@ -95,7 +102,8 @@
     "unit": "зубов",
     "compare_phrase": "в {x} раз больше зубов, чем у человека",
     "visual": "scale",
-    "icon": "😁"
+    "icon": "😁",
+    "compare_less": "у тебя в {x} раз больше зубов"
   },
   {
     "id": "sleep",
@@ -105,7 +113,8 @@
     "unit": "ч в сутки",
     "compare_phrase": "спит в {x} раз дольше человека",
     "visual": "scale",
-    "icon": "😴"
+    "icon": "😴",
+    "compare_less": "ты спишь в {x} раз дольше"
   },
   {
     "id": "heart",
@@ -115,7 +124,8 @@
     "unit": "ударов/мин",
     "compare_phrase": "сердце бьётся в {x} раз чаще, чем у человека",
     "visual": "scale",
-    "icon": "❤️"
+    "icon": "❤️",
+    "compare_less": "твоё сердце бьётся в {x} раз чаще"
   },
   {
     "id": "gestation",
@@ -126,7 +136,8 @@
     "compare_phrase": "в {x} раз дольше, чем у человека",
     "visual": "scale",
     "note": "У птиц и рептилий — срок, пока яйцо лежит в гнезде.",
-    "icon": "🥚"
+    "icon": "🥚",
+    "compare_less": "у человека в {x} раз дольше"
   },
   {
     "id": "dive",
@@ -136,7 +147,8 @@
     "unit": "м",
     "compare_phrase": "в {x} раз глубже рекорда человека",
     "visual": "scale",
-    "icon": "🤿"
+    "icon": "🤿",
+    "compare_less": "рекорд человека в {x} раз глубже"
   },
   {
     "id": "lifespan",
@@ -146,6 +158,40 @@
     "unit": "лет",
     "compare_phrase": "живёт как {x} поколения людей",
     "visual": "lifelines",
-    "icon": "⏳"
+    "icon": "⏳",
+    "compare_less": "ты проживёшь в {x} раз дольше"
+  },
+  {
+    "id": "brain",
+    "metric": "brain_mass_g",
+    "title": "Мозг",
+    "question": "У кого самый тяжёлый мозг?",
+    "unit": "г",
+    "compare_phrase": "мозг в {x} раз тяжелее человеческого",
+    "compare_less": "твой мозг в {x} раз тяжелее",
+    "visual": "scale",
+    "icon": "🧠"
+  },
+  {
+    "id": "maturity",
+    "metric": "maturity_years",
+    "title": "Взросление",
+    "question": "Кто дольше всех растёт до взрослого?",
+    "unit": "лет",
+    "compare_phrase": "взрослеет в {x} раз дольше человека",
+    "compare_less": "ты взрослеешь в {x} раз дольше",
+    "visual": "lifelines",
+    "icon": "🐣"
+  },
+  {
+    "id": "jump",
+    "metric": "jump_length_m",
+    "title": "Прыжок",
+    "question": "Кто прыгает дальше всех?",
+    "unit": "м",
+    "compare_phrase": "прыгает в {x} раз дальше рекорда человека",
+    "compare_less": "рекорд человека в {x} раз дальше",
+    "visual": "scale",
+    "icon": "🦘"
   }
 ]

@@ -1,0 +1,387 @@
+{
+  "walrus": {
+    "name_es": "Morsa",
+    "fun_fact_es": "La morsa puede dormir flotando en el agua: una bolsa de aire en su garganta funciona como un salvavidas inflable.",
+    "fun_fact_en": "A walrus can sleep right in the water: an air pouch in its throat works like an inflatable life ring.",
+    "hint_es": "Un gordito bigotón con colmillos largos que vive entre los hielos del Ártico y recoge almejas del fondo del mar.",
+    "hint_en": "A whiskered chubby giant with long tusks that lives among Arctic ice and gathers clams from the sea floor."
+  },
+  "emperor_penguin": {
+    "name_es": "Pingüino emperador",
+    "fun_fact_es": "El papá pingüino pasa todo el invierno antártico con el huevo sobre sus patas, bajo un pliegue de piel calientito, y no come nada.",
+    "fun_fact_en": "The penguin dad spends the whole Antarctic winter holding the egg on his feet under a warm fold of skin, and eats nothing at all.",
+    "hint_es": "El ave más grande de la Antártida no vuela, camina bamboleándose sobre el hielo y se clava al agua helada para pescar.",
+    "hint_en": "Antarctica's biggest bird can't fly; it waddles across the ice and dives into freezing water to catch fish."
+  },
+  "peregrine_falcon": {
+    "name_es": "Halcón peregrino",
+    "fun_fact_es": "El halcón peregrino es el animal más rápido del planeta: pliega las alas y cae sobre su presa desde el cielo como una piedra.",
+    "fun_fact_en": "The peregrine falcon is the fastest animal on Earth: it folds its wings and drops onto its prey from the sky like a stone.",
+    "hint_es": "Esta ave de presa anida en acantilados y edificios altos y atrapa palomas en pleno vuelo.",
+    "hint_en": "This bird of prey nests on cliffs and tall buildings and snatches pigeons right out of the air."
+  },
+  "bee_hummingbird": {
+    "name_es": "Colibrí zunzuncito",
+    "fun_fact_es": "El ave más pequeña del mundo pesa menos que una moneda y puede volar hacia atrás y quedarse suspendida en el aire.",
+    "fun_fact_en": "The smallest bird in the world weighs less than a coin and can fly backwards and hover in midair.",
+    "hint_es": "Un pajarito diminuto de Cuba que zumba con las alas como una abeja y bebe néctar de las flores sin posarse en ellas.",
+    "hint_en": "A tiny bird from Cuba that buzzes its wings like a bee and sips nectar from flowers without ever landing on them."
+  },
+  "domestic_chicken": {
+    "name_es": "Gallina doméstica",
+    "fun_fact_es": "Hay más gallinas en la Tierra que todas las demás aves juntas, y sus antepasados son gallos salvajes de los bosques de Asia.",
+    "fun_fact_en": "There are more chickens on Earth than all other birds put together, and their ancestors are wild jungle fowl from Asia.",
+    "hint_es": "Esta ave vive en granjas y patios, pone huevos, escarba la tierra con las patas y canta al amanecer.",
+    "hint_en": "This bird lives on farms and in backyards, lays eggs, scratches the dirt with its feet, and crows at dawn."
+  },
+  "giant_pacific_octopus": {
+    "name_es": "Pulpo gigante del Pacífico",
+    "fun_fact_es": "El pulpo gigante tiene tres corazones y sangre azul, y cambia el color de su piel más rápido de lo que tú parpadeas.",
+    "fun_fact_en": "The giant octopus has three hearts and blue blood, and it changes its skin color faster than you can blink.",
+    "hint_es": "Un maestro del camuflaje con ocho brazos que vive en mares fríos, se esconde en cuevas y hasta sabe abrir frascos con tapa.",
+    "hint_en": "An eight-armed master of disguise that lives in cold seas, hides in dens, and can even open jars with lids."
+  },
+  "galapagos_tortoise": {
+    "name_es": "Tortuga gigante de Galápagos",
+    "fun_fact_es": "Esta tortuga puede pasar casi un año entero sin comer ni beber, guardando todo lo que necesita dentro de su enorme caparazón.",
+    "fun_fact_en": "This tortoise can go almost a whole year without food or water, storing everything it needs inside its huge shell.",
+    "hint_es": "Un gigante tranquilo con caparazón que vive en islas volcánicas y mastica cactus y pasto.",
+    "hint_en": "A slow, shelled giant that lives on volcanic islands and munches on cactus and grass."
+  },
+  "reticulated_python": {
+    "name_es": "Pitón reticulada",
+    "fun_fact_es": "Es la serpiente más larga del planeta y nada muy bien: se han encontrado pitones hasta en islas lejanas en medio del mar.",
+    "fun_fact_en": "It's the longest snake on the planet and a great swimmer: pythons have turned up even on faraway islands out in the open sea.",
+    "hint_es": "Una serpiente enorme y manchada de las selvas de Asia que no muerde con veneno, sino que envuelve a su presa con sus anillos.",
+    "hint_en": "A huge spotted snake from the rainforests of Asia that doesn't bite with venom but wraps its prey in its coils."
+  },
+  "king_cobra": {
+    "name_es": "Cobra real",
+    "fun_fact_es": "La cobra real es la única serpiente que construye un nido de hojas para sus huevos y lo cuida.",
+    "fun_fact_en": "The king cobra is the only snake that builds a nest of leaves for its eggs and guards it.",
+    "hint_es": "La serpiente venenosa más larga, que levanta la parte delantera del cuerpo, abre su «capucha» y se alimenta sobre todo de otras serpientes.",
+    "hint_en": "The longest venomous snake, which raises the front of its body, spreads its \"hood,\" and feeds mostly on other snakes."
+  },
+  "goliath_frog": {
+    "name_es": "Rana goliat",
+    "fun_fact_es": "La rana más grande del mundo no sabe croar, pues no tiene saco vocal, pero construye nidos de piedras para sus huevecillos.",
+    "fun_fact_en": "The biggest frog in the world can't croak at all, since it has no vocal sac, but it builds nests out of stones for its eggs.",
+    "hint_es": "Una rana gigante de los ríos rápidos de África Occidental, silenciosa y muy saltarina.",
+    "hint_en": "A giant frog from the fast rivers of West Africa, silent and a very good jumper."
+  },
+  "giant_squid": {
+    "name_es": "Calamar gigante",
+    "fun_fact_es": "El calamar gigante tiene los ojos más grandes de todos los animales, cada uno del tamaño de un plato, para ver en las profundidades oscuras.",
+    "fun_fact_en": "The giant squid has the biggest eyes of any animal, each one the size of a dinner plate, to see in the dark depths.",
+    "hint_es": "Un misterioso habitante de las profundidades del océano con diez largos tentáculos, al que casi nadie ha visto vivo.",
+    "hint_en": "A mysterious dweller of the deep ocean with ten long tentacles that people almost never see alive."
+  },
+  "peacock_mantis_shrimp": {
+    "name_es": "Camarón mantis pavo real",
+    "fun_fact_es": "El golpe de este camarón de colores es tan rápido que el agua alrededor de su puñito hierve y suelta una chispita de luz.",
+    "fun_fact_en": "This colorful shrimp punches so fast that the water around its little fist boils and flashes with a tiny spark of light.",
+    "hint_es": "Un camarón brillante como un arcoíris de los arrecifes de coral, vive en una madriguera y golpea a sus presas con sus «puñitos».",
+    "hint_en": "A bright rainbow-colored shrimp from coral reefs that lives in a burrow and clobbers its prey with its \"little fists.\""
+  },
+  "cat_flea": {
+    "name_es": "Pulga del gato",
+    "fun_fact_es": "La pulga salta tan lejos que, si una persona saltara igual para su tamaño, pasaría volando por encima de una cancha de futbol.",
+    "fun_fact_en": "A flea jumps so far that if a person could jump the same way for their size, they would fly clear over a football field.",
+    "hint_es": "Un insecto diminuto y saltarín sin alas que vive en el pelo de gatos y perros.",
+    "hint_en": "A tiny, bouncy insect with no wings that lives in the fur of cats and dogs."
+  },
+  "goliath_birdeater": {
+    "name_es": "Tarántula goliat",
+    "fun_fact_es": "La araña más pesada del mundo sisea frotando sus patas peludas y, a pesar de su nombre, casi nunca come aves: prefiere gusanos y ranas.",
+    "fun_fact_en": "The heaviest spider in the world hisses by rubbing its hairy legs together, and despite its name it hardly ever eats birds, preferring worms and frogs.",
+    "hint_es": "Una araña enorme y peluda de las selvas de Sudamérica que vive en una madriguera y sale a cazar de noche.",
+    "hint_en": "A huge hairy spider from the rainforests of South America that lives in a burrow and comes out to hunt at night."
+  },
+  "snow_leopard": {
+    "name_es": "Leopardo de las nieves",
+    "fun_fact_es": "El leopardo de las nieves no sabe rugir, pero se envuelve en su cola peluda como si fuera una bufanda para calentarse.",
+    "fun_fact_en": "The snow leopard can't roar, but it wraps itself in its fluffy tail like a scarf to stay warm.",
+    "hint_es": "Vive en lo alto de las montañas, entre nieve y rocas, y caza cabras montesas.",
+    "hint_en": "It lives high in the mountains among snow and rocks and hunts mountain goats."
+  },
+  "cougar": {
+    "name_es": "Puma",
+    "fun_fact_es": "El puma tiene más nombres que cualquier otro animal: le dicen león de montaña, pantera y también cougar.",
+    "fun_fact_en": "The cougar has more names than any other animal: people call it mountain lion, panther, and puma too.",
+    "hint_es": "Un gato grande de un solo color que vive en América, salta más alto que cualquier otro felino y maúlla en vez de rugir.",
+    "hint_en": "A big, one-colored cat of the Americas that jumps higher than any other cat and meows instead of roaring."
+  },
+  "eurasian_lynx": {
+    "name_es": "Lince europeo",
+    "fun_fact_es": "El lince tiene mechones en las orejas y patillas en las mejillas, y camina sobre la nieve con sus patas anchas como si llevara esquís.",
+    "fun_fact_en": "The lynx has tufts on its ears and sideburns on its cheeks, and it walks across snow on wide paws like it's wearing skis.",
+    "hint_es": "Un gato del bosque de cola corta y mechones en las orejas que sale a cazar al atardecer.",
+    "hint_en": "A forest cat with a short tail and tufted ears that goes hunting at dusk."
+  },
+  "sea_otter": {
+    "name_es": "Nutria marina",
+    "fun_fact_es": "Las nutrias marinas duermen en el agua tomadas de las patitas y envueltas en algas para que la corriente no se las lleve.",
+    "fun_fact_en": "Sea otters sleep on the water holding each other's paws and wrapped in seaweed so they don't drift away.",
+    "hint_es": "Un animalito marino con el pelaje más tupido del mundo que rompe conchas con una piedra mientras flota de espaldas.",
+    "hint_en": "A sea creature with the thickest fur on Earth that cracks shells open with a rock while floating on its back."
+  },
+  "capybara": {
+    "name_es": "Capibara",
+    "fun_fact_es": "La capibara es el roedor más grande de la Tierra, y en su lomo les gusta descansar a pájaros, tortugas y hasta changuitos.",
+    "fun_fact_en": "The capybara is the biggest rodent on Earth, and birds, turtles, and even little monkeys like to rest on its back.",
+    "hint_es": "Un roedor enorme y bonachón de Sudamérica al que le encanta sentarse en el agua.",
+    "hint_en": "A huge, good-natured rodent from South America that loves sitting in the water."
+  },
+  "north_american_beaver": {
+    "name_es": "Castor americano",
+    "fun_fact_es": "Los castores construyen presas y casitas con ramas y lodo, y hacen la entrada bajo el agua para que ningún extraño pueda entrar.",
+    "fun_fact_en": "Beavers build dams and lodges out of branches and mud, and they put the front door underwater so no strangers can get in.",
+    "hint_es": "Un roedor de cola plana que derriba árboles con los dientes y construye presas en los ríos.",
+    "hint_en": "A flat-tailed rodent that chops down trees with its teeth and builds dams on rivers."
+  },
+  "platypus": {
+    "name_es": "Ornitorrinco",
+    "fun_fact_es": "El ornitorrinco es un mamífero que pone huevos, y bajo el agua cierra los ojos y los oídos y busca comida con su pico, sintiendo la electricidad.",
+    "fun_fact_en": "The platypus is a mammal that lays eggs, and underwater it shuts its eyes and ears and finds food with its bill by sensing electricity.",
+    "hint_es": "Un animalito australiano con pico de pato y cola de castor que se clava en los ríos a buscar comida.",
+    "hint_en": "An Australian creature with a duck's bill and a beaver's tail that dives for food in rivers."
+  },
+  "axolotl": {
+    "name_es": "Ajolote",
+    "fun_fact_es": "El ajolote se queda «niño» toda su vida, con branquias como plumitas, y puede volver a crecer patas perdidas y hasta pedazos de su corazón.",
+    "fun_fact_en": "The axolotl stays a \"kid\" its whole life, with feathery gills, and can regrow lost legs and even parts of its heart.",
+    "hint_es": "Una salamandra acuática sonriente de los lagos de México con branquias como plumas en la cabeza.",
+    "hint_en": "A smiling water salamander from the lakes of Mexico with feathery gills on its head."
+  },
+  "naked_mole_rat": {
+    "name_es": "Rata topo desnuda",
+    "fun_fact_es": "Las ratas topo desnudas viven como las abejas: tienen una reina, y las demás cavan túneles y corren por ellos hacia atrás tan rápido como hacia adelante.",
+    "fun_fact_en": "Naked mole-rats live like bees: they have a queen, and the rest dig tunnels and run through them backwards just as fast as forwards.",
+    "hint_es": "Un roedor casi pelón de África que pasa toda su vida cavando túneles bajo tierra con sus grandes dientes.",
+    "hint_en": "A nearly hairless rodent from Africa that spends its whole life digging underground tunnels with its big teeth."
+  },
+  "tasmanian_devil": {
+    "name_es": "Demonio de Tasmania",
+    "fun_fact_es": "Cuando el demonio de Tasmania se pone nervioso, sus orejas se ponen rojas, y se come a su presa entera, con huesos y pelo.",
+    "fun_fact_en": "When a Tasmanian devil gets worked up, its ears turn red, and it eats its prey whole, bones and fur included.",
+    "hint_es": "Un depredador marsupial negro de una isla cerca de Australia que grita por las noches con una voz espantosa.",
+    "hint_en": "A black marsupial predator from an island near Australia that screams at night with a spooky voice."
+  },
+  "bald_eagle": {
+    "name_es": "Águila calva",
+    "fun_fact_es": "El águila calva construye los nidos más grandes de todas las aves: en uno de ellos cabría una persona adulta.",
+    "fun_fact_en": "The bald eagle builds the biggest nests of any bird; a grown-up person could fit inside one.",
+    "hint_es": "Una gran ave de presa de cabeza blanca que pesca en los ríos y lagos de Norteamérica.",
+    "hint_en": "A large bird of prey with a white head that catches fish at the rivers and lakes of North America."
+  },
+  "snowy_owl": {
+    "name_es": "Búho nival",
+    "fun_fact_es": "A diferencia de la mayoría de los búhos, el búho nival suele cazar de día: en el verano ártico casi nunca se hace de noche.",
+    "fun_fact_en": "Unlike most owls, the snowy owl often hunts in the daytime, because in the Arctic summer it hardly ever gets dark.",
+    "hint_es": "Un búho blanco de la tundra que anida directamente en el suelo y se alimenta sobre todo de lemmings.",
+    "hint_en": "A white owl of the tundra that nests right on the ground and feeds mostly on lemmings."
+  },
+  "common_raven": {
+    "name_es": "Cuervo grande",
+    "fun_fact_es": "Los cuervos son de las aves más listas: resuelven acertijos, juegan y hasta pueden imitar la voz humana.",
+    "fun_fact_en": "Ravens are among the smartest birds: they solve puzzles, play, and can even mimic human speech.",
+    "hint_es": "Un ave negra y grande de voz grave y ronca que vive desde el Ártico hasta los desiertos.",
+    "hint_en": "A big black bird with a deep, croaky voice that lives everywhere from the Arctic to the deserts."
+  },
+  "flamingo": {
+    "name_es": "Flamenco rosado",
+    "fun_fact_es": "Los flamencos nacen grises y se vuelven rosados gracias a los pigmentos de los camarones y las algas que comen.",
+    "fun_fact_en": "Flamingos are born gray and turn pink only thanks to the pigments in the shrimp and algae they eat.",
+    "hint_es": "Un ave rosada de patas largas que se para en una sola pata en lagunas saladas poco profundas y filtra el agua con su pico curvo.",
+    "hint_en": "A long-legged pink bird that stands on one leg in shallow salty lakes and strains the water with its curved beak."
+  },
+  "emu": {
+    "name_es": "Emú",
+    "fun_fact_es": "En los emúes, el papá es quien incuba los huevos: durante casi dos meses no come, no bebe y casi no se levanta del nido.",
+    "fun_fact_en": "With emus, it's the dad who sits on the eggs: for almost two months he doesn't eat, doesn't drink, and barely leaves the nest.",
+    "hint_es": "Un ave alta de Australia que no vuela, tiene patas largas, corre muy rápido y hace un sonido sordo como un «bum».",
+    "hint_en": "A tall flightless bird from Australia with long legs that runs fast and makes a deep, thumping \"boom.\""
+  },
+  "wandering_albatross": {
+    "name_es": "Albatros viajero",
+    "fun_fact_es": "El albatros viajero tiene las alas más largas de todas las aves: puede planear sobre el océano durante horas casi sin moverlas.",
+    "fun_fact_en": "The wandering albatross has the longest wings of any bird: it can glide over the ocean for hours while barely flapping them.",
+    "hint_es": "Una enorme ave marina de los océanos del sur que pasa casi toda su vida planeando sobre las olas y solo pisa tierra para anidar.",
+    "hint_en": "A huge seabird of the southern oceans that spends almost its whole life gliding over the waves and only comes ashore to nest."
+  },
+  "kakapo": {
+    "name_es": "Kakapo",
+    "fun_fact_es": "El kakapo es el único loro del mundo que no vuela; es nocturno y huele a miel y a flores.",
+    "fun_fact_en": "The kākāpō is the only parrot in the world that can't fly; it's active at night and smells like honey and flowers.",
+    "hint_es": "Un loro verde, gordito y nocturno de Nueva Zelanda que no sabe volar y trepa a los árboles.",
+    "hint_en": "A plump green night parrot from New Zealand that can't fly and climbs trees instead."
+  },
+  "common_swift": {
+    "name_es": "Vencejo común",
+    "fun_fact_es": "El vencejo puede pasar casi un año entero sin posarse en el suelo: come, bebe y hasta duerme mientras vuela.",
+    "fun_fact_en": "A swift can go almost a whole year without touching the ground: it eats, drinks, and even sleeps while flying.",
+    "hint_es": "Un ave pequeña y oscura con alas en forma de hoz que pasa chillando sobre los techos de la ciudad y atrapa insectos al vuelo.",
+    "hint_en": "A small dark bird with sickle-shaped wings that screeches over city rooftops and catches insects on the wing."
+  },
+  "mute_swan": {
+    "name_es": "Cisne vulgar",
+    "fun_fact_es": "A este cisne lo llaman «mudo» porque casi no grazna, pero a sus enemigos les sisea con fuerza y les abre las alas para asustarlos.",
+    "fun_fact_en": "The mute swan gets its name because it hardly ever calls out, but it hisses fiercely at enemies while puffing up its wings.",
+    "hint_es": "Una gran ave acuática blanca con pico naranja y una protuberancia negra en la base, que nada en estanques y parques.",
+    "hint_en": "A large white waterbird with an orange beak and a black knob at its base that swims in ponds and parks."
+  },
+  "southern_cassowary": {
+    "name_es": "Casuario común",
+    "fun_fact_es": "En la cabeza del casuario crece un «casco» duro, y es el papá quien incuba los huevos y cría a los polluelos.",
+    "fun_fact_en": "A cassowary grows a hard \"helmet\" on its head, and it's the dad who sits on the eggs and raises the chicks.",
+    "hint_es": "Una gran ave no voladora de las selvas de Australia y Nueva Guinea con el cuello azul brillante y una cresta dura en la cabeza.",
+    "hint_en": "A large flightless bird of the rainforests of Australia and New Guinea with a bright blue neck and a horny crest on its head."
+  },
+  "leatherback_sea_turtle": {
+    "name_es": "Tortuga laúd",
+    "fun_fact_es": "La tortuga laúd no tiene caparazón duro: su espalda está cubierta de una piel parecida al hule.",
+    "fun_fact_en": "The leatherback has no hard shell; its back is covered in skin that feels like rubber.",
+    "hint_es": "La más grande de las tortugas marinas, cruza océanos enteros y se alimenta sobre todo de medusas.",
+    "hint_en": "The largest of the sea turtles, it crosses whole oceans and feeds mostly on jellyfish."
+  },
+  "manta_ray": {
+    "name_es": "Mantarraya gigante",
+    "fun_fact_es": "La mantarraya tiene el cerebro más grande de todos los peces y puede reconocerse en un espejo.",
+    "fun_fact_en": "The manta ray has the biggest brain of any fish and can recognize itself in a mirror.",
+    "hint_es": "Una raya enorme y plana con «alas» que planea en medio del agua y filtra plancton.",
+    "hint_en": "A huge flat ray with \"wings\" that glides through the water and filters out plankton."
+  },
+  "hammerhead_shark": {
+    "name_es": "Tiburón martillo gigante",
+    "fun_fact_es": "Su ancha cabeza en forma de martillo funciona como un detector de metales: con ella encuentra rayas escondidas en la arena.",
+    "fun_fact_en": "Its wide hammer-shaped head works like a metal detector, helping the shark find rays hiding under the sand.",
+    "hint_es": "Un tiburón de cabeza plana y ancha, parecida a un martillo, que caza rayas cerca del fondo.",
+    "hint_en": "A shark with a flat, wide head shaped like a hammer that hunts rays near the sea floor."
+  },
+  "whale_shark": {
+    "name_es": "Tiburón ballena",
+    "fun_fact_es": "El patrón de manchas en el lomo del tiburón ballena es único, como la huella digital de una persona.",
+    "fun_fact_en": "The pattern of spots on a whale shark's back is one of a kind, just like a person's fingerprint.",
+    "hint_es": "El pez más grande del planeta, que filtra plancton tranquilamente con su enorme boca.",
+    "hint_en": "The biggest fish on the planet, peacefully straining plankton through its enormous mouth."
+  },
+  "beluga_whale": {
+    "name_es": "Beluga",
+    "fun_fact_es": "A la beluga la apodan «el canario del mar» por los silbidos, gorjeos y trinos con los que platica con sus compañeras.",
+    "fun_fact_en": "The beluga is nicknamed the \"sea canary\" for the whistles, chirps, and trills it uses to chat with its friends.",
+    "hint_es": "Una ballena blanca como la nieve de los mares del norte, con una «bolita» suave en la frente y un cuello muy flexible.",
+    "hint_en": "A snow-white whale of the northern seas with a soft \"bump\" on its forehead and a very bendy neck."
+  },
+  "humpback_whale": {
+    "name_es": "Ballena jorobada",
+    "fun_fact_es": "Los machos de la ballena jorobada cantan canciones largas que cambian de un año a otro, como los éxitos de moda.",
+    "fun_fact_en": "Male humpback whales sing long songs that change from year to year, like hit songs on the radio.",
+    "hint_es": "Una ballena grande con aletas muy largas que salta fuera del agua y canta durante horas.",
+    "hint_en": "A big whale with very long flippers that leaps out of the water and sings for hours."
+  },
+  "leopard_seal": {
+    "name_es": "Foca leopardo",
+    "fun_fact_es": "La foca leopardo canta bajo el agua durante horas, y en su boca tiene tanto dientes afilados como un «colador» para filtrar krill.",
+    "fun_fact_en": "The leopard seal sings underwater for hours, and its mouth has both sharp teeth and a \"strainer\" for sifting krill.",
+    "hint_es": "Una foca antártica manchada con un cuello largo como de serpiente, cazadora de pingüinos.",
+    "hint_en": "A spotted Antarctic seal with a long, snake-like neck that hunts penguins."
+  },
+  "southern_elephant_seal": {
+    "name_es": "Elefante marino del sur",
+    "fun_fact_es": "Los machos del elefante marino inflan su nariz como trompa y rugen tan fuerte que se les oye en toda la playa.",
+    "fun_fact_en": "Male elephant seals puff up their trunk-like noses and roar so loudly you can hear them all along the beach.",
+    "hint_es": "La foca más pesada del mundo; los machos tienen trompa y pasan meses buceando en el océano frío.",
+    "hint_en": "The heaviest seal in the world; the males have a trunk and spend months diving in the cold ocean."
+  },
+  "black_mamba": {
+    "name_es": "Mamba negra",
+    "fun_fact_es": "La mamba negra en realidad no es negra: es gris u oliva, y lo único negro es el interior de su boca.",
+    "fun_fact_en": "The black mamba isn't actually black; it's gray or olive, and the only black part is the inside of its mouth.",
+    "hint_es": "Una serpiente africana larga y veloz que levanta la parte delantera del cuerpo y abre su boca oscura.",
+    "hint_en": "A long, fast African snake that raises the front of its body and opens its dark mouth."
+  },
+  "gila_monster": {
+    "name_es": "Monstruo de Gila",
+    "fun_fact_es": "El monstruo de Gila guarda grasa en su cola gruesa y pasa casi toda su vida bajo tierra, saliendo solo de vez en cuando.",
+    "fun_fact_en": "The Gila monster stores fat in its thick tail and spends almost its whole life underground, only coming out once in a while.",
+    "hint_es": "Una lagartija grande y lenta del desierto de Norteamérica con piel rugosa de color negro y naranja.",
+    "hint_en": "A big, slow desert lizard from North America with bumpy black-and-orange skin."
+  },
+  "monarch_butterfly": {
+    "name_es": "Mariposa monarca",
+    "fun_fact_es": "Cada otoño, las monarcas cruzan toda Norteamérica para llegar a México, aunque ninguna de ellas ha hecho ese viaje antes.",
+    "fun_fact_en": "Every fall, monarchs fly across all of North America to Mexico, even though none of them has ever made the trip before.",
+    "hint_es": "Una mariposa naranja y negra cuyas orugas solo comen una planta llamada algodoncillo.",
+    "hint_en": "An orange-and-black butterfly whose caterpillars eat nothing but milkweed."
+  },
+  "dung_beetle": {
+    "name_es": "Escarabajo pelotero",
+    "fun_fact_es": "El escarabajo pelotero empuja una bola de estiércol con las patas traseras y se orienta mirando la Vía Láctea.",
+    "fun_fact_en": "The dung beetle rolls a ball of dung with its back legs and finds its way by looking at the Milky Way.",
+    "hint_es": "Un escarabajo que rueda bolitas y era sagrado en el antiguo Egipto.",
+    "hint_en": "A beetle that rolls balls and was sacred in ancient Egypt."
+  },
+  "rhinoceros_beetle": {
+    "name_es": "Escarabajo hércules",
+    "fun_fact_es": "El escarabajo hércules lleva en la cabeza un cuerno enorme con el que pelea contra sus rivales, y de larva vive más de un año dentro de madera podrida.",
+    "fun_fact_en": "The Hercules beetle carries a huge horn on its head for wrestling rivals, and as a larva it lives inside rotting wood for over a year.",
+    "hint_es": "Un gran escarabajo tropical con un cuerno largo, uno de los insectos más fuertes que existen.",
+    "hint_en": "A big tropical beetle with a long horn, one of the strongest insects around."
+  },
+  "amazonian_giant_centipede": {
+    "name_es": "Escolopendra gigante",
+    "fun_fact_es": "La escolopendra gigante puede colgarse del techo de una cueva y atrapar murciélagos al vuelo.",
+    "fun_fact_en": "The giant centipede can hang from a cave ceiling and snatch bats as they fly past.",
+    "hint_es": "El ciempiés más grande del mundo, vive en Sudamérica y caza de noche.",
+    "hint_en": "The biggest centipede in the world, it lives in South America and hunts at night."
+  },
+  "housefly": {
+    "name_es": "Mosca doméstica",
+    "fun_fact_es": "La mosca prueba la comida con las patas y puede caminar por el techo gracias a sus almohadillas pegajosas.",
+    "fun_fact_en": "A fly tastes food with its feet and can walk on the ceiling thanks to its sticky foot pads.",
+    "hint_es": "El insecto con alas más común en nuestras casas.",
+    "hint_en": "The most familiar winged insect in our homes."
+  },
+  "common_green_darner": {
+    "name_es": "Libélula verde",
+    "fun_fact_es": "Esta libélula viaja al sur como un ave migratoria, y quienes regresan son ya sus hijos.",
+    "fun_fact_en": "This dragonfly flies south like a migrating bird, and it's its children who make the trip back.",
+    "hint_es": "Una libélula grande y verde de Norteamérica que pasa la mayor parte de su vida bajo el agua.",
+    "hint_en": "A big green dragonfly from North America that spends most of its life underwater."
+  },
+  "coconut_crab": {
+    "name_es": "Cangrejo de los cocoteros",
+    "fun_fact_es": "El cangrejo de los cocoteros trepa a las palmeras y sabe abrir cocos con sus tenazas.",
+    "fun_fact_en": "The coconut crab climbs palm trees and can crack open coconuts with its claws.",
+    "hint_es": "El cangrejo de tierra más grande, vive en islas tropicales y trepa a los árboles.",
+    "hint_en": "The biggest land crab, it lives on tropical islands and climbs trees."
+  },
+  "australian_box_jellyfish": {
+    "name_es": "Avispa de mar",
+    "fun_fact_es": "Esta medusa tiene ojos en cada una de las cuatro esquinas de su cuerpo, aunque no tiene cerebro.",
+    "fun_fact_en": "This jellyfish has eyes on each of the four corners of its body, even though it has no brain.",
+    "hint_es": "Una medusa casi transparente con forma de cubo que vive en las costas de Australia.",
+    "hint_en": "A nearly transparent, cube-shaped jellyfish found off the coasts of Australia."
+  },
+  "japanese_giant_salamander": {
+    "name_es": "Salamandra gigante del Japón",
+    "fun_fact_es": "Esta salamandra casi no ve y encuentra a sus presas por las vibraciones del agua, y el papá cuida los huevos durante todo el invierno.",
+    "fun_fact_en": "This salamander can barely see and finds its prey by feeling ripples in the water, and the dad guards the eggs all winter long.",
+    "hint_es": "Un anfibio enorme de los ríos fríos de las montañas de Japón que rara vez sale a tierra.",
+    "hint_en": "A huge amphibian from the cold mountain rivers of Japan that rarely comes out onto land."
+  },
+  "roman_snail": {
+    "name_es": "Caracol de Borgoña",
+    "fun_fact_es": "Para el invierno, este caracol sella la entrada de su concha con una tapita de cal y duerme hasta la primavera.",
+    "fun_fact_en": "For the winter, this snail seals the opening of its shell with a chalky little lid and sleeps until spring.",
+    "hint_es": "Un caracol grande de jardín con concha café en espiral al que le gusta el clima húmedo.",
+    "hint_en": "A big garden snail with a brown spiral shell that loves damp weather."
+  },
+  "etruscan_shrew": {
+    "name_es": "Musaraña etrusca",
+    "fun_fact_es": "El mamífero más ligero del mundo come casi sin parar; si no, se enfría muy rápido.",
+    "fun_fact_en": "The lightest mammal in the world eats almost nonstop, or else it quickly gets too cold.",
+    "hint_es": "Un animalito diminuto de hocico largo que siempre anda con prisa buscando insectos.",
+    "hint_en": "A tiny creature with a long little snout that's always in a hurry, hunting for insects."
+  }
+}
